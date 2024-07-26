@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis_SJ.aux
+The style file: abbrvnat.bst
+Database file #1: bibliography_these.bib
+Warning--I'm ignoring hsiang_does_2016's extra "doi" field
+--line 197 of file bibliography_these.bib
+Warning--I'm ignoring noauthor_species_2018's extra "institution" field
+--line 746 of file bibliography_these.bib
+Warning--to sort, need author or key in environmental_investigation_agency_citess_2019
+Warning--to sort, need author or key in environmental_investigation_agency_collateral_2016
+Warning--to sort, need author or key in noauthor_species_2018
+Warning--empty author in environmental_investigation_agency_collateral_2016
+Warning--empty author in noauthor_species_2018
+Warning--empty author in environmental_investigation_agency_citess_2019
+Warning--empty journal in cites_additional_2019
+Warning--empty publisher in martinez-alvarado_trafficking_2018
+You've used 50 entries,
+            2773 wiz_defined-function locations,
+            974 strings with 18801 characters,
+and the built_in function-call counts, 25073 in all, are:
+= -- 2430
+> -- 1461
+< -- 27
++ -- 501
+- -- 450
+* -- 2246
+:= -- 4001
+add.period$ -- 267
+call.type$ -- 50
+change.case$ -- 306
+chr.to.int$ -- 49
+cite$ -- 111
+duplicate$ -- 976
+empty$ -- 1839
+format.name$ -- 521
+if$ -- 5149
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 43
+newline$ -- 374
+num.names$ -- 188
+pop$ -- 434
+preamble$ -- 1
+purify$ -- 250
+quote$ -- 0
+skip$ -- 729
+stack$ -- 0
+substring$ -- 956
+swap$ -- 74
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 540
+warning$ -- 8
+while$ -- 207
+width$ -- 0
+write$ -- 882
+(There were 10 warnings)

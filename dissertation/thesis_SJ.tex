@@ -1,0 +1,193 @@
+% created on 2022-08-02
+\documentclass[a4paper, twoside]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}
+\usepackage{mathpazo}
+\usepackage[T1]{fontenc}
+%\renewcommand{\familydefault}{\sfdefault}
+%\usepackage[default, scale=.95]{opensans}
+\usepackage{geometry}
+\geometry{
+left=30mm,
+top=20mm,
+right=20mm,
+bottom=22mm,
+bindingoffset = 10mm
+}
+
+\usepackage{appendix}
+
+%Packages from Totoaba
+\usepackage{mathtools}
+\usepackage{caption}
+\captionsetup[figure]{font=small} % Set figure caption font size to small
+\usepackage{pdflscape}  % For landscape pages
+\usepackage{graphicx}   % For rotating content
+
+\usepackage{accents}
+\usepackage{pdflscape} %
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usepackage{amsfonts}
+
+
+
+\usepackage[table,RGB]{xcolor}
+\definecolor{bordeau}{rgb}{0.3515625,0,0.234375}
+\definecolor{Prune}{RGB}{99,0,60}
+\definecolor{B1}{RGB}{49,62,72} 
+\definecolor{C1}{RGB}{124,135,143}
+\definecolor{D1}{RGB}{213,218,223}
+\definecolor{A2}{RGB}{198,11,70}
+\definecolor{B2}{RGB}{237,20,91}
+\definecolor{C2}{RGB}{238,52,35}
+\definecolor{D2}{RGB}{243,115,32}
+\definecolor{A3}{RGB}{124,42,144}
+\definecolor{B3}{RGB}{125,106,175}
+\definecolor{C3}{RGB}{198,103,29}
+\definecolor{D3}{RGB}{254,188,24}
+\definecolor{A4}{RGB}{0,78,125}
+\definecolor{B4}{RGB}{14,135,201}
+\definecolor{C4}{RGB}{0,148,181}
+\definecolor{D4}{RGB}{70,195,210}
+\definecolor{A5}{RGB}{0,128,122}
+\definecolor{B5}{RGB}{64,183,105}
+\definecolor{C5}{RGB}{140,198,62}
+\definecolor{D5}{RGB}{213,223,61}
+\usepackage[absolute,overlay]{textpos}
+
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{multicol}
+\usepackage{afterpage}
+\usepackage{setspace}
+\usepackage{pgffor}
+\usepackage{pdfpages}
+\usepackage{float}
+\usepackage{upgreek}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{threeparttable}
+\usepackage{amsthm}
+%\usepackage{subfig}
+\usepackage{rotating}
+\usepackage{amsmath}
+
+\hypersetup{
+    colorlinks,
+    linkcolor={black},
+    citecolor={blue!95!black},
+    urlcolor={blue!95!black}
+}
+
+\setlength{\columnseprule}{0pt}
+\setlength\columnsep{10pt}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
+%Bibliography style
+\usepackage[round]{natbib}
+\bibliographystyle{abbrvnat}
+
+% Thesis title
+\newcommand{\PhDTitle}{Modeling the biodiversity crisis: market structure and space roles in bioeconomic modeling. } 
+
+\newcommand{\PhDTitleTrad}{Modéliser la crise de la biodiversité : les rôle de la structure de marché et de l'espace dans la modélisation bioéconomique}
+
+% Name
+\newcommand{\PhDname}{Simon Jean} 
+
+% Change this variable if you add or remove chapters
+%\newcommand*{\NumOfChapters}{5}
+
+% Change this variable if you add or remove appendices
+%\newcommand*{\NumOfAppendices}{1}
+
+% Commands for each chapter
+% Totoaba 
+\newcommand{\dbtilde}[1]{\accentset{\approx}{#1}}
+
+
+
+% PDF metadata
+\hypersetup{
+	pdfauthor={\PhDname},
+	pdfsubject={Manuscrit de thèse de doctorat},
+	pdftitle={\PhDTitle}
+}
+
+
+
+\begin{document}
+	\pagenumbering{roman}
+	\onehalfspacing
+	
+    \input{layout/firstpage.tex}
+    
+    \input{layout/dedication.tex}
+   	\clearpage
+    
+    \input{layout/acknowledgements.tex}
+    \cleardoublepage
+    
+    \pagenumbering{arabic}
+    
+    \setcounter{tocdepth}{3}
+    \setcounter{secnumdepth}{3}
+    \tableofcontents
+    \listoffigures
+    \listoftables
+    
+	\input{Chapter1}
+	\cleardoublepage
+	\input{Chapter2}
+	\cleardoublepage
+	\input{appendices/appendix2}
+	\cleardoublepage
+	\input{Chapter3}
+	\clearpage
+	
+	\begin{appendices}
+	\renewcommand{\thesection}{3.\Alph{section}}
+	\renewcommand{\thefigure}{3.\Alph{section}.\Alph{figure}}
+	\renewcommand{\thetable}{3.\Alph{section}.\Alph{table}}
+	\counterwithin{figure}{section}
+	\counterwithin{table}{section}
+	\input{appendices/appendix3}
+	\clearpage
+	\end{appendices}	
+
+	
+	\input{Chapter4}
+	\cleardoublepage
+
+	\input{Chapter5}
+	\cleardoublepage
+
+    %\foreach \i in {1,2,...,\NumOfChapters}{
+    %    \input{Chapter\i}
+    %    \cleardoublepage
+    %    \input{appendices/appendix\i}
+    %    \cleardoublepage
+
+    %}
+    
+    %\appendix
+    %\foreach \i in {1,2,...,\NumOfAppendices}{
+    %    \input{appendices/appendix\i}
+    %    \cleardoublepage
+    %}
+    
+    \bibliography{bibliography_these.bib}
+    \clearpage
+    
+    \input{layout/lastpage.tex}
+\end{document}
