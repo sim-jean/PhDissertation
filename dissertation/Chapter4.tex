@@ -1,2 +1,296 @@
 \chapter{The wildland connectivity dilemma : a graph theoretical computational approach}
 
+\begin{center}
+\textbf{Abstract}\par
+    \vspace*{.2cm}
+    \noindent
+    \begin{minipage}{0.9\textwidth}
+
+\textbf{Background:} Fuel treatment operations help to mitigate the spread and severity of wildfires in numerous ecosystems. As they aim at fragmenting the fire landscape, they also fragment wildlife habitat. This poses a dilemma for land managers, in the form of a trade-off between lowering wildfire patch connectivity and maintaining wildlife habitat connectivity. Previous studies have investigated the spatial allocation of fuel treatments over time, mostly without specific care devoted to biodiversity, in a variety of case studies. However, they lack generality and an interpretative framework. We use dynamic programming and graph theory on every possible theoretical landscape configuration to gain a general understanding of the allocation of treatments over space and time and the corresponding landscape properties with various habitat connectivity targets. 
+ 
+\textbf{Results:} Our results show that all initial landscapes converge to steady-state landscape cycles. Moreover, we show that there exist optimal trajectories that significantly reduce wildfire risk while safeguarding habitat connectivity. As the policy budget increases, more risk reduction is achieved, albeit with a decreasing marginal efficiency, and more steady-state cycles emerge. As habitat targets increase, increasing the budget is of no effect, and risk increases, while the number of steady-state cycles decreases. Landscapes are less risky, more fragmented, and diverse when the budget is large and biodiversity targets are low, while they are more compact and less diverse when the opposite is true. Treatment allocation follows graph centrality measures, and central cells are treated first. When the budget increases, fewer central cells (i.e. edge patches) are treated as well. When biodiversity targets increase, central cells are no longer treated as they decrease habitat connectivity. Treatment is reshuffled to the edges of the landscape.
+
+
+ \textbf{Conclusion:} Computational experiments generalize existing results. Using graph theory, general insights can be gained, and help managers faced with multiple objectives in forested landscapes. From a policy perspective, in the face of climate change, increasing treatment budgets should be a priority to avoid increasing damages. A key guideline is treating a variety of seral stages to create landscape diversity, mitigate risk and guarantee the connectivity of wildlife habitat. 
+\\
+\textbf{Keywords : }Fuel treatment, connectivity, wildfire risk, wildlife habitat, spatial optimization, graph theory
+\end{minipage}
+\end{center}
+
+\vfill
+\newpage
+
+\onehalfspacing
+%%% Manuscript
+\section{Introduction}
+Hazardous and intense wildfires threaten forest resilience and can cause ecosystem shifts \citep{coop_wildfire-driven_2020}. 
+Moreover, intense wildfires cause human damages, in the form of direct asset losses: in 2018, wildfires in California have caused \$ 27 billion \citep{wang_economic_2021}. Indirect costs are also of concern, especially related to wildfire smoke (increase in PM 2.5 concentrations have important health impacts \citep{burke_wildfire_2023, heft-neal_behavior_2023}, recreation values are affected in the US, amounting to \$USD 2.3 billion \citep{Gellman}). Aside from directly measurable costs, they also cause dramatic impacts on biodiversity across taxa \citep{Wintle2020}. Global warming affects water supply and fuel moisture \citep{jolly_climate-induced_2015, Abatzoglou, ruffault_extreme_2018}, and is projected to increase the frequency, severity, and magnitude of wildfires \citep{ wasserman_climate_2023}. Additionally, large wildfires are of importance in the face of climate change releasing a lot of greenhouse gas and reducing the atmospheric carbon sinks \citep{zheng_record-high_2023, sweeney_estimating_2023}. Recent wildfire events in California (since 2018), in Australia (2019-2020), and in Europe (France, Portugal, Greece in 2022) have epitomized these trends. 
+
+In numerous regions, such as conifer forests in California \citep{Vaillant2009, Kalies2016, low_shaded_2023}, eucalypt forests in South Western Australia \citep{burrows2013, boer_long-term_2009, Florec2020}, southern Europe \citep{Fernandes2013}, evidence shows that fuel treatments (e.g. prescribed burns, mechanical thinning and managed wildfires), can mitigate wildfire intensity and spread. Land management agencies have historically implemented these policies in Australia \citep{burrows2013}, Europe, and the United States (and are projected to ramp up, for example under the Infrastructure Investment and Jobs Act of 2021 in the US). Understanding the spatial allocation of treatments, as climate change impacts negatively both costs and feasibility, is a major driver of policy success \citep{Williams2017,Florec2020}. 
+\textbf{Idea:} land is public, and massive externality/costs + free rider problem + information requirements warrant a public policy approach to this issue. One of the drivers of its success is space.
+
+%Recent bills have been passed in California to ramp up the use of prescribed burns, limiting liabilities in the case of wildfire escape (see \href{https://openstates.org/ca/bills/20212022/SB332/}{California Senate Bill SB-332}) on private land. As their efficiency is questioned in the face of increasingly fire-prone conditions, this may be the result of suboptimal spatial allocations. 
+By changing the structure of the landscape, fuel management operations also affect the structure of biodiversity habitat, notably, its structural connectivity \citep{Taylor93}. Maintaining habitat connectivity, through wildlife corridors, landscape links, and ecoducts \citep{Turner2005, Turner2011}, is instrumental in mitigating the biodiversity crisis. Species richness and diversity are intimately linked to landscape connectivity \citep{Olds2012, tian_assessing_2017, velazquez_structural_2019} and are necessary to maintain ecosystems in the future.  The impact of fuel treatments on biodiversity remains a debated topic. Evidence suggests that maintaining a variety of vegetation types and ages on a patchy landscape maintains a 'fire mosaic' \citep{Sitters2015} (e.g. landscape level variations in habitat types that provide habitat to an ecological community) or that fuel treatment can be beneficial to wildlife \citep{saab_short-term_2022, loeb_bats_2021} and even restore local populations \citep{Templeton2011}. On the other hand, treating at too high a frequency may be detrimental to biodiversity \citep{bradshaw2018}. Overall, implementing fuel treatment challenges the connectivity of wildlife habitat.
+%Further study is needed to shed light on the impact of treatments on functional diversity \citep{Sitters2019}. 
+%Considering wildfires among the ecological issues posed by global warming generates a dilemma for land managers: on the one hand, maintain landscape connectivity to ensure ecosystem stability and biodiversity migration, on the other hand, break landscape connectivity to mitigate wildfire risk. This management challenge is of special interest as the same landscape property underlies as the two stakes: connectivity.
+In this context, understanding the trade-offs between risk reduction and biodiversity conservation, as well as the spatial patterns of operations that could reconcile the two objectives is key. In this study, we investigate the spatial allocation of fuel treatments to optimally reduce wildfire risks while maintaining biodiversity habitat.
+%using a mathematical perspective to uncover general spatial insights. 
+
+
+A substantial literature has applied optimization techniques to tackle the spatial allocation of fuel treatments. Analytical \citep{finney_design_2001}, simulation-based \citep{finney_computational_2007, rytwinski_simulation-optimization_2010} or mixed-integer programming techniques \citep{wei_optimization_2008} have solved the allocation of treatments in a static framework. Given the dynamic nature of fuel growth, studies based on mixed-integer dynamic programming \citep{wei_optimization_2008, minas_spatial_2014, rachmawati_model_2015, rachmawati_optimisation_2016} have studied the temporal and spatial allocation of fuel treatments on real and simulated landscapes. While they solve the spatial treatment allocation problem in forests, these articles fail to acknowledge the multiple uses and objectives land planners have to consider, such as habitat conservation. Several articles have devoted their attention to the spatial allocation of treatments while conserving habitat, and investigated the trade-offs between risk reduction and biodiversity conservation, using spatial heuristics \citep{calkin_modeling_2005, lehmkuhl_seeing_2007} and linear programming \citep{Williams2017, rachmawati_fuel_2018}.
+Most of the existing literature focuses on case studies and lacks a general interpretative framework to generalize its results. Graph theory offers a toolbox suited to analyze the properties of connected patches of land with varying characteristics, and has extensively been applied in landscape ecology \citep{urban_landscape_2001, minor_graph-theory_2008, rayfield_multipurpose_2016}. Recent research focusing on the allocation of fuel treatments has leveraged tools from graph theory \citep{matsypura_wildfire_2018, pais_downstream_2021}. Reconciling habitat and wildfire risk mitigation using graph theory is a recent research endeavor \citep{rachmawati_fuel_2018, yemshanov_exploring_2022} and has focused on specific case studies. 
+
+In this article, we leverage graph theory on an exhaustive set of theoretical landscapes to study the general patterns of treatment allocation emerging from a multi-objective, dynamic, and integer landscape management problem, governed by connectivity. We analyze all the landscape configurations resulting from a 20-period planning horizon, for regular grid landscapes, in a graph theoretical perspective.  In doing so, we examine the fuel treatment patterns resulting from all the range of habitat connectivity, in order to characterize long-term landscape properties. We characterize the landscapes using a range of ecological indicators and find general mechanisms and guiding principles applicable to a broad class of settings, to guide decision-makers and foster new efficient multi-objective graph theory algorithms. 
+
+Our contributions are several. First, we provide a spatial framework to understand the trade-offs between wildfire risk reduction and biodiversity conservation. Using graph theory, we derive general principles regarding the spatial characteristics of landscapes and treatments from an exhaustive set of theoretical landscapes to guide policymakers as well as future research in heuristics to reconcile conflicting land-based phenomenons. Eventually, we characterize the risk and biodiversity profiles consistent with a changing climate, where windows of opportunity are shorter and costs of treatment larger, and the associated spatialized treatments. 
+
+\section{Methods}
+\label{section:methods}
+\subsection{Theoretical model}
+
+%\subsection{Context}
+We consider theoretical landscapes represented by a regular grid of $n\times n$ cells with a forest seral stage succession module. We use a stylized representation of the link between vegetation age, habitat, and wildfire risk. 
+We denote by $A_t$ the set of equal, standardized area cells in the theoretical landscape of dimension $n\times n$ (hereafter referred to as being of size$=n$) in period $t$. Each cell $a_i$ at time $t$ is characterized by a seral stage: absent, young, or old. At each time step, it changes stage until it is in the 'old' stage, where it remains. Upon treatment, a cell's seral stage is set to 'absent' (see equation \ref{eq:fuel_dyn} in appendix \ref{sec:appendix_wildland__theoretical}). 
+
+A cell offers wildlife habitat once it is 'mature' (eg seral stage is at least 'young'), i.e, when the time elapsed since the last burn reaches the maturity threshold (eq. \ref{eq:mature}). We assume that habitat quality is uniformly distributed among habitat patches and that neighboring cells are reachable, conditional on being 'mature'. After the wildlife habitat maturity threshold, a cell can turn at critical risk of wildfire during a 'normal' hot season. We assume an Olsen-type model of flammability \citep{Olson1963,mccarthy_theoretical_2001}, where age is the main predictor. Therefore, after the 'high fuel load' threshold is crossed, the cell is regarded as 'high risk' from then on, until treatment suppresses this risk (eq. \ref{eq:high_fuel}). 
+
+%\subsection{Theoretical model}
+We define cells to be connected if (i) they are within an 8-cell neighborhood and (ii) share the same status.
+Regarding biodiversity, we focus on general characteristics related to landscape structural connectivity rather than functional connectivity, as we are agnostic about effective species \citep{Fahrig2011}. We assume that species are able to disperse from one patch to another, and that habitat quality is uniformly distributed conditional on habitat being available. We consider the wildfire risk through the lens of potential spread, which is only driven by fuel. Consistent with the literature (see \cite{Peterson_2009}, \cite{pais_cell2fire_2021, gonzalez-olabarria_fire_2023}), a wildfire can spread in any direction, conditional on neighbor cells with high risk. However, if surrounding cells do not display high risk, fire does not spread.
+
+We use a network structure to apprehend the landscapes. We transform $A_t$ the set of cells constituting the landscape into graphs $G_t$ whose vertices $V_t$ (or nodes) are the cells in the landscape, and edges $E_t$ represent the connections between cells. We partition the landscape in two graphs, $G_{B_t}$ and $G_{F_t}$, each describing the network of mature habitat and risky patches (see fig. 1 for a representation). Landscape ecology has long used numerous, theoretically grounded indicators to analyze landscapes \citep{urban_landscape_2001,minor_graph-theory_2008}. We use a global connectivity indicator that satisfies \cite{pascual-hortal_comparison_2006} criteria, grounded in graph theory, that offer a reformulation of \cite{rachmawati_optimisation_2016} (see Appendix \ref{sec:connectivity}). 
+%Figure reference : \ref{fig:graph_overlap}
+
+
+
+We define the global connectivity index of habitat and risky patches in landscape $A(t)$ as:
+\begin{equation}
+H_i(A(t)) = card(V_{i_t}) +2\times card(E_{i_t}) \text{ with } i \in \{B,F\}
+%\end{aligned}
+\label{eq:high_connectivity}
+\end{equation}
+
+This indicator considers that a habitat patch is connected to itself (i.e, within a habitat patch, there is no barrier) and whether it is connected to other patches.  
+It implies lower connectivity when the distance between patches increases, attains its maximum value when a single habitat patch covers the whole landscape, indicates lower connectivity as the habitat is progressively more fragmented, considers negative the loss of a connected or isolated patch, and detects as more important the loss of bigger patches, of key and less important steppingstone patches.
+
+
+%We use a connectivity matrix to evaluate the ladnscape such that ...
+%\textit{note that the framework is robust to changing the dispersal abilities. For example, one could think of (i) changing the dispersal abilities and (2) increase the size of the landscape to run applied stuff and (3) finding metrics to prioritize over species with different dispersal abilities. \textbf{This is a good discussion point : next work should include a variety of dispersal abilities and contributions to functional diversity to really dig deeper in this issue. }}
+%\\\\
+To manage the expected damages resulting from wildfires, the land planner can decide to undertake specific treatments, in the form of a combination of controlled burns and/or mechanical thinnings. Upon treatment, we assume that vegetation age in the cell is reset to 'absent': the wildfire risk vanishes, but so does the habitat and its connection to surrounding cells. Given the tension between maintaining habitat and reducing wildfire risk, the land planner aims to minimize a deterministic measure of connectivity of the high fuel loads in the landscape while maintaining a given level of biodiversity habitat connectivity under a budget constraint, over a planning horizon of length $T$. 
+For the sake of the analysis, we focus on two layers of complexity over time and space: risk connectivity and biodiversity habitat. We do not consider heterogeneity in the economic costs or benefits (i.e, homogeneous treatment costs and no patch-specific asset to protect). The framework is however amenable to such a prioritization. We also assume that the budget cannot be banked, and has to be utilized in each period, consistent with operational rules. Moreover, as the budget is constrained in each period, the measure of risk is bounded and the planning horizon is finite, we rule out discounting and assume each generation matters as much to the social planner. 
+
+The optimization problem is : 
+
+\begin{align}
+    \min_x & \left[ \sum_{t=1}^TH_F(A(t))\right]\\
+\text{Such that:} \notag \\
+A_i(t+1)& = \min((A_i(t)+1)(1-x_i(t)),2),\text{  } t=1, ..., T,\text{  } \forall i \in C    \label{const:dyn}\\
+ H_B(A(t))&\geq Biod,\text{  } t=1, ..., T \label{constr:biod}\\
+ \sum_i x_i(t) & \leq Budget,\text{  } t=1, ..., T \label{const:budget}\\
+ A(0) &\text{ given} \\
+x(t)&\in \{0,1\}^{n^2}\label{const:control}
+\end{align}
+
+We abstract from decision-making in a risky environment, as it has been extensively described in economics and decision theory \citep{Mouysset2013}. Moreover, we mimic the role of risk aversion by varying the level of habitat connectivity constraint the decision maker chooses. 
+%If ignition is a binary process in each period, the probability of which is independent of the high-risk graph properties, our model can be viewed as minimizing an upper bound of the expected losses from wildfires (see appendix).
+We solve the dynamic, integer program of the landscape manager using dynamic programming. Dynamic programming provides a temporal decomposition of the initial problem defined over $T$ periods, into $T$ simpler problems, as it relies on the 'optimality principle'\footnote{"An optimal policy has the property that whatever the initial state and initial decision are, the remaining decisions must constitute an optimal policy with regard to the state resulting from the first decision". (See \cite{Bellman}, Chap. III.3., p.83)"}. Second, it provides feedback controls which are know to be more adaptive especially if shocks occur or uncertainties affect the states or the dynamics of the system . The outputs of the method are both the optimal policies $x_j^*(t,A)$, i.e, the sequence of optimal controlled burns, and the optimal states $A_j^*(t,A_0)$ resulting from the optimal policies and the initial conditions
+
+%This method characterizes the optimal value for every landscape $A$ at every time $t$ as follows : 
+We solve the land planner's problem for every possible initial condition, thus giving rise to general conclusions on the properties of landscapes and treatments emerging from this problem, under various budget scenarios to account for climate change.
+
+
+\subsection{Lanscape indicators}
+\label{section:indicators}
+To characterize the managed landscapes, we mobilize several indicators from landscape ecology and graph theory (see appendix \ref{sec:appendix_wildland__indicators}).
+First, we account for the risky and habitat areas in the landscape (eq. \ref{eq:area}). Second, to assess landscape connectivity/fragmentation and diversity in the context of fire mosaics \citep{bradstock_which_2005}, we use our connectivity metric (eq. \ref{eq:high_connectivity}), the number of components e.g. the number of maximal connected subgraphs within the graph, that is not connected to other vertices (eq. \ref{eq:components}) for the risky cells graph, as well as the corresponding areas. To specifically assess landscape diversity, we use the Simpson index \citep{simpson_measurement_1949} on seral stages (eq. \ref{eq:simpson})\footnote{Similar results can be found with the Shannon index \citep{Shannon1949}. To avoid issues related to degenerate values and logarithms, we focus on the Simpson index.}. However, the Simpson index does not account for the diversity of spatial patterns: a checkered landscape with two seral stages would be as diverse as a landscape with two large patches for each seral stage, according to the Simpson index. Therefore, we use the landscape shape index (eq. \ref{eq:LSI}), a normalized ratio between the perimeter of biodiversity habitat and its area \citep{patton_diversity_1975, McGarigal_1995}. To disentangle the correlated effects of perimeter and area that affect the landscape shape index, we use a land type heterogeneity index, that averages the probability that, for each cell, neighbors in the 4 cardinal directions share the same land types (eq. \ref{eq:lth_index}). The index ranges between 0, when the land type is the same across the whole landscape, to 1, in a checkered landscape. The index assesses whether the landscape is a mosaic \citep{bradstock_which_2005}, and if it displays structural diversity, conducive to diverse communities and functional diversity. 
+
+\subsection{Computational experiments}
+
+Our problem can be viewed as a critical node detection problem, i.e, a problem of locating the nodes that best degrade connectivity metrics \citep{ARULSELVAN20092193}. Problems of the critical node class are computationally difficult (e.g. NP - Hard) in a single graph \citep{ARULSELVAN20092193, matsypura_wildfire_2018}. Efficient heuristics to find near-optimal solutions exist and leverage perturbations around local solutions \citep{ARULSELVAN20092193, Zhou2017}. Our problem is a constrained, integer optimization problem that constrains not only the set of nodes to be removed but also metrics relative to a larger graph structure (e.g. supergraph of risky patches), biodiversity habitat. For this reason, existing heuristics may not perform well on our problem. Moreover, the complexity of our combinatorial problem increases with landscape size and vegetation age class exponentially, displaying the 'curse of dimensionality' \citep{Bellman}. Therefore, we limit ourselves to studying all the initial conditions in landscapes of size $n=3$ and $4$. While this formulation appears simplifying, it encapsulates the main mechanisms displayed in similar models \citep{rachmawati_optimisation_2016, rachmawati_fuel_2018}. 
+It allows us to solve the problem for the whole set of initial conditions, for the whole range of biodiversity habitat connectivity constraint values, over 20 years. 
+In our analysis, we consider a range of budget values for treatment costs normalized to 1. As common in the literature, we can express the budget as a share of land being treated ranging from 5\% to 44\% of the surface area. These values encompass historical and projected policies in Australia \citep{burrows2013}, the United States \citep{GAO2019} and Southern Europe \citep{Fernandes2013}.
+
+Of all the $3^{n^2}$ initial conditions landscapes, we only keep landscapes that are unique up to a permutation\footnote{That is to say, landscape $A$ is included in the set of initial conditions $\mathcal{I}$ if and only if for any element $B$ in $\mathcal{I}$, $A$ is not a permutation (eg can be obtained through rotations or symmetries) of $B$}. This results in a sharp reduction of landscapes to consider, from $19,683$ initial conditions to $2861$ unique initial landscapes for $n=3$, and from $43,046,721$ initial to $5,398,082$ unique initial landscapes for $n=4$. We focus on exact optimal solutions for all the initial conditions of these small-scale landscapes and implement our own solution algorithm in Python 3.9.13. Data and code are publicly available.
+
+
+
+\section{Results}\label{section:results}
+
+\subsection{Steady states}
+Our simulations show that 100\% of the initial landscapes converge in finite time towards a steady state solution, that minimizes wildfire risk while satisfying budgetary and habitat connectivity requirements. Steady states are landscape cycles with finite periods. Analyzing the steady-state cycles (and the unique landscapes that form them) drastically reduces the set of landscapes to analyze: they represent 2\% (resp. $0.001\%$) of the initial landscapes of size $n=3$ (resp. $n=4$). Our model highlights the convergence of landscapes towards types that can be managed to deliver several objectives. As landscape size increases, the number of steady state landscape cycles increases, but the power of convergence increases as well (e.g. ratio between initial configurations and effective steady state landscapes): from 19 683 initial landscapes when $n=3$, 51 steady states emerge and from 43 046 721 initial landscapes when $n=4$, at most 95 diverse steady-state landscapes emerge. Focusing on steady states makes all the more sense as landscape size increases. 
+
+Eventually, figure \ref{fig:distrib_cycles} shows that conditional on data availability on every patch, the more the decision maker wants to conserve biodiversity, the fewer steady-state landscapes she has to consider. An increase in the habitat requirement reduces the room for maneuver. Indeed, budget acts as a complexifying factor: the larger the budget (relative to costs), the larger the set of steady-states to consider. 
+%Our results show that habitat connectivity can be an objective and serve as an information cost-saving strategy. Data on the status of land patches gets cheaper to acquire with remote-sensing strategies, and random environmental factors can perturb optimal trajectories.
+Aiming for relatively large habitat connectivity reduces the set of viable strategies to be considered and can more efficiently guide policy. 
+
+\subsection{Wildfire risk reduction and habitat connectivity in steady state landscapes}
+
+Figure \ref{fig:frontier} shows the wildfire risk reductions and habitat requirements normalized by their respective maximum values for landscapes of size $n=3$ and $4$. The maximum value for both risk and habitat corresponds to a landscape covered in 'old' vegetation, which we take to be the counterfactual. 
+Randomly assigned treatments do generate risk reductions but are not cost nor habitat-efficient. Following our spatial optimization procedure, it is clear that implementing fuel treatment reduces wildfire risk while supporting biodiversity habitat. Figure \ref{fig:frontier} shows that these two objectives come as a trade-off, albeit moderate: indeed, increasing habitat requirements increases the remaining risk, but there are combinations that can satisfy large habitat connectivity and risk reductions. 
+Budget is a key factor in risk reduction, as it relaxes the trade-off between the two objectives: increasing the budget reduces the wildfire risk while maintaining a range of biodiversity constraints. When habitat constraints are large, however, the marginal effect of budget is limited, and a larger remaining risk needs to be accepted. For example, with a budget of 25\% of land to be treated (with landscape size $n=4$), and no habitat constraint, risk can be reduced up to 80\% compared to the counterfactual scenario. However, when the habitat constraint is at 60\%, only 70\% of risk reduction can be achieved. Moreover, this risk reduction can be achieved with a lower budget. Conversely, as the costs of treatment increase, for a stable budget, the remaining risk increases sharply, and factoring in habitat requirements in the decision-making is not necessary for targets below 80\%. 
+%\textbf{Pas sur de ça, un peu gros peut être?} Our results suggest that in the face of climate change if treatment costs increase, focusing on reducing wildfire risk should be a priority and would accommodate wildlife habitat. 
+%\textbf{Point sur l'importance de la spatialisation? i.e, meilleur score vs random? ou focus sur un seral stage?}
+
+\subsection{Properties of steady state landscapes: surface, fragmentation, and diversity}
+Figure \ref{fig:cycles_3_4} displays, for each class, the most frequent steady-state cycle for landscapes of size $3$ and $4$ for each biodiversity target. 
+%Figures \ref{fig:indicators_1} and \ref{fig:indicators_2} show the indicators (detailed in section \ref{section:indicators}) averaged over all the steady-state landscape cycles. 
+Figure \ref{fig:indicators_1} shows the indicators relative to the surface and components of the high-risk graph and figure \ref{fig:indicators_2} shows the indicators related to diversity, both for landscapes of size $n=3$ and $4$, averaged over all the steady-state landscape cycles. 
+
+
+Previous results show that budget increases risk reduction, conditional on habitat connectivity constraint being low. Focusing on zones $A$ and $A'$ of the panels of figure \ref{fig:indicators_1} shows that risk reduction primarily comes from a reduced surface (panels \ref{fig:indicator_surface3} and \ref{fig:indicator_surface4}), and an increase in the number of components, i.e, disconnected high-risk patches (panels \ref{fig:indicator_component3} and \ref{fig:indicator_component4}). Overall, the high-risk area is reduced and the number of components increases, thus resulting in smaller largest high-risk component area (panels e and f). As more connected habitat area needs to be protected, the high-risk surface increases (fig. \ref{fig:cycles_3_4} panels \ref{fig:indicator_surface3} and \ref{fig:indicator_surface4}) and the number of high-risk components drastically reduces. The landscapes collapse to the same dominant structure (fig. \ref{fig:cycles_3_4}), where the high-risk area is (almost) maximal and there is one large, well-connected component.  Overall, landscapes are riskier but also feature larger, better-connected biodiversity habitat. For large budgets (e.g. $3$ and $4$), these effects are non-trivial: the number of components (weakly) increases first, small components either disappear or increase in size (see figure \ref{fig:cycles_3_4} for budget $4$ in panels $A', B'$ and $C'$), risky patches are reallocated to connect separated components before the high-risk surface increases. 
+
+Landscape diversity unambiguously increases with the budget (panels \ref{fig:indicator_simpson3},\ref{fig:indicator_simpson4}, sections $A$ and $A'$). As more units are treated, the evenness of seral stages increases in the landscapes. When the habitat objective is low, the spatial diversity of landscapes increases with the budget (panels \ref{fig:indicator_LSI3}, \ref{fig:indicator_LSI4}): even though the relative area of habitat decreases with the budget, the shape of habitat is more irregular, and the landscape is more of a mosaic. In this context, cells with a 'young' seral stage act as stepping stones and corridors between high-risk habitat patches. When habitat objectives increase, diversity collapses both quantitatively and qualitatively (fig. \ref{fig:indicators_2}). The Simpson index collapses from panels $A$ (resp. $A'$) to $G$ (resp. $F'$), as land types gradually homogenize (see fig. \ref{fig:cycles_3_4} for an illustration) across all budgets. Moreover, landscapes form less of a mosaic, and are more clumpy, as displayed by the LSI and Land type heterogeneity index. Overall, for large habitat targets, landscapes tend to homogenize and to be better connected, although less quantitatively and qualitatively diverse. 
+
+Results are consistent across landscape sizes while they display more variability for size $n=3$, as border effects play a larger role. 
+%\begin{enumerate}
+%    \item Budget
+%    \begin{itemize}
+%        \item When budget is large, we have seen that risk is low(er). How?
+%        \item The overall area is lower when budget is large  : more cells are being treated. 
+%        \item Moreover, the number of disconnected subgraphs tends to increase, as the budget increases : the wildfire risk is fragmented and spread on the landscape (unless the budget is large enough that only 1 small component remains in the landscape for case 3)
+%        \item Moreover, the size of at risk components decreases with budget. 
+%        \item \textbf{Need to find the angle for diversity} : diversity increases with budget, as more patches can be treated (simpson and shanon). From a spatial perspective, for a lax requirement, it also increases diversity, where diverse patch are well connected to the rest of the lansdcape. It is a well connected diversity because the LSI is large. 
+%    \end{itemize}
+%    \item Habitat constraint 
+%    \begin{itemize}
+%        \item As biodiversity connectivity requirements increase, the risky area increases, and the number of components tends to decrease : more habitat patches need to be connected. 
+%        \item Interestingly, there is a trade-off between : adding 1 patch (vertex) to a component such that it is not connected with the rest of the graph, or not adding one, but such that it connects components. 
+%        \item \textbf{Framing here} : diversity tends to decrease with biodiversity requirement, both quantitatively and qualitatively
+%        \begin{enumerate}
+%            \item Find story for the lower budget above the larger for LSI : more area in lower budget, so maybe that's overall better. 
+%            \item Fit a discussion point : our metric focuses on a single species, and we show that id functional diversity needs to be accounted for, then single species habitat is not the right metric
+%        \end{enumerate}
+%    \end{itemize}
+
+%\end{enumerate}
+
+
+\subsection{Spatial allocation of optimal management at the steady-state landscape cycle}
+Figures \ref{fig:treatments_number3} and \ref{fig:treatments_number4} display the number of fuel treatments in the steady-state cycles, for various budgets and habitat connectivity constraints. 
+Treatment allocation follows the evolution of the high-risk area (fig \ref{fig:indicator_surface3} and \ref{fig:indicator_surface4}): the larger the budget, the larger the treated area, the budget constraint is always satiated. However, when biodiversity targets increase, the budget constraint is no longer satiated.
+
+Figures \ref{fig:treatments_pattern3} and \ref{fig:treatments_pattern4} display the average spatial location of treatments in the steady state cycles. The darker the cell, the higher the frequency of treatment. First, not all cells are equally treated. For low levels of biodiversity constraint, panels $A$ and $A'$ of figures \ref{fig:treatments_pattern3} and \ref{fig:treatments_pattern4} show that central cells are primarily treated, and when the budget increases, cells on the edges get treated, while corner cells are never treated. In the context of critical node detection, when the ecological requirements are low, the high-risk graph is primarily considered, and nodes with the most cost-efficient risk reduction, i.e, with the largest degree are targeted. Once the most connected cells are treated, lower-degree cells get treated. 
+
+When habitat constraints increase, several effects come at play. Not only does the number of treatments decrease, but the spatial allocation also changes. For example, in panels $A$ and $B$ for budgets $3$ and $4$, panels $C$ and $D$ for budget $2$ and panels $E$ and $F$ for budget $1$ in figure \ref{fig:treatments_pattern3}, the number of treatment remains the same but is spatially reallocated to lower degree nodes. Treatments are spatially reallocated before being reduced. In this context, as the relative weight of the habitat graph increases, treating the most cost-efficient risk-reducing nodes also degrades habitat connectivity. Therefore, as habitat targets increase, edge and corner (e.g. low degree nodes) are being treated and habitat connectivity is maintained.
+
+
+%\renewcommand{\arraystretch}{2}
+%\begin{table}[h]
+%   \centering
+%   \resizebox{.7\textwidth}{!}{
+%    \begin{tabular}{|c|c|c|c|}
+%    \hline \hline
+%         & \textbf{Habitat target} & \textbf{Low} & \textbf{Large} \\
+%    \hline
+%     \textbf{Budget}    &  \textit{Number of treatments} & \multicolumn{2}{c|}{\textit{Decreasing}}\\
+%    \hline
+%   \textbf{Low} & \multirow{3}{*}{\textit{Increasing}} & Most central nodes   & Edges and corners\\
+%   \cline{3-4} \cline{1-1}  
+%     \textbf{Large} & & Most central nodes  & Less central nodes,\\ 
+%      & & and lower degree nodes &  edges and corners\\
+%     \hline \hline
+%    \end{tabular}}
+%    \caption{Spatial treatment allocation in landscapes $n=3,4$}
+%    \label{tab:synth_treatments}
+%\end{table}
+
+
+\section{Discussion}
+\label{section:discussion}
+
+\subsection{Confirmation and generalization of existing results}
+Our analysis of the exhaustive set of initial conditions for small-scale landscapes confirms existing results in the literature. We argue that they bring robust evidence and complement the existing literature to derive general conclusions. 
+
+Our model encompasses 3 seral stages and 1 composite vegetation type and proves the convergence of every initial condition to a steady state cycle, irrespective of the initial configuration. We extend \cite{minas_spatial_2014} that find convergence patterns for \textit{homogeneous} landscapes only, i.e, landscapes where the initial vegetation age is uniformly distributed.  We show that in the event of environmental perturbations that do not disrupt ecosystem dynamics, an appropriate policy can recover the previous equilibrium risk and habitat.
+We hypothesize that as long as the risk/ seral-stage relationship reaches a plateau for every vegetation type on the landscape, convergence should be observed.
+
+Our results display a concave production possibility frontier (PPF) between wildfire risk reduction and habitat connectivity, consistent with PFF literature \citep{arthaud_methodology_1996,calkin_modeling_2005}. Our results also confirm that trading one objective for the other is not as efficient as increasing the policy budget to reconcile objectives. We show that increasing the policy budget nonetheless has diminishing returns for risk reduction, as highlighted by \cite{wei_optimization_2008, yemshanov_detecting_2021} and \cite{pais_cell2fire_2021}. 
+
+Our study yields clear results in terms of landscape ecology, leveraging concepts from landscape ecology, and highlighting the spatial mechanisms underlying the shape of PPF. We show that treatment allocation targets the most central nodes first and then focuses on less connected nodes (e.g cells closer to the border of the landscape) when habitat goals are low. In doing so, we do find general treatment allocation principles where previous studies on larger landscapes could not \citep{minas_spatial_2014, rachmawati_optimisation_2016}, generalize smaller scale \citep{konoshima_spatial-endogenous_2008} and case study specific \citep{yemshanov_detecting_2021, pais_downstream_2021} results.
+
+%In \cite{minas_spatial_2014}, the authors advocate that general patterns are difficult to identify with larger landscapes and more heterogeneous distributions of initial vegetation age. Nonetheless, conditional on the location of potential treatments, it is clear that the allocation first targets central cells, and then focuses on cells closer to the edges of the landscape. In \cite{rachmawati_optimisation_2016}, treatments are allocated in priority to the center of the landscape, and as fewer treatment zones are available, to the edges of the landscape. 
+%In articles further from our set-up, which do not leverage graph theoretic tools, we find consistent results. 
+%For example, in \cite{konoshima_spatial-endogenous_2008}, the authors look at a theoretical forest comprised of hexagonal stands, where wildfire risk decreases with age but the value of timber increases with age. The land planner has to choose if, or when, to harvest, and if or when to treat the stands. As this framework is symmetric to ours, they achieve comparable results on smaller landscapes. Indeed, as the value at loss increases, treatments focus management units with large spread rates, on the center unit, and to cells in the middle of what could connect wildfire components. In articles explicitly leveraging graph theory, such as in \cite{matsypura_wildfire_2018}, they show that using degree optimization yields the largest reduction in wildfires, and that conditional on being treatable, the treatments are allocated to the largest degree nodes. These results are consistent with other studies such as \cite{yemshanov_detecting_2021} or \cite{pais_downstream_2021}. 
+Leveraging a dynamic integer programming, graph theoretic framework on small-scale landscapes, we show that cell-level metrics help formalize and understand the drivers of treatment allocation and rationalize existing results. Furthermore, we show that while prioritization approaches based on a graph theoretic framing fare very well in an unrestricted set-up, including biodiversity habitat targets augments the problem's complexity. We generalize case studies \citep{yemshanov_exploring_2022} and show less central high-risk nodes need to be targeted to achieve risk reduction and safeguard biodiversity habitat.
+
+\subsection{Caveats and methodological perspectives}
+\label{section:caveats}
+Our analysis tackles the exhaustive set of landscapes of size $n=3$ and $4$. 
+Our approach allows us to study the steady-state patterns emerging from any initial condition, replicates existing results in larger landscapes, and sheds light on the mechanisms underlying the wildland dilemma. Increasing landscape size is incompatible with this approach, as we would run into a dimensionality curse \citep{Bellman}. To conserve our exhaustive approach, different proof mechanisms would be required.
+Nonetheless, if landscape size is of the essence for actual policy recommendation, so are other layers of information such as habitat quality, treatment costs, and values at risk heterogeneity. These other layers would reduce the computational burden, and we believe our results, targeting the most cost-efficient, risk-reducing, and habitat-conserving strategies, would still apply. 
+
+In our model, we use a simple relationship to characterize the link between the seral stage, habitat formation for a single species, and wildfire risk and severity. This choice is motivated by the existence of a lower bound for a fire return interval and drives our ability to adopt our exhaustive approach. Increasing the number of seral stages would help to complexify the relationships governing habitat formation and wildfire risk and severity: in some ecosystems, wildfire risk and severity may be higher for young vegetation than for older and may not be linear \citep{Taylor2014}. On the other hand, some species may require old-growth forests to survive, not 'young' forests, and old-growth forests may also be more fire-resilient \citep{lesmeister_northern_2021}.
+As the number of seral stage augments, convergence towards steady-state landscape cycles would take longer, but we hypothesize it would still occur. Moreover, as long as wildfire risk and habitat quality are in conflict, a trade-off would govern treatment allocation. Multiple seral stages may be targeted for fuel treatment, depending on their location and properties, but we claim the general mechanism would still apply: in a graph weighted for different risk and habitat properties, centrality and connectivity would still guide treatment allocation. 
+
+We implicitly assume that focusing on a given species' habitat would also provide habitat for a variety of species and be conducive to functional diversity. However, this does not imply that all species would benefit from maintaining a given habitat type \citep{saab_short-term_2022}. Moreover, the lack of structural diversity may cause the trophic web of the targeted species to collapse. Therefore, management objectives should include structural diversity. In this case, landscapes could not satisfy extreme habitat connectivity targets and diversity targets. For intermediate goals, however, we claim that treatment allocation would still aim at fragmenting the landscape, and node centrality and connectivity would still govern allocation. 
+
+Eventually, we chose to abstract from a stochastic ignition process affecting the landscape. As a thought experiment, imagine a Bernoulli-distributed, high-risk area independent probability of ignition in each period. If part of the landscape ignites, all that remains is the unburnt habitat, while if not, all habitat remains. A decision-maker faced with maximizing the expected payoff in this scenario would solve the reciprocal of our problem. On the one hand, she has to ensure that the high-risk cells in the landscape are not 'too' connected, to maximize the remaining habitat in the event of a wildfire. On the other hand, she wants to maximize connectivity for wildlife when there is no wildfire. As a result, the trade-off she faces, and the resulting spatial allocation of treatment would be the same. The stochastic nature of ignition may change the steady state cycles, but convergence would not be impossible. If the probability of wildfire increases, she focuses more on maintaining a 'young' seral stage over the landscape. In this setting, increasing the probability of ignition would act as a decrease in our habitat target as well as an increase in the budget available for policy. With our model, we are able to disentangle these two effects and understand how each constraint would play. We claim we match with actual policy, where the budget is not fully endogenously determined.
+
+%Our analysis tackles the exhaustive set of landscapes of size $n=3$ and $4$. 
+%Our approach allows us to study the steady state patterns emerging from any initial condition, replicates existing results in larger landscapes, and sheds light on the mechanisms underlying the wildland dilemma. Increasing landscape size is incompatible with this approach, as we would run into a dimensionality curse \citep{Bellman}. Different proof mechanisms, more probabilistic could be leveraged. Our algorithm tested all possible configurations to find the optimal successions.  Sequential prioritization algorithms such as (pure) critical node detection \citep{Abatzoglou} based on the degrees of nodes in the high fuel load graph do not work anymore when biodiversity requirements are included. They tend to get stuck in locally optimal solutions but fail to find globally optimal solutions, as they do not account for the reshuffling of optimal treatments towards lower degree nodes. 
+%reprendre ici
+%In the literature, various algorithms have been deployed (including Tabu \citep{glover_heuristics_1977}, see \cite{bettinger_using_1997} or ScatterSearch \citep{glover_heuristics_1977}, see \citep{rytwinski_simulation-optimization_2010}) such as genetic methods, simulated annealing \citep{calkin_modeling_2005}, exact mixed integer programming \citep{minas_spatial_2014}, myopic heuristics for dynamic settings \citep{rachmawati_model_2015}, critical node detection heuristics \citep{Abatzoglou}, bayesian networks \citep{Penman2014} to tackle this issue and have gradually improved the investigation of this complex problem.  We believe that our findings can be leveraged to improve on existing heuristics for multi-objective spatial optimization to guide optimal solution search.
+
+%Our model displays a simplified vegetation growth model, with only 3 seral stages for a single vegetation type. Nonetheless, we do not assume that risk or habitat is linearly determined by age. Our model can be seen as a binary depiction of vegetation reaching the lower bound of the fire return interval, assuming this lower bound is larger than the minimal vegetation for wildlife habitat. This hypothesis is admittedly strong and drives our ability to adopt our exhaustive approach and our results regarding the convergence toward steady-state cycles. Nonetheless, we hypothesize that increasing the number of seral stages would still lead to convergence patterns, albeit more numerous. A fruitful avenue for future research would be to include several vegetation types (as in \cite{rachmawati_optimisation_2016}) and focus on the relationship between species, vegetation age, and fire risk, in the context of climate change. Eventually, we assume treatment to annihilate risk locally. As pointed out by \cite{matsypura_wildfire_2018}, this may not be the case. We believe our simplified model still encapsulates general findings, applicable to form a theory of fuel treatments at the landscape scale. 
+
+%Our model focuses on one habitat type, deemed as mature to host a wide array of species sharing the same requirements. However, landscape diversity is instrumental in supporting diverse species within a landscape, thereby supporting functional diversity \citep{Florec2020}. When targeting biodiversity requirements, our model results in homogeneous landscapes, which may turn out to be counterproductive. Associating a diversity measure with habitat connectivity targets may be a priority for further research. 
+
+%Our model did consider connectivity in an 8-cell neighborhood, without considering other determinants, such as topology and wind patterns for wildfire spread, or habitat quality for biodiversity habitat. Our framework is amenable to them, as the adjacency matrix characterizing both graphs is amenable to weighting. 
+%%%%%%%%%%%%
+
+%Contrary to a lot of the recent literature, our set-up is fully deterministic. While other studies focus on the interaction between probabilities of ignition and spread across the landscape, we focus on the worst-case scenario where any ignition would result in a total spread. Identifying the most at-risk nodes in a probabilistic framework would improve the cost efficiency of the policies, and would be of greater help to actual land planners. Once again, the general results derived in our analysis would still apply.
+
+%\begin{itemize}
+%    \item Irrespective of the indicator, as long as it's graph theoretic, our framework works. And results may be able to be generalized if indicators are well correlated with our indicator, which should be following \cite{pascual-hortal_comparison_2006}\\
+%    Single v. multiple species diversity.
+%    \item Size problem 
+%    \item Relevance of simple framework
+%    \item Non linear wildfire risk \& seral stage thing
+%    \item Local minimum problem, how our approach overcomes that and how it could be generalizable to other algorithms?
+%\textbf{Careful not to overdo the algorithm thing}
+
+%\end{itemize}
+
+\subsection{Conclusion and policy relevance}
+While there is a \textit{dilemma} for land managers between lowering wildfire risk and severity and maintaining species habitat connectivity, reconciling the two objectives is not a dead end. This is an important result for land planners as biodiversity habitat targets are gradually included in policy agendas (for example, the recent pledge by the participants to the Conference of Parties on Biodiversity in Montreal to preserve 30\% of land and oceans by 2030 for biodiversity\footnote{See Target 2 in the \href{https://www.cbd.int/article/cop15-cbd-press-release-final-19dec2022 }{Keunming-Montreal Global Diversity Framework, 2022}}). It shows that if policymakers can commit to a given budget over time, these biodiversity targets can be reached and a management cycle that minimizes wildfire risk can be implemented in wildlands. Moreover, as steady-state cycles are reached, the uncertainty over future land uses is resolved while achieving policy goals.
+
+In the face of climate change, treatment costs are expected to increase \citep{Kupfer2020}. The decreasing marginal efficiency of budget to reduce risk highlights that as climate change increases the costs of treatments, risk, and damages will increase at an increasing rate, unless the budget is changed accordingly.
+
+Our analysis shows that budget should be determined by factoring a careful, \textit{ex-ante} analysis of treatment costs, the policy maker's risk aversion towards a measure of wildfire risk and severity, and ecological preferences.  Indeed, low budget-to-cost ratios are incompatible with high risk and severity aversions and/or large ecological requirements.
+
+As wildfires and biodiversity habitat destruction are challenges in the face of global warming, finding policy guidance tools is of the essence. Many studies focus on specific case studies or limited ranges of potential initial conditions. We develop a simplified ecological model of habitat and wildfire connectivity to guide policymakers in the form of general principles. Reducing wildfire risk and accommodating wildlife habitat is possible with carefully designed policies, where budget plays a key role. However, it is impossible to achieve drastic risk reduction without harming biodiversity habitat. General principles of treatment allocation in the landscape are derived, and the concepts of graph theory provide an operational toolbox to understand the underlying mechanisms. Landscape patches that display high wildfire risk seral stages and are well connected to other patches should be treated first. When habitat targets are included, tackling lower-risk patches is of the essence to maintain habitat connectivity. 
+
+%\subsection{Conclusion}
+%As wildfires and biodiversity habitat destruction are challenges in the face of global warming, finding policy guidance tools is of the essence. As many studies focus on specific case studies or limited ranges of potential initial conditions, we develop a simplified ecological model of habitat and wildfire connectivity to guide policymakers in the form of general principles. Reducing wildfire risk and accommodating wildlife habitat is possible with carefully designed policies, where budget plays a key role. However, it is impossible to achieve drastic risk reduction without harming biodiversity habitat. General principles of treatment allocation in the landscape are derived, and the concepts of graph theory provide an operational toolbox to understand the underlying mechanisms. Landscape patches that display high wildfire risk seral stages and are well connected to other patches should be treated first. When habitat targets are included, tackling lower-risk patches is of the essence to maintain habitat connectivity. 
+
+%This framework, albeit simplifying, acknowledges the multiple functions and services that landscapes provide. It can be used to investigate other spatial issues where risk and policy objectives hinge on connectivity. Examples include spatial quarantine locations in economic networks, or where to primarily locate security resources in an information network to enhance network resilience.
+Our article summarizes and generalizes how policies should be implemented, both in terms of budgets and spatial allocation, to protect and enhance ecosystem health.
+
+\section{Declaration}
+\subsection{Acknowledgments}
+%\textbf{A enlever pour soumission}
+This research was conducted while SJ was on leave at the Environmental Markets Lab, UC Santa Barbara. We acknowledge support from the Center for Scientific Computing from the CNSI, MRL: an NSF MRSEC (DMR-1720256) and NSF CNS- 1725797, at UC Santa Barbara. Moreover, the authors are grateful to the editor and X anonymous referees, as well as participants to the Columbia Interdisciplinary PhD Workshop in Sustainable Development and the BINGO group at CIRED for their valuable comments. 
+
+\subsection{Data availability}
+Given its size, steady-state cycle data is available upon request from the authors. Code for replication is available at \url{https://github.com/sim-jean/Landscape_connectivity_dilemma}
+
+\subsection{Author affiliation}
+CIRED, Ecole des Ponts, AgroParisTech, EHESS, CIRAD, CNRS, Université Paris-Saclay, Nogent-sur-Marne, France
+\subsection{Competing interests}
+The authors declare no conflict of interest.
+
+\subsection{Contribution}
+LM designed the study, SJ ran the computational experiment, SJ and LM analyzed the results and wrote the manuscript.
+
+\newpage
+
+
+
+\renewcommand{\thesection}{\Alph{section}}
+\setcounter{section}{0}
+\renewcommand{\thesubsection}{\Alph{subsection}}
+\setcounter{subsection}{0}
+\newpage
+\numberwithin{equation}{subsection}
+

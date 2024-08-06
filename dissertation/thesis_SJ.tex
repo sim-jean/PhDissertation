@@ -1,5 +1,5 @@
 % created on 2022-08-02
-\documentclass[a4paper, twoside]{report}
+\documentclass[a4paper, twoside, 11.5pt]{report}
 \usepackage[utf8]{inputenc}
 \usepackage{csquotes}
 \usepackage{mathpazo}
@@ -32,7 +32,8 @@ bindingoffset = 10mm
 \usepackage{hyperref}
 \usepackage{amsfonts}
 
-
+\usepackage{chngcntr}
+\counterwithin{figure}{chapter}
 
 \usepackage[table,RGB]{xcolor}
 \definecolor{bordeau}{rgb}{0.3515625,0,0.234375}
@@ -76,6 +77,7 @@ bindingoffset = 10mm
 %\usepackage{subfig}
 \usepackage{rotating}
 \usepackage{amsmath}
+\usepackage{tocloft}
 
 \hypersetup{
     colorlinks,
@@ -98,9 +100,9 @@ bindingoffset = 10mm
 \bibliographystyle{abbrvnat}
 
 % Thesis title
-\newcommand{\PhDTitle}{Modeling the biodiversity crisis: market structure and space roles in bioeconomic modeling. } 
+\newcommand{\PhDTitle}{Modeling the biodiversity crisis: the roles of space and market structure in bioeconomic modeling. } 
 
-\newcommand{\PhDTitleTrad}{Modéliser la crise de la biodiversité : les rôle de la structure de marché et de l'espace dans la modélisation bioéconomique}
+\newcommand{\PhDTitleTrad}{Modéliser la crise de la biodiversité : les rôles de l'espace et de la structure de marché dans la modélisation bioéconomique}
 
 % Name
 \newcommand{\PhDname}{Simon Jean} 
@@ -124,7 +126,8 @@ bindingoffset = 10mm
 	pdftitle={\PhDTitle}
 }
 
-
+\setlength{\cftfignumwidth}{3em}
+\setlength{\cfttabnumwidth}{3em}
 
 \begin{document}
 	\pagenumbering{roman}
@@ -138,15 +141,18 @@ bindingoffset = 10mm
     \input{layout/acknowledgements.tex}
     \cleardoublepage
     
-    \pagenumbering{arabic}
-    
-    \setcounter{tocdepth}{3}
+    \setcounter{tocdepth}{2}
     \setcounter{secnumdepth}{3}
     \tableofcontents
+    %
+    \clearpage    
     \listoffigures
+    %
+    \clearpage
     \listoftables
-    
+	\clearpage
 	\input{Chapter1}
+    \pagenumbering{arabic}	
 	\cleardoublepage
 	\input{Chapter2}
 	\cleardoublepage
@@ -156,10 +162,11 @@ bindingoffset = 10mm
 	\clearpage
 	
 	\begin{appendices}
-	\renewcommand{\thesection}{3.\Alph{section}}
-	\renewcommand{\thefigure}{3.\Alph{section}.\Alph{figure}}
-	\renewcommand{\thetable}{3.\Alph{section}.\Alph{table}}
+	\renewcommand{\thesection}{2.\Alph{section}}
+	\renewcommand{\thefigure}{2.\Alph{section}.\Alph{figure}}
+	\renewcommand{\thetable}{2.\Alph{section}.\Alph{table}}
 	\counterwithin{figure}{section}
+
 	\counterwithin{table}{section}
 	\input{appendices/appendix3}
 	\clearpage
@@ -167,7 +174,17 @@ bindingoffset = 10mm
 
 	
 	\input{Chapter4}
-	\cleardoublepage
+	\clearpage
+	\begin{appendices}
+	\renewcommand{\thesection}{3.\Alph{section}}
+	\renewcommand{\thefigure}{3.\Alph{section}.\Alph{figure}}
+	\renewcommand{\thetable}{3.\Alph{section}.\Alph{table}}
+	\counterwithin{figure}{section}
+	\counterwithin{table}{section}
+	\input{appendices/appendix4}
+	\clearpage
+	\end{appendices}	
+
 
 	\input{Chapter5}
 	\cleardoublepage

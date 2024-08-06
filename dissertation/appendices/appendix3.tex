@@ -1,6 +1,6 @@
 \section{A theoretical model of poachers, traders, and farmers}
 
-Our framework follows [19], with a poaching cost structure adapted to fisheries. The model develops a three-stage dynamic, game theoretic, bioeconomic model. The value chain for poached animal products comprises poachers, middlemen traders, and end markets. As a small number of actors characterizes many wildlife markets, the model features a vertical monopoly and looks at the consequences on wildlife population stocks of the introduction of a farmed substitute. In this setting, farmers compete on end markets with traders in quantity and price. In the original model, price competition unambiguously results in larger harvests than in the vertical monopoly case. Therefore, while quantity competition reduces poaching, the threat of a population collapse in the price-setting case should warrant a cautious approach to conservation farming. We argue that this conclusion is erroneous, as the intricacies of imperfect substitutability and market dynamics have not been properly accounted for in the original model. As a matter of fact, standard economic intuition regarding price-setting competition in the homogeneous goods case does not directly apply here, as fishing costs rise as the stock decreases, limiting the ability of the trader to flood the market. We show that scenarios exist where any type of competition unambiguously leads to positive conservation outcomes, i.e, reduced poaching and larger steady-state stocks. We amend the original results and use this model for simulation. 
+Our framework follows \cite{damania_economics_2007}, with a poaching cost structure adapted to fisheries. The model develops a three-stage dynamic, game theoretic, bioeconomic model. The value chain for poached animal products comprises poachers, middlemen traders, and end markets. As a small number of actors characterizes many wildlife markets, the model features a vertical monopoly and looks at the consequences on wildlife population stocks of the introduction of a farmed substitute. In this setting, farmers compete on end markets with traders in quantity and price. In the original model, price competition unambiguously results in larger harvests than in the vertical monopoly case. Therefore, while quantity competition reduces poaching, the threat of a population collapse in the price-setting case should warrant a cautious approach to conservation farming. We argue that this conclusion is erroneous, as the intricacies of imperfect substitutability and market dynamics have not been properly accounted for in the original model. As a matter of fact, standard economic intuition regarding price-setting competition in the homogeneous goods case does not directly apply here, as fishing costs rise as the stock decreases, limiting the ability of the trader to flood the market. We show that scenarios exist where any type of competition unambiguously leads to positive conservation outcomes, i.e, reduced poaching and larger steady-state stocks. We amend the original results and use this model for simulation. 
 
 First, poachers illegally harvest wildlife resources. Second, they sell their catch to a monopsonistic buyer. Third, the buyer sells catches on a monopolistic market, which is not accessible to poachers. We label this value chain 'vertical monopoly' as a reference case. We then look at the impact of introducing a competitor on the end market, the farming sector. 
 
@@ -144,7 +144,7 @@ With $v$ the unit cost per ton of totoaba, corresponding to the capitalized sum 
 
 \subsubsection{Utility maximization and demand functions}
 Upon the introduction of farmed goods, the inverse demand functions change. 
-We use a model consistent with Singh and Vives (25), where a representative consumer maximizes  a quadratic and strictly concave utility function subject to prices: 
+We use a model consistent with \citep{singh_price_1984}, where a representative consumer maximizes  a quadratic and strictly concave utility function subject to prices: 
 \begin{equation}
     \max_{q^W, q^F}V = \alpha^W q^W + \alpha^F q^F - \left(\frac{\beta^W (q^W)^2 + 2\gamma q^W q^F +\beta^F (q^F)^2}{2}\right) - p^Wq^W - p^Fq^F
 \end{equation}
@@ -456,7 +456,7 @@ And :
     \nu = 2\sigma^2,\text{ }
     \zeta  = (ea^F + c(e^2 - 2b^W b^F) + 2b^F a^W)\\
     \\
-    &\kappa = W_1 \sigma [(4b^F b^W - e^2)(b^m - b^W) + e^2 b^W)], \\
+    &\kappa = \frac{W_1 \sigma [(4b^F b^W - e^2)(b^m - b^W) + e^2 b^W)]}{b^F*e}, \\
     &\text{ }\omega = 2b^Wb^Fe \sigma^2
     \text{ and } \epsilon = 2b^m b^W b^F e W_2
 \end{align*}
@@ -470,10 +470,11 @@ $$
 \frac{\gamma^2}{\beta(\beta^2 - \gamma^2)}(\gamma^2 - 3 \beta^2) <0
 $$
 as $\gamma < \beta$. 
+Therefore, $\Phi \frac{\eta + \mu x^2}{\theta + \nu x^2}$ is \textit{decreasing} $\forall x$
 \paragraph{Analysis of $\frac{\kappa x}{\omega x^2 + \epsilon}$}: the second component of $F(x|c)$ is increasing for $x \leq \sqrt{\frac{\epsilon}{\omega}}$, and decreasing after, since $x\in \mathbb{R}^+$. Noticing that $\kappa <0$: 
 \begin{itemize}
-    \item For $x \in \left[0,\frac{1}{\sigma}\sqrt{W_2 b^m} \right]$, $\frac{\kappa x}{\omega x^2 + \epsilon}$ is decreasing
-    \item For $x>\frac{1}{\sigma}\sqrt{W_2 b^m}$ is increasing
+    \item For $x \in \left[0,\frac{1}{\sigma}\sqrt{W_2 b^m} \right]$, $\frac{\kappa x}{\omega x^2 + \epsilon}$ is negative and decreasing
+    \item For $x>\frac{1}{\sigma}\sqrt{W_2 b^m}$, $\frac{\kappa x}{\omega x^2 + \epsilon}$ is negative and increasing
 \end{itemize}
 
 \paragraph{Conclusion}
@@ -489,6 +490,15 @@ Hence, $F(x|c)$ is bounded above by $\max \big(F(0|c),F(\frac{1}{\sigma}\sqrt{W_
     \item If $F(K|c)<v<F(0|c)$, then Bertrand harvest starts by being lower than in the monopoly case, but gets larger for large stock values. 
     \item Eventually, if $F(0|c)<v$, then Bertrand harvest is always larger than in the monopoly case
 \end{enumerate}
+Figure \ref{fig:lemma2} illustrates this lemma with our parameter specification.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\linewidth]{figures/totoaba/lemma2_bertrand.png}
+    \caption{Evolution of the threshold $v$ to compare vertical monopoly and price setting (Bertrand) harvest functions}
+    \subcaption*{In green, vertical monopoly harvests more than in the price setting equilibrium. For larger population values, in red, price setting leads to more harvest than the vertical monopoly. This illustrates our main specification and property $2$ above.}
+    \label{fig:lemma2}
+\end{figure}
+
 %Figure \ref{fig:bertrand_proof} illustrates this property. The top, red, dashed curve corresponds to case 1, where Bertrand always yields a larger harvest. For intermediary values, first, in the red-shaded area, Bertrand harvest is lower than in the monopoly case. For large stock values, however, it becomes larger than in the monopoly case, as displayed in the black-shaded area. Eventually, the bottom, black, dotted curve shows low values of $v$ where Bertrand harvest is always lower than in the monopoly case.
 
 %\begin{figure}[H]
@@ -564,7 +574,6 @@ Equation \ref{eq:v_corner} shows that for low stock values, costs can still be p
 
 %\subsubsection{Information about the cost of poaching}
 
-%See table \ref{tab:costW}
 
 
 %\subsubsection{Information about the cost of farming}
@@ -619,7 +628,9 @@ Equation \ref{eq:v_corner} shows that for low stock values, costs can still be p
 %Third, we assume that the cost structure of farming is linear, and does not depend on the wild population stock. However, as stocks plummet, security expenses are likely to increase\footnote{Famous examples include farming of rhinos, where security expenses skyrocketed as the rarity of rhino horns increased (see \url{https://www.cbsnews.com/news/rhino-farm-auction-john-hume-seeks-billionaire-to-carry-on-conservation-work/ })}. Therefore, costs may be quadratic in the stock. Eventually, the ecological requirement for farming and the corresponding location of the farming operation are important variables in limiting security expenses.
 \newpage
 
-\section{Supplementary Figures and Tables}
+\section*{Supplementary Figures and Tables}
+\setcounter{table}{5}
+
 \begin{figure}[H]
     \centering
     \includegraphics[width = .7\textwidth]{figures/totoaba/sup_figure3.png}
@@ -664,9 +675,10 @@ Bribes/year & 600 & 7200 & 21000 & Semi-Structured Interviews\\
 Average cost (per vessel day) & 8385.34 & 14386.69 & 5051.26 & Authors' calculation\\
 \hline \hline
 \end{tabular}
-\label{tab:costW}
-\caption{Supporting information for the calculation of the\textit{ Totoaba macdonaldi} poaching cost parameters ($W_1$ and $W_2$). The methods section details how and when semi-structured
+\caption{Supporting information for the calculation of the\textit{ Totoaba macdonaldi} poaching cost parameters ($W_1$ and $W_2$)}
+\subcaption*{The methods section details how and when semi-structured
  interviews were conducted.}
+\label{tab:costW}
 \end{table}
 \end{landscape}
 \newpage
@@ -675,7 +687,6 @@ Average cost (per vessel day) & 8385.34 & 14386.69 & 5051.26 & Authors' calculat
 \begin{table}[H] 
 \centering 
 %  \caption{} 
-  \label{} 
 \begin{tabular}{@{\extracolsep{5pt}}lc} 
 \\[-1.8ex]\hline 
 \hline \\[-1.8ex] 
@@ -699,11 +710,11 @@ F Statistic & 4.640$^{**}$ (df = 1; 43) \\
 \hline \\[-1.8ex] 
 \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
 \end{tabular} 
-\label{tab:demand}
 \caption{Regression output for the linear demand estimation calculated by regressing price data on catch data. }
 \subcaption*{Data were obtained from the available literature that provided estimated weight and value
  of \textit{Totoaba macdonaldi} maw seizures on estimated \textit{Totoaba macdonaldi} catch from 2014 to 2017
  obtained from a recent stock assessment. The methods section details where information was obtained from. }
+\label{tab:demand}
 \end{table} 
 \end{landscape}
 \newpage

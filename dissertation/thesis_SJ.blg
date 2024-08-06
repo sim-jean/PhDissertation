@@ -7,6 +7,14 @@ Warning--I'm ignoring hsiang_does_2016's extra "doi" field
 --line 197 of file bibliography_these.bib
 Warning--I'm ignoring noauthor_species_2018's extra "institution" field
 --line 746 of file bibliography_these.bib
+Warning--I'm ignoring burke_wildfire_2023's extra "doi" field
+--line 1983 of file bibliography_these.bib
+Warning--I'm ignoring heft-neal_behavior_2023's extra "doi" field
+--line 1996 of file bibliography_these.bib
+Repeated entry---line 2814 of file bibliography_these.bib
+ : @article{Taylor2014
+ :                    ,
+I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in environmental_investigation_agency_citess_2019
 Warning--to sort, need author or key in environmental_investigation_agency_collateral_2016
 Warning--to sort, need author or key in noauthor_species_2018
@@ -14,46 +22,51 @@ Warning--empty author in environmental_investigation_agency_collateral_2016
 Warning--empty author in noauthor_species_2018
 Warning--empty author in environmental_investigation_agency_citess_2019
 Warning--empty journal in cites_additional_2019
+Warning--there's a number but no volume in Florec2020
 Warning--empty publisher in martinez-alvarado_trafficking_2018
-You've used 50 entries,
+Warning--empty institution in McGarigal_1995
+Warning--empty institution in Peterson_2009
+Warning--there's a number but no volume in Taylor2014
+Warning--there's a number but no volume in Vaillant2009
+You've used 120 entries,
             2773 wiz_defined-function locations,
-            974 strings with 18801 characters,
-and the built_in function-call counts, 25073 in all, are:
-= -- 2430
-> -- 1461
-< -- 27
-+ -- 501
-- -- 450
-* -- 2246
-:= -- 4001
-add.period$ -- 267
-call.type$ -- 50
-change.case$ -- 306
-chr.to.int$ -- 49
-cite$ -- 111
-duplicate$ -- 976
-empty$ -- 1839
-format.name$ -- 521
-if$ -- 5149
-int.to.chr$ -- 2
+            1493 strings with 39324 characters,
+and the built_in function-call counts, 65633 in all, are:
+= -- 6143
+> -- 4434
+< -- 50
++ -- 1499
+- -- 1377
+* -- 6121
+:= -- 10555
+add.period$ -- 644
+call.type$ -- 120
+change.case$ -- 826
+chr.to.int$ -- 118
+cite$ -- 256
+duplicate$ -- 2412
+empty$ -- 4486
+format.name$ -- 1544
+if$ -- 13414
+int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 43
-newline$ -- 374
-num.names$ -- 188
-pop$ -- 434
+missing$ -- 110
+newline$ -- 890
+num.names$ -- 468
+pop$ -- 1202
 preamble$ -- 1
-purify$ -- 250
+purify$ -- 699
 quote$ -- 0
-skip$ -- 729
+skip$ -- 1890
 stack$ -- 0
-substring$ -- 956
-swap$ -- 74
-text.length$ -- 0
+substring$ -- 2241
+swap$ -- 195
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 540
-warning$ -- 8
-while$ -- 207
+type$ -- 1300
+warning$ -- 13
+while$ -- 500
 width$ -- 0
-write$ -- 882
-(There were 10 warnings)
+write$ -- 2120
+(There was 1 error message)

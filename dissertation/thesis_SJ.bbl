@@ -1,4 +1,4 @@
-\begin{thebibliography}{50}
+\begin{thebibliography}{120}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -21,6 +21,15 @@ Species {Specific} matters : {Totoaba} ({Totoaba} {Macdonaldi}) {Report} of
   the 71st {Standing} {Commitee}.
 \newblock Technical report, Environmental Investigation Agency, 2019.
 
+\bibitem[Abatzoglou and Williams(2016)]{Abatzoglou}
+J.~T. Abatzoglou and A.~P. Williams.
+\newblock Impact of anthropogenic climate change on wildfire across western us
+  forests.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 113\penalty0
+  (42):\penalty0 11770--11775, 2016.
+\newblock \doi{10.1073/pnas.1607171113}.
+\newblock URL \url{https://www.pnas.org/doi/abs/10.1073/pnas.1607171113}.
+
 \bibitem[Abbott and van Kooten(2011)]{abbott_can_2011}
 B.~Abbott and G.~C. van Kooten.
 \newblock Can domestication of wildlife lead to conservation? {The} economics
@@ -31,6 +40,28 @@ B.~Abbott and G.~C. van Kooten.
 \newblock \doi{10.1016/j.ecolecon.2010.11.006}.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0921800910004593}.
+
+\bibitem[Arthaud and Rose(1996)]{arthaud_methodology_1996}
+G.~J. Arthaud and D.~W. Rose.
+\newblock A methodology for estimating production possibility frontiers for
+  wildlife habitat and timber value at the landscape level.
+\newblock \emph{Canadian Journal of Forest Research}, 26\penalty0
+  (12):\penalty0 2191--2200, Dec. 1996.
+\newblock ISSN 0045-5067.
+\newblock \doi{10.1139/x26-248}.
+\newblock URL \url{https://cdnsciencepub.com/doi/10.1139/x26-248}.
+\newblock Publisher: NRC Research Press.
+
+\bibitem[Arulselvan et~al.(2009)Arulselvan, Commander, Elefteriadou, and
+  Pardalos]{ARULSELVAN20092193}
+A.~Arulselvan, C.~W. Commander, L.~Elefteriadou, and P.~M. Pardalos.
+\newblock Detecting critical nodes in sparse graphs.
+\newblock \emph{Computers \& Operations Research}, 36\penalty0 (7):\penalty0
+  2193--2200, 2009.
+\newblock ISSN 0305-0548.
+\newblock \doi{https://doi.org/10.1016/j.cor.2008.08.016}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0305054808001494}.
 
 \bibitem[Baker et~al.(2013)Baker, Cain, van Kesteren, Zommers, D'Cruze, and
   Macdonald]{baker_rough_2013}
@@ -52,6 +83,11 @@ D.~Bell, S.~Roberton, and P.~R. Hunter.
 \newblock \doi{10.1098/rstb.2004.1492}.
 \newblock URL \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1693393/}.
 
+\bibitem[Bellman(1957)]{Bellman}
+R.~Bellman.
+\newblock \emph{Dynamic Programming}.
+\newblock Princeton University Press, 1957.
+
 \bibitem[Biggs et~al.(2013)Biggs, Courchamp, Martin, and
   Possingham]{biggs_legal_2013}
 D.~Biggs, F.~Courchamp, R.~Martin, and H.~P. Possingham.
@@ -60,6 +96,39 @@ D.~Biggs, F.~Courchamp, R.~Martin, and H.~P. Possingham.
 \newblock \doi{10.1126/science.1229998}.
 \newblock URL \url{https://www.science.org/doi/10.1126/science.1229998}.
 \newblock Publisher: American Association for the Advancement of Science.
+
+\bibitem[Boer et~al.(2009)Boer, Sadler, Wittkuhn, McCaw, and
+  Grierson]{boer_long-term_2009}
+M.~M. Boer, R.~J. Sadler, R.~S. Wittkuhn, L.~McCaw, and P.~F. Grierson.
+\newblock Long-term impacts of prescribed burning on regional extent and
+  incidence of wildfires—{Evidence} from 50 years of active fire management
+  in {SW} {Australian} forests.
+\newblock \emph{Forest Ecology and Management}, 259\penalty0 (1):\penalty0
+  132--142, 2009.
+\newblock ISSN 0378-1127.
+\newblock \doi{https://doi.org/10.1016/j.foreco.2009.10.005}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0378112709007294}.
+
+\bibitem[Bradshaw et~al.(2018)Bradshaw, Dixon, Lambers, Cross, Bailey, and
+  Hopper]{bradshaw2018}
+S.~D. Bradshaw, K.~Dixon, H.~Lambers, A.~Cross, J.~Bailey, and S.~Hopper.
+\newblock Understanding the long-term impact of prescribed burning in
+  mediterranean-climate biodiversity hotspots, with a focus on south-western
+  australia.
+\newblock \emph{International Journal of Wildland Fire}, 27, 2018.
+
+\bibitem[Bradstock et~al.(2005)Bradstock, Bedward, Gill, Cohn, Bradstock,
+  Bedward, Gill, and Cohn]{bradstock_which_2005}
+R.~A. Bradstock, M.~Bedward, A.~M. Gill, J.~S. Cohn, R.~A. Bradstock,
+  M.~Bedward, A.~M. Gill, and J.~S. Cohn.
+\newblock Which mosaic? {A} landscape ecological approach for evaluating
+  interactions between fire regimes, habitat and animals.
+\newblock \emph{Wildlife Research}, 32\penalty0 (5):\penalty0 409--423, Aug.
+  2005.
+\newblock ISSN 1448-5494, 1448-5494.
+\newblock \doi{10.1071/WR02114}.
+\newblock URL \url{https://www.publish.csiro.au/wr/WR02114}.
 
 \bibitem[Bulte and Damania(2005)]{bulte_economic_2005}
 E.~H. Bulte and R.~Damania.
@@ -71,12 +140,40 @@ E.~H. Bulte and R.~Damania.
 \newblock URL \url{https://www.jstor.org/stable/3591307}.
 \newblock Publisher: [Wiley, Society for Conservation Biology].
 
+\bibitem[Burke et~al.(2023)Burke, Childs, De~la Cuesta, Qiu, Li, Gould,
+  Heft-Neal, and Wara]{burke_wildfire_2023}
+M.~Burke, M.~L. Childs, B.~De~la Cuesta, M.~Qiu, J.~Li, C.~F. Gould,
+  S.~Heft-Neal, and M.~Wara.
+\newblock Wildfire {Influence} on {Recent} {US} {Pollution} {Trends}, Jan.
+  2023.
+\newblock URL \url{https://www.nber.org/papers/w30882}.
+
+\bibitem[Burrows and McCaw(2013)]{burrows2013}
+N.~Burrows and L.~McCaw.
+\newblock Prescribed burning in southwestern australian forests.
+\newblock \emph{Frontiers in Ecology and the Environment}, 11\penalty0
+  (s1):\penalty0 e25--e34, 2013.
+\newblock \doi{https://doi.org/10.1890/120356}.
+\newblock URL
+  \url{https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/120356}.
+
 \bibitem[C4ADS(2017)]{c4ads_hooked_2017}
 C4ADS.
 \newblock Hooked : {How} {Demand} for a {Protected} {Fish} {Lined} the
   {Pockets} of {Mexican} {Cartels} \& {Sunk} the {Future} of an {Endangered}
   {Porpoise} {Species}.
 \newblock Technical report, C4ADS, 2017.
+
+\bibitem[Calkin et~al.(2005)Calkin, Hummel, and Agee]{calkin_modeling_2005}
+D.~E. Calkin, S.~S. Hummel, and J.~K. Agee.
+\newblock Modeling trade-offs between fire threat reduction and late-seral
+  forest structure.
+\newblock \emph{Canadian Journal of Forest Research}, 35\penalty0
+  (11):\penalty0 2562--2574, Nov. 2005.
+\newblock ISSN 0045-5067.
+\newblock \doi{10.1139/x05-177}.
+\newblock URL \url{https://cdnsciencepub.com/doi/10.1139/x05-177}.
+\newblock Publisher: NRC Research Press.
 
 \bibitem[Challender and MacMillan(2014)]{challender_poaching_2014}
 D.~W.~S. Challender and D.~C. MacMillan.
@@ -155,6 +252,22 @@ C.~W. Clark.
 \newblock URL
   \url{https://www.cambridge.org/core/books/worldwide-crisis-in-fisheries/0726A744452A8E61CEE20A090F5CE9B7}.
 
+\bibitem[Coop et~al.(2020)Coop, Parks, Stevens-Rumann, Crausbay, Higuera,
+  Hurteau, Tepley, Whitman, Assal, Collins, Davis, Dobrowski, Falk, Fornwalt,
+  Fulé, Harvey, Kane, Littlefield, Margolis, North, Parisien, Prichard, and
+  Rodman]{coop_wildfire-driven_2020}
+J.~D. Coop, S.~A. Parks, C.~S. Stevens-Rumann, S.~D. Crausbay, P.~E. Higuera,
+  M.~D. Hurteau, A.~Tepley, E.~Whitman, T.~Assal, B.~M. Collins, K.~T. Davis,
+  S.~Dobrowski, D.~A. Falk, P.~J. Fornwalt, P.~Z. Fulé, B.~J. Harvey, V.~R.
+  Kane, C.~E. Littlefield, E.~Q. Margolis, M.~North, M.-A. Parisien,
+  S.~Prichard, and K.~C. Rodman.
+\newblock Wildfire-{Driven} {Forest} {Conversion} in {Western} {North}
+  {American} {Landscapes}.
+\newblock \emph{BioScience}, 70\penalty0 (8):\penalty0 659--673, Aug. 2020.
+\newblock ISSN 0006-3568.
+\newblock \doi{10.1093/biosci/biaa061}.
+\newblock URL \url{https://doi.org/10.1093/biosci/biaa061}.
+
 \bibitem[Damania and Bulte(2007)]{damania_economics_2007}
 R.~Damania and E.~H. Bulte.
 \newblock The economics of wildlife farming and endangered species
@@ -208,6 +321,18 @@ M.~Fabinyi.
 \newblock URL
   \url{https://www.cambridge.org/core/journals/environmental-conservation/article/abs/historical-cultural-and-social-perspectives-on-luxury-seafood-consumption-in-china/742483C9475BD76E5A17BCC2651F1BC3}.
 
+\bibitem[Fahrig et~al.(2011)Fahrig, Baudry, Brotons, Burel, Crist, Fuller,
+  Sirami, Siriwardena, and Martin]{Fahrig2011}
+L.~Fahrig, J.~Baudry, L.~Brotons, F.~G. Burel, T.~O. Crist, R.~J. Fuller,
+  C.~Sirami, G.~M. Siriwardena, and J.-L. Martin.
+\newblock Functional landscape heterogeneity and animal biodiversity in
+  agricultural landscapes.
+\newblock \emph{Ecology Letters}, 14\penalty0 (2):\penalty0 101--112, 2011.
+\newblock
+  \doi{https://doi-org.inshs.bib.cnrs.fr/10.1111/j.1461-0248.2010.01559.x}.
+\newblock URL
+  \url{https://onlinelibrary-wiley-com.inshs.bib.cnrs.fr/doi/abs/10.1111/j.1461-0248.2010.01559.x}.
+
 \bibitem[Faustmann(1849)]{faustmann1849}
 M.~Faustmann.
 \newblock Berechnung des {Werthes}, welchen {Waldboden}, sowie noch nicht
@@ -221,6 +346,44 @@ M.~Faustmann.
 V.~Felbab~Brown.
 \newblock Organized {Crime} is {Taking} {Over} {Mexican} {Fisheries}.
 \newblock \emph{Brookings Institute}, 2022.
+
+\bibitem[Fernandes et~al.(2013)Fernandes, Davies, Ascoli, Fernández, Moreira,
+  Rigolot, Stoof, Vega, and Molina]{Fernandes2013}
+P.~M. Fernandes, G.~M. Davies, D.~Ascoli, C.~Fernández, F.~Moreira,
+  E.~Rigolot, C.~R. Stoof, J.~A. Vega, and D.~Molina.
+\newblock Prescribed burning in southern europe: developing fire management in
+  a dynamic landscape.
+\newblock \emph{Frontiers in Ecology and the Environment}, 11\penalty0
+  (s1):\penalty0 e4--e14, 2013.
+\newblock \doi{https://doi.org/10.1890/120298}.
+\newblock URL
+  \url{https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/120298}.
+
+\bibitem[Finney(2001)]{finney_design_2001}
+M.~A. Finney.
+\newblock Design of {Regular} {Landscape} {Fuel} {Treatment} {Patterns} for
+  {Modifying} {Fire} {Growth} and {Behavior}.
+\newblock \emph{Forest Science}, 47\penalty0 (2):\penalty0 219--228, May 2001.
+\newblock ISSN 0015-749X.
+\newblock \doi{10.1093/forestscience/47.2.219}.
+\newblock URL \url{https://doi.org/10.1093/forestscience/47.2.219}.
+
+\bibitem[Finney(2007)]{finney_computational_2007}
+M.~A. Finney.
+\newblock A computational method for optimising fuel treatment locations.
+\newblock \emph{International Journal of Wildland Fire}, 16\penalty0
+  (6):\penalty0 702--711, Dec. 2007.
+\newblock ISSN 1448-5516, 1448-5516.
+\newblock \doi{10.1071/WF06063}.
+\newblock URL \url{https://www.publish.csiro.au/wf/WF06063}.
+\newblock Publisher: CSIRO PUBLISHING.
+
+\bibitem[Florec et~al.(2020)Florec, Burton, Pannell, Kelso, and
+  Milne]{Florec2020}
+V.~Florec, M.~Burton, D.~Pannell, J.~Kelso, and G.~Milne.
+\newblock Where to prescribe burn: the costs and benefits of prescribed burning
+  close to houses.
+\newblock \emph{International Journal of Wildland Fire}, \penalty0 (29), 2020.
 
 \bibitem[Flores(2016)]{flores_violence_2016}
 D.~Flores.
@@ -243,6 +406,12 @@ H.~E. Froehlich, R.~R. Gentry, and B.~S. Halpern.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0006320717307565}.
 
+\bibitem[Gellman et~al.(2023)Gellman, Walls, and Wibbenmeyer]{Gellman}
+J.~Gellman, M.~Walls, and M.~Wibbenmeyer.
+\newblock Welfare losses from wildfire smoke: evidence from daily outdoor
+  recreation data.
+\newblock \emph{Resources for the Future Working Papers}, 2023.
+
 \bibitem[Gentry et~al.(2019)Gentry, Gaines, Gabe, and
   Lester]{gentry_looking_2019}
 R.~R. Gentry, S.~D. Gaines, J.~S. Gabe, and S.~E. Lester.
@@ -252,6 +421,18 @@ R.~R. Gentry, S.~D. Gaines, J.~S. Gabe, and S.~E. Lester.
 \newblock \doi{10.1111/conl.12681}.
 \newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/conl.12681}.
 \newblock \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/conl.12681.
+
+\bibitem[Gonzalez-Olabarria et~al.(2023)Gonzalez-Olabarria, Carrasco, Pais,
+  Garcia-Gonzalo, Palacios-Meneses, Mahaluf-Recasens, Porkhum, and
+  Weintraub]{gonzalez-olabarria_fire_2023}
+J.~R. Gonzalez-Olabarria, J.~Carrasco, C.~Pais, J.~Garcia-Gonzalo,
+  D.~Palacios-Meneses, R.~Mahaluf-Recasens, O.~Porkhum, and A.~Weintraub.
+\newblock A fire spread simulator to support tactical management decisions for
+  {Mediterranean} landscapes.
+\newblock \emph{Frontiers in Forests and Global Change}, 6, 2023.
+\newblock ISSN 2624-893X.
+\newblock URL
+  \url{https://www.frontiersin.org/articles/10.3389/ffgc.2023.1071484}.
 
 \bibitem[Gratwicke et~al.(2008)Gratwicke, Mills, Dutton, Gabriel, Long,
   Seidensticker, Wright, You, and Zhang]{gratwicke_attitudes_2008}
@@ -265,6 +446,14 @@ B.~Gratwicke, J.~Mills, A.~Dutton, G.~Gabriel, B.~Long, J.~Seidensticker,
 \newblock URL
   \url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0002544}.
 \newblock Publisher: Public Library of Science.
+
+\bibitem[Heft-Neal et~al.(2023)Heft-Neal, Gould, Childs, Kiang, Nadeau, Duggan,
+  Bendavid, and Burke]{heft-neal_behavior_2023}
+S.~Heft-Neal, C.~F. Gould, M.~Childs, M.~V. Kiang, K.~Nadeau, M.~Duggan,
+  E.~Bendavid, and M.~Burke.
+\newblock Behavior {Mediates} the {Health} {Effects} of {Extreme} {Wildfire}
+  {Smoke} {Events}, Feb. 2023.
+\newblock URL \url{https://www.nber.org/papers/w30969}.
 
 \bibitem[Hinsley and 't~Sas-Rolfes(2020)]{hinsley_wild_2020}
 A.~Hinsley and M.~'t~Sas-Rolfes.
@@ -300,6 +489,45 @@ D.~Jinkins.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0167268116300312}.
 
+\bibitem[Jolly et~al.(2015)Jolly, Cochrane, Freeborn, Holden, Brown,
+  Williamson, and Bowman]{jolly_climate-induced_2015}
+W.~M. Jolly, M.~A. Cochrane, P.~H. Freeborn, Z.~A. Holden, T.~J. Brown, G.~J.
+  Williamson, and D.~M. J.~S. Bowman.
+\newblock Climate-induced variations in global wildfire danger from 1979 to
+  2013.
+\newblock \emph{Nature Communications}, 6\penalty0 (1):\penalty0 7537, July
+  2015.
+\newblock ISSN 2041-1723.
+\newblock \doi{10.1038/ncomms8537}.
+\newblock URL \url{https://doi.org/10.1038/ncomms8537}.
+
+\bibitem[Kalies and {Yocom Kent}(2016)]{Kalies2016}
+E.~L. Kalies and L.~L. {Yocom Kent}.
+\newblock Tamm review: Are fuel treatments effective at achieving ecological
+  and social objectives? a systematic review.
+\newblock \emph{Forest Ecology and Management}, 375:\penalty0 84--95, 2016.
+\newblock ISSN 0378-1127.
+\newblock \doi{https://doi.org/10.1016/j.foreco.2016.05.021}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0378112716302626}.
+
+\bibitem[Konoshima et~al.(2008)Konoshima, Montgomery, Albers, and
+  Arthur]{konoshima_spatial-endogenous_2008}
+M.~Konoshima, C.~A. Montgomery, H.~J. Albers, and J.~L. Arthur.
+\newblock Spatial-{Endogenous} {Fire} {Risk} and {Efficient} {Fuel}
+  {Management} and {Timber} {Harvest}.
+\newblock \emph{Land Economics}, 84\penalty0 (3):\penalty0 449--468, Aug. 2008.
+\newblock ISSN 0023-7639, 1543-8325.
+\newblock \doi{10.3368/le.84.3.449}.
+\newblock URL \url{https://le.uwpress.org/content/84/3/449}.
+\newblock Publisher: University of Wisconsin Press Section: Articles.
+
+\bibitem[Kupfer et~al.(2020)Kupfer, Terando, Gao, Teske, and Hiers]{Kupfer2020}
+J.~Kupfer, A.~Terando, P.~Gao, C.~Teske, and J.~Hiers.
+\newblock Climate change projected to reduce prescribed burning opportunities
+  in the south-eastern united states.
+\newblock \emph{International Journal of Wildland Fire}, 29, 2020.
+
 \bibitem[Lawson et~al.(2017)Lawson, Foster, and Vincent]{lawson_low_2017}
 J.~M. Lawson, S.~J. Foster, and A.~C.~J. Vincent.
 \newblock Low {Bycatch} {Rates} {Add} {Up} to {Big} {Numbers} for a {Genus} of
@@ -310,6 +538,48 @@ J.~M. Lawson, S.~J. Foster, and A.~C.~J. Vincent.
 \newblock URL \url{https://doi.org/10.1080/03632415.2017.1259944}.
 \newblock Publisher: Taylor \& Francis \_eprint:
   https://doi.org/10.1080/03632415.2017.1259944.
+
+\bibitem[Lehmkuhl et~al.(2007)Lehmkuhl, Kennedy, Ford, Singleton, Gaines, and
+  Lind]{lehmkuhl_seeing_2007}
+J.~F. Lehmkuhl, M.~Kennedy, E.~D. Ford, P.~H. Singleton, W.~L. Gaines, and
+  R.~L. Lind.
+\newblock Seeing the forest for the fuel: {Integrating} ecological values and
+  fuels management.
+\newblock \emph{Forest Ecology and Management}, 246\penalty0 (1):\penalty0
+  73--80, 2007.
+\newblock ISSN 0378-1127.
+\newblock \doi{https://doi.org/10.1016/j.foreco.2007.03.071}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0378112707002800}.
+
+\bibitem[Lesmeister et~al.(2021)Lesmeister, Davis, Sovern, and
+  Yang]{lesmeister_northern_2021}
+D.~B. Lesmeister, R.~J. Davis, S.~G. Sovern, and Z.~Yang.
+\newblock Northern spotted owl nesting forests as fire refugia: a 30-year
+  synthesis of large wildfires.
+\newblock \emph{Fire Ecology}, 17\penalty0 (1):\penalty0 32, Nov. 2021.
+\newblock ISSN 1933-9747.
+\newblock \doi{10.1186/s42408-021-00118-z}.
+\newblock URL \url{https://doi.org/10.1186/s42408-021-00118-z}.
+
+\bibitem[Loeb and Blakey(2021)]{loeb_bats_2021}
+S.~C. Loeb and R.~V. Blakey.
+\newblock Bats and fire: a global review.
+\newblock \emph{Fire Ecology}, 17\penalty0 (1):\penalty0 29, Nov. 2021.
+\newblock ISSN 1933-9747.
+\newblock \doi{10.1186/s42408-021-00109-0}.
+\newblock URL \url{https://doi.org/10.1186/s42408-021-00109-0}.
+
+\bibitem[Low et~al.(2023)Low, Battles, Tompkins, Dillingham, Stephens, and
+  Collins]{low_shaded_2023}
+K.~E. Low, J.~J. Battles, R.~E. Tompkins, C.~P. Dillingham, S.~L. Stephens, and
+  B.~M. Collins.
+\newblock Shaded fuel breaks create wildfire-resilient forest stands: lessons
+  from a long-term study in the {Sierra} {Nevada}.
+\newblock \emph{Fire Ecology}, 19\penalty0 (1):\penalty0 29, May 2023.
+\newblock ISSN 1933-9747.
+\newblock \doi{10.1186/s42408-023-00187-2}.
+\newblock URL \url{https://doi.org/10.1186/s42408-023-00187-2}.
 
 \bibitem[Lyons and Natusch(2011)]{lyons_wildlife_2011}
 J.~A. Lyons and D.~J.~D. Natusch.
@@ -339,6 +609,58 @@ I.~A. Martínez and A.~I. Alonso.
 \newblock \doi{10.1007/s12117-021-09436-9}.
 \newblock URL \url{https://doi.org/10.1007/s12117-021-09436-9}.
 
+\bibitem[Matsypura et~al.(2018)Matsypura, Prokopyev, and
+  Zahar]{matsypura_wildfire_2018}
+D.~Matsypura, O.~A. Prokopyev, and A.~Zahar.
+\newblock Wildfire fuel management: {Network}-based models and optimization of
+  prescribed burning.
+\newblock \emph{European Journal of Operational Research}, 264\penalty0
+  (2):\penalty0 774--796, Jan. 2018.
+\newblock ISSN 03772217.
+\newblock \doi{10.1016/j.ejor.2017.06.050}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S037722171730591X}.
+
+\bibitem[McCarthy et~al.(2001)McCarthy, Gill, and
+  Bradstock]{mccarthy_theoretical_2001}
+M.~A. McCarthy, A.~M. Gill, and R.~A. Bradstock.
+\newblock Theoretical fire-interval distributions.
+\newblock \emph{International Journal of Wildland Fire}, 10\penalty0
+  (1):\penalty0 73--77, 2001.
+\newblock URL \url{https://doi.org/10.1071/WF01013}.
+
+\bibitem[McGarigal and Marks(1995)]{McGarigal_1995}
+K.~McGarigal and B.~J. Marks.
+\newblock {FRAGSTATS}: spatial pattern analysis program for quantifying
+  landscape structure.
+\newblock Technical report, 1995.
+\newblock URL \url{https://doi.org/10.2737%2Fpnw-gtr-351}.
+
+\bibitem[Minas et~al.(2014)Minas, Hearne, and Martell]{minas_spatial_2014}
+J.~Minas, J.~W. Hearne, and D.~L. Martell.
+\newblock A spatial optimisation model for multi-period landscape level fuel
+  management to mitigate wildfire impacts.
+\newblock \emph{European Journal of Operational Research}, 232\penalty0
+  (2):\penalty0 412--422, Jan. 2014.
+\newblock ISSN 0377-2217.
+\newblock \doi{10.1016/j.ejor.2013.07.026}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0377221713006073}.
+\newblock Publisher: North-Holland.
+
+\bibitem[Minor and Urban(2008)]{minor_graph-theory_2008}
+E.~S. Minor and D.~L. Urban.
+\newblock A {Graph}-{Theory} {Framework} for {Evaluating} {Landscape}
+  {Connectivity} and {Conservation} {Planning}.
+\newblock \emph{Conservation Biology}, 22\penalty0 (2):\penalty0 297--307,
+  2008.
+\newblock ISSN 1523-1739.
+\newblock \doi{10.1111/j.1523-1739.2007.00871.x}.
+\newblock URL
+  \url{http://onlinelibrary.wiley.com/doi/abs/10.1111/j.1523-1739.2007.00871.x}.
+\newblock \_eprint:
+  https://conbio.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1523-1739.2007.00871.x.
+
 \bibitem[Mitra and Wan(1986)]{mitra_faustmann_1986}
 T.~Mitra and H.~Y. Wan.
 \newblock On the faustmann solution to the forest management problem.
@@ -348,6 +670,90 @@ T.~Mitra and H.~Y. Wan.
 \newblock \doi{10.1016/0022-0531(86)90073-6}.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/0022053186900736}.
+
+\bibitem[Mouysset et~al.(2013)Mouysset, Doyen, and Jiguet]{Mouysset2013}
+L.~Mouysset, L.~Doyen, and F.~Jiguet.
+\newblock How does economic risk aversion affect biodiversity?
+\newblock \emph{Ecological Applications}, 23\penalty0 (1):\penalty0 96--109,
+  2013.
+\newblock ISSN 10510761.
+\newblock URL \url{http://www.jstor.org/stable/23440820}.
+
+\bibitem[Office(2019)]{GAO2019}
+U.~S. G.~A. Office.
+\newblock Wildland fire - federal agencies’ efforts to reduce wildland fuels
+  and lower risk to communities and ecosystems.
+\newblock Technical report, United States Government Accountability Office,
+  2019.
+
+\bibitem[Olds et~al.(2012)Olds, Pitt, Maxwell, and Connolly]{Olds2012}
+A.~D. Olds, K.~A. Pitt, P.~S. Maxwell, and R.~M. Connolly.
+\newblock Synergistic effects of reserves and connectivity on ecological
+  resilience.
+\newblock \emph{Journal of Applied Ecology}, 49\penalty0 (6):\penalty0
+  1195--1203, 2012.
+\newblock \doi{https://doi.org/10.1111/jpe.12002}.
+\newblock URL
+  \url{https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/jpe.12002}.
+
+\bibitem[Olson(1963)]{Olson1963}
+J.~S. Olson.
+\newblock Energy storage and the balance of producers and decomposers in
+  ecological systems.
+\newblock \emph{Ecology}, 44\penalty0 (2):\penalty0 322--331, 1963.
+\newblock \doi{https://doi-org.inshs.bib.cnrs.fr/10.2307/1932179}.
+\newblock URL
+  \url{https://esajournals-onlinelibrary-wiley-com.inshs.bib.cnrs.fr/doi/abs/10.2307/1932179}.
+
+\bibitem[Pais et~al.(2021{\natexlab{a}})Pais, Carrasco, Elimbi~Moudio, and
+  Shen]{pais_downstream_2021}
+C.~Pais, J.~Carrasco, P.~Elimbi~Moudio, and Z.-J.~M. Shen.
+\newblock Downstream protection value: {Detecting} critical zones for effective
+  fuel-treatment under wildfire risk.
+\newblock \emph{Computers \& Operations Research}, 131, July
+  2021{\natexlab{a}}.
+\newblock ISSN 0305-0548.
+\newblock \doi{10.1016/j.cor.2021.105252}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0305054821000447}.
+
+\bibitem[Pais et~al.(2021{\natexlab{b}})Pais, Carrasco, Martell, Weintraub, and
+  Woodruff]{pais_cell2fire_2021}
+C.~Pais, J.~Carrasco, D.~L. Martell, A.~Weintraub, and D.~L. Woodruff.
+\newblock {Cell2Fire}: {A} {Cell}-{Based} {Forest} {Fire} {Growth} {Model} to
+  {Support} {Strategic} {Landscape} {Management} {Planning}.
+\newblock \emph{Frontiers in Forests and Global Change}, 4, 2021{\natexlab{b}}.
+\newblock ISSN 2624-893X.
+\newblock URL
+  \url{https://www.frontiersin.org/articles/10.3389/ffgc.2021.692706}.
+
+\bibitem[Pascual-Hortal and Saura(2006)]{pascual-hortal_comparison_2006}
+L.~Pascual-Hortal and S.~Saura.
+\newblock Comparison and development of new graph-based landscape connectivity
+  indices: towards the priorization of habitat patches and corridors for
+  conservation.
+\newblock \emph{Landscape Ecology}, 21\penalty0 (7):\penalty0 959--967, Oct.
+  2006.
+\newblock ISSN 0921-2973, 1572-9761.
+\newblock \doi{10.1007/s10980-006-0013-z}.
+\newblock URL \url{http://link.springer.com/10.1007/s10980-006-0013-z}.
+
+\bibitem[Patton(1975)]{patton_diversity_1975}
+D.~R. Patton.
+\newblock A {Diversity} {Index} for {Quantifying} {Habitat} "{Edge}".
+\newblock \emph{Wildlife Society Bulletin (1973-2006)}, 3\penalty0
+  (4):\penalty0 171--173, 1975.
+\newblock ISSN 0091-7648.
+\newblock URL \url{https://www.jstor.org/stable/3781151}.
+\newblock Publisher: [Wiley, Wildlife Society].
+
+\bibitem[Peterson et~al.(2009)Peterson, Morais, Carlson, Dennison, Roberts,
+  Moritz, and Weise]{Peterson_2009}
+S.~H. Peterson, M.~E. Morais, J.~M. Carlson, P.~E. Dennison, D.~A. Roberts,
+  M.~A. Moritz, and D.~R. Weise.
+\newblock Using {HFire} for spatial modeling of fire in shrublands.
+\newblock Technical report, 2009.
+\newblock URL \url{https://doi.org/10.2737\%2Fpsw-rp-259}.
 
 \bibitem[Phelps et~al.(2014)Phelps, Carrasco, and Webb]{phelps_framework_2014}
 J.~Phelps, L.~R. Carrasco, and E.~L. Webb.
@@ -382,6 +788,51 @@ J.~C. Péreau, L.~Doyen, L.~R. Little, and O.~Thébaud.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0095069612000022}.
 
+\bibitem[Rachmawati et~al.(2015)Rachmawati, Ozlen, Reinke, and
+  Hearne]{rachmawati_model_2015}
+R.~Rachmawati, M.~Ozlen, K.~J. Reinke, and J.~W. Hearne.
+\newblock A model for solving the prescribed burn planning problem.
+\newblock \emph{SpringerPlus}, 4\penalty0 (1):\penalty0 630, Oct. 2015.
+\newblock ISSN 2193-1801.
+\newblock \doi{10.1186/s40064-015-1418-4}.
+\newblock URL \url{https://doi.org/10.1186/s40064-015-1418-4}.
+
+\bibitem[Rachmawati et~al.(2016)Rachmawati, Ozlen, Reinke, and
+  Hearne]{rachmawati_optimisation_2016}
+R.~Rachmawati, M.~Ozlen, K.~J. Reinke, and J.~W. Hearne.
+\newblock An optimisation approach for fuel treatment planning to break the
+  connectivity of high-risk regions.
+\newblock \emph{Forest Ecology and Management}, 368:\penalty0 94--104, May
+  2016.
+\newblock ISSN 0378-1127.
+\newblock \doi{10.1016/j.foreco.2016.03.014}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0378112716300731}.
+
+\bibitem[Rachmawati et~al.(2018)Rachmawati, Ozlen, Hearne, and
+  Reinke]{rachmawati_fuel_2018}
+R.~Rachmawati, M.~Ozlen, J.~Hearne, and K.~Reinke.
+\newblock Fuel treatment planning: {Fragmenting} high fuel load areas while
+  maintaining availability and connectivity of faunal habitat.
+\newblock \emph{Applied Mathematical Modelling}, 54:\penalty0 298--310, Feb.
+  2018.
+\newblock ISSN 0307-904X.
+\newblock \doi{10.1016/j.apm.2017.09.045}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0307904X17306066}.
+
+\bibitem[Rayfield et~al.(2016)Rayfield, Pelletier, Dumitru, Cardille, and
+  Gonzalez]{rayfield_multipurpose_2016}
+B.~Rayfield, D.~Pelletier, M.~Dumitru, J.~A. Cardille, and A.~Gonzalez.
+\newblock Multipurpose habitat networks for short-range and long-range
+  connectivity: a new method combining graph and circuit connectivity.
+\newblock \emph{Methods in Ecology and Evolution}, 7\penalty0 (2):\penalty0
+  222--231, Feb. 2016.
+\newblock ISSN 2041-210X.
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.12470}.
+\newblock Publisher: John Wiley \& Sons, Ltd.
+
 \bibitem[Rojas-Bracho and Reeves(2013)]{rojas-bracho_vaquitas_2013}
 L.~Rojas-Bracho and R.~R. Reeves.
 \newblock Vaquitas and gillnets: {Mexico}’s ultimate cetacean conservation
@@ -408,6 +859,38 @@ L.~Rojas-Bracho, B.~Taylor, C.~G. Booth, L.~Thomas, A.~Jaramillo-Legorreta,
   \url{https://research-repository.st-andrews.ac.uk/handle/10023/25767}.
 \newblock Accepted: 2022-08-03T11:30:03Z.
 
+\bibitem[Ruffault et~al.(2018)Ruffault, Curt, Martin-StPaul, Moron, and
+  Trigo]{ruffault_extreme_2018}
+J.~Ruffault, T.~Curt, N.~K. Martin-StPaul, V.~Moron, and R.~M. Trigo.
+\newblock Extreme wildfire events are linked to global-change-type droughts in
+  the northern {Mediterranean}.
+\newblock \emph{Natural Hazards and Earth System Sciences}, 18\penalty0
+  (3):\penalty0 847--856, Mar. 2018.
+\newblock ISSN 1561-8633.
+\newblock \doi{10.5194/nhess-18-847-2018}.
+\newblock URL \url{https://nhess.copernicus.org/articles/18/847/2018/}.
+\newblock Publisher: Copernicus GmbH.
+
+\bibitem[Rytwinski and Crowe(2010)]{rytwinski_simulation-optimization_2010}
+A.~Rytwinski and K.~A. Crowe.
+\newblock A simulation-optimization model for selecting the location of
+  fuel-breaks to minimize expected losses from forest fires.
+\newblock \emph{Forest Ecology and Management}, 260\penalty0 (1):\penalty0
+  1--11, June 2010.
+\newblock ISSN 0378-1127.
+\newblock \doi{10.1016/j.foreco.2010.03.013}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0378112710001593}.
+
+\bibitem[Saab et~al.(2022)Saab, Latif, Block, and Dudley]{saab_short-term_2022}
+V.~A. Saab, Q.~R. Latif, W.~M. Block, and J.~G. Dudley.
+\newblock Short-term benefits of prescribed fire to bird communities of dry
+  forests.
+\newblock \emph{Fire Ecology}, 18\penalty0 (1):\penalty0 4, Apr. 2022.
+\newblock ISSN 1933-9747.
+\newblock \doi{10.1186/s42408-022-00130-x}.
+\newblock URL \url{https://doi.org/10.1186/s42408-022-00130-x}.
+
 \bibitem[Sadovy~de Mitcheson et~al.(2019)Sadovy~de Mitcheson, To, Wong, Kwan,
   and Bud]{sadovy_de_mitcheson_emerging_2019}
 Y.~Sadovy~de Mitcheson, A.~W.-l. To, N.~W. Wong, H.~Y. Kwan, and W.~S. Bud.
@@ -428,6 +911,23 @@ C.~T. Sahley, J.~T. Vargas, and J.~S. Valdivia.
 \newblock ISSN 0888-8892.
 \newblock \doi{10.1111/j.1523-1739.2006.00558.x}.
 
+\bibitem[Shannon(1948)]{Shannon1949}
+C.~E. Shannon.
+\newblock A mathematical theory of communication.
+\newblock \emph{Bell System Technical Journal}, 27\penalty0 (3):\penalty0
+  379--423, 1948.
+\newblock \doi{https://doi.org/10.1002/j.1538-7305.1948.tb01338.x}.
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1538-7305.1948.tb01338.x}.
+
+\bibitem[Simpson(1949)]{simpson_measurement_1949}
+E.~H. Simpson.
+\newblock Measurement of {Diversity}.
+\newblock \emph{Nature}, 163\penalty0 (4148):\penalty0 688--688, Apr. 1949.
+\newblock ISSN 1476-4687.
+\newblock \doi{10.1038/163688a0}.
+\newblock URL \url{https://doi.org/10.1038/163688a0}.
+
 \bibitem[Singh and Vives(1984)]{singh_price_1984}
 N.~Singh and X.~Vives.
 \newblock Price and {Quantity} {Competition} in a {Differentiated} {Duopoly}.
@@ -437,6 +937,47 @@ N.~Singh and X.~Vives.
 \newblock \doi{10.2307/2555525}.
 \newblock URL \url{https://www.jstor.org/stable/2555525}.
 \newblock Publisher: [RAND Corporation, Wiley].
+
+\bibitem[Sitters et~al.(2015)Sitters, Stefano, Christie, Sunnucks, and
+  York]{Sitters2015}
+H.~Sitters, J.~D. Stefano, F.~J. Christie, P.~Sunnucks, and A.~York.
+\newblock Bird diversity increases after patchy prescribed fire: implications
+  from a before-after control-impact study.
+\newblock \emph{International Journal of Wildland Fire}, 24:\penalty0 690--701,
+  2015.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:129053082}.
+
+\bibitem[Sweeney et~al.(2023)Sweeney, Dittrich, Moffat, Power, and
+  Kline]{sweeney_estimating_2023}
+K.~Sweeney, R.~Dittrich, S.~Moffat, C.~Power, and J.~D. Kline.
+\newblock Estimating the economic value of carbon losses from wildfires using
+  publicly available data sources: {Eagle} {Creek} {Fire}, {Oregon} 2017.
+\newblock \emph{Fire Ecology}, 19\penalty0 (1):\penalty0 55, Sept. 2023.
+\newblock ISSN 1933-9747.
+\newblock \doi{10.1186/s42408-023-00206-2}.
+\newblock URL \url{https://doi.org/10.1186/s42408-023-00206-2}.
+
+\bibitem[Taylor et~al.(2014)Taylor, McCarty, and Lindemayer]{Taylor2014}
+C.~Taylor, M.~A. McCarty, and D.~B. Lindemayer.
+\newblock Nonlinear effects of stand age on fire severity.
+\newblock \emph{Conservation Letters}, \penalty0 (7), 2014.
+\newblock \doi{doi: 10.1111/conl.12122}.
+
+\bibitem[Taylor et~al.(1993)Taylor, Fahrig, Henein, and Merriam]{Taylor93}
+P.~D. Taylor, L.~Fahrig, K.~Henein, and G.~Merriam.
+\newblock Connectivity is a vital element of landscape structure.
+\newblock \emph{Oikos}, 68\penalty0 (3):\penalty0 571--573, 1993.
+\newblock ISSN 00301299, 16000706.
+\newblock URL \url{http://www.jstor.org/stable/3544927}.
+
+\bibitem[Templeton et~al.(2011)Templeton, Brazeal, and Neuwald]{Templeton2011}
+A.~R. Templeton, H.~Brazeal, and J.~L. Neuwald.
+\newblock The transition from isolated patches to a metapopulation in the
+  eastern collared lizard in response to prescribed fires.
+\newblock \emph{Ecology}, 92\penalty0 (9):\penalty0 1736--1747, 2011.
+\newblock \doi{https://doi.org/10.1890/10-1994.1}.
+\newblock URL
+  \url{https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/10-1994.1}.
 
 \bibitem[Tensen(2016)]{tensen_under_2016}
 L.~Tensen.
@@ -460,6 +1001,45 @@ J.~T. Thorson, S.~B. Munch, J.~M. Cope, and J.~Gao.
 \newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/eap.1606}.
 \newblock \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/eap.1606.
 
+\bibitem[Tian et~al.(2017)Tian, Liu, Jim, and Song]{tian_assessing_2017}
+Y.~Tian, Y.~Liu, C.~Y. Jim, and H.~Song.
+\newblock Assessing {Structural} {Connectivity} of {Urban} {Green} {Spaces} in
+  {Metropolitan} {Hong} {Kong}.
+\newblock \emph{Sustainability}, 9\penalty0 (9):\penalty0 1653, Sept. 2017.
+\newblock ISSN 2071-1050.
+\newblock \doi{10.3390/su9091653}.
+\newblock URL \url{https://www.mdpi.com/2071-1050/9/9/1653}.
+\newblock Number: 9.
+
+\bibitem[Turner(2005)]{Turner2005}
+M.~G. Turner.
+\newblock Landscape ecology: What is the state of the science?
+\newblock \emph{Annual Review of Ecology, Evolution, and Systematics},
+  36\penalty0 (1):\penalty0 319--344, 2005.
+\newblock \doi{10.1146/annurev.ecolsys.36.102003.152614}.
+\newblock URL \url{https://doi.org/10.1146/annurev.ecolsys.36.102003.152614}.
+
+\bibitem[Turner and Gardner(2015)]{Turner2011}
+M.~G. Turner and R.~H. Gardner.
+\newblock \emph{Landscape Ecology in Theory and Practice}.
+\newblock Springer New York, 2015.
+
+\bibitem[Urban and Keitt(2001)]{urban_landscape_2001}
+D.~Urban and T.~Keitt.
+\newblock Landscape {Connectivity}: {A} {Graph}-{Theoretic} {Perspective}.
+\newblock \emph{Ecology}, 82\penalty0 (5):\penalty0 1205--1218, 2001.
+\newblock ISSN 1939-9170.
+\newblock \doi{10.1890/0012-9658(2001)082[1205:LCAGTP]2.0.CO;2}.
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1890/0012-9658%282001%29082%5B1205%3ALCAGTP%5D2.0.CO%3B2}.
+
+\bibitem[Vaillant et~al.(2009)Vaillant, Fites-Kaufman, and
+  Stephens]{Vaillant2009}
+N.~Vaillant, J.~A. Fites-Kaufman, and S.~L. Stephens.
+\newblock Effectiveness of prescribed fire as a fuel treatment in californian
+  coniferous forests.
+\newblock \emph{International Journal of Wildland Fire}, \penalty0 (18), 2009.
+
 \bibitem[Veblen(2023)]{veblen_theory_2023}
 T.~Veblen.
 \newblock \emph{The {Theory} of the {Leisure} {Class}: {An} {Economic} {Study}
@@ -467,6 +1047,70 @@ T.~Veblen.
   the {Work}}.
 \newblock Independently published, May 2023.
 \newblock ISBN 9798394370342.
+
+\bibitem[Velázquez et~al.(2019)Velázquez, Gutiérrez, García-Abril,
+  Hernando, Aparicio, and Sánchez]{velazquez_structural_2019}
+J.~Velázquez, J.~Gutiérrez, A.~García-Abril, A.~Hernando, M.~Aparicio, and
+  B.~Sánchez.
+\newblock Structural connectivity as an indicator of species richness and
+  landscape diversity in {Castilla} y {León} ({Spain}).
+\newblock \emph{Forest Ecology and Management}, 432:\penalty0 286--297, 2019.
+\newblock ISSN 0378-1127.
+\newblock \doi{https://doi.org/10.1016/j.foreco.2018.09.035}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0378112718312957}.
+
+\bibitem[Wang et~al.(2021)Wang, Guan, Zhu, Kinnon, Geng, Zhang, Zheng, Lei,
+  Shao, Gong, and Davis]{wang_economic_2021}
+D.~Wang, D.~Guan, S.~Zhu, M.~M. Kinnon, G.~Geng, Q.~Zhang, H.~Zheng, T.~Lei,
+  S.~Shao, P.~Gong, and S.~J. Davis.
+\newblock Economic footprint of {California} wildfires in 2018.
+\newblock \emph{Nature Sustainability}, 4\penalty0 (3):\penalty0 252--260, Mar.
+  2021.
+\newblock ISSN 2398-9629.
+\newblock \doi{10.1038/s41893-020-00646-7}.
+\newblock URL \url{https://doi.org/10.1038/s41893-020-00646-7}.
+
+\bibitem[Wasserman and Mueller(2023)]{wasserman_climate_2023}
+T.~N. Wasserman and S.~E. Mueller.
+\newblock Climate influences on future fire severity: a synthesis of
+  climate-fire interactions and impacts on fire regimes, high-severity fire,
+  and forests in the western {United} {States}.
+\newblock \emph{Fire Ecology}, 19\penalty0 (1):\penalty0 43, July 2023.
+\newblock ISSN 1933-9747.
+\newblock \doi{10.1186/s42408-023-00200-8}.
+\newblock URL \url{https://doi.org/10.1186/s42408-023-00200-8}.
+
+\bibitem[Wei et~al.(2008)Wei, Rideout, and Kirsch]{wei_optimization_2008}
+Y.~Wei, D.~Rideout, and A.~Kirsch.
+\newblock An optimization model for locating fuel treatments across a landscape
+  to reduce expected fire losses.
+\newblock \emph{Canadian Journal of Forest Research}, 38\penalty0 (4):\penalty0
+  868--877, Apr. 2008.
+\newblock ISSN 0045-5067.
+\newblock \doi{10.1139/X07-162}.
+\newblock URL \url{https://cdnsciencepub.com/doi/10.1139/X07-162}.
+\newblock Publisher: NRC Research Press.
+
+\bibitem[Williams et~al.(2017)Williams, Shoo, Wilson, and Beyer]{Williams2017}
+B.~A. Williams, L.~P. Shoo, K.~A. Wilson, and H.~L. Beyer.
+\newblock Optimising the spatial planning of prescribed burns to achieve
+  multiple objectives in a fire-dependent ecosystem.
+\newblock \emph{Journal of Applied Ecology}, 54\penalty0 (6):\penalty0
+  1699--1709, 2017.
+\newblock \doi{https://doi.org/10.1111/1365-2664.12920}.
+\newblock URL
+  \url{https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2664.12920}.
+
+\bibitem[Wintle et~al.(2020)Wintle, Legge, and Woinarski]{Wintle2020}
+B.~A. Wintle, S.~Legge, and J.~C. Woinarski.
+\newblock After the megafires: What next for australian wildlife?
+\newblock \emph{Trends in Ecology \& Evolution}, 35\penalty0 (9):\penalty0
+  753--757, 2020.
+\newblock ISSN 0169-5347.
+\newblock \doi{https://doi.org/10.1016/j.tree.2020.06.009}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0169534720301713}.
 
 \bibitem[Wyatt et~al.(2020)Wyatt, van Uhm, and
   Nurse]{wyatt_differentiating_2020}
@@ -478,6 +1122,52 @@ T.~Wyatt, D.~van Uhm, and A.~Nurse.
 \newblock ISSN 1936-4830.
 \newblock \doi{10.1007/s12117-020-09385-9}.
 \newblock URL \url{https://doi.org/10.1007/s12117-020-09385-9}.
+
+\bibitem[Yemshanov et~al.(2021)Yemshanov, Liu, Thompson, Parisien, Barber,
+  Koch, and Reimer]{yemshanov_detecting_2021}
+D.~Yemshanov, N.~Liu, D.~K. Thompson, M.-A. Parisien, Q.~E. Barber, F.~H. Koch,
+  and J.~Reimer.
+\newblock Detecting critical nodes in forest landscape networks to reduce
+  wildfire spread.
+\newblock \emph{PLOS ONE}, 16\penalty0 (10):\penalty0 e0258060, Oct. 2021.
+\newblock ISSN 1932-6203.
+\newblock \doi{10.1371/journal.pone.0258060}.
+\newblock URL
+  \url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0258060}.
+\newblock Publisher: Public Library of Science.
+
+\bibitem[Yemshanov et~al.(2022)Yemshanov, Haight, Liu, Rempel, Koch, and
+  Rodgers]{yemshanov_exploring_2022}
+D.~Yemshanov, R.~G. Haight, N.~Liu, R.~Rempel, F.~H. Koch, and A.~Rodgers.
+\newblock Exploring the tradeoffs among forest planning, roads and wildlife
+  corridors: a new approach.
+\newblock \emph{Optimization Letters}, 16\penalty0 (3):\penalty0 747--788, Apr.
+  2022.
+\newblock ISSN 1862-4472, 1862-4480.
+\newblock \doi{10.1007/s11590-021-01745-w}.
+\newblock URL \url{https://link.springer.com/10.1007/s11590-021-01745-w}.
+
+\bibitem[Zheng et~al.(2023)Zheng, Ciais, Chevallier, Yang, Canadell, Chen,
+  van~der Velde, Aben, Chuvieco, Davis, Deeter, Hong, Kong, Li, Li, Lin, He,
+  and Zhang]{zheng_record-high_2023}
+B.~Zheng, P.~Ciais, F.~Chevallier, H.~Yang, J.~G. Canadell, Y.~Chen, I.~R.
+  van~der Velde, I.~Aben, E.~Chuvieco, S.~J. Davis, M.~Deeter, C.~Hong,
+  Y.~Kong, H.~Li, H.~Li, X.~Lin, K.~He, and Q.~Zhang.
+\newblock Record-high {CO2} emissions from boreal fires in 2021.
+\newblock \emph{Science}, 379\penalty0 (6635):\penalty0 912--917, Mar. 2023.
+\newblock \doi{10.1126/science.ade0805}.
+\newblock URL \url{https://www.science.org/doi/10.1126/science.ade0805}.
+\newblock Publisher: American Association for the Advancement of Science.
+
+\bibitem[Zhou and Hao(2017)]{Zhou2017}
+Y.~Zhou and J.-K. Hao.
+\newblock A fast heuristic algorithm for the critical node problem.
+\newblock In \emph{Proceedings of the Genetic and Evolutionary Computation
+  Conference Companion}, GECCO '17, page 121–122, New York, NY, USA, 2017.
+  Association for Computing Machinery.
+\newblock ISBN 9781450349390.
+\newblock \doi{10.1145/3067695.3075993}.
+\newblock URL \url{https://doi.org/10.1145/3067695.3075993}.
 
 \bibitem[‘T Sas-Rolfes et~al.(2019)‘T Sas-Rolfes, Challender, Hinsley,
   Veríssimo, and Milner-Gulland]{t_sas-rolfes_illegal_2019}
