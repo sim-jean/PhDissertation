@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage{tikz}
+
+\usepackage{csquotes}
+\usepackage{mathpazo}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+
+\begin{tikzpicture}
+
+% Draw the curved arrow
+\draw[->]  (0,3) to[out=0,in=90] (5,0);
+
+% Add the text along the curve
+\node[text width=4cm] at (4,1.5) [rotate around={-20:(0,0)}] {High risk};
+\end{tikzpicture}
+\\\\
+
+\begin{tikzpicture}
+
+% Draw the curved arrow
+\draw[->]  (0,3) to[out=180,in=90] (-5,0);
+
+% Add the text along the curve
+\node[text width=4cm] at (-2,1.8) [rotate around={20:(0,0)}] {Biodiversity habitat};
+\end{tikzpicture}
+
+
+\end{document}

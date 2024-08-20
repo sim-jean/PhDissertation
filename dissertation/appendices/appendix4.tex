@@ -1,66 +1,91 @@
 \section{Appendix}
-\subsection{Theoretical model}
-\label{sec:appendix_wildland__theoretical}
-\subsubsection{Vegetation dynamics}
-In cell $i$ at time $t$, vegetation ages $A_i(t)$ evolves according to the following :
-\begin{equation}
-    A_i(t+1) = (A_i(t) + 1)(1-x_i(t)), t\in \{0,1,..., T\}, \forall i \in C
-\label{eq:fuel_dyn}
-\end{equation}
-Where $x_i(t)\in \{0,1\}$ is a binary variable, representing the treatment status of cell $i$ at time $t$. Correspondingly, the age vector across the landscape is $A(t)=\{A_i(t)\}_{i\in C}$.
+%\subsection{Theoretical model}
+%\label{sec:appendix_wildland__theoretical}
+%\subsubsection{Vegetation dynamics}
+%In cell $i$ at time $t$, vegetation ages $A_i(t)$ evolves according to the following :
+%\begin{equation}
+%    A_i(t+1) = (A_i(t) + 1)(1-x_i(t)), t\in \{0,1,..., T\}, \forall i \in C
+%\label{eq:fuel_dyn}
+%\end{equation}
+%Where $x_i(t)\in \{0,1\}$ is a binary variable, representing the treatment status of cell $i$ at time $t$. Correspondingly, the age vector across the landscape is $A(t)=\{A_i(t)\}_{i\in C}$.
 
-\subsubsection{Mature habitat and risky patch designation}
-Cell $i$ is labeled 'mature' to host wildlife in year $t$ as:
-\begin{equation}
-    Mature_i\left(A(t)\right) = \begin{cases}
-        1 &\text{ if } A_i(t) \geq m\\
-        0 &\text{ otherwise }
-    \end{cases}
-\label{eq:mature}
-\end{equation}
-Where $m$ is the 'mature' threshold. Correspondingly, the vector of mature cells across the landscape is $Mature\left(A(t)\right)=\{Mature_i\left(A(t)\right)\}_{i\in C}$
+%\subsubsection{Mature habitat and risky patch designation}
+%Cell $i$ is labeled 'mature' to host wildlife in year $t$ as:
+%\begin{equation}
+%    Mature_i\left(A(t)\right) = \begin{cases}
+%        1 &\text{ if } A_i(t) \geq m\\
+%        0 &\text{ otherwise }
+%    \end{cases}
+%\label{eq:mature}
+%\end{equation}
+%Where $m$ is the 'mature' threshold. Correspondingly, the vector of mature cells across the landscape is $Mature\left(A(t)\right)=\{Mature_i\left(A(t)\right)\}_{i\in C}$
 
-Similarly, cell $i$ is labeled as 'high fuel load' in year $t$ as:
-\begin{equation}
-    High_i\left(A(t)\right) = \begin{cases}
-1 &\text{ if } A_i(t)\geq d\\
-0 &\text{ otherwise}
-    \end{cases}
-\label{eq:high_fuel}
-\end{equation}
-Where $d$ is the 'high fuel load' threshold. Correspondingly, the vector of high fuel load cells across the landscape is $High\left(A(t)\right)=\{High_i\left(A(t)\right)\}_{i\in C}$
+%Similarly, cell $i$ is labeled as 'high fuel load' in year $t$ as:
+%\begin{equation}
+%    High_i\left(A(t)\right) = \begin{cases}
+%1 &\text{ if } A_i(t)\geq d\\
+%0 &\text{ otherwise}
+%    \end{cases}
+%\label{eq:high_fuel}
+%\end{equation}
+%Where $d$ is the 'high fuel load' threshold. Correspondingly, the vector of high fuel load cells across the landscape is $High\left(A(t)\right)=\{High_i\left(A(t)\right)\}_{i\in C}$
 
-We assume that the maturity threshold is crossed before the high risk threshold, i.e $m<d$.
+%We assume that the maturity threshold is crossed before the high risk threshold, i.e $m<d$.
 
-\subsubsection{Global connectivity index and graph theory}
+\subsection{Global connectivity index and graph theory}
+
 \label{sec:connectivity}
-Let a grided landscape of size $n$, where for each cell $a_i$ in the set of cells $A$ in the landscape, one defines $\Phi_i$ the set of cells connected to cell $i$ (i.e, cells share the same status and can only be in the 8-direction direct neighborhood). Moreover, let $Q_{ij}$ be a binary variable such that $Q_{ij}=1$ if cells $a_i$ and $a_j$ are connected, $0$ otherwise. \cite{minas_spatial_2014} define the following connectivity metric over a landscape: 
+
+%Let a grided landscape of size $n$, where for each cell $a_i$ in the set of cells $\mathcal{A}$ in the landscape, one defines $\Phi_i$ the set of cells connected to cell $i$ (i.e, cells share the same status and can only be in the 8-direction direct neighborhood). Moreover, let $Q_{ij}$ be a binary variable such that $Q_{ij}=1$ if cells $a_i$ and $a_j$ are connected, $0$ otherwise.
+
+\cite{minas_spatial_2014} work with a collection of cells $I$. This landscape can be represented by a graph structure $\mathcal{G}=(\mathcal{V}, \mathcal{E})$.
+For each $v_i \in \mathcal{V}$, define a neighborhood\footnote{Notive that \textit{belonging to the neighborhood of} is a symmetric binary relationship e.g. if $v_i \in \Phi_j \iff v_j \in \Phi_i$, as we are working with undirected graphs} of $v_i$ by $\Phi_i = \{ v_j \text{ such that } (v_j, v_i) \in \mathcal{E} \}$. 
+Finally, let $Q_{ij} \in \{0,1\}$ where $Q_{ij}=1$ if $v_i$ and $v_j$ are connected. \cite{minas_spatial_2014} define the following connectivity metric over a landscape: 
 
 \begin{equation}
-    \sum_{i \in C}\sum_{j \in \Phi_i}Q_{ij}
+    z^*_t = \sum_{i \in I}\sum_{j \in \Phi_i}Q_{ij}
     \label{eq:obj_minas}
 \end{equation}
 
-
-Now view the landscape as a graph $G$, with vertices $V$ and edges $E$ such that $G(V,E)$. For the proof, assume that $Y$ is a binary vector such that $Y_i=1$ if cell $i$ is 'high risk' and $0$ otherwise, and that we focus on the 'high risk' graph on the landscape. The argument is identical in the case of mature habitat. 
+%Now view the landscape as a graph $G$, with vertices $V$ and edges $E$ such that $G(V,E)$. 
+For the proof, assume $Y \in \{0,1\}^{n^2}$ such that $Y_i=1$ if cell $i$ is 'high risk' and $0$ otherwise, and that we focus on the high risk graph on the landscape. The argument is identical in the case of mature habitat. 
 
 In graph theory, an adjacency matrix $\mathcal{K}$ for an undirected graph is a binary, symmetric, square matrix of dimension $card(V)^2$ where $k_{ij}=1$ if vertices $i$ and $j$ are connected, $0$ otherwise. In our context, it is clear that $k_{ij}=Q_{ij}$. Equation \ref{eq:obj_minas} can be reformulated as : 
 \begin{align*}
-    Y' \mathcal{K} Y = \sum_j\left( Y_j \sum_i Y_i k_{ij}\right)
-           &= \sum_j\left( Y_j \left( Y_j k_{jj} + \sum_{i \neq j}Y_i k_{ij}\right)\right) \\
+    Y' \mathcal{K} Y &= \sum_j\left( Y_j \sum_i Y_i k_{ij}\right)\\
+    &= \sum_j \sum_i \left( Y_j Y_i k_{ij}\right)
 \end{align*}
-Given the symmetric nature of $\mathcal{K}$, $\forall i \neq j$, $k_{ij}=k_{ji}$. Each cell is connected to itself so $k_{jj}=1$ .$Y_i\in\{0,1\}$ i.e $Y_i^2 \in \{0,1\}$:
+And notice that $Y_j Y_i k_{ij} = Q_{ij}$, so :
+
+\begin{align*}
+    Y' \mathcal{K} Y &=\sum_{i \in I}\sum_{j \in \Phi_i}Q_{ij}\\
+					 &= \sum_j\left( Y_j \left( Y_j k_{jj} + \sum_{i \neq j}Y_i k_{ij}\right)\right)
+\end{align*}
+Given the symmetric nature of $\mathcal{K}$, $\forall i \neq j$, $k_{ij}=k_{ji}$. Each cell is connected to itself so $k_{jj}=1$. Additionally, as $Y_i\in\{0,1\}$ then $Y_i^2 \in \{0,1\}$:
 \begin{align*}
     Y'\mathcal{K} Y & =\sum_j \left(Y_j^2 + \sum_{i\neq j}Y_i Y_j k_{ij}\right)\\ 
-          & = \sum_j Y_j + 2 \sum_{j<i} \left(\sum_{i \neq j }Y_j Y_i a_{ij}\right)
+          & = \sum_j Y_j + \sum_{j} \left(\sum_{i \neq j }Y_j Y_i k_{ij}\right)   \\
+          & = \sum_j Y_j + \sum_{j} d_{j}
 \end{align*}
 
-The first sum is the number of cells either 'mature' or 'high risk', i.e, the cardinal of the nodes of the 'high risk' graph e.g $card(V)$. In the second sum, $\sum_{i \neq j} Y_j Y_i a_{ij}$ is the number of connections of cell $i$ to cell $j$, as the product $Y_i Y_j a_{ij}=1$ if and only if cell $i$ and $j$ share the same status ($Y_i = Y_j$) and are in the 8-cell neighborhood ($a_{ij}=1)$. By definition, the sum of the number of connections of each cell to other cells is $card(E)$. Hence, for a set of cells $C$, reformulated in terms of graph theory : 
+The first sum is the number of high risk cells, i.e. $card(\mathcal{V})$. 
+In the second sum, $\sum_{i \neq j} Y_j Y_i a_{ij}$ is the degree of each vertex $j$ excluding self loops. In a graph with no self loops, by definition, $\sum_{j} d_j = card(\mathcal{E})$.
+%In the second sum, $\sum_{i \neq j} Y_j Y_i a_{ij}$ is the number of connections of cell $i$ to cell $j$, as the product $Y_i Y_j k_{ij}=1$ if and only if cell $i$ and $j$ share the same status ($Y_i = Y_j$) and are in the 8-cell neighborhood ($k_{ij}=1)$. By definition, the sum of the number of connections of each cell to other cells is $card(E)$. 
+
+Hence, for a set of cells $I$ reformulated in terms of graph theory : 
 \begin{equation}
-        \sum_{i \in C}\sum_{j \in \Phi_i}Q_{ij} = card(V) + 2 card(E)
+        \sum_{i \in I}\sum_{j \in \Phi_i}Q_{ij} = card(V) + 2 card(E)
 \end{equation}
 
-\subsubsection{Dynamic programming equation}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{figures/wildland/eigenvalues.png}
+    \caption{Maximum and minimum eigenvalues of $\mathcal{K}$ depending on graph size}
+    \subcaption*{In red, the maximum eigenvalues, in blue, the minimal eigenvalues. Diamond-shaped points represent values actually used for the present study. Dotted line at 0}
+    \label{fig:eigenvalues}
+\end{figure}
+
+\subsection{Dynamic programming equation}
 
 The Bellman equation links current and future payoffs in a recurring fashion.
 \begin{equation}
@@ -98,32 +123,72 @@ We use backward induction given by the final value $ V(T, A) = H(A)$ to dynamica
 
 %\textbf{Clarify the expected damage thing, it's unclear as of now. }
 %Myabe say that if $E'>E$ and we minimize $-E'$ we do something lower than E? Minimize a lower bound of expected utility? Unclear with the minus sign...
+\subsection{Large scale landscape characteristics}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|ccc||c|}
+\hline
+ & Age classes &  & Autocorrelation \\
+\hline
+\textit{Juvenile}& \textit{Adolescent}& \textit{Mature}& \\
+\hline
+33\% & 33\% & 34\% & 0.5 \\
+10\% & 45\% & 45\% & 0.7 \\
+10\% & 10\% & 80\% & 0.9 \\
+10\% & 80\% & 10\% & 1.3 \\
+& & & 1.8\\
+\hline
+\end{tabular}
+\caption{Summary of the large scale simulated landscapes characteristics}
+\subcaption*{For each distribution profile governing the number of cells in a landscape, all of the spatial autocorrelation values are applied making $4\times 5$ landscapes}
+\label{tab:composition_nlm}
+\end{table}
+\clearpage
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{figures/wildland/large_land_autocorr_0.5_distrib_1}
+    \includegraphics[width=0.4\linewidth]{figures/wildland/large_land_autocorr_0.5_distrib_4}\\
+    \includegraphics[width=0.4\linewidth]{figures/wildland/large_land_autocorr_0.9_distrib_1}
+    \includegraphics[width=0.4\linewidth]{figures/wildland/large_land_autocorr_0.5_distrib_4}\\
+    \includegraphics[width=0.4\linewidth]{figures/wildland/large_land_autocorr_1.8_distrib_1}
+    \includegraphics[width=0.4\linewidth]{figures/wildland/large_land_autocorr_0.5_distrib_4}
+    \caption{Examples of large scale landscapes with uniform distribution (left) and skewed towards \textit{adolescent} (right)and low, middle and large spatial autocorrelation}
+    \label{fig:ex_nlm}
+\end{figure}
+\clearpage
+
+
+
+
+
 \subsection{Landscape indicators}
 \label{sec:appendix_wildland__indicators}
 
 \paragraph{Area}
-We use the number of vertices (nodes) for both subgraphs and take into account cell dimensions: 
-\begin{equation}
-    Area(G_i) =card(V_i) \text{ for } i\in\{B,F\}
-    \label{eq:area}
-\end{equation}
-
-\paragraph{Number of components}
+We use the number of vertices (nodes) for both graphs:
 
 \begin{equation}
-    \# components_i = card(\text{Maximal connected subgraphs of } G_i \text{ for } i \in \{B,F\})
-    \label{eq:components}
+Area(\mathcal{G}_t) = card(V_{\mathcal{G}_t} \text{ with } \mathcal{G}_t\in\{\mathcal{B}_t,\mathcal{F}_t\}
+\label{eq:area}
 \end{equation}
 
+%\paragraph{Number of components}
 
+%\begin{equation}
+%    \# components_i = card(\text{Maximal connected subgraphs of } G_i \text{ for } i \in \{B,F\})
+%    \label{eq:components}
+%\end{equation}
 
 \paragraph{Simpson diversity index:}
+Let $p_i$ be the proportion of landscape $A_t$ in a given succesional stage\footnote{Let $Juv = \{a_{ijt} \text{ such that} a_{ijt}=0\}$, then $p_{Juv} = \frac{card{Juv}}{n^2}$}, the Simpson diversity index is : 
 
-let $p_i$ be the proportion of land type $i$ in the landscape. The Simpson diversity index is : 
 \begin{equation}
-    SIDI = 1 - \sum_i p_i^2
+SIDI = 1 - \sum{i \in \{Juv, Ado, Mat\}} p_i^2
     \label{eq:simpson}
 \end{equation}
+
 
 \paragraph{Landscape shape index:}
 following \cite{McGarigal_1995}, the adapted LSI index from \cite{patton_diversity_1975} in a raster landscape is:
@@ -133,10 +198,10 @@ following \cite{McGarigal_1995}, the adapted LSI index from \cite{patton_diversi
 \end{equation}
 Where $perimeter(G)$ is the perimeter of the cells comprised in the graph as vertices.
 
-\paragraph{Land Type Heterogeneity Index:} let $d_{ij}$ be a binary variable such that $d_{ij}=1$ if patch $i$ and $j$ share the same land type. Define $\mathcal{J}$ as the set of neighbors in 4 directions (north, south, east, west) of cell $i$\footnote{The set $\mathcal{J}_i$ varies with cell $i$ to account for edge effects}.
-The land type heterogeneity index is : 
+\paragraph{Successional Stage Heterogeneity Index:} let $d_{ij}$ be a binary variable such that $d_{ij}=1$ if patch $i$ and $j$ share the same successional stage. Define $\mathcal{J}$ as the set of neighbors in 4 directions (north, south, east, west) of cell $i$\footnote{The set $\mathcal{J}_i$ varies with cell $i$ to account for edge effects}.
+The successional stage heterogeneity index is : 
 \begin{equation}
-    LTH = \frac{1}{N}\sum_{i=1}^N\left( \frac{\sum_{j \in \mathcal{J}_i} d_{ij}}{card(\mathcal{J}_i)}\right)
+    LTH = 1 - \frac{1}{N}\sum_{i=1}^N\left( \frac{\sum_{j \in \mathcal{J}_i} d_{ij}}{card(\mathcal{J}_i)}\right)
 \end{equation}
 \label{eq:lth_index}
 
@@ -144,33 +209,6 @@ The land type heterogeneity index is :
 \clearpage
 
 \section{Figures}
-
-
-
-
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = 0.18\textwidth]{figures/wildland/arrow_biod.PNG}
-    \includegraphics[width = 0.18\textwidth]{figures/wildland/land3.PNG}
-    \includegraphics[width = 0.18\textwidth]{figures/wildland/arrow_fuel.PNG}
-    \\
-    \includegraphics[width=0.2\textwidth]{figures/wildland/biodiv_3.PNG} \hspace*{4cm}
-    \includegraphics[width=0.2\textwidth]{figures/wildland/fire_3.PNG}\\
-    \includegraphics[width=0.18\textwidth]{figures/wildland/arrow_right.PNG}
-    \includegraphics[width = 0.2\textwidth]{figures/wildland/graphe_feu_biod_33.PNG}
- 	\includegraphics[width=0.18\textwidth]{figures/wildland/back_left.PNG}
-    \caption{Illustration of the habitat and fuel graphs for $n=3$}
-    \subcaption*{\hspace*{0.5cm}In this graph, green cells support biodiversity habitat only, while red cells display high risk. 
-\\
-    \hspace*{0.5cm}The high risk graph has two components (top right corner with 3 nodes, and bottom left corner with 1 node), while the biodiversity habitat graph only has one.
-\\
-    \hspace*{0.5cm}Cells for which the value is 0 are not considered as nodes for both graphs, and are thus not connected to the rest of the graphs. In the end, because high fuel load cells also support biodiversity habitat, the landscape can be represented as the overlap between the two graphs, where orange cells are high fuel load and also support biodiversity habitat.}
-
-    \label{fig:graph_overlap}
-\end{figure}
-
-\newpage
 \begin{figure}[H]
     \centering
     \includegraphics[width = 0.45\textwidth]{figures/wildland/number_cycles3.png}

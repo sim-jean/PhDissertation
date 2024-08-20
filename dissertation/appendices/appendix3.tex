@@ -1,17 +1,11 @@
-\section{A theoretical model of poachers, traders, and farmers}
+\section{Appendix}
+\subsection{A theoretical model of poachers, traders, and farmers}
 
 Our framework follows \cite{damania_economics_2007}, with a poaching cost structure adapted to fisheries. The model develops a three-stage dynamic, game theoretic, bioeconomic model. The value chain for poached animal products comprises poachers, middlemen traders, and end markets. As a small number of actors characterizes many wildlife markets, the model features a vertical monopoly and looks at the consequences on wildlife population stocks of the introduction of a farmed substitute. In this setting, farmers compete on end markets with traders in quantity and price. In the original model, price competition unambiguously results in larger harvests than in the vertical monopoly case. Therefore, while quantity competition reduces poaching, the threat of a population collapse in the price-setting case should warrant a cautious approach to conservation farming. We argue that this conclusion is erroneous, as the intricacies of imperfect substitutability and market dynamics have not been properly accounted for in the original model. As a matter of fact, standard economic intuition regarding price-setting competition in the homogeneous goods case does not directly apply here, as fishing costs rise as the stock decreases, limiting the ability of the trader to flood the market. We show that scenarios exist where any type of competition unambiguously leads to positive conservation outcomes, i.e, reduced poaching and larger steady-state stocks. We amend the original results and use this model for simulation. 
 
 First, poachers illegally harvest wildlife resources. Second, they sell their catch to a monopsonistic buyer. Third, the buyer sells catches on a monopolistic market, which is not accessible to poachers. We label this value chain 'vertical monopoly' as a reference case. We then look at the impact of introducing a competitor on the end market, the farming sector. 
-
-%For comparison, we look at the impact of conservation farming on several other market structures. We model an open-access fishery, where the middlemen traders disappear and poachers sell their catch on a perfectly competitive market. As Damania and Bulte (19), we model the case where a middleman trader exists and sells the catch on a perfectly competitive market. 
-
-%\subsection{The open access fishery model}
-
-%First, consider an open-access fishery, where fishermen optimally determine effort to maximize their profits and sell their catch without an intermediary.
-
-
-\subsection{Entry in the fishery and poaching supply}
+%
+\subsubsection{Entry in the fishery and poaching supply}
 We denote the fishing effort by $E$, which is measured in the number of vessel trips. Entry in the poaching sector, $\dot{E}$, is a function of payoff and an adjustment parameter.  Harvest, $q$, follows the Gordon-Schaefer  dynamic biomass model  $q = \sigma x E$, with $\sigma$ the (stock-independent) catchability coefficient, and $E$, effort
 %\cite{Clark}
 The payoff is determined by the price paid to the poachers $s$ minus the cost of effort. We adopt a disagregated view of the fishery, and consider increasing marginal costs of effort, as individuals have to be attracted from other activities with increasing opportunity costs. To account for energy costs, we derive a modified version of this model using a linear-quadratic cost function (see [37, 53]). Entry happens as long as the profit of the marginal poacher is positive : 
@@ -79,7 +73,7 @@ Given the linear quadratic nature of the costs, there is no effort or catch for 
 %If farming is introduced with sufficient quantity, it is expected that (i) market prices will drop. In this case, 
 %If (i) farming implies that market price goes down, then (ii) $\frac{dq^W_P}{dP}>0$ implies that poaching will decrease. Lower poaching levels translate to larger stocks, as $\frac{dx^*}{dP}<0$.
 
-\subsection{Traders as vertical monopolists, without farming}
+\subsubsection{Traders as vertical monopolists, without farming}
 We introduce a trader who has market power on the end-market (monopoly) and on the primary market, making it a \enquote{vertical monopoly}. The trader has to set price $s$ on the primary market to clear the poaching market. On the end market, we assume the trader faces a linear inverse demand : 
 \begin{equation}
     P^m = \alpha^m - \beta^m q^W
@@ -125,12 +119,12 @@ First, note that equation \ref{eq:harvest_monop} is consistent with equation 14 
 %    \Rightarrow \sqrt{\frac{2W}{\beta^m\sigma^2}} &= \Tilde{x}\leq x
 %\end{align*}
 %fies a threshold value $\Tilde{x}$ for the ranking of harvest functions, which is independent of biological parameters. This lemma only establishes the ranking of harvest functions but does not establish steady-state properties. In determining equilibrium properties, the properties of the growth function will determine the ranking of the steady states. We go back to this point in section \ref{section:steadystates}. 
-\subsection{Captive breeding, imperfect competition and conservation}
+\subsubsection{Captive breeding, imperfect competition and conservation}
 In this part of the model, a farmer can grow and sell totoaba. The theoretical model focuses on the duopolistic competition between the two actors on the end market for totoaba. As products are strategic substitutes, it is natural to investigate the case where Cournot competition arises. Indeed, when products are substitutes, each firm tries to maximize its residual demand (25). Nonetheless, given the asymmetric nature of costs, we also investigate Bertrand competition, as \cite{damania_economics_2007}.
-
-\subsubsection{Introducing aquaculture}
+%
+\paragraph{Introducing aquaculture :}
 \label{subsec:aquaculture}
-The aquaculture farm needs to determine the optimal harvest age, based on the intrinsic growth rate in the pen, and expected prices. A sizeable literature has shown that rotation time is invariant to market structure in forestry applications \citep{faustmann1849, mitra_faustmann_1986} although quantities can be modified. The optimal rotation literature confirms the existence of a Faustmann rotation, where a set of $T^*$ pens are equally distributed among each age class (1 pen per age class until $T^*$). While it is arguably unrealistic to expect this structure for an inherited forest, it is reasonable to assume that a farm would \textit{ex-ante} determine this rotation period given the expected price schedule over time. We assume that the aquaculture farm aims at producing a product that is as similar as possible from a biophysical stand-point and thus determines $T^*$.
+the aquaculture farm needs to determine the optimal harvest age, based on the intrinsic growth rate in the pen, and expected prices. A sizeable literature has shown that rotation time is invariant to market structure in forestry applications \citep{faustmann1849, mitra_faustmann_1986} although quantities can be modified. The optimal rotation literature confirms the existence of a Faustmann rotation, where a set of $T^*$ pens are equally distributed among each age class (1 pen per age class until $T^*$). While it is arguably unrealistic to expect this structure for an inherited forest, it is reasonable to assume that a farm would \textit{ex-ante} determine this rotation period given the expected price schedule over time. We assume that the aquaculture farm aims at producing a product that is as similar as possible from a biophysical stand-point and thus determines $T^*$.
 As we consider a stationary demand function, one can write the farming problem as a linear profit maximization problem, where the unit cost of production equals the capitalized sum of annual average variable costs over $T^*$ periods. 
 %\cite{Guttormen} : 51
 % Mitra : 52
@@ -141,9 +135,9 @@ Therefore, we assume that an aquaculture firm can raise totoaba at cost $v$ and 
     \label{eq:profit_aquaculture}
 \end{equation}
 With $v$ the unit cost per ton of totoaba, corresponding to the capitalized sum of annual costs. 
-
-\subsubsection{Utility maximization and demand functions}
-Upon the introduction of farmed goods, the inverse demand functions change. 
+%
+\paragraph{Utility maximization and demand functions :}
+upon the introduction of farmed goods, the inverse demand functions change. 
 We use a model consistent with \citep{singh_price_1984}, where a representative consumer maximizes  a quadratic and strictly concave utility function subject to prices: 
 \begin{equation}
     \max_{q^W, q^F}V = \alpha^W q^W + \alpha^F q^F - \left(\frac{\beta^W (q^W)^2 + 2\gamma q^W q^F +\beta^F (q^F)^2}{2}\right) - p^Wq^W - p^Fq^F
@@ -164,9 +158,9 @@ Rearrange the initial inverse demand functions into direct demand functions:
     q^F &= a^F - b^F P^F + eP^W
 \end{align}
 With $a^i = \frac{\alpha^i \beta^j - \alpha^j\gamma}{\beta^i \beta^j - \gamma^2}$, $b^i = \frac{\beta^j}{\beta^j\beta^i - \gamma^2}$ and $e = \frac{\gamma}{\beta^i\beta^j - \gamma^2}$
-\subsubsection{Cournot competition in the retail market}
-
-Assume that the two firms compete by setting their quantities. We solve the multi-stage game using backward induction. First, we derive the supply function resulting from Cournot competition. Second, we find the price paid to poachers so that the quantities supplied by the traders on the end market equal the quantities supplied by poachers. 
+%
+\paragraph{Cournot competition in the retail market:}
+assume that the two firms compete by setting their quantities. We solve the multi-stage game using backward induction. First, we derive the supply function resulting from Cournot competition. Second, we find the price paid to poachers so that the quantities supplied by the traders on the end market equal the quantities supplied by poachers. 
 
 Taking the inverse demand functions and plugging them into the profit functions:
 \begin{align*}
@@ -202,9 +196,10 @@ For low stock values, poaching can be null since the production costs increase a
     \textbf{Lemma 1}:  \textit{Assume the market is large, i.e., the residual demand for large stock levels is large enough. For any given wildlife stock, poaching levels in equilibrium with captive breeding will be lower than those without captive breeding, if the introduction of captive-bred animal products has no impact on the parameters of the original inverse demand function for wild animal products.}
 \end{displayquote}
 See Appendix \ref{section:AppendixB}. for proof of Lemma 1
-
-\subsubsection{Bertrand competition in the retail market}
-\paragraph{Interior solution:} the two firms compete by setting their prices. This section investigates a potential interior equilibrium, where both producers operate on the market. 
+%
+\paragraph{Bertrand competition in the retail market}
+%
+\subparagraph{Interior solution:} the two firms compete by setting their prices. This section investigates a potential interior equilibrium, where both producers operate on the market. 
 
 Using demand functions instead of inverse demand functions: 
 \begin{align*}
@@ -257,7 +252,8 @@ With low farming costs, traders have an incentive to maintain large stocks.
 As the price paid to poachers is inversely related to the size of the stock, low harvest maintains large stocks and thus limits the price paid to poachers. Given its operational costs, it is the only way for the trader to remain competitive with the farming sector. 
 On the other hand, when farming costs are large, the traders are incentivized to harvest more, as they can afford to pay a larger price to poachers while remaining competitive with the farming sector. 
 \\
-\paragraph{Corner solution:} in a perfectly substitutable framework, a corner solution emerges if one firm has a lower marginal cost than the other: if farmed and wild animal products were perfect substitutes and farmed products unambiguously cheaper to produce, poaching would cease. In the context of imperfectly substitutable goods, this result is challenged. For poaching to cease, it must be that : 
+%
+\subparagraph{Corner solution:} in a perfectly substitutable framework, a corner solution emerges if one firm has a lower marginal cost than the other: if farmed and wild animal products were perfect substitutes and farmed products unambiguously cheaper to produce, poaching would cease. In the context of imperfectly substitutable goods, this result is challenged. For poaching to cease, it must be that : 
 \begin{equation}
 v = -\frac{1}{e}(2(a^W - cb^W) - \frac{1}{b^F}(ce + a^F))
 \end{equation}
@@ -268,7 +264,7 @@ In our setup, the marginal cost of production for farming would need to be \text
 \subsubsection{Steady state equilibria}
 \label{section:steadystates}
 Given the inverted U-shape of the logistic growth function, several steady-state equilibria can arise. 
-First, if the \textit{harvest function} (that is increasing and concave) is \textit{steeper} than the growth function at low stock levels, there can be (i) no equilibrium if the harvest at $K/2$ is larger than the growth rate, (ii) one bifurcation point (tangent harvest and growth functions at $K/2$, and (iii) two equilibria, with one stable and one unstable. If the \textit{growth function is steeper} than the growth function at low stock levels, there can be (i) a single equilibrium, (ii) a bifurcation point and an equilibrium, (iii) three interior equilibrium, with only two being stable (see figure 1 for an illustration)
+First, if the \textit{harvest function} (that is increasing and concave) is \textit{steeper} than the growth function at low stock levels, there can be (i) no equilibrium if the harvest at $K/2$ is larger than the growth rate, (ii) one bifurcation point (tangent harvest and growth functions at $K/2$, and (iii) two equilibria, with one stable and one unstable. If the \textit{growth function is steeper} than the growth function at low stock levels, there can be (i) a single equilibrium, (ii) a bifurcation point and an equilibrium, (iii) three interior equilibrium, with only two being stable (see figure \ref{fig:figure2} for an illustration)
 %\begin{figure}[H]
 %    \centering
 %    \includegraphics[width = .5\textwidth]{figures/Figure2_potential_equilibria.jpg}
@@ -302,16 +298,16 @@ First, if the \textit{harvest function} (that is increasing and concave) is \tex
 %    \caption{Location of equilibria }
 %   \label{fig:enter-label}
 %\end{figure}
-\subsection{Extensions}
-\subsubsection{An oligopoly model}
-We extend our model to gauge the impact of the number of traders and farmers. We denote by $\mathcal{I}$ the set of individual traders $i \in \mathcal{I}$ and by $\mathcal{J}$ the set of individual farmers $j \in \mathcal{J}$. The demand functions are : 
+\subsubsection{Extensions}
+\paragraph{An oligopoly model:}
+we extend our model to gauge the impact of the number of traders and farmers. We denote by $\mathcal{I}$ the set of individual traders $i \in \mathcal{I}$ and by $\mathcal{J}$ the set of individual farmers $j \in \mathcal{J}$. The demand functions are : 
 \begin{align}
     P_k^W &= \alpha^W - \beta^W \sum_{i \in \mathcal{I}}q^W_i - \gamma \sum_{j \in \mathcal{J}}q^F_j
     \\
     P_l^F &= \alpha^F - \beta^F \sum_{j \in \mathcal{J}}q^F_j - \gamma \sum_{i \in \mathcal{I}}q^W_i
 \end{align}
-\paragraph{Cournot oligopoly}
-Each farmer and trader maximizes profits by taking as given its competitors' quantity commitments. We assume traders and farmers are homogeneous, i.e for each type of producer, costs are identical : 
+\subparagraph{Cournot oligopoly : }
+each farmer and trader maximizes profits by taking as given its competitors' quantity commitments. We assume traders and farmers are homogeneous, i.e for each type of producer, costs are identical : 
 \begin{align*}
     i,j \in \mathcal{I}, i\neq j, c_i = c_j = c\\
     k,l \in \mathcal{J}, k\neq l, v_k = v_l = v
@@ -357,8 +353,8 @@ When the number of traders is larger than the number of farmers, steady-state st
     \label{fig:cournot_oligo}
 \end{figure}
 %
-\paragraph{Bertrand oligopoly}
-Using the same notations as previously, the demand functions can be written as : 
+\subparagraph{Bertrand oligopoly :}
+using the same notations as previously, the demand functions can be written as : 
 \begin{align}
     \forall i\in \mathcal{I} : q^W_i = q^W = \frac{1}{N}(a^W - b^W P^W - e P^F)\\
     \forall j \in \mathcal{J} : q^F_j = q^F = \frac{1}{M}(a^F - b^F P^F - e P^W)
@@ -371,9 +367,9 @@ Using these demand functions and solving for the reaction functions in each case
 These reaction functions are the same as in the duopoly case (see eq. \ref{eq:rf_bertrand}). This result shows that aggregate production is invariant to the number of farmers or traders as long as both are present on the market. Moreover, the individual production for traders is $\frac{1}{N} q^W_B$ and $\frac{1}{M}q^F_B$ with $q^W_B$ and $q^F_B$ referring to the duopoly equilibrium quantities for poached and farmed productions. In a Bertrand equilibrium, irrespective of the number of players, price-setting competition pushes the price to its minimum such that both firms still operate (given that traders have a stock-dependent production cost). Increased competition in the form of more players cannot push the prices further down. Therefore, aggregate output remains the same and individual production is divided among players. \\
 This result further contradicts the results in \cite{damania_economics_2007}, as the authors find that increasing the number of players in a Bertrand set-up has detrimental effects on the steady-state stock. We find no effect, consistent with the theory and intuition. 
 %
-\subsubsection{Trader take over of the aquaculture sector}
+\paragraph{Trader take over of the aquaculture sector : }
 %
-In this section, we look at the 'extended cartel' scenario, where the vertical monopoly takes over the ownership of the aquaculture firm. \\
+in this section, we look at the 'extended cartel' scenario, where the vertical monopoly takes over the ownership of the aquaculture firm. \\
 To gain intuition, assume poached and farmed products are perfect substitutes. On the one hand, the vertical monopoly has two production technologies:  poaching ( with a variable marginal cost, as the price paid to poachers depends on the population stock) and farming ( with a constant marginal cost). In this case, the vertical monopoly equates the marginal costs across production units; that is, it buys a poached product to poachers up until the marginal cost of an extra poached unit equates to that of a farmed unit. In this case, if the marginal cost of farming is lower than market prices absent farming, then poaching goes down. Notice that the only way for traders to limit the price paid to poachers is to maintain a healthy stock. Therefore, the new equilibrium population stock is larger than the initial stock, and poaching is lower.
 
 Now consider the case at stake, where products are imperfect substitutes. In this case, the extended cartel does not only equate marginal costs, as marginal revenues diverge across products. We use the following model to investigate the resulting equilibrium. Let the profit of the extended cartel be:
@@ -397,7 +393,7 @@ Figure \ref{fig:extended_cartel} shows that if the 'extended cartel' scenario ar
     \label{fig:extended_cartel}
 \end{figure}
 
-\subsection{Appendices}
+\subsection{Proofs to lemmas}
 \label{subsection:appendix_toto}
 \subsubsection{Lemma 1 : content and proof}
 \label{section:AppendixB}
@@ -476,9 +472,9 @@ Therefore, $\Phi \frac{\eta + \mu x^2}{\theta + \nu x^2}$ is \textit{decreasing}
     \item For $x \in \left[0,\frac{1}{\sigma}\sqrt{W_2 b^m} \right]$, $\frac{\kappa x}{\omega x^2 + \epsilon}$ is negative and decreasing
     \item For $x>\frac{1}{\sigma}\sqrt{W_2 b^m}$, $\frac{\kappa x}{\omega x^2 + \epsilon}$ is negative and increasing
 \end{itemize}
-
-\paragraph{Conclusion}
-Overall, $F(x|c)$ is such that : 
+%
+\paragraph{Conclusion :}
+overall, $F(x|c)$ is such that : 
 \begin{itemize}
     \item For $x \leq \frac{1}{\sigma}\sqrt{W_2 b^m}$, the first component is decreasing, while the second component is increasing
     \item For $x \geq \frac{1}{\sigma}\sqrt{W_2 b^m}$, the first component is decreasing and the second component is decreasing
@@ -626,9 +622,9 @@ Equation \ref{eq:v_corner} shows that for low stock values, costs can still be p
 
 
 %Third, we assume that the cost structure of farming is linear, and does not depend on the wild population stock. However, as stocks plummet, security expenses are likely to increase\footnote{Famous examples include farming of rhinos, where security expenses skyrocketed as the rarity of rhino horns increased (see \url{https://www.cbsnews.com/news/rhino-farm-auction-john-hume-seeks-billionaire-to-carry-on-conservation-work/ })}. Therefore, costs may be quadratic in the stock. Eventually, the ecological requirement for farming and the corresponding location of the farming operation are important variables in limiting security expenses.
-\newpage
 
-\section*{Supplementary Figures and Tables}
+\clearpage
+\section{Supplementary Figures and Tables}
 \setcounter{table}{5}
 
 \begin{figure}[H]

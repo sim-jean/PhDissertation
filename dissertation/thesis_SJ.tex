@@ -8,11 +8,11 @@
 %\usepackage[default, scale=.95]{opensans}
 \usepackage{geometry}
 \geometry{
-left=30mm,
+left=20mm,
 top=20mm,
 right=20mm,
 bottom=22mm,
-bindingoffset = 10mm
+bindingoffset = 20mm
 }
 
 \usepackage{appendix}
@@ -23,6 +23,12 @@ bindingoffset = 10mm
 \captionsetup[figure]{font=small} % Set figure caption font size to small
 \usepackage{pdflscape}  % For landscape pages
 \usepackage{graphicx}   % For rotating content
+
+%Packages for wildland
+\usepackage{capt-of}
+
+%Package for review
+\usepackage{xcolor}
 
 \usepackage{accents}
 \usepackage{pdflscape} %
@@ -126,16 +132,18 @@ bindingoffset = 10mm
 	pdftitle={\PhDTitle}
 }
 
-\setlength{\cftfignumwidth}{3em}
-\setlength{\cfttabnumwidth}{3em}
+\setlength{\cftfignumwidth}{2.5em}
+\setlength{\cfttabnumwidth}{2.5em}
+\setlength{\cftsecnumwidth}{2em}
+\setlength{\cftsubsecnumwidth}{2em}
 
 \begin{document}
 	\pagenumbering{roman}
-	\onehalfspacing
+	%\onehalfspacing
 	
     \input{layout/firstpage.tex}
     
-    \input{layout/dedication.tex}
+    %\input{layout/dedication.tex}
    	\clearpage
     
     \input{layout/acknowledgements.tex}
@@ -143,6 +151,7 @@ bindingoffset = 10mm
     
     \setcounter{tocdepth}{2}
     \setcounter{secnumdepth}{3}
+
     \tableofcontents
     %
     \clearpage    
@@ -151,58 +160,121 @@ bindingoffset = 10mm
     \clearpage
     \listoftables
 	\clearpage
+	%
+	%
+	\pagenumbering{arabic}
+	\part{Introduction and Background}
+	\addcontentsline{toc}{chapter}{\textbf{Introduction}}
 	\input{Chapter1}
-    \pagenumbering{arabic}	
 	\cleardoublepage
-	\input{Chapter2}
-	\cleardoublepage
-	\input{appendices/appendix2}
-	\cleardoublepage
-	\input{Chapter3}
-	\clearpage
-	
-	\begin{appendices}
-	\renewcommand{\thesection}{2.\Alph{section}}
-	\renewcommand{\thefigure}{2.\Alph{section}.\Alph{figure}}
-	\renewcommand{\thetable}{2.\Alph{section}.\Alph{table}}
-	\counterwithin{figure}{section}
+	%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%% CHAPTER REVIEW %%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-	\counterwithin{table}{section}
-	\input{appendices/appendix3}
+	\renewcommand{\thesection}{\arabic{section}}
+	\renewcommand{\thesubsection}{\arabic{subsection}}
+	\counterwithout{figure}{section}
+	\counterwithout{table}{section}
+	\renewcommand{\thefigure}{1.\arabic{figure}}
+	\renewcommand{\thetable}{1.\arabic{table}}	
+	\input{Chapter2}
+	\clearpage
+	\begin{appendices}
+	\counterwithout{figure}{section}
+	\counterwithout{table}{section}
+	\setcounter{figure}{2}
+	\setcounter{table}{0}
+	\setcounter{equation}{0}
+	\numberwithin{equation}{section}
+	\renewcommand{\thesection}{\Alph{section}}
+	\renewcommand{\thesubsection}{\Alph{subsection}}
+	\renewcommand{\thefigure}{1.\Alph{figure}}
+	\renewcommand{\thetable}{1.\Alph{table}}
+	\input{appendices/appendix2}
 	\clearpage
 	\end{appendices}	
-
+	%
 	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\part{Managing space and movement in terrestrial landscapes}
+	% Maybe 1 page?
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%% CHAPTER CONNECTIVITY %%%%%%%%%%%%%%%%%%%%%%%%%%%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\renewcommand{\thesection}{\arabic{section}}
+	\renewcommand{\thesubsection}{\arabic{subsection}}
+	\counterwithout{figure}{section}
+	\counterwithout{table}{section}
+	\renewcommand{\thefigure}{2.\arabic{figure}}
+	\renewcommand{\thetable}{2.\arabic{table}}	
 	\input{Chapter4}
 	\clearpage
 	\begin{appendices}
-	\renewcommand{\thesection}{3.\Alph{section}}
-	\renewcommand{\thefigure}{3.\Alph{section}.\Alph{figure}}
-	\renewcommand{\thetable}{3.\Alph{section}.\Alph{table}}
-	\counterwithin{figure}{section}
-	\counterwithin{table}{section}
+	\counterwithout{figure}{section}
+	\counterwithout{table}{section}
+	\setcounter{figure}{0}
+	\setcounter{equation}{0}
+	\numberwithin{equation}{section}
+	\renewcommand{\thesection}{\Alph{section}}
+	\renewcommand{\thesubsection}{\Alph{subsection}}
+	\renewcommand{\thefigure}{2.\Alph{figure}}
+	\renewcommand{\thetable}{2.\Alph{table}}
 	\input{appendices/appendix4}
 	\clearpage
 	\end{appendices}	
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% CHAPTER FENCES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\renewcommand{\thesection}{\thechapter.\arabic{section}}
+	%\renewcommand{\thefigure}{\thechapter.\arabic{figure}}
+	%\renewcommand{\thetable}{\thechapter.\arabic{table}}
+	\counterwithout{figure}{section}
+	\counterwithout{table}{section}
+	
 	\input{Chapter5}
 	\cleardoublepage
-
-    %\foreach \i in {1,2,...,\NumOfChapters}{
-    %    \input{Chapter\i}
-    %    \cleardoublepage
-    %    \input{appendices/appendix\i}
-    %    \cleardoublepage
-
-    %}
-    
-    %\appendix
-    %\foreach \i in {1,2,...,\NumOfAppendices}{
-    %    \input{appendices/appendix\i}
-    %    \cleardoublepage
-    %}
-    
+	%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\part{The role of market structure in renewable resource management}	
+	% Maybe one page? 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% CHAPTER TOTOABA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\renewcommand{\thesection}{\arabic{section}}
+	\renewcommand{\thesubsection}{\arabic{subsection}}
+	\counterwithout{figure}{section}
+	\counterwithout{table}{section}
+	\renewcommand{\thefigure}{4.\arabic{figure}}
+	\renewcommand{\thetable}{4.\arabic{table}}
+	%	
+	\input{Chapter3}
+	\clearpage
+	\begin{appendices}
+	\counterwithout{figure}{section}
+	\counterwithout{table}{section}
+	%
+	\setcounter{figure}{0}	
+	\numberwithin{equation}{section}
+	\setcounter{equation}{0}
+	\renewcommand{\thesection}{\Alph{section}}
+	\renewcommand{\thefigure}{4.\Alph{figure}}
+	\renewcommand{\thetable}{4. \Alph{table}}
+	\renewcommand{\thesubsection}{\Alph{subsection}}
+	\input{appendices/appendix3}
+	\clearpage
+	\end{appendices}	
+	%    
+    	\addcontentsline{toc}{chapter}{\textbf{Conclusion}}
+    	
+    	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+	\input{Chapter6} 
+    \cleardoublepage
+ 	%
     \bibliography{bibliography_these.bib}
     \clearpage
     
