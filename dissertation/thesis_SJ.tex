@@ -1,5 +1,5 @@
 % created on 2022-08-02
-\documentclass[a4paper, twoside, 11.5pt]{report}
+\documentclass[a4paper, twoside, 11pt]{report}
 \usepackage[utf8]{inputenc}
 \usepackage{csquotes}
 \usepackage{mathpazo}
@@ -228,15 +228,27 @@ bindingoffset = 20mm
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%% CHAPTER FENCES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\renewcommand{\thesection}{\thechapter.\arabic{section}}
-	%\renewcommand{\thefigure}{\thechapter.\arabic{figure}}
-	%\renewcommand{\thetable}{\thechapter.\arabic{table}}
+\renewcommand{\thesection}{\arabic{section}}
+	\renewcommand{\thesubsection}{\arabic{subsection}}
 	\counterwithout{figure}{section}
 	\counterwithout{table}{section}
-	
+	\renewcommand{\thefigure}{3.\arabic{figure}}
+	\renewcommand{\thetable}{3.\arabic{table}}	
 	\input{Chapter5}
-	\cleardoublepage
-	%
+	\clearpage
+	\begin{appendices}
+	\counterwithout{figure}{section}
+	\counterwithout{table}{section}
+	\setcounter{figure}{0}
+	\setcounter{equation}{0}
+	\numberwithin{equation}{section}
+	\renewcommand{\thesection}{\Alph{section}}
+	\renewcommand{\thesubsection}{\Alph{subsection}}
+	\renewcommand{\thefigure}{3.\Alph{figure}}
+	\renewcommand{\thetable}{3.\Alph{table}}
+	\input{appendices/appendix5}
+	\clearpage
+	\end{appendices}	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\part{The role of market structure in renewable resource management}	
 	% Maybe one page? 

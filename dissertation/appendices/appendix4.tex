@@ -85,15 +85,16 @@ Hence, for a set of cells $I$ reformulated in terms of graph theory :
     \label{fig:eigenvalues}
 \end{figure}
 
-\subsection{Dynamic programming equation}
 
-The Bellman equation links current and future payoffs in a recurring fashion.
-\begin{equation}
-    V(t,A)= \min_{x\in\{0,1\}^{n^2}} \left(H(A) + V(t+1, A_t+1)\right)
-\end{equation}
-subject to constraints (\ref{const:dyn}), (\ref{const:budget}), (\ref{constr:biod}) and (\ref{const:control}). 
 
-We use backward induction given by the final value $ V(T, A) = H(A)$ to dynamically solve the program. 
+
+%The Bellman equation links current and future payoffs in a recurring fashion.
+%\begin{equation}
+%    V(t,A)= \min_{x\in\{0,1\}^{n^2}} \left(H(A) + V(t+1, A_t+1)\right)
+%\end{equation}
+%subject to constraints (\ref{const:dyn}), (\ref{const:budget}), (\ref{constr:biod}) and (\ref{const:control}). 
+
+%We use backward induction given by the final value $ V(T, A) = H(A)$ to dynamically solve the program. 
 
 %\subsubsection{Decision-making under uncertainty and constrained optimization}
 
@@ -170,7 +171,7 @@ We use backward induction given by the final value $ V(T, A) = H(A)$ to dynamica
 We use the number of vertices (nodes) for both graphs:
 
 \begin{equation}
-Area(\mathcal{G}_t) = card(V_{\mathcal{G}_t} \text{ with } \mathcal{G}_t\in\{\mathcal{B}_t,\mathcal{F}_t\}
+Area(\mathcal{G}_t) = card(V_{\mathcal{G}_t}) \text{ with } \mathcal{G}_t\in\{\mathcal{B}_t,\mathcal{F}_t\}
 \label{eq:area}
 \end{equation}
 
@@ -182,10 +183,10 @@ Area(\mathcal{G}_t) = card(V_{\mathcal{G}_t} \text{ with } \mathcal{G}_t\in\{\ma
 %\end{equation}
 
 \paragraph{Simpson diversity index:}
-Let $p_i$ be the proportion of landscape $A_t$ in a given succesional stage\footnote{Let $Juv = \{a_{ijt} \text{ such that} a_{ijt}=0\}$, then $p_{Juv} = \frac{card{Juv}}{n^2}$}, the Simpson diversity index is : 
+Let $p_i$ be the proportion of landscape $A_t$ in a given succesional stage\footnote{Let $Juv = \{a_{ijt} \text{ such that } a_{ijt}=0\}$, then $p_{Juv} = \frac{card(Juv)}{n^2}$}, the Simpson diversity index is : 
 
 \begin{equation}
-SIDI = 1 - \sum{i \in \{Juv, Ado, Mat\}} p_i^2
+SIDI = 1 - \sum_{i \in \{Juv, Ado, Mat\}} p_i^2
     \label{eq:simpson}
 \end{equation}
 
@@ -201,7 +202,7 @@ Where $perimeter(G)$ is the perimeter of the cells comprised in the graph as ver
 \paragraph{Successional Stage Heterogeneity Index:} let $d_{ij}$ be a binary variable such that $d_{ij}=1$ if patch $i$ and $j$ share the same successional stage. Define $\mathcal{J}$ as the set of neighbors in 4 directions (north, south, east, west) of cell $i$\footnote{The set $\mathcal{J}_i$ varies with cell $i$ to account for edge effects}.
 The successional stage heterogeneity index is : 
 \begin{equation}
-    LTH = 1 - \frac{1}{N}\sum_{i=1}^N\left( \frac{\sum_{j \in \mathcal{J}_i} d_{ij}}{card(\mathcal{J}_i)}\right)
+    SSHI = 1 - \frac{1}{N}\sum_{i=1}^N\left( \frac{\sum_{j \in \mathcal{J}_i} d_{ij}}{card(\mathcal{J}_i)}\right)
 \end{equation}
 \label{eq:lth_index}
 
@@ -209,6 +210,19 @@ The successional stage heterogeneity index is :
 \clearpage
 
 \section{Figures}
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 0.45\textwidth]{figures/wildland/distribution_cases_3.png}
+    \includegraphics[width = 0.45\textwidth]{figures/wildland/distribution_cases_4.png}
+    \caption{Distribution of number of landscapes depending on number of \textit{juvenile, adolescent}, and \textit{mature} cells for sizes $\in \{3,4\}$}
+    \label{fig:appendix_distribution}
+\end{figure}
+
+
 \begin{figure}[H]
     \centering
     \includegraphics[width = 0.45\textwidth]{figures/wildland/number_cycles3.png}

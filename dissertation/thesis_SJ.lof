@@ -1,37 +1,39 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Article selection process for inclusion in the systematic review}}{12}{figure.caption.5}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Temporal distribution of articles in the database.}}{19}{figure.caption.6}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Geographical distribution of articles in the database.}}{19}{figure.caption.7}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Multiple Correspondence Analysis (MCA) running on 12 methodological criteria and 4 clusters (K-modes)}}{21}{figure.caption.9}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Distribution of the values of 14 methodological criteria among the MCA axes.}}{22}{figure.caption.10}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Frequency of the different semantic fields in the 4 methodology-based groups.}}{23}{figure.caption.11}%
-\contentsline {figure}{\numberline {1.C}{\ignorespaces Distribution profiles of the 50 words the more frequent for methodology-based groups 1 and 2}}{36}{figure.caption.15}%
-\contentsline {figure}{\numberline {1.D}{\ignorespaces Distribution profiles of the 50 words the more frequent for methodology-based groups 3 and 4}}{37}{figure.caption.16}%
-\contentsline {figure}{\numberline {1.E}{\ignorespaces Explained variance function of the number of methodological criteria used in the MCA.}}{37}{figure.caption.17}%
-\contentsline {figure}{\numberline {1.F}{\ignorespaces Cost function of the K-modes.}}{38}{figure.caption.18}%
-\contentsline {figure}{\numberline {1.G}{\ignorespaces Multiple Correspondence Analysis (MCA) running on 12 methodological criteria and 9 groups.}}{38}{figure.caption.19}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Article selection process for inclusion in the systematic review}}{14}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Temporal distribution of articles in the database.}}{22}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Geographical distribution of articles in the database.}}{22}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Multiple Correspondence Analysis (MCA) running on 12 methodological criteria and 4 clusters (K-modes)}}{24}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Distribution of the values of 14 methodological criteria among the MCA axes.}}{25}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Frequency of the different semantic fields in the 4 methodology-based groups.}}{26}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.C}{\ignorespaces Distribution profiles of the 50 words the more frequent for methodology-based groups 1 and 2}}{40}{figure.caption.15}%
+\contentsline {figure}{\numberline {1.D}{\ignorespaces Distribution profiles of the 50 words the more frequent for methodology-based groups 3 and 4}}{41}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.E}{\ignorespaces Explained variance function of the number of methodological criteria used in the MCA.}}{41}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.F}{\ignorespaces Cost function of the K-modes.}}{42}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.G}{\ignorespaces Multiple Correspondence Analysis (MCA) running on 12 methodological criteria and 9 groups.}}{42}{figure.caption.19}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Illustration of the successional stages and the link between successional stage, habitat and wildfire risk using a discretized Olson-type relationship}}{48}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Illustration of the suitable habitat and high risk graphs for $n=3$}}{49}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.A}{\ignorespaces Maximum and minimum eigenvalues of $\mathcal {K}$ depending on graph size}}{59}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.B}{\ignorespaces Examples of large scale landscapes with uniform distribution (left) and skewed towards \textit {adolescent} (right)and low, middle and large spatial autocorrelation}}{61}{figure.caption.34}%
-\contentsline {figure}{\numberline {2.C}{\ignorespaces Number of cycles as a function of biodiversity habitat and budget}}{63}{figure.caption.39}%
-\contentsline {figure}{\numberline {2.D}{\ignorespaces Production possibility frontier between constraint (as a \% of maximum biodiversity sustainable in landscape) and wildfire risk for various budgets, and landscape size}}{64}{figure.caption.40}%
-\contentsline {figure}{\numberline {2.E}{\ignorespaces Most represented cycles for each biodiversity constraint level, for various budget and landscapes $3 \times 3$, and $4\times 4$ (95\% CI shaded)}}{65}{figure.caption.41}%
-\contentsline {figure}{\numberline {2.F}{\ignorespaces Assessment: surface, components of high-risk graph (95\% CI shaded)}}{66}{figure.caption.42}%
-\contentsline {figure}{\numberline {2.G}{\ignorespaces Assessment: diversity (95\% CI shaded)}}{67}{figure.caption.43}%
-\contentsline {figure}{\numberline {2.H}{\ignorespaces Treatment allocation : number, location}}{68}{figure.caption.44}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Illustration of the successional stages and the link between successional stage, habitat and wildfire risk using a discretized Olson-type relationship}}{52}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Illustration of the suitable habitat and high risk graphs for $n=3$}}{53}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.A}{\ignorespaces Maximum and minimum eigenvalues of $\mathcal {K}$ depending on graph size}}{66}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.B}{\ignorespaces Examples of large scale landscapes with uniform distribution (left) and skewed towards \textit {adolescent} (right)and low, middle and large spatial autocorrelation}}{67}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.C}{\ignorespaces Distribution of number of landscapes depending on number of \textit {juvenile, adolescent}, and \textit {mature} cells for sizes $\in \{3,4\}$}}{69}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.D}{\ignorespaces Number of cycles as a function of biodiversity habitat and budget}}{69}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.E}{\ignorespaces Production possibility frontier between constraint (as a \% of maximum biodiversity sustainable in landscape) and wildfire risk for various budgets, and landscape size}}{70}{figure.caption.41}%
+\contentsline {figure}{\numberline {2.F}{\ignorespaces Most represented cycles for each biodiversity constraint level, for various budget and landscapes $3 \times 3$, and $4\times 4$ (95\% CI shaded)}}{71}{figure.caption.42}%
+\contentsline {figure}{\numberline {2.G}{\ignorespaces Assessment: surface, components of high-risk graph (95\% CI shaded)}}{72}{figure.caption.43}%
+\contentsline {figure}{\numberline {2.H}{\ignorespaces Assessment: diversity (95\% CI shaded)}}{73}{figure.caption.44}%
+\contentsline {figure}{\numberline {2.I}{\ignorespaces Treatment allocation : number, location}}{74}{figure.caption.45}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.A}{\ignorespaces Timing of the model}}{82}{figure.caption.46}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Evolution of totoaba population and catch over time}}{74}{figure.caption.45}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Schematic of equilibrium points under different poaching harvest functions}}{75}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Schematic of monopoly and duopoly market structures}}{76}{figure.caption.47}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Equilibrium points for wild totoaba stock under different market structures with (left) a linear quadratic cost structure, and (right) a quadratic cost structure.}}{79}{figure.caption.48}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Sensitivity of equilibrium points to cost structure for wild totoaba stock}}{80}{figure.caption.49}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Economic and ecological performance of different market regimes}}{81}{figure.caption.50}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Interaction between substitutability and demand under duopolistic competition}}{82}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.A}{\ignorespaces Steady state outcomes when multiple traders and multiple farmers are considered (an oligopoly) in the quantity adjustment scenario.}}{92}{figure.caption.62}%
-\contentsline {figure}{\numberline {4.B}{\ignorespaces Steady-state equilibrium for the wild stock of \textit {Totoaba macdonaldi }in the ‘extended cartel’ scenario, where the vertical monopoly takes over the ownership of farming operations}}{94}{figure.caption.65}%
-\contentsline {figure}{\numberline {4.C}{\ignorespaces Evolution of the threshold $v$ to compare vertical monopoly and price setting (Bertrand) harvest functions}}{97}{figure.caption.69}%
-\contentsline {figure}{\numberline {4.D}{\ignorespaces Percent change in steady state population across scenarios, following the joint evolution of illegal transaction and farming costs}}{98}{figure.caption.71}%
-\contentsline {figure}{\numberline {4.E}{\ignorespaces Von Bertalanffy Growth curves for wild and farmed \textit {Totoaba macdonaldi} under different growing conditions}}{99}{figure.caption.72}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Evolution of totoaba population and catch over time}}{87}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Schematic of equilibrium points under different poaching harvest functions}}{89}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Schematic of monopoly and duopoly market structures}}{90}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Equilibrium points for wild totoaba stock under different market structures with (left) a linear quadratic cost structure, and (right) a quadratic cost structure.}}{93}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Sensitivity of equilibrium points to cost structure for wild totoaba stock}}{94}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Economic and ecological performance of different market regimes}}{95}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Interaction between substitutability and demand under duopolistic competition}}{97}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.A}{\ignorespaces Steady state outcomes when multiple traders and multiple farmers are considered (an oligopoly) in the quantity adjustment scenario.}}{108}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.B}{\ignorespaces Steady-state equilibrium for the wild stock of \textit {Totoaba macdonaldi }in the ‘extended cartel’ scenario, where the vertical monopoly takes over the ownership of farming operations}}{110}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.C}{\ignorespaces Evolution of the threshold $v$ to compare vertical monopoly and price setting (Bertrand) harvest functions}}{113}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.D}{\ignorespaces Percent change in steady state population across scenarios, following the joint evolution of illegal transaction and farming costs}}{114}{figure.caption.73}%
+\contentsline {figure}{\numberline {4.E}{\ignorespaces Von Bertalanffy Growth curves for wild and farmed \textit {Totoaba macdonaldi} under different growing conditions}}{115}{figure.caption.74}%

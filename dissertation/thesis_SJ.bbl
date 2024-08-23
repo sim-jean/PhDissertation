@@ -1,4 +1,4 @@
-\begin{thebibliography}{239}
+\begin{thebibliography}{260}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -54,6 +54,18 @@ A.~A. Ager, M.~A. Finney, B.~K. Kerns, and H.~Maffei.
 \newblock Biodiversity Management in Pacific Northwest Forests: Strategies and
   Opportunities.
 
+\bibitem[Albers et~al.(2010)Albers, Fischer, and
+  Sanchirico]{albers_invasive_2010}
+H.~J. Albers, C.~Fischer, and J.~N. Sanchirico.
+\newblock Invasive species management in a spatially heterogeneous world:
+  {Effects} of uniform policies.
+\newblock \emph{Resource and Energy Economics}, 32\penalty0 (4):\penalty0
+  483--499, Nov. 2010.
+\newblock ISSN 0928-7655.
+\newblock \doi{10.1016/j.reseneeco.2010.04.001}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0928765510000217}.
+
 \bibitem[Alexander(2000)]{ALEXANDER2000}
 R.~R. Alexander.
 \newblock Modelling species extinction: the case for non-consumptive values.
@@ -63,6 +75,35 @@ R.~R. Alexander.
 \newblock \doi{https://doi.org/10.1016/S0921-8009(00)00198-1}.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0921800900001981}.
+
+\bibitem[Ambec and Desquilbet(2012)]{ambec_regulation_2012}
+S.~Ambec and M.~Desquilbet.
+\newblock Regulation of a {Spatial} {Externality}: {Refuges} versus {Tax} for
+  {Managing} {Pest} {Resistance}.
+\newblock \emph{Environmental and Resource Economics}, 51\penalty0
+  (1):\penalty0 79--104, Jan. 2012.
+\newblock ISSN 1573-1502.
+\newblock \doi{10.1007/s10640-011-9489-3}.
+\newblock URL \url{https://doi.org/10.1007/s10640-011-9489-3}.
+
+\bibitem[Anderson and van Wincoop(2003)]{anderson_gravity_2003}
+J.~E. Anderson and E.~van Wincoop.
+\newblock Gravity with {Gravitas}: {A} {Solution} to the {Border} {Puzzle}.
+\newblock \emph{The American Economic Review}, 93\penalty0 (1):\penalty0
+  170--192, 2003.
+\newblock ISSN 0002-8282.
+\newblock URL \url{https://www.jstor.org/stable/3132167}.
+\newblock Publisher: American Economic Association.
+
+\bibitem[Arkolakis et~al.(2012)Arkolakis, Costinot, and
+  Rodríguez-Clare]{arkolakis_new_2012}
+C.~Arkolakis, A.~Costinot, and A.~Rodríguez-Clare.
+\newblock New {Trade} {Models}, {Same} {Old} {Gains}?
+\newblock \emph{American Economic Review}, 102\penalty0 (1):\penalty0 94--130,
+  Feb. 2012.
+\newblock ISSN 0002-8282.
+\newblock \doi{10.1257/aer.102.1.94}.
+\newblock URL \url{https://www.aeaweb.org/articles?id=10.1257/aer.102.1.94}.
 
 \bibitem[Arthaud and Rose(1996)]{arthaud_methodology_1996}
 G.~J. Arthaud and D.~W. Rose.
@@ -173,6 +214,17 @@ J.~P. Benzécri.
   correspondances}.
 \newblock Dunod, 1976.
 
+\bibitem[Bhat et~al.(1996)Bhat, Huffaker, and Lenhart]{bhat_controlling_1996}
+M.~G. Bhat, R.~G. Huffaker, and S.~M. Lenhart.
+\newblock Controlling transboundary wildlife damage: modeling under alternative
+  management scenarios.
+\newblock \emph{Ecological Modelling}, 92\penalty0 (2):\penalty0 215--224, Dec.
+  1996.
+\newblock ISSN 0304-3800.
+\newblock \doi{10.1016/0304-3800(95)00169-7}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/0304380095001697}.
+
 \bibitem[Biggs et~al.(2013)Biggs, Courchamp, Martin, and
   Possingham]{biggs_legal_2013}
 D.~Biggs, F.~Courchamp, R.~Martin, and H.~P. Possingham.
@@ -181,6 +233,19 @@ D.~Biggs, F.~Courchamp, R.~Martin, and H.~P. Possingham.
 \newblock \doi{10.1126/science.1229998}.
 \newblock URL \url{https://www.science.org/doi/10.1126/science.1229998}.
 \newblock Publisher: American Association for the Advancement of Science.
+
+\bibitem[Blackwood et~al.(2010)Blackwood, Hastings, and
+  Costello]{blackwood_cost-effective_2010}
+J.~Blackwood, A.~Hastings, and C.~Costello.
+\newblock Cost-effective management of invasive species using linear-quadratic
+  control.
+\newblock \emph{Ecological Economics}, 69\penalty0 (3):\penalty0 519--527, Jan.
+  2010.
+\newblock ISSN 0921-8009.
+\newblock \doi{10.1016/j.ecolecon.2009.08.029}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0921800909003590}.
+\newblock Publisher: Elsevier.
 
 \bibitem[Boer et~al.(2009)Boer, Sadler, Wittkuhn, McCaw, and
   Grierson]{boer_long-term_2009}
@@ -238,6 +303,16 @@ R.~A. Bradstock, M.~Bedward, A.~M. Gill, J.~S. Cohn, R.~A. Bradstock,
 \newblock \doi{10.1071/WR02114}.
 \newblock URL \url{https://www.publish.csiro.au/wr/WR02114}.
 
+\bibitem[Brown and Roughgarden(1997)]{brown_metapopulation_1997}
+G.~Brown and J.~Roughgarden.
+\newblock A metapopulation model with private property and a common pool.
+\newblock \emph{Ecological Economics}, 22\penalty0 (1):\penalty0 65--71, July
+  1997.
+\newblock ISSN 0921-8009.
+\newblock \doi{10.1016/S0921-8009(97)00564-8}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0921800997005648}.
+
 \bibitem[Brumm and Scheidegger(2017)]{brumm_adaptive_2017}
 J.~Brumm and S.~Scheidegger.
 \newblock Using adaptive sparse grids to solve high-dimensional dynamic models.
@@ -262,6 +337,16 @@ E.~H. Bulte and G.~C.~V. Kooten.
 \newblock \emph{Ecological Economics}, 30:\penalty0 293--299, 8 1999.
 \newblock ISSN 0921-8009.
 \newblock \doi{10.1016/S0921-8009(98)00137-2}.
+
+\bibitem[Bulte and van Kooten(1999)]{bulte_metapopulation_1999}
+E.~H. Bulte and G.~C. van Kooten.
+\newblock Metapopulation dynamics and stochastic bioeconomic modeling.
+\newblock \emph{Ecological Economics}, 30\penalty0 (2):\penalty0 293--299, Aug.
+  1999.
+\newblock ISSN 0921-8009.
+\newblock \doi{10.1016/S0921-8009(98)00137-2}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0921800998001372}.
 
 \bibitem[Burke et~al.(2023)Burke, Childs, De~la Cuesta, Qiu, Li, Gould,
   Heft-Neal, and Wara]{burke_wildfire_2023}
@@ -312,6 +397,16 @@ S.~R. Carpenter, H.~A. Mooney, J.~Agard, D.~Capistrano, R.~S. Defries, S.~Diaz,
 \newblock \doi{10.1073/PNAS.0808772106}.
 \newblock URL \url{https://www.pnas.org/content/106/5/1305
   https://www.pnas.org/content/106/5/1305.abstract}.
+
+\bibitem[Caslick and Decker(1979)]{caslick_economic_1979}
+J.~W. Caslick and D.~J. Decker.
+\newblock Economic {Feasibility} of a {Deer}-{Proof} {Fence} for {Apple}
+  {Orchards}.
+\newblock \emph{Wildlife Society Bulletin (1973-2006)}, 7\penalty0
+  (3):\penalty0 173--175, 1979.
+\newblock ISSN 0091-7648.
+\newblock URL \url{https://www.jstor.org/stable/3781760}.
+\newblock Publisher: [Wiley, Wildlife Society].
 
 \bibitem[Castro et~al.(2018)Castro, Härtl, Ochoa, Calvas, Izquierdo, and
   Knoke]{Castro2018}
@@ -498,6 +593,16 @@ C.~Costello and S.~Polasky.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S0928765503000733}.
 
+\bibitem[Costello and Polasky(2008)]{costello_optimal_2008}
+C.~Costello and S.~Polasky.
+\newblock Optimal harvesting of stochastic spatial resources.
+\newblock \emph{Journal of Environmental Economics and Management}, 56\penalty0
+  (1):\penalty0 1--18, July 2008.
+\newblock ISSN 0095-0696.
+\newblock \doi{10.1016/j.jeem.2008.03.001}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0095069608000235}.
+
 \bibitem[Costello et~al.(2017)Costello, Quérou, and
   Tomini]{costello_private_2017}
 C.~Costello, N.~Quérou, and A.~Tomini.
@@ -566,6 +671,16 @@ P.~A. Diamond and J.~A. Hausman.
   45--64, December 1994.
 \newblock \doi{10.1257/jep.8.4.45}.
 \newblock URL \url{https://www.aeaweb.org/articles?id=10.1257/jep.8.4.45}.
+
+\bibitem[Donaldson and Hornbeck(2016)]{donaldson_railroads_2016}
+D.~Donaldson and R.~Hornbeck.
+\newblock Railroads and {American} {Economic} {Growth}: {A} “{Market}
+  {Access}” {Approach} *.
+\newblock \emph{The Quarterly Journal of Economics}, 131\penalty0 (2):\penalty0
+  799--858, May 2016.
+\newblock ISSN 0033-5533.
+\newblock \doi{10.1093/qje/qjw002}.
+\newblock URL \url{https://doi.org/10.1093/qje/qjw002}.
 
 \bibitem[Drechsler(2020)]{Drechsler20200}
 M.~Drechsler.
@@ -695,6 +810,19 @@ B.~E. Erisman, L.~G. Allen, J.~T. Claisse, D.~J. Pondella, E.~F. Miller, and
 \newblock \doi{10.1139/f2011-090}.
 \newblock URL \url{https://cdnsciencepub.com/doi/full/10.1139/f2011-090}.
 \newblock Publisher: NRC Research Press.
+
+\bibitem[Exton et~al.(2019)Exton, Ahmadia, Cullen-Unsworth, Jompa, May, Rice,
+  Simonin, Unsworth, and Smith]{exton_artisanal_2019}
+D.~A. Exton, G.~N. Ahmadia, L.~C. Cullen-Unsworth, J.~Jompa, D.~May, J.~Rice,
+  P.~W. Simonin, R.~K.~F. Unsworth, and D.~J. Smith.
+\newblock Artisanal fish fences pose broad and unexpected threats to the
+  tropical coastal seascape.
+\newblock \emph{Nature Communications}, 10\penalty0 (1):\penalty0 2100, May
+  2019.
+\newblock ISSN 2041-1723.
+\newblock \doi{10.1038/s41467-019-10051-0}.
+\newblock URL \url{https://www.nature.com/articles/s41467-019-10051-0}.
+\newblock Number: 1 Publisher: Nature Publishing Group.
 
 \bibitem[Eycott et~al.(2012)Eycott, Stewart, Buyung-Ali, Bowler, Watts, and
   Pullin]{eycott_meta-analysis_2012}
@@ -841,6 +969,49 @@ D.~Flores.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0144818816300564}.
 
+\bibitem[Friedlingstein et~al.(2023)Friedlingstein, O'Sullivan, Jones, Andrew,
+  Bakker, Hauck, Landsch\"utzer, Le~Qu\'er\'e, Luijkx, Peters, Peters,
+  Pongratz, Schwingshackl, Sitch, Canadell, Ciais, Jackson, Alin, Anthoni,
+  Barbero, Bates, Becker, Bellouin, Decharme, Bopp, Brasika, Cadule,
+  Chamberlain, Chandra, Chau, Chevallier, Chini, Cronin, Dou, Enyo, Evans,
+  Falk, Feely, Feng, Ford, Gasser, Ghattas, Gkritzalis, Grassi, Gregor, Gruber,
+  G\"urses, Harris, Hefner, Heinke, Houghton, Hurtt, Iida, Ilyina, Jacobson,
+  Jain, Jarn\'{\i}kov\'a, Jersild, Jiang, Jin, Joos, Kato, Keeling, Kennedy,
+  Klein~Goldewijk, Knauer, Korsbakken, K\"ortzinger, Lan, Lef\`evre, Li, Liu,
+  Liu, Ma, Marland, Mayot, McGuire, McKinley, Meyer, Morgan, Munro, Nakaoka,
+  Niwa, O'Brien, Olsen, Omar, Ono, Paulsen, Pierrot, Pocock, Poulter, Powis,
+  Rehder, Resplandy, Robertson, R\"odenbeck, Rosan, Schwinger, S\'ef\'erian,
+  Smallman, Smith, Sospedra-Alfonso, Sun, Sutton, Sweeney, Takao, Tans, Tian,
+  Tilbrook, Tsujino, Tubiello, van~der Werf, van Ooijen, Wanninkhof, Watanabe,
+  Wimart-Rousseau, Yang, Yang, Yuan, Yue, Zaehle, Zeng, and
+  Zheng]{friedlingstein_2023}
+P.~Friedlingstein, M.~O'Sullivan, M.~W. Jones, R.~M. Andrew, D.~C.~E. Bakker,
+  J.~Hauck, P.~Landsch\"utzer, C.~Le~Qu\'er\'e, I.~T. Luijkx, G.~P. Peters,
+  W.~Peters, J.~Pongratz, C.~Schwingshackl, S.~Sitch, J.~G. Canadell, P.~Ciais,
+  R.~B. Jackson, S.~R. Alin, P.~Anthoni, L.~Barbero, N.~R. Bates, M.~Becker,
+  N.~Bellouin, B.~Decharme, L.~Bopp, I.~B.~M. Brasika, P.~Cadule, M.~A.
+  Chamberlain, N.~Chandra, T.-T.-T. Chau, F.~Chevallier, L.~P. Chini,
+  M.~Cronin, X.~Dou, K.~Enyo, W.~Evans, S.~Falk, R.~A. Feely, L.~Feng, D.~J.
+  Ford, T.~Gasser, J.~Ghattas, T.~Gkritzalis, G.~Grassi, L.~Gregor, N.~Gruber,
+  O.~G\"urses, I.~Harris, M.~Hefner, J.~Heinke, R.~A. Houghton, G.~C. Hurtt,
+  Y.~Iida, T.~Ilyina, A.~R. Jacobson, A.~Jain, T.~Jarn\'{\i}kov\'a, A.~Jersild,
+  F.~Jiang, Z.~Jin, F.~Joos, E.~Kato, R.~F. Keeling, D.~Kennedy,
+  K.~Klein~Goldewijk, J.~Knauer, J.~I. Korsbakken, A.~K\"ortzinger, X.~Lan,
+  N.~Lef\`evre, H.~Li, J.~Liu, Z.~Liu, L.~Ma, G.~Marland, N.~Mayot, P.~C.
+  McGuire, G.~A. McKinley, G.~Meyer, E.~J. Morgan, D.~R. Munro, S.-I. Nakaoka,
+  Y.~Niwa, K.~M. O'Brien, A.~Olsen, A.~M. Omar, T.~Ono, M.~Paulsen, D.~Pierrot,
+  K.~Pocock, B.~Poulter, C.~M. Powis, G.~Rehder, L.~Resplandy, E.~Robertson,
+  C.~R\"odenbeck, T.~M. Rosan, J.~Schwinger, R.~S\'ef\'erian, T.~L. Smallman,
+  S.~M. Smith, R.~Sospedra-Alfonso, Q.~Sun, A.~J. Sutton, C.~Sweeney, S.~Takao,
+  P.~P. Tans, H.~Tian, B.~Tilbrook, H.~Tsujino, F.~Tubiello, G.~R. van~der
+  Werf, E.~van Ooijen, R.~Wanninkhof, M.~Watanabe, C.~Wimart-Rousseau, D.~Yang,
+  X.~Yang, W.~Yuan, X.~Yue, S.~Zaehle, J.~Zeng, and B.~Zheng.
+\newblock Global carbon budget 2023.
+\newblock \emph{Earth System Science Data}, 15\penalty0 (12):\penalty0
+  5301--5369, 2023.
+\newblock \doi{10.5194/essd-15-5301-2023}.
+\newblock URL \url{https://essd.copernicus.org/articles/15/5301/2023/}.
+
 \bibitem[Froehlich et~al.(2017)Froehlich, Gentry, and
   Halpern]{froehlich_conservation_2017}
 H.~E. Froehlich, R.~R. Gentry, and B.~S. Halpern.
@@ -947,6 +1118,26 @@ R.~Halvorsen and D.~F. Layton.
 \newblock ISBN 9780857937568.
 \newblock \doi{10.4337/9780857937568}.
 
+\bibitem[Hanberry and Abrams(2019)]{hanberry_does_2019}
+B.~B. Hanberry and M.~D. Abrams.
+\newblock Does white-tailed deer density affect tree stocking in forests of the
+  {Eastern} {United} {States}?
+\newblock \emph{Ecological Processes}, 8\penalty0 (1):\penalty0 30, Aug. 2019.
+\newblock ISSN 2192-1709.
+\newblock \doi{10.1186/s13717-019-0185-5}.
+\newblock URL \url{https://doi.org/10.1186/s13717-019-0185-5}.
+
+\bibitem[Hanberry and Hanberry(2020)]{hanberry_regaining_2020}
+B.~B. Hanberry and P.~Hanberry.
+\newblock Regaining the {History} of {Deer} {Populations} and {Densities} in
+  the {Southeastern} {United} {States}.
+\newblock \emph{Wildlife Society Bulletin}, 44\penalty0 (3):\penalty0 512--518,
+  2020.
+\newblock ISSN 2328-5540.
+\newblock \doi{10.1002/wsb.1118}.
+\newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/wsb.1118}.
+\newblock \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/wsb.1118.
+
 \bibitem[Hassan et~al.(2005)Hassan, Scholes, Ash, Condition, and
   Group]{MEA2005}
 R.~Hassan, R.~Scholes, N.~Ash, M.~Condition, and T.~Group.
@@ -1011,6 +1202,20 @@ D.~Hueth and U.~Regev.
 \newblock \emph{American Journal of Agricultural Economics}, 56, 1974.
 \newblock URL \url{http://ajae.oxfordjournals.org/}.
 
+\bibitem[Huffaker et~al.(1992)Huffaker, Bhat, and
+  Lenhart]{huffaker_optimal_1992}
+R.~Huffaker, M.~Bhat, and S.~Lenhart.
+\newblock Optimal {Trapping} {Strategies} for {Diffusing} {Nuisance}-{Beaver}
+  {Populations}.
+\newblock \emph{Natural Resource Modeling}, 6\penalty0 (1):\penalty0 71--97,
+  1992.
+\newblock ISSN 1939-7445.
+\newblock \doi{10.1111/j.1939-7445.1992.tb00267.x}.
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1939-7445.1992.tb00267.x}.
+\newblock \_eprint:
+  https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1939-7445.1992.tb00267.x.
+
 \bibitem[IPBES(2016)]{IPBES2016}
 IPBES.
 \newblock \emph{The methodological assessment report on scenarios and models of
@@ -1034,6 +1239,16 @@ N.~Jafari and J.~Hearne.
 \newblock \doi{https://doi.org/10.1016/j.ejor.2013.05.015}.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0377221713004141}.
+
+\bibitem[Janmaat(2005)]{janmaat_sharing_2005}
+J.~A. Janmaat.
+\newblock Sharing clams: tragedy of an incomplete commons.
+\newblock \emph{Journal of Environmental Economics and Management}, 49\penalty0
+  (1):\penalty0 26--51, Jan. 2005.
+\newblock ISSN 0095-0696.
+\newblock \doi{10.1016/j.jeem.2004.02.005}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0095069604000294}.
 
 \bibitem[Jayasuriya et~al.(2011)Jayasuriya, Jones, and van~de
   Ven]{Jayasuriya2011}
@@ -1065,6 +1280,11 @@ W.~M. Jolly, M.~A. Cochrane, P.~H. Freeborn, Z.~A. Holden, T.~J. Brown, G.~J.
 \newblock ISSN 2041-1723.
 \newblock \doi{10.1038/ncomms8537}.
 \newblock URL \url{https://doi.org/10.1038/ncomms8537}.
+
+\bibitem[Kaffine and Costello(2010)]{kaffine_unitization_2010}
+D.~T. Kaffine and C.~J. Costello.
+\newblock Unitization of spatially connected renewable resources, Sept. 2010.
+\newblock URL \url{https://www.nber.org/papers/w16338}.
 
 \bibitem[Kalies and {Yocom Kent}(2016)]{Kalies2016}
 E.~L. Kalies and L.~L. {Yocom Kent}.
@@ -1819,13 +2039,24 @@ P.~A. Samuelson.
 \newblock \emph{Journal of Natural Resources Policy Research}, 4\penalty0
   (3):\penalty0 173--195, 2012 [1973].
 
-\bibitem[Sanchirico and Wilen(1999)]{Sanchirico1999}
+\bibitem[Sanchirico and Wilen(1999{\natexlab{a}})]{Sanchirico1999}
 J.~N. Sanchirico and J.~E. Wilen.
 \newblock Bioeconomics of spatial exploitation in a patchy environment.
 \newblock \emph{Journal of Environmental Economics and Management},
-  37:\penalty0 129--150, 3 1999.
+  37:\penalty0 129--150, 3 1999{\natexlab{a}}.
 \newblock ISSN 0095-0696.
 \newblock \doi{10.1006/JEEM.1998.1060}.
+
+\bibitem[Sanchirico and
+  Wilen(1999{\natexlab{b}})]{sanchirico_bioeconomics_1999}
+J.~N. Sanchirico and J.~E. Wilen.
+\newblock Bioeconomics of {Spatial} {Exploitation} in a {Patchy} {Environment}.
+\newblock \emph{Journal of Environmental Economics and Management}, 37\penalty0
+  (2):\penalty0 129--150, Mar. 1999{\natexlab{b}}.
+\newblock ISSN 0095-0696.
+\newblock \doi{10.1006/jeem.1998.1060}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0095069698910609}.
 
 \bibitem[Schaefer(1954)]{Schaefer1954}
 M.~B. Schaefer.
@@ -1872,6 +2103,16 @@ L.~Scrucca.
 \newblock \emph{The R Journal}, 9\penalty0 (1):\penalty0 187--206, 2017.
 \newblock \doi{10.32614/RJ-2017-008}.
 
+\bibitem[Shafran(2008)]{SHAFRAN2008488}
+A.~P. Shafran.
+\newblock Risk externalities and the problem of wildfire risk.
+\newblock \emph{Journal of Urban Economics}, 64\penalty0 (2):\penalty0
+  488--495, 2008.
+\newblock ISSN 0094-1190.
+\newblock \doi{https://doi.org/10.1016/j.jue.2008.05.001}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0094119008000399}.
+
 \bibitem[Shannon(1948)]{Shannon1949}
 C.~E. Shannon.
 \newblock A mathematical theory of communication.
@@ -1880,6 +2121,17 @@ C.~E. Shannon.
 \newblock \doi{https://doi.org/10.1002/j.1538-7305.1948.tb01338.x}.
 \newblock URL
   \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1538-7305.1948.tb01338.x}.
+
+\bibitem[Sharov and Liebhold(1998)]{sharov_bioeconomics_1998}
+A.~A. Sharov and A.~M. Liebhold.
+\newblock Bioeconomics of {Managing} the {Spread} of {Exotic} {Pest} {Species}
+  with {Barrier} {Zones}.
+\newblock \emph{Ecological Applications}, 8\penalty0 (3):\penalty0 833--845,
+  1998.
+\newblock ISSN 1051-0761.
+\newblock \doi{10.2307/2641270}.
+\newblock URL \url{https://www.jstor.org/stable/2641270}.
+\newblock Publisher: Ecological Society of America.
 
 \bibitem[Simpson(1949)]{simpson_measurement_1949}
 E.~H. Simpson.
@@ -1939,6 +2191,15 @@ V.~L. Smith.
 \newblock ISSN 00028282.
 \newblock URL \url{http://www.jstor.org/stable/1813767}.
 
+\bibitem[Stenseth(1988)]{stenseth_social_1988}
+N.~C. Stenseth.
+\newblock The {Social} {Fence} {Hypothesis}: {A} {Critique}.
+\newblock \emph{Oikos}, 52\penalty0 (2):\penalty0 169--177, 1988.
+\newblock ISSN 0030-1299.
+\newblock \doi{10.2307/3565244}.
+\newblock URL \url{https://www.jstor.org/stable/3565244}.
+\newblock Publisher: [Nordic Society Oikos, Wiley].
+
 \bibitem[Swanson(1994)]{Swanson94}
 T.~M. Swanson.
 \newblock The economics of extinction revisited and revised: A generalised
@@ -1947,16 +2208,6 @@ T.~M. Swanson.
 \newblock \emph{Oxford Economic Papers}, 46:\penalty0 800--821, 1994.
 \newblock ISSN 00307653, 14643812.
 \newblock URL \url{http://www.jstor.org/stable/2663500}.
-
-\bibitem[Sweeney et~al.(2023)Sweeney, Dittrich, Moffat, Power, and
-  Kline]{sweeney_estimating_2023}
-K.~Sweeney, R.~Dittrich, S.~Moffat, C.~Power, and J.~D. Kline.
-\newblock Estimating the economic value of carbon losses from wildfires using
-  publicly available data sources: {Eagle} {Creek} {Fire}, {Oregon} 2017.
-\newblock \emph{Fire Ecology}, 19\penalty0 (1):\penalty0 55, Sept. 2023.
-\newblock ISSN 1933-9747.
-\newblock \doi{10.1186/s42408-023-00206-2}.
-\newblock URL \url{https://doi.org/10.1186/s42408-023-00206-2}.
 
 \bibitem[Taylor et~al.(2014)Taylor, McCarty, and Lindemayer]{Taylor2014}
 C.~Taylor, M.~A. McCarty, and D.~B. Lindemayer.
