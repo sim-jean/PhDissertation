@@ -123,8 +123,6 @@ bindingoffset = 20mm
 % Totoaba 
 \newcommand{\dbtilde}[1]{\accentset{\approx}{#1}}
 
-
-
 % PDF metadata
 \hypersetup{
 	pdfauthor={\PhDname},
@@ -171,7 +169,6 @@ bindingoffset = 20mm
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%% CHAPTER REVIEW %%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 	\renewcommand{\thesection}{\arabic{section}}
 	\renewcommand{\thesubsection}{\arabic{subsection}}
 	\counterwithout{figure}{section}
@@ -181,18 +178,18 @@ bindingoffset = 20mm
 	\input{Chapter2}
 	\clearpage
 	\begin{appendices}
-	\counterwithout{figure}{section}
-	\counterwithout{table}{section}
-	\setcounter{figure}{2}
-	\setcounter{table}{0}
-	\setcounter{equation}{0}
-	\numberwithin{equation}{section}
-	\renewcommand{\thesection}{\Alph{section}}
-	\renewcommand{\thesubsection}{\Alph{subsection}}
-	\renewcommand{\thefigure}{1.\Alph{figure}}
-	\renewcommand{\thetable}{1.\Alph{table}}
-	\input{appendices/appendix2}
-	\clearpage
+		\counterwithout{figure}{section}
+		\counterwithout{table}{section}
+		\setcounter{figure}{2}
+		\setcounter{table}{0}
+		\setcounter{equation}{0}
+		\numberwithin{equation}{section}
+		\renewcommand{\thesection}{\Alph{section}}
+		\renewcommand{\thesubsection}{\Alph{subsection}}
+		\renewcommand{\thefigure}{1.\Alph{figure}}
+		\renewcommand{\thetable}{1.\Alph{table}}
+		\input{appendices/appendix2}
+		\clearpage
 	\end{appendices}	
 	%
 	
@@ -213,22 +210,22 @@ bindingoffset = 20mm
 	\input{Chapter4}
 	\clearpage
 	\begin{appendices}
-	\counterwithout{figure}{section}
-	\counterwithout{table}{section}
-	\setcounter{figure}{0}
-	\setcounter{equation}{0}
-	\numberwithin{equation}{section}
-	\renewcommand{\thesection}{\Alph{section}}
-	\renewcommand{\thesubsection}{\Alph{subsection}}
-	\renewcommand{\thefigure}{2.\Alph{figure}}
-	\renewcommand{\thetable}{2.\Alph{table}}
-	\input{appendices/appendix4}
-	\clearpage
+		\counterwithout{figure}{section}
+		\counterwithout{table}{section}
+		\setcounter{figure}{0}
+		\setcounter{equation}{0}
+		\numberwithin{equation}{section}
+		\renewcommand{\thesection}{\Alph{section}}
+		\renewcommand{\thesubsection}{\Alph{subsection}}
+		\renewcommand{\thefigure}{2.\Alph{figure}}
+		\renewcommand{\thetable}{2.\Alph{table}}
+		\input{appendices/appendix4}
+		\clearpage
 	\end{appendices}	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%% CHAPTER FENCES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\renewcommand{\thesection}{\arabic{section}}
+	\renewcommand{\thesection}{\arabic{section}}
 	\renewcommand{\thesubsection}{\arabic{subsection}}
 	\counterwithout{figure}{section}
 	\counterwithout{table}{section}
@@ -237,17 +234,17 @@ bindingoffset = 20mm
 	\input{Chapter5}
 	\clearpage
 	\begin{appendices}
-	\counterwithout{figure}{section}
-	\counterwithout{table}{section}
-	\setcounter{figure}{0}
-	\setcounter{equation}{0}
-	\numberwithin{equation}{section}
-	\renewcommand{\thesection}{\Alph{section}}
-	\renewcommand{\thesubsection}{\Alph{subsection}}
-	\renewcommand{\thefigure}{3.\Alph{figure}}
-	\renewcommand{\thetable}{3.\Alph{table}}
-	\input{appendices/appendix5}
-	\clearpage
+		\counterwithout{figure}{section}
+		\counterwithout{table}{section}
+		\setcounter{figure}{0}
+		\setcounter{equation}{0}
+		\numberwithin{equation}{section}
+		\renewcommand{\thesection}{\Alph{section}}
+		\renewcommand{\thesubsection}{\Alph{subsection}}
+		\renewcommand{\thefigure}{3.\Alph{figure}}
+		\renewcommand{\thetable}{3.\Alph{table}}
+		\input{appendices/appendix5}
+		\clearpage
 	\end{appendices}	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\part{The role of market structure in renewable resource management}	

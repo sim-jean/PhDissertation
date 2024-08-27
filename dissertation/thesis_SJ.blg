@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2023)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis_SJ.aux
 The style file: abbrvnat.bst
-Reallocated field_info (elt_size=4) to 12336 items from 5000.
+Reallocated field_info (elt_size=4) to 13372 items from 5000.
 Database file #1: bibliography_these.bib
 Warning--I'm ignoring hsiang_does_2016's extra "doi" field
 --line 199 of file bibliography_these.bib
@@ -17,109 +17,117 @@ Repeated entry---line 2818 of file bibliography_these.bib
  :                    ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Costanza1997's extra "year" field
---line 3289 of file bibliography_these.bib
+--line 3363 of file bibliography_these.bib
 Warning--I'm ignoring Clark630's extra "journal" field
---line 3989 of file bibliography_these.bib
+--line 4063 of file bibliography_these.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 4626 of file bibliography_these.bib
+Repeated entry---line 4700 of file bibliography_these.bib
  : @article{Lopes2020
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4775 of file bibliography_these.bib
+Repeated entry---line 4849 of file bibliography_these.bib
  : @article{Mouysset2012
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5036 of file bibliography_these.bib
+Repeated entry---line 5110 of file bibliography_these.bib
  : @article{Davis2006
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5713 of file bibliography_these.bib
+Repeated entry---line 5787 of file bibliography_these.bib
  : @article{Courtois2014
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6734 of file bibliography_these.bib
+Repeated entry---line 6808 of file bibliography_these.bib
  : @article{Mouysset2014
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6783 of file bibliography_these.bib
+Repeated entry---line 6857 of file bibliography_these.bib
  : @article{Mouysset2014
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7040 of file bibliography_these.bib
+Repeated entry---line 7114 of file bibliography_these.bib
  : @article{Drechsler2007
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7087 of file bibliography_these.bib
+Repeated entry---line 7161 of file bibliography_these.bib
  : @article{Drechsler2007
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7163 of file bibliography_these.bib
+Repeated entry---line 7237 of file bibliography_these.bib
  : @article{Costello2004
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7330 of file bibliography_these.bib
+Repeated entry---line 7404 of file bibliography_these.bib
  : @article{Bulte1999
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7556 of file bibliography_these.bib
+Repeated entry---line 7630 of file bibliography_these.bib
  : @article{Taylor2004
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7624 of file bibliography_these.bib
+Repeated entry---line 7698 of file bibliography_these.bib
  : @article{Sanchirico1999
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7667 of file bibliography_these.bib
+Repeated entry---line 7741 of file bibliography_these.bib
  : @article{Skonhoft1998
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7991 of file bibliography_these.bib
+Repeated entry---line 8065 of file bibliography_these.bib
  : @article{Moore2004
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8005 of file bibliography_these.bib
+Repeated entry---line 8079 of file bibliography_these.bib
  : @article{Alexander2000
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8040 of file bibliography_these.bib
+Repeated entry---line 8114 of file bibliography_these.bib
  : @article{Lin1996
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8438 of file bibliography_these.bib
+Repeated entry---line 8512 of file bibliography_these.bib
  : @article{Fenichel2014
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8632 of file bibliography_these.bib
+Repeated entry---line 8706 of file bibliography_these.bib
  : @article{Polasky2005
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8794 of file bibliography_these.bib
+Repeated entry---line 8868 of file bibliography_these.bib
  : @article{Bulte1999
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8859 of file bibliography_these.bib
+Repeated entry---line 8933 of file bibliography_these.bib
  : @article{Baumgartner2007
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9855 of file bibliography_these.bib
+Warning--entry type for "IUCN_redlist_2024" isn't style-file defined
+--line 9146 of file bibliography_these.bib
+Warning--I'm ignoring McGoughPlantingaCostello+2009's extra "title" field
+--line 9452 of file bibliography_these.bib
+Repeated entry---line 10338 of file bibliography_these.bib
  : @article{costello_private_2017
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10052 of file bibliography_these.bib
+Repeated entry---line 10535 of file bibliography_these.bib
  : @article{minor_graph-theory_2008
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10084 of file bibliography_these.bib
+Repeated entry---line 10567 of file bibliography_these.bib
  : @article{pascual-hortal_comparison_2006
  :                                        ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 10595 of file bibliography_these.bib
+ : @article{newbold_global_2014
+ :                             ,
+I'm skipping whatever remains of this entry
 Warning--I'm ignoring kaffine_unitization_2010's extra "doi" field
---line 10475 of file bibliography_these.bib
-Repeated entry---line 10812 of file bibliography_these.bib
+--line 10958 of file bibliography_these.bib
+Repeated entry---line 11295 of file bibliography_these.bib
  : @article{ehrlich_market_1972
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10986 of file bibliography_these.bib
+Repeated entry---line 11469 of file bibliography_these.bib
  : @article{flores_violence_2016
  :                              ,
 I'm skipping whatever remains of this entry
@@ -135,51 +143,54 @@ Warning--empty journal in cites_additional_2019
 Warning--there's a number but no volume in Faustmann
 Warning--there's a number but no volume in Florec2020
 Warning--empty publisher in MEA2005
+Warning--empty journal in hoare2022establishing
 Warning--empty publisher in IPBES2016
+Warning--can't use both author and editor fields in ipbes_2022_6417333
 Warning--empty publisher in martinez-alvarado_trafficking_2018
 Warning--empty institution in McGarigal_1995
+Warning--can't use both author and editor fields in Mooney2001
 Warning--empty institution in Peterson_2009
 Warning--there's a number but no volume in Taylor2014
 Warning--there's a number but no volume in Vaillant2009
-You've used 260 entries,
+You've used 297 entries,
             2773 wiz_defined-function locations,
-            2548 strings with 78748 characters,
-and the built_in function-call counts, 147918 in all, are:
-= -- 13540
-> -- 10552
-< -- 135
-+ -- 3568
-- -- 3303
-* -- 13729
-:= -- 23884
-add.period$ -- 1356
-call.type$ -- 260
-change.case$ -- 1876
-chr.to.int$ -- 255
-cite$ -- 539
-duplicate$ -- 5283
-empty$ -- 9892
-format.name$ -- 3690
-if$ -- 30221
-int.to.chr$ -- 6
+            2798 strings with 91256 characters,
+and the built_in function-call counts, 173412 in all, are:
+= -- 15735
+> -- 12797
+< -- 149
++ -- 4322
+- -- 4019
+* -- 16239
+:= -- 28070
+add.period$ -- 1555
+call.type$ -- 297
+change.case$ -- 2224
+chr.to.int$ -- 291
+cite$ -- 616
+duplicate$ -- 6050
+empty$ -- 11343
+format.name$ -- 4451
+if$ -- 35348
+int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 259
-newline$ -- 1880
-num.names$ -- 1032
-pop$ -- 2863
+missing$ -- 296
+newline$ -- 2152
+num.names$ -- 1182
+pop$ -- 3433
 preamble$ -- 1
-purify$ -- 1619
+purify$ -- 1931
 quote$ -- 0
-skip$ -- 4264
+skip$ -- 4955
 stack$ -- 0
-substring$ -- 5085
-swap$ -- 418
-text.length$ -- 4
+substring$ -- 5859
+swap$ -- 478
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2790
-warning$ -- 16
-while$ -- 1087
+type$ -- 3182
+warning$ -- 19
+while$ -- 1240
 width$ -- 0
-write$ -- 4510
-(There were 26 error messages)
+write$ -- 5164
+(There were 27 error messages)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.11)  23 AUG 2024 19:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.11)  27 AUG 2024 19:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -963,24 +963,24 @@ LaTeX Warning: Label `sub@fig:indicator_component4' multiply defined.
 )
 \openout1 = `thesis_SJ.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1053,7 +1053,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 140.
+Package hyperref Info: Link coloring ON on input line 138.
 
 (./thesis_SJ.out) (./thesis_SJ.out)
 \@outlinefile=\write4
@@ -1243,127 +1243,169 @@ i \T1/ppl/m/n/10.95 eco-log-i-cal and mar-ket pa-ram-e-ters for model
 ]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 167.
+(hyperref)                be the same. Added a new anchor on input line 165.
 
 (./Chapter1.tex
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 7
-.
- (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 7.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 7.
+
+Overfull \hbox (0.5821pt too wide) in paragraph at lines 7--15
+\T1/ppl/m/n/10.95 Nature has been de-te-ri-ot-ing for the past cen-turies, and 
+much has al-ready been lost ([][]IPBES[][],
+ []
+
+[2
+
+]
+<figures/intro/IUCN_redlist.jpg, id=682, 175.2pt x 112.785pt>
+File: figures/intro/IUCN_redlist.jpg Graphic file (type jpg)
+<use figures/intro/IUCN_redlist.jpg>
+Package pdftex.def Info: figures/intro/IUCN_redlist.jpg  used on input line 18.
+
+(pdftex.def)             Requested size: 384.10962pt x 247.2862pt.
+
+
+Package caption Warning: \setcaptionsubtype
+(caption)                outside box or environment on input line 20.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: \subcaption
+(caption)                outside box or environment on input line 20.
+See the caption package documentation for explanation.
+
+[3 <./figures/intro/IUCN_redlist.jpg>]
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 5
+5.
+
+(c:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-)
-Overfull \hbox (44.17331pt too wide) in paragraph at lines 20--21
+) [4] [5] [6
+
+]
+Overfull \hbox (44.17331pt too wide) in paragraph at lines 110--111
 []\T1/ppl/m/n/10.95 Un prob-lème d'externalité global, de bi-ens publics, de va
 leurs d'options, d'informations
  []
 
 
-Overfull \hbox (18.73744pt too wide) in paragraph at lines 21--22
+Overfull \hbox (18.73744pt too wide) in paragraph at lines 111--112
 \T1/ppl/m/n/10.95 tion, sur base ax-ioma-tique, des com-porte-ments, à la fois 
 in-di-vidu-els, non coopérat-
  []
 
 
-Overfull \hbox (43.50537pt too wide) in paragraph at lines 24--26
+Overfull \hbox (43.50537pt too wide) in paragraph at lines 114--116
 \T1/ppl/m/n/10.95 non ré-solues : bien lis-ter ici les di-men-sions : marché, e
 s-pace, poli-tique publique/gestion
  []
 
-[2
+[7
 
-] [3]
-Overfull \hbox (1.2828pt too wide) in paragraph at lines 90--93
-\T1/ppl/m/n/10.95 Rajouter une bonne couche sur la né-ces-sité de (i) pas trop 
-ex-ploiter et pourquoi;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 182--185
 
  []
 
-[4
 
-] [5] [6] [7]
-Overfull \hbox (5.76172pt too wide) in paragraph at lines 201--202
+Overfull \hbox (1.2828pt too wide) in paragraph at lines 186--187
+[]\T1/ppl/m/n/10.95 Rajouter une bonne couche sur la né-ces-sité de (i) pas tro
+p ex-ploiter et pourquoi;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+
+ []
+
+[9
+
+]
+Overfull \hbox (0.75783pt too wide) in paragraph at lines 214--223
+\T1/ppl/m/n/10.95 pro-mote herba-ceous veg-e-ta-tion and use-ful game or plant 
+species (Pe-chony
+ []
+
+[10] [11] [12]
+Overfull \hbox (5.76172pt too wide) in paragraph at lines 316--317
 []\T1/ppl/m/n/10.95 BIOECON Net-work An-nual Con-fer-ence, Uni-ver-sity of San-
 ti-ago de Com-postela,
  []
 
 
-Overfull \hbox (5.30243pt too wide) in paragraph at lines 203--204
+Overfull \hbox (5.30243pt too wide) in paragraph at lines 318--319
 []\T1/ppl/m/n/10.95 European As-so-ci-a-tion of En-vi-ron-men-tal and Re-source
  Economists An-nual Con-
  []
 
-) [8
+) [13
+
+] [14
 
 ] (./Chapter2.tex
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--22
+Underfull \hbox (badness 10000) in paragraph at lines 20--24
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9
-
+ [15
 
 ]
-Overfull \vbox (56.93056pt too high) has occurred while \output is active []
+Overfull \vbox (0.12456pt too high) has occurred while \output is active []
 
 
-[10]
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 29.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 29.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-9.
+[16]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+1.
  (c:/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 
-Package natbib Warning: Citation `Samuelson73' on page 11 undefined on input li
-ne 35.
+Package natbib Warning: Citation `Samuelson73' on page 17 undefined on input li
+ne 37.
 
-[11{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-[12]
+[17{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+[18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
-<figures/review/selection_process.png, id=806, 1237.0215pt x 152.36925pt>
+ [19]
+<figures/review/selection_process.png, id=1004, 1237.0215pt x 152.36925pt>
 File: figures/review/selection_process.png Graphic file (type png)
 <use figures/review/selection_process.png>
 Package pdftex.def Info: figures/review/selection_process.png  used on input li
-ne 67.
+ne 69.
 (pdftex.def)             Requested size: 426.79137pt x 52.56976pt.
 
-[14 <./figures/review/selection_process.PNG>] [15] [16] [17] [18]
+[20 <./figures/review/selection_process.PNG>] [21] [22] [23] [24]
 Underfull \vbox (badness 1112) has occurred while \output is active []
 
- [19]
-Underfull \hbox (badness 1067) in paragraph at lines 166--166
+ [25]
+Underfull \hbox (badness 1067) in paragraph at lines 168--168
 \T1/ppl/m/n/9 effective, cost-benefit, reserve-design, optimal-management, land
  use, prop-erty rights, conservation-
  []
 
-[20]
-<figures/review/temporal_distribution_full.pdf, id=943, 853.1875pt x 511.9125pt
->
+[26]
+<figures/review/temporal_distribution_full.pdf, id=1141, 853.1875pt x 511.9125p
+t>
 File: figures/review/temporal_distribution_full.pdf Graphic file (type pdf)
 <use figures/review/temporal_distribution_full.pdf>
 Package pdftex.def Info: figures/review/temporal_distribution_full.pdf  used on
- input line 185.
+ input line 187.
 (pdftex.def)             Requested size: 341.43439pt x 204.86292pt.
-<figures/review/pie_geographic_whole_base_method2.pdf, id=945, 568.1225pt x 369
-.38pt>
+<figures/review/pie_geographic_whole_base_method2.pdf, id=1143, 568.1225pt x 36
+9.38pt>
 File: figures/review/pie_geographic_whole_base_method2.pdf Graphic file (type p
 df)
 <use figures/review/pie_geographic_whole_base_method2.pdf>
 Package pdftex.def Info: figures/review/pie_geographic_whole_base_method2.pdf  
-used on input line 193.
+used on input line 195.
 (pdftex.def)             Requested size: 341.43439pt x 222.0017pt.
 
 
@@ -1374,145 +1416,145 @@ Package caption Warning: \label without proper reference on input line 220.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:journal_disci' on page 21 undefined on input line
- 201.
+LaTeX Warning: Reference `tab:journal_disci' on page 27 undefined on input line
+ 203.
 
-[21] [22 <./figures/review/temporal_distribution_full.pdf> <./figures/review/pi
-e_geographic_whole_base_method2.pdf>] [23]
-<figures/review/mca_ind_automated_kmodes_rev.png, id=1017, 2666.46187pt x 1599.
+[27] [28 <./figures/review/temporal_distribution_full.pdf> <./figures/review/pi
+e_geographic_whole_base_method2.pdf>] [29]
+<figures/review/mca_ind_automated_kmodes_rev.png, id=1216, 2666.46187pt x 1599.
 72656pt>
 File: figures/review/mca_ind_automated_kmodes_rev.png Graphic file (type png)
 <use figures/review/mca_ind_automated_kmodes_rev.png>
 Package pdftex.def Info: figures/review/mca_ind_automated_kmodes_rev.png  used 
-on input line 243.
+on input line 245.
 (pdftex.def)             Requested size: 384.10962pt x 230.4288pt.
-<figures/review/mca_variables_automated.pdf, id=1018, 853.1875pt x 511.9125pt>
+<figures/review/mca_variables_automated.pdf, id=1217, 853.1875pt x 511.9125pt>
 File: figures/review/mca_variables_automated.pdf Graphic file (type pdf)
 <use figures/review/mca_variables_automated.pdf>
 Package pdftex.def Info: figures/review/mca_variables_automated.pdf  used on in
-put line 247.
+put line 249.
 (pdftex.def)             Requested size: 384.10962pt x 230.46785pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24 <./figures/review/mca_ind_automated_kmodes_rev.png>]
+ [30 <./figures/review/mca_ind_automated_kmodes_rev.png>]
 
 pdfTeX warning: pdflatex.exe (file ./figures/review/lexical_profile_cluster_kmo
 des_bg2.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5>
  allowed
-<figures/review/lexical_profile_cluster_kmodes_bg2.pdf, id=1029, 722.7pt x 505.
+<figures/review/lexical_profile_cluster_kmodes_bg2.pdf, id=1228, 722.7pt x 505.
 89pt>
 File: figures/review/lexical_profile_cluster_kmodes_bg2.pdf Graphic file (type 
 pdf)
 <use figures/review/lexical_profile_cluster_kmodes_bg2.pdf>
 Package pdftex.def Info: figures/review/lexical_profile_cluster_kmodes_bg2.pdf 
- used on input line 261.
+ used on input line 263.
 (pdftex.def)             Requested size: 192.05481pt x 134.43845pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures/review/lexical_profile_cluster_kmo
 des_bg1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5>
  allowed
-<figures/review/lexical_profile_cluster_kmodes_bg1.pdf, id=1030, 722.7pt x 505.
+<figures/review/lexical_profile_cluster_kmodes_bg1.pdf, id=1229, 722.7pt x 505.
 89pt>
 File: figures/review/lexical_profile_cluster_kmodes_bg1.pdf Graphic file (type 
 pdf)
 <use figures/review/lexical_profile_cluster_kmodes_bg1.pdf>
 Package pdftex.def Info: figures/review/lexical_profile_cluster_kmodes_bg1.pdf 
- used on input line 262.
+ used on input line 264.
 (pdftex.def)             Requested size: 192.05481pt x 134.43845pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures/review/lexical_profile_cluster_kmo
 des_bg3.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5>
  allowed
-<figures/review/lexical_profile_cluster_kmodes_bg3.pdf, id=1031, 722.7pt x 505.
+<figures/review/lexical_profile_cluster_kmodes_bg3.pdf, id=1230, 722.7pt x 505.
 89pt>
 File: figures/review/lexical_profile_cluster_kmodes_bg3.pdf Graphic file (type 
 pdf)
 <use figures/review/lexical_profile_cluster_kmodes_bg3.pdf>
 Package pdftex.def Info: figures/review/lexical_profile_cluster_kmodes_bg3.pdf 
- used on input line 263.
+ used on input line 265.
 (pdftex.def)             Requested size: 192.05481pt x 134.43845pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures/review/lexical_profile_cluster_kmo
 des_bg4.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5>
  allowed
-<figures/review/lexical_profile_cluster_kmodes_bg4.pdf, id=1032, 722.7pt x 505.
+<figures/review/lexical_profile_cluster_kmodes_bg4.pdf, id=1231, 722.7pt x 505.
 89pt>
 File: figures/review/lexical_profile_cluster_kmodes_bg4.pdf Graphic file (type 
 pdf)
 <use figures/review/lexical_profile_cluster_kmodes_bg4.pdf>
 Package pdftex.def Info: figures/review/lexical_profile_cluster_kmodes_bg4.pdf 
- used on input line 264.
+ used on input line 266.
 (pdftex.def)             Requested size: 192.05481pt x 134.43845pt.
 
 Package caption Warning: \setcaptionsubtype
-(caption)                outside box or environment on input line 266.
+(caption)                outside box or environment on input line 268.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 266.
+(caption)                outside box or environment on input line 268.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[25 <./figures/review/mca_variables_automated.pdf>] [26 <./figures/review/lexic
+[31 <./figures/review/mca_variables_automated.pdf>] [32 <./figures/review/lexic
 al_profile_cluster_kmodes_bg2.pdf> <./figures/review/lexical_profile_cluster_km
 odes_bg1.pdf> <./figures/review/lexical_profile_cluster_kmodes_bg3.pdf> <./figu
 res/review/lexical_profile_cluster_kmodes_bg4.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 272--299
+Underfull \hbox (badness 10000) in paragraph at lines 274--301
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--299
+Underfull \hbox (badness 10000) in paragraph at lines 274--301
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--299
+Underfull \hbox (badness 10000) in paragraph at lines 274--301
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--299
+Underfull \hbox (badness 10000) in paragraph at lines 274--301
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27
+ [33
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
+ [34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
-Overfull \hbox (10.14667pt too wide) in paragraph at lines 300--302
+ [35]
+Overfull \hbox (10.14667pt too wide) in paragraph at lines 302--304
 []\T1/ppl/m/n/10.95 Eventually, the sec-ond group of our over-all car-tog-ra-ph
 y dis-plays an over-representation
  []
 
 
-Overfull \hbox (1.50217pt too wide) in paragraph at lines 314--315
+Overfull \hbox (1.50217pt too wide) in paragraph at lines 316--317
 \T1/ppl/m/n/10.95 By com-bin-ing methodology-based and narrative-based anal-y-s
 is, our car-tog-ra-phy showed
  []
 
-[30]
-Overfull \hbox (16.84854pt too wide) in paragraph at lines 319--320
+[36]
+Overfull \hbox (16.84854pt too wide) in paragraph at lines 321--322
 []\T1/ppl/m/n/10.95 Beside this har-vest-ing paradigm, the con-ser-va-tion grou
 p de-rives from a sec-ond paradigm
  []
 
-[31] [32] [33] [34]) [35] (./appendices/appendix2.tex
+[37] [38] [39] [40]) [41] (./appendices/appendix2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
@@ -1573,12 +1615,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--38
 
  []
 
-[36
+[42
 
-] [37] [38
+] [43] [44
 
 ]
-<figures/review/occurence_kmodes_new_1_n50_common.png, id=1303, 1693.82813pt x 
+<figures/review/occurence_kmodes_new_1_n50_common.png, id=1501, 1693.82813pt x 
 1016.29688pt>
 File: figures/review/occurence_kmodes_new_1_n50_common.png Graphic file (type p
 ng)
@@ -1586,7 +1628,7 @@ ng)
 Package pdftex.def Info: figures/review/occurence_kmodes_new_1_n50_common.png  
 used on input line 229.
 (pdftex.def)             Requested size: 341.43439pt x 204.85304pt.
-<figures/review/occurence_kmodes_new_2_n50_common.png, id=1304, 1693.82813pt x 
+<figures/review/occurence_kmodes_new_2_n50_common.png, id=1502, 1693.82813pt x 
 1016.29688pt>
 File: figures/review/occurence_kmodes_new_2_n50_common.png Graphic file (type p
 ng)
@@ -1608,17 +1650,17 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39
+ [45
 
 ]
-<figures/review/occurence_kmodes_3_n50_common.pdf, id=1310, 1084.05pt x 650.43p
+<figures/review/occurence_kmodes_3_n50_common.pdf, id=1507, 1084.05pt x 650.43p
 t>
 File: figures/review/occurence_kmodes_3_n50_common.pdf Graphic file (type pdf)
 <use figures/review/occurence_kmodes_3_n50_common.pdf>
 Package pdftex.def Info: figures/review/occurence_kmodes_3_n50_common.pdf  used
  on input line 238.
 (pdftex.def)             Requested size: 341.43439pt x 204.85675pt.
-<figures/review/occurence_kmodes_4_n50_common.pdf, id=1311, 1084.05pt x 650.43p
+<figures/review/occurence_kmodes_4_n50_common.pdf, id=1508, 1084.05pt x 650.43p
 t>
 File: figures/review/occurence_kmodes_4_n50_common.pdf Graphic file (type pdf)
 <use figures/review/occurence_kmodes_4_n50_common.pdf>
@@ -1639,7 +1681,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/review/variables_variance_enveloppe.pdf, id=1312, 397.485pt x 226.8475
+<figures/review/variables_variance_enveloppe.pdf, id=1509, 397.485pt x 226.8475
 pt>
 File: figures/review/variables_variance_enveloppe.pdf Graphic file (type pdf)
 <use figures/review/variables_variance_enveloppe.pdf>
@@ -1649,7 +1691,7 @@ on input line 246.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/review/kmodes_elbow.pdf, id=1313, 397.485pt x 226.8475pt>
+<figures/review/kmodes_elbow.pdf, id=1510, 397.485pt x 226.8475pt>
 File: figures/review/kmodes_elbow.pdf Graphic file (type pdf)
 <use figures/review/kmodes_elbow.pdf>
 Package pdftex.def Info: figures/review/kmodes_elbow.pdf  used on input line 25
@@ -1658,7 +1700,7 @@ Package pdftex.def Info: figures/review/kmodes_elbow.pdf  used on input line 25
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/review/mca_ind_automated_kmodes9.pdf, id=1314, 853.1875pt x 511.9125pt
+<figures/review/mca_ind_automated_kmodes9.pdf, id=1511, 853.1875pt x 511.9125pt
 >
 File: figures/review/mca_ind_automated_kmodes9.pdf Graphic file (type pdf)
 <use figures/review/mca_ind_automated_kmodes9.pdf>
@@ -1668,11 +1710,11 @@ input line 256.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [40 <./figures/review/occurence_kmodes_new_1_n50_common.png> <./figures/revie
-w/occurence_kmodes_new_2_n50_common.png>] [41 <./figures/review/occurence_kmode
+) [46 <./figures/review/occurence_kmodes_new_1_n50_common.png> <./figures/revie
+w/occurence_kmodes_new_2_n50_common.png>] [47 <./figures/review/occurence_kmode
 s_3_n50_common.pdf> <./figures/review/occurence_kmodes_4_n50_common.pdf> <./fig
-ures/review/variables_variance_enveloppe.pdf>] [42 <./figures/review/kmodes_elb
-ow.pdf> <./figures/review/mca_ind_automated_kmodes9.pdf>] [43
+ures/review/variables_variance_enveloppe.pdf>] [48 <./figures/review/kmodes_elb
+ow.pdf> <./figures/review/mca_ind_automated_kmodes9.pdf>] [49
 
 
 ] (./Chapter4.tex
@@ -1680,151 +1722,151 @@ Chapter 2.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44
+ [50
 
 ]
-Overfull \vbox (124.66257pt too high) has occurred while \output is active []
+Overfull \vbox (39.77277pt too high) has occurred while \output is active []
 
 
-[45] [46] [47]
+[51] [52] [53]
 
-Package natbib Warning: Citation `costello_private_2007' on page 48 undefined o
-n input line 106.
-
-
-LaTeX Warning: Reference `sec:results' on page 48 undefined on input line 121.
+Package natbib Warning: Citation `costello_private_2007' on page 54 undefined o
+n input line 105.
 
 
-Overfull \hbox (8.12698pt too wide) in paragraph at lines 82--122
+LaTeX Warning: Reference `sec:results' on page 54 undefined on input line 120.
+
+
+Overfull \hbox (8.12698pt too wide) in paragraph at lines 82--121
 [][]\T1/ppl/m/n/10.95 2024[][]). Eu-ro-pean forests are not adapted to cli-mate
  change in-duced wild-fire risks ([][]Khabarov
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--122
+Underfull \hbox (badness 10000) in paragraph at lines 82--121
 
  []
 
-[48
+[54
 
-] [49] [50] [51]
+] [55] [56] [57]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 155.
-
-
-LaTeX Font Warning: Command \large invalid in math mode on input line 155.
+LaTeX Font Warning: Command \large invalid in math mode on input line 154.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 155.
+LaTeX Font Warning: Command \large invalid in math mode on input line 154.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 155.
+LaTeX Font Warning: Command \large invalid in math mode on input line 154.
 
-<figures/wildland/Juvenile.png, id=1674, 614.295pt x 302.93175pt>
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 154.
+
+<figures/wildland/Juvenile.png, id=1877, 614.295pt x 302.93175pt>
 File: figures/wildland/Juvenile.png Graphic file (type png)
 <use figures/wildland/Juvenile.png>
-Package pdftex.def Info: figures/wildland/Juvenile.png  used on input line 160.
+Package pdftex.def Info: figures/wildland/Juvenile.png  used on input line 159.
 
 (pdftex.def)             Requested size: 256.07742pt x 126.28287pt.
 
 Package caption Warning: \setcaptionsubtype
-(caption)                outside box or environment on input line 162.
+(caption)                outside box or environment on input line 161.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 162.
+(caption)                outside box or environment on input line 161.
 See the caption package documentation for explanation.
 
-[52 <./figures/wildland/Juvenile.png>]
-<figures/wildland/arrow_biod2.PNG, id=1696, 358.941pt x 221.02576pt>
+[58 <./figures/wildland/Juvenile.png>]
+<figures/wildland/arrow_biod2.PNG, id=1900, 358.941pt x 221.02576pt>
 File: figures/wildland/arrow_biod2.PNG Graphic file (type png)
 <use figures/wildland/arrow_biod2.PNG>
 Package pdftex.def Info: figures/wildland/arrow_biod2.PNG  used on input line 1
-81.
+80.
 (pdftex.def)             Requested size: 85.35696pt x 52.55823pt.
-<figures/wildland/land3.PNG, id=1697, 158.39175pt x 120.45pt>
+<figures/wildland/land3.PNG, id=1901, 158.39175pt x 120.45pt>
 File: figures/wildland/land3.PNG Graphic file (type png)
 <use figures/wildland/land3.PNG>
-Package pdftex.def Info: figures/wildland/land3.PNG  used on input line 182.
+Package pdftex.def Info: figures/wildland/land3.PNG  used on input line 181.
 (pdftex.def)             Requested size: 76.8193pt x 58.41634pt.
-<figures/wildland/arrow_fuel2.PNG, id=1698, 345.6915pt x 239.09325pt>
+<figures/wildland/arrow_fuel2.PNG, id=1902, 345.6915pt x 239.09325pt>
 File: figures/wildland/arrow_fuel2.PNG Graphic file (type png)
 <use figures/wildland/arrow_fuel2.PNG>
 Package pdftex.def Info: figures/wildland/arrow_fuel2.PNG  used on input line 1
-83.
+82.
 (pdftex.def)             Requested size: 85.35696pt x 59.03621pt.
-<figures/wildland/biodiv_3.PNG, id=1699, 263.18324pt x 260.172pt>
+<figures/wildland/biodiv_3.PNG, id=1903, 263.18324pt x 260.172pt>
 File: figures/wildland/biodiv_3.PNG Graphic file (type png)
 <use figures/wildland/biodiv_3.PNG>
-Package pdftex.def Info: figures/wildland/biodiv_3.PNG  used on input line 185.
+Package pdftex.def Info: figures/wildland/biodiv_3.PNG  used on input line 184.
 
 (pdftex.def)             Requested size: 85.35696pt x 84.3802pt.
-<figures/wildland/fire_3.PNG, id=1700, 363.15675pt x 357.13425pt>
+<figures/wildland/fire_3.PNG, id=1904, 363.15675pt x 357.13425pt>
 File: figures/wildland/fire_3.PNG Graphic file (type png)
 <use figures/wildland/fire_3.PNG>
-Package pdftex.def Info: figures/wildland/fire_3.PNG  used on input line 186.
+Package pdftex.def Info: figures/wildland/fire_3.PNG  used on input line 185.
 (pdftex.def)             Requested size: 85.35696pt x 83.9429pt.
-<figures/wildland/arrow_right.PNG, id=1701, 386.04225pt x 345.08925pt>
+<figures/wildland/arrow_right.PNG, id=1905, 386.04225pt x 345.08925pt>
 File: figures/wildland/arrow_right.PNG Graphic file (type png)
 <use figures/wildland/arrow_right.PNG>
 Package pdftex.def Info: figures/wildland/arrow_right.PNG  used on input line 1
-87.
+86.
 (pdftex.def)             Requested size: 76.8193pt x 68.66908pt.
-<figures/wildland/graphe_feu_biod_33.PNG, id=1702, 234.8775pt x 228.855pt>
+<figures/wildland/graphe_feu_biod_33.PNG, id=1906, 234.8775pt x 228.855pt>
 File: figures/wildland/graphe_feu_biod_33.PNG Graphic file (type png)
 <use figures/wildland/graphe_feu_biod_33.PNG>
 Package pdftex.def Info: figures/wildland/graphe_feu_biod_33.PNG  used on input
- line 188.
+ line 187.
 (pdftex.def)             Requested size: 85.35696pt x 83.16646pt.
-<figures/wildland/back_left.PNG, id=1703, 381.22424pt x 335.45325pt>
+<figures/wildland/back_left.PNG, id=1907, 381.22424pt x 335.45325pt>
 File: figures/wildland/back_left.PNG Graphic file (type png)
 <use figures/wildland/back_left.PNG>
-Package pdftex.def Info: figures/wildland/back_left.PNG  used on input line 189
+Package pdftex.def Info: figures/wildland/back_left.PNG  used on input line 188
 .
 (pdftex.def)             Requested size: 76.8193pt x 67.59619pt.
 
 
 Package caption Warning: \setcaptionsubtype
-(caption)                outside box or environment on input line 191.
+(caption)                outside box or environment on input line 190.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 191.
+(caption)                outside box or environment on input line 190.
 See the caption package documentation for explanation.
 
-[53 <./figures/wildland/arrow_biod2.PNG> <./figures/wildland/land3.PNG> <./figu
+[59 <./figures/wildland/arrow_biod2.PNG> <./figures/wildland/land3.PNG> <./figu
 res/wildland/arrow_fuel2.PNG> <./figures/wildland/biodiv_3.PNG> <./figures/wild
 land/fire_3.PNG> <./figures/wildland/arrow_right.PNG> <./figures/wildland/graph
 e_feu_biod_33.PNG> <./figures/wildland/back_left.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 204--228
+Underfull \hbox (badness 10000) in paragraph at lines 203--227
 
  []
 
-[54]
-Overfull \hbox (1.47964pt too wide) in paragraph at lines 252--270
+[60]
+Overfull \hbox (1.47964pt too wide) in paragraph at lines 251--269
  [][] 
  []
 
-
-Underfull \vbox (badness 6825) has occurred while \output is active []
-
- [55]
+[61]
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 2
-93.
-
-(c:/texlive/2023/texmf-dist/tex/latex/base/t1cmss.fd
+92.
+ (c:/texlive/2023/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-) [56]
-Underfull \hbox (badness 10000) in paragraph at lines 297--352
+) [62]
+Underfull \hbox (badness 10000) in paragraph at lines 296--351
 
  []
 
-[57] [58] [59] [60] [61] [62] [63] [64]) (./appendices/appendix4.tex [65
+[63] [64]
+Underfull \vbox (badness 4096) has occurred while \output is active []
+
+ [65]
+[66] [67] [68] [69] [70]) (./appendices/appendix4.tex [71
 
 ]
-<figures/wildland/eigenvalues.png, id=1999, 505.89pt x 505.89pt>
+<figures/wildland/eigenvalues.png, id=2208, 505.89pt x 505.89pt>
 File: figures/wildland/eigenvalues.png Graphic file (type png)
 <use figures/wildland/eigenvalues.png>
 Package pdftex.def Info: figures/wildland/eigenvalues.png  used on input line 8
@@ -1851,8 +1893,8 @@ Package caption Warning: \subcaption
 (caption)                outside box or environment on input line 145.
 See the caption package documentation for explanation.
 
-[66 <./figures/wildland/eigenvalues.png>]
-<figures/wildland/large_land_autocorr_0.5_distrib_1.jpg, id=2006, 1185.42876pt 
+[72 <./figures/wildland/eigenvalues.png>]
+<figures/wildland/large_land_autocorr_0.5_distrib_1.jpg, id=2215, 1185.42876pt 
 x 1422.31375pt>
 File: figures/wildland/large_land_autocorr_0.5_distrib_1.jpg Graphic file (type
  jpg)
@@ -1860,7 +1902,7 @@ File: figures/wildland/large_land_autocorr_0.5_distrib_1.jpg Graphic file (type
 Package pdftex.def Info: figures/wildland/large_land_autocorr_0.5_distrib_1.jpg
   used on input line 152.
 (pdftex.def)             Requested size: 170.71393pt x 204.80869pt.
-<figures/wildland/large_land_autocorr_0.5_distrib_4.jpg, id=2007, 1185.42876pt 
+<figures/wildland/large_land_autocorr_0.5_distrib_4.jpg, id=2216, 1185.42876pt 
 x 1422.31375pt>
 File: figures/wildland/large_land_autocorr_0.5_distrib_4.jpg Graphic file (type
  jpg)
@@ -1868,7 +1910,7 @@ File: figures/wildland/large_land_autocorr_0.5_distrib_4.jpg Graphic file (type
 Package pdftex.def Info: figures/wildland/large_land_autocorr_0.5_distrib_4.jpg
   used on input line 153.
 (pdftex.def)             Requested size: 170.71393pt x 204.80869pt.
-<figures/wildland/large_land_autocorr_0.9_distrib_1.jpg, id=2008, 1185.42876pt 
+<figures/wildland/large_land_autocorr_0.9_distrib_1.jpg, id=2217, 1185.42876pt 
 x 1422.31375pt>
 File: figures/wildland/large_land_autocorr_0.9_distrib_1.jpg Graphic file (type
  jpg)
@@ -1882,7 +1924,7 @@ File: figures/wildland/large_land_autocorr_0.5_distrib_4.jpg Graphic file (type
 Package pdftex.def Info: figures/wildland/large_land_autocorr_0.5_distrib_4.jpg
   used on input line 155.
 (pdftex.def)             Requested size: 170.71393pt x 204.80869pt.
-<figures/wildland/large_land_autocorr_1.8_distrib_1.jpg, id=2009, 1185.42876pt 
+<figures/wildland/large_land_autocorr_1.8_distrib_1.jpg, id=2218, 1185.42876pt 
 x 1422.31375pt>
 File: figures/wildland/large_land_autocorr_1.8_distrib_1.jpg Graphic file (type
  jpg)
@@ -1896,174 +1938,174 @@ File: figures/wildland/large_land_autocorr_0.5_distrib_4.jpg Graphic file (type
 Package pdftex.def Info: figures/wildland/large_land_autocorr_0.5_distrib_4.jpg
   used on input line 157.
 (pdftex.def)             Requested size: 170.71393pt x 204.80869pt.
- [67
+ [73
 
  <./figures/wildland/large_land_autocorr_0.5_distrib_1.jpg> <./figures/wildland
 /large_land_autocorr_0.5_distrib_4.jpg> <./figures/wildland/large_land_autocorr
 _0.9_distrib_1.jpg> <./figures/wildland/large_land_autocorr_1.8_distrib_1.jpg>]
- [68
+ [74
 
 ]
-<figures/wildland/distribution_cases_3.png, id=2032, 526.8483pt x 325.215pt>
+<figures/wildland/distribution_cases_3.png, id=2242, 526.8483pt x 325.215pt>
 File: figures/wildland/distribution_cases_3.png Graphic file (type png)
 <use figures/wildland/distribution_cases_3.png>
 Package pdftex.def Info: figures/wildland/distribution_cases_3.png  used on inp
 ut line 219.
 (pdftex.def)             Requested size: 192.05481pt x 118.55113pt.
-<figures/wildland/distribution_cases_4.png, id=2033, 526.8483pt x 325.215pt>
+<figures/wildland/distribution_cases_4.png, id=2243, 526.8483pt x 325.215pt>
 File: figures/wildland/distribution_cases_4.png Graphic file (type png)
 <use figures/wildland/distribution_cases_4.png>
 Package pdftex.def Info: figures/wildland/distribution_cases_4.png  used on inp
 ut line 220.
 (pdftex.def)             Requested size: 192.05481pt x 118.55113pt.
-<figures/wildland/number_cycles3.png, id=2034, 361.35pt x 361.35pt>
+<figures/wildland/number_cycles3.png, id=2244, 361.35pt x 361.35pt>
 File: figures/wildland/number_cycles3.png Graphic file (type png)
 <use figures/wildland/number_cycles3.png>
 Package pdftex.def Info: figures/wildland/number_cycles3.png  used on input lin
 e 228.
 (pdftex.def)             Requested size: 192.05481pt x 192.05493pt.
-<figures/wildland/number_cycles4.png, id=2035, 361.35pt x 361.35pt>
+<figures/wildland/number_cycles4.png, id=2245, 361.35pt x 361.35pt>
 File: figures/wildland/number_cycles4.png Graphic file (type png)
 <use figures/wildland/number_cycles4.png>
 Package pdftex.def Info: figures/wildland/number_cycles4.png  used on input lin
 e 229.
 (pdftex.def)             Requested size: 192.05481pt x 192.05493pt.
- [69
+ [75
 
  <./figures/wildland/distribution_cases_3.png> <./figures/wildland/distribution
 _cases_4.png> <./figures/wildland/number_cycles3.png> <./figures/wildland/numbe
 r_cycles4.png>]
-<figures/wildland/tradeoff3.png, id=2044, 339.30765pt x 360.44662pt>
+<figures/wildland/tradeoff3.png, id=2254, 339.30765pt x 360.44662pt>
 File: figures/wildland/tradeoff3.png Graphic file (type png)
 <use figures/wildland/tradeoff3.png>
 Package pdftex.def Info: figures/wildland/tradeoff3.png  used on input line 236
 .
 (pdftex.def)             Requested size: 213.39568pt x 226.69208pt.
-<figures/wildland/tradeoff4.png, id=2045, 339.30765pt x 360.26595pt>
+<figures/wildland/tradeoff4.png, id=2255, 339.30765pt x 360.26595pt>
 File: figures/wildland/tradeoff4.png Graphic file (type png)
 <use figures/wildland/tradeoff4.png>
 Package pdftex.def Info: figures/wildland/tradeoff4.png  used on input line 237
 .
 (pdftex.def)             Requested size: 213.39568pt x 226.57843pt.
- [70 <./figures/wildland/tradeoff3.png> <./figures/wildland/tradeoff4.png>]
-<figures/wildland/landscapes3.png, id=2052, 361.35pt x 433.62pt>
+ [76 <./figures/wildland/tradeoff3.png> <./figures/wildland/tradeoff4.png>]
+<figures/wildland/landscapes3.png, id=2262, 361.35pt x 433.62pt>
 File: figures/wildland/landscapes3.png Graphic file (type png)
 <use figures/wildland/landscapes3.png>
 Package pdftex.def Info: figures/wildland/landscapes3.png  used on input line 2
 47.
 (pdftex.def)             Requested size: 170.71121pt x 256.085pt.
-<figures/wildland/landscapes4.png, id=2053, 361.35pt x 433.62pt>
+<figures/wildland/landscapes4.png, id=2263, 361.35pt x 433.62pt>
 File: figures/wildland/landscapes4.png Graphic file (type png)
 <use figures/wildland/landscapes4.png>
 Package pdftex.def Info: figures/wildland/landscapes4.png  used on input line 2
 48.
 (pdftex.def)             Requested size: 192.05493pt x 284.54257pt.
- [71 <./figures/wildland/landscapes3.png> <./figures/wildland/landscapes4.png>]
-<figures/wildland/risky_surface3.png, id=2060, 329.00917pt x 360.44662pt>
+ [77 <./figures/wildland/landscapes3.png> <./figures/wildland/landscapes4.png>]
+<figures/wildland/risky_surface3.png, id=2270, 329.00917pt x 360.44662pt>
 File: figures/wildland/risky_surface3.png Graphic file (type png)
 <use figures/wildland/risky_surface3.png>
 Package pdftex.def Info: figures/wildland/risky_surface3.png  used on input lin
 e 258.
 (pdftex.def)             Requested size: 167.29892pt x 183.28635pt.
-<figures/wildland/risky_surface4.png, id=2061, 334.06807pt x 360.44662pt>
+<figures/wildland/risky_surface4.png, id=2271, 334.06807pt x 360.44662pt>
 File: figures/wildland/risky_surface4.png Graphic file (type png)
 <use figures/wildland/risky_surface4.png>
 Package pdftex.def Info: figures/wildland/risky_surface4.png  used on input lin
 e 264.
 (pdftex.def)             Requested size: 170.71393pt x 184.19383pt.
-<figures/wildland/risky_components3.png, id=2062, 336.41685pt x 338.76563pt>
+<figures/wildland/risky_components3.png, id=2272, 336.41685pt x 338.76563pt>
 File: figures/wildland/risky_components3.png Graphic file (type png)
 <use figures/wildland/risky_components3.png>
 Package pdftex.def Info: figures/wildland/risky_components3.png  used on input 
 line 271.
 (pdftex.def)             Requested size: 170.71393pt x 171.9101pt.
-<figures/wildland/risky_component4.png, id=2063, 329.18985pt x 338.76563pt>
+<figures/wildland/risky_component4.png, id=2273, 329.18985pt x 338.76563pt>
 File: figures/wildland/risky_component4.png Graphic file (type png)
 <use figures/wildland/risky_component4.png>
 Package pdftex.def Info: figures/wildland/risky_component4.png  used on input l
 ine 277.
 (pdftex.def)             Requested size: 167.29892pt x 172.16338pt.
-<figures/wildland/max_component_area3.png, id=2064, 329.00917pt x 338.58495pt>
+<figures/wildland/max_component_area3.png, id=2274, 329.00917pt x 338.58495pt>
 File: figures/wildland/max_component_area3.png Graphic file (type png)
 <use figures/wildland/max_component_area3.png>
 Package pdftex.def Info: figures/wildland/max_component_area3.png  used on inpu
 t line 284.
 (pdftex.def)             Requested size: 167.29892pt x 172.16972pt.
-<figures/wildland/max_component_area4.png, id=2065, 334.06807pt x 338.58495pt>
+<figures/wildland/max_component_area4.png, id=2275, 334.06807pt x 338.58495pt>
 File: figures/wildland/max_component_area4.png Graphic file (type png)
 <use figures/wildland/max_component_area4.png>
 Package pdftex.def Info: figures/wildland/max_component_area4.png  used on inpu
 t line 290.
 (pdftex.def)             Requested size: 170.71393pt x 173.02217pt.
- [72 <./figures/wildland/risky_surface3.png> <./figures/wildland/risky_surface4
+ [78 <./figures/wildland/risky_surface3.png> <./figures/wildland/risky_surface4
 .png> <./figures/wildland/risky_components3.png> <./figures/wildland/risky_comp
 onent4.png> <./figures/wildland/max_component_area3.png> <./figures/wildland/ma
 x_component_area4.png>]
-<figures/wildland/simpson_index3.png, id=2076, 341.29507pt x 338.76563pt>
+<figures/wildland/simpson_index3.png, id=2286, 341.29507pt x 338.76563pt>
 File: figures/wildland/simpson_index3.png Graphic file (type png)
 <use figures/wildland/simpson_index3.png>
 Package pdftex.def Info: figures/wildland/simpson_index3.png  used on input lin
 e 315.
 (pdftex.def)             Requested size: 170.71393pt x 169.45476pt.
-<figures/wildland/simpson_index4.png, id=2077, 336.23618pt x 338.76563pt>
+<figures/wildland/simpson_index4.png, id=2287, 336.23618pt x 338.76563pt>
 File: figures/wildland/simpson_index4.png Graphic file (type png)
 <use figures/wildland/simpson_index4.png>
 Package pdftex.def Info: figures/wildland/simpson_index4.png  used on input lin
 e 321.
 (pdftex.def)             Requested size: 168.15332pt x 169.41856pt.
-<figures/wildland/LSI_biod3.png, id=2078, 341.29507pt x 360.44662pt>
+<figures/wildland/LSI_biod3.png, id=2288, 341.29507pt x 360.44662pt>
 File: figures/wildland/LSI_biod3.png Graphic file (type png)
 <use figures/wildland/LSI_biod3.png>
 Package pdftex.def Info: figures/wildland/LSI_biod3.png  used on input line 328
 .
 (pdftex.def)             Requested size: 170.71393pt x 180.29987pt.
-<figures/wildland/LSI_biod4.png, id=2079, 336.23618pt x 360.44662pt>
+<figures/wildland/LSI_biod4.png, id=2289, 336.23618pt x 360.44662pt>
 File: figures/wildland/LSI_biod4.png Graphic file (type png)
 <use figures/wildland/LSI_biod4.png>
 Package pdftex.def Info: figures/wildland/LSI_biod4.png  used on input line 334
 .
 (pdftex.def)             Requested size: 168.15332pt x 180.26137pt.
-<figures/wildland/diversity_index3.png, id=2080, 336.23618pt x 338.58495pt>
+<figures/wildland/diversity_index3.png, id=2290, 336.23618pt x 338.58495pt>
 File: figures/wildland/diversity_index3.png Graphic file (type png)
 <use figures/wildland/diversity_index3.png>
 Package pdftex.def Info: figures/wildland/diversity_index3.png  used on input l
 ine 341.
 (pdftex.def)             Requested size: 170.71393pt x 171.90623pt.
-<figures/wildland/diversity_index4.png, id=2081, 321.24014pt x 338.58495pt>
+<figures/wildland/diversity_index4.png, id=2291, 321.24014pt x 338.58495pt>
 File: figures/wildland/diversity_index4.png Graphic file (type png)
 <use figures/wildland/diversity_index4.png>
 Package pdftex.def Info: figures/wildland/diversity_index4.png  used on input l
 ine 347.
 (pdftex.def)             Requested size: 163.0321pt x 171.83391pt.
- [73 <./figures/wildland/simpson_index3.png> <./figures/wildland/simpson_index4
+ [79 <./figures/wildland/simpson_index3.png> <./figures/wildland/simpson_index4
 .png> <./figures/wildland/LSI_biod3.png> <./figures/wildland/LSI_biod4.png> <./
 figures/wildland/diversity_index3.png> <./figures/wildland/diversity_index4.png
 >]
-<figures/wildland/number_treatments3.png, id=2092, 330.81592pt x 359.00122pt>
+<figures/wildland/number_treatments3.png, id=2302, 330.81592pt x 359.00122pt>
 File: figures/wildland/number_treatments3.png Graphic file (type png)
 <use figures/wildland/number_treatments3.png>
 Package pdftex.def Info: figures/wildland/number_treatments3.png  used on input
  line 362.
 (pdftex.def)             Requested size: 204.85803pt x 222.31003pt.
-<figures/wildland/number_treatments4.png, id=2093, 330.81592pt x 359.00122pt>
+<figures/wildland/number_treatments4.png, id=2303, 330.81592pt x 359.00122pt>
 File: figures/wildland/number_treatments4.png Graphic file (type png)
 <use figures/wildland/number_treatments4.png>
 Package pdftex.def Info: figures/wildland/number_treatments4.png  used on input
  line 368.
 (pdftex.def)             Requested size: 204.85803pt x 222.31003pt.
-<figures/wildland/treatments3.png, id=2094, 426.393pt x 281.853pt>
+<figures/wildland/treatments3.png, id=2304, 426.393pt x 281.853pt>
 File: figures/wildland/treatments3.png Graphic file (type png)
 <use figures/wildland/treatments3.png>
 Package pdftex.def Info: figures/wildland/treatments3.png  used on input line 3
 75.
 (pdftex.def)             Requested size: 187.78923pt x 124.13182pt.
-<figures/wildland/treatments4.png, id=2095, 433.62pt x 289.08pt>
+<figures/wildland/treatments4.png, id=2305, 433.62pt x 289.08pt>
 File: figures/wildland/treatments4.png Graphic file (type png)
 <use figures/wildland/treatments4.png>
 Package pdftex.def Info: figures/wildland/treatments4.png  used on input line 3
 81.
 (pdftex.def)             Requested size: 187.78923pt x 125.193pt.
-) [74 <./figures/wildland/number_treatments3.png> <./figures/wildland/number_tr
+) [80 <./figures/wildland/number_treatments3.png> <./figures/wildland/number_tr
 eatments4.png> <./figures/wildland/treatments3.png> <./figures/wildland/treatme
 nts4.png>] (./Chapter5.tex
 Chapter 3.
@@ -2078,58 +2120,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--13
 
  []
 
-[75
+[81
 
 
 ]
 
-Package natbib Warning: Citation `oliver2019' on page 76 undefined on input lin
+Package natbib Warning: Citation `oliver2019' on page 82 undefined on input lin
 e 24.
 
-[76] [77]
+[82] [83]
 
-LaTeX Warning: Reference `sec:optimal_management' on page 78 undefined on input
+LaTeX Warning: Reference `sec:optimal_management' on page 84 undefined on input
  line 51.
 
 
-LaTeX Warning: Reference `sec:decentralized' on page 78 undefined on input line
+LaTeX Warning: Reference `sec:decentralized' on page 84 undefined on input line
  51.
 
 
-LaTeX Warning: Reference `sec:numerical' on page 78 undefined on input line 51.
+LaTeX Warning: Reference `sec:numerical' on page 84 undefined on input line 51.
 
 
 
-LaTeX Warning: Reference `sec:conclusion' on page 78 undefined on input line 51
+LaTeX Warning: Reference `sec:conclusion' on page 84 undefined on input line 51
 .
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [78]
+ [84]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [79]
+ [85]
 LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 
 111.
 
 (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
-) [80] [81])
+) [86] [87])
 (./appendices/appendix5.tex
 Overfull \hbox (49.10988pt too wide) in paragraph at lines 15--16
  [][] 
  []
 
-[82
+[88
 
 ]
 
-LaTeX Warning: Reference `eq:foc_control_non_cooperative' on page 83 undefined 
+LaTeX Warning: Reference `eq:foc_control_non_cooperative' on page 89 undefined 
 on input line 27.
 
 
-LaTeX Warning: Reference `eq:foc_fence_non_cooperative' on page 83 undefined on
+LaTeX Warning: Reference `eq:foc_fence_non_cooperative' on page 89 undefined on
  input line 27.
 
 
@@ -2137,30 +2179,30 @@ Overfull \hbox (67.99858pt too wide) detected at line 37
 []
  []
 
-) [83] [84
+) [89] [90
 
 
 ] (./Chapter3.tex
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--14
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
 
  []
 
-[85
+[91
 
 ]
-Overfull \hbox (0.79976pt too wide) in paragraph at lines 23--30
+Overfull \hbox (0.79976pt too wide) in paragraph at lines 24--31
 \T1/ppl/m/n/10.95 Illegal wildlife trade is a multi-billion dol-lar in-dus-try 
 that drives bio-di-ver-sity loss through
  []
@@ -2168,113 +2210,113 @@ that drives bio-di-ver-sity loss through
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [86]
-<figures/totoaba/Trends_stock_catch.png, id=2361, 526.8483pt x 325.215pt>
+ [92]
+<figures/totoaba/Trends_stock_catch.png, id=2570, 526.8483pt x 325.215pt>
 File: figures/totoaba/Trends_stock_catch.png Graphic file (type png)
 <use figures/totoaba/Trends_stock_catch.png>
 Package pdftex.def Info: figures/totoaba/Trends_stock_catch.png  used on input 
-line 33.
+line 34.
 (pdftex.def)             Requested size: 341.43439pt x 210.76198pt.
 
 
 Package caption Warning: \setcaptionsubtype
-(caption)                outside box or environment on input line 35.
+(caption)                outside box or environment on input line 36.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 35.
+(caption)                outside box or environment on input line 36.
 See the caption package documentation for explanation.
 
-[87 <./figures/totoaba/Trends_stock_catch.png>]
-<figures/totoaba/Figure1_potential_equilibria.jpg, id=2393, 2195.20125pt x 1355
+[93 <./figures/totoaba/Trends_stock_catch.png>]
+<figures/totoaba/Figure1_potential_equilibria.jpg, id=2602, 2195.20125pt x 1355
 .0625pt>
 File: figures/totoaba/Figure1_potential_equilibria.jpg Graphic file (type jpg)
 <use figures/totoaba/Figure1_potential_equilibria.jpg>
 Package pdftex.def Info: figures/totoaba/Figure1_potential_equilibria.jpg  used
- on input line 49.
+ on input line 50.
 (pdftex.def)             Requested size: 362.77525pt x 223.92717pt.
 
 
 Package caption Warning: \setcaptionsubtype
-(caption)                outside box or environment on input line 51.
+(caption)                outside box or environment on input line 52.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 51.
+(caption)                outside box or environment on input line 52.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[88]
-<figures/totoaba/schematic_market.png, id=2412, 513.92pt x 250.9375pt>
+[94]
+<figures/totoaba/schematic_market.png, id=2620, 513.92pt x 250.9375pt>
 File: figures/totoaba/schematic_market.png Graphic file (type png)
 <use figures/totoaba/schematic_market.png>
 Package pdftex.def Info: figures/totoaba/schematic_market.png  used on input li
-ne 61.
+ne 62.
 (pdftex.def)             Requested size: 362.77525pt x 177.13686pt.
 
 
 Package caption Warning: \setcaptionsubtype
-(caption)                outside box or environment on input line 63.
+(caption)                outside box or environment on input line 64.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 63.
+(caption)                outside box or environment on input line 64.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[89 <./figures/totoaba/Figure1_potential_equilibria.jpg>]
+[95 <./figures/totoaba/Figure1_potential_equilibria.jpg>]
 Underfull \vbox (badness 3579) has occurred while \output is active []
 
- [90 <./figures/totoaba/schematic_market.png>] [91]
+ [96 <./figures/totoaba/schematic_market.png>] [97]
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 96.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 96.
+LaTeX Warning: Command \textendash invalid in math mode on input line 97.
 
 
-Overfull \hbox (3.24287pt too wide) in paragraph at lines 103--104
+LaTeX Warning: Command \textendash invalid in math mode on input line 97.
+
+
+Overfull \hbox (3.24287pt too wide) in paragraph at lines 104--105
 \T1/ppl/m/n/10.95 which dif-fer-en-ti-ates be-tween poach-ers and traders and d
 e-vel-ops a three-stage game ([][]Bulte
  []
 
-[92]
-<figures/totoaba/Figure3.png, id=2482, 569.0058pt x 341.3553pt>
+[98]
+<figures/totoaba/Figure3.png, id=2691, 569.0058pt x 341.3553pt>
 File: figures/totoaba/Figure3.png Graphic file (type png)
 <use figures/totoaba/Figure3.png>
-Package pdftex.def Info: figures/totoaba/Figure3.png  used on input line 107.
+Package pdftex.def Info: figures/totoaba/Figure3.png  used on input line 108.
 (pdftex.def)             Requested size: 362.77525pt x 217.63324pt.
 
 
 Package caption Warning: \setcaptionsubtype
-(caption)                outside box or environment on input line 109.
+(caption)                outside box or environment on input line 110.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 109.
+(caption)                outside box or environment on input line 110.
 See the caption package documentation for explanation.
 
-<figures/totoaba/figure4.png, id=2489, 853.5087pt x 426.6339pt>
+<figures/totoaba/figure4.png, id=2698, 853.5087pt x 426.6339pt>
 File: figures/totoaba/figure4.png Graphic file (type png)
 <use figures/totoaba/figure4.png>
-Package pdftex.def Info: figures/totoaba/figure4.png  used on input line 119.
+Package pdftex.def Info: figures/totoaba/figure4.png  used on input line 120.
 (pdftex.def)             Requested size: 362.77525pt x 181.33327pt.
 
 Package caption Warning: \setcaptionsubtype
-(caption)                outside box or environment on input line 121.
+(caption)                outside box or environment on input line 122.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 121.
+(caption)                outside box or environment on input line 122.
 See the caption package documentation for explanation.
 
 
@@ -2283,45 +2325,46 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 6859) has occurred while \output is active []
 
- [93 <./figures/totoaba/Figure3.png>] [94 <./figures/totoaba/figure4.png>]
-<figures/totoaba/bioecon_perf.png, id=2515, 3758.04pt x 1577.895pt>
+ [99 <./figures/totoaba/Figure3.png>] [100 <./figures/totoaba/figure4.png>]
+<figures/totoaba/bioecon_perf.png, id=2723, 3758.04pt x 1577.895pt>
 File: figures/totoaba/bioecon_perf.png Graphic file (type png)
 <use figures/totoaba/bioecon_perf.png>
 Package pdftex.def Info: figures/totoaba/bioecon_perf.png  used on input line 1
-37.
+38.
 (pdftex.def)             Requested size: 362.77525pt x 152.30925pt.
- [95 <./figures/totoaba/bioecon_perf.png>]
-<figures/totoaba/Figure5.jpg, id=2537, 2370.8575pt x 1777.64125pt>
+ [101 <./figures/totoaba/bioecon_perf.png>]
+<figures/totoaba/Figure5.jpg, id=2745, 2370.8575pt x 1777.64125pt>
 File: figures/totoaba/Figure5.jpg Graphic file (type jpg)
 <use figures/totoaba/Figure5.jpg>
-Package pdftex.def Info: figures/totoaba/Figure5.jpg  used on input line 155.
+Package pdftex.def Info: figures/totoaba/Figure5.jpg  used on input line 156.
 (pdftex.def)             Requested size: 362.77525pt x 272.00536pt.
 
 
 Package caption Warning: \setcaptionsubtype
-(caption)                outside box or environment on input line 157.
+(caption)                outside box or environment on input line 158.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 157.
+(caption)                outside box or environment on input line 158.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[96]
+[102]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [97 <./figures/totoaba/Figure5.jpg>] [98]) [99] (./appendices/appendix3.tex
+ [103 <./figures/totoaba/Figure5.jpg>] [104]) [105] (./appendices/appendix3.tex
+
 Overfull \hbox (2.258pt too wide) in paragraph at lines 4--5
 \T1/ppl/m/n/10.95 Our frame-work fol-lows [][]Da-ma-nia and Bulte[][] ([][]2007
 [][]), with a poach-ing cost struc-ture adapted
  []
 
-[100
+[106
 
-] [101] [102]
+] [107] [108]
 Underfull \hbox (badness 10000) in paragraph at lines 176--186
 
  []
@@ -2329,7 +2372,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--186
 
 Underfull \vbox (badness 1038) has occurred while \output is active []
 
- [103]
+ [109]
 Underfull \hbox (badness 10000) in paragraph at lines 208--212
 
  []
@@ -2344,7 +2387,7 @@ Overfull \hbox (53.41594pt too wide) detected at line 235
 []
  []
 
-[104]
+[110]
 Underfull \hbox (badness 10000) in paragraph at lines 247--250
 
  []
@@ -2354,7 +2397,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 251--256
 
  []
 
-[105]
+[111]
 Overfull \hbox (0.31941pt too wide) in paragraph at lines 303--304
  []\T1/ppl/b/n/10.95 An oligopoly model:[] \T1/ppl/m/n/10.95 we ex-tend our mod
 el to gauge the im-pact of the num-ber of traders
@@ -2365,8 +2408,8 @@ Overfull \hbox (53.05655pt too wide) detected at line 336
 []
  []
 
-[106]
-<figures/totoaba/sup_figure1.jpg, id=2690, 1777.64125pt x 2132.96875pt>
+[112]
+<figures/totoaba/sup_figure1.jpg, id=2899, 1777.64125pt x 2132.96875pt>
 File: figures/totoaba/sup_figure1.jpg Graphic file (type jpg)
 <use figures/totoaba/sup_figure1.jpg>
 Package pdftex.def Info: figures/totoaba/sup_figure1.jpg  used on input line 35
@@ -2386,9 +2429,9 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [107]
-[108 <./figures/totoaba/sup_figure1.jpg>]
-<figures/totoaba/sup_figure2.png, id=2711, 426.6339pt x 511.9125pt>
+ [113]
+[114 <./figures/totoaba/sup_figure1.jpg>]
+<figures/totoaba/sup_figure2.png, id=2920, 426.6339pt x 511.9125pt>
 File: figures/totoaba/sup_figure2.png Graphic file (type png)
 <use figures/totoaba/sup_figure2.png>
 Package pdftex.def Info: figures/totoaba/sup_figure2.png  used on input line 39
@@ -2397,8 +2440,8 @@ Package pdftex.def Info: figures/totoaba/sup_figure2.png  used on input line 39
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [109]
-[110 <./figures/totoaba/sup_figure2.png>]
+ [115]
+[116 <./figures/totoaba/sup_figure2.png>]
 Overfull \hbox (56.06856pt too wide) detected at line 441
 []
  []
@@ -2406,8 +2449,8 @@ Overfull \hbox (56.06856pt too wide) detected at line 441
 
 Underfull \vbox (badness 1303) has occurred while \output is active []
 
- [111]
-[112]
+ [117]
+[118]
 Overfull \hbox (6.98318pt too wide) in paragraph at lines 487--488
 []\T1/ppl/m/n/10.95 Eventually, if $\OML/zplm/m/it/10.95 F\OT1/zplm/m/n/10.95 (
 \OT1/ppl/m/n/10.95 0\OMS/zplm/m/n/10.95 j\OML/zplm/m/it/10.95 c\OT1/zplm/m/n/10
@@ -2415,7 +2458,7 @@ Overfull \hbox (6.98318pt too wide) in paragraph at lines 487--488
 -ways larger than in the monopoly
  []
 
-<figures/totoaba/lemma2_bertrand.png, id=2740, 526.8483pt x 325.215pt>
+<figures/totoaba/lemma2_bertrand.png, id=2948, 526.8483pt x 325.215pt>
 File: figures/totoaba/lemma2_bertrand.png Graphic file (type png)
 <use figures/totoaba/lemma2_bertrand.png>
 Package pdftex.def Info: figures/totoaba/lemma2_bertrand.png  used on input lin
@@ -2431,8 +2474,8 @@ Package caption Warning: \subcaption
 (caption)                outside box or environment on input line 494.
 See the caption package documentation for explanation.
 
-[113 <./figures/totoaba/lemma2_bertrand.png>]
-<figures/totoaba/sup_figure3.png, id=2751, 426.6339pt x 640.0713pt>
+[119 <./figures/totoaba/lemma2_bertrand.png>]
+<figures/totoaba/sup_figure3.png, id=2959, 426.6339pt x 640.0713pt>
 File: figures/totoaba/sup_figure3.png Graphic file (type png)
 <use figures/totoaba/sup_figure3.png>
 Package pdftex.def Info: figures/totoaba/sup_figure3.png  used on input line 63
@@ -2449,10 +2492,10 @@ Package caption Warning: \subcaption
 (caption)                outside box or environment on input line 634.
 See the caption package documentation for explanation.
 
-[114
+[120
 
  <./figures/totoaba/sup_figure3.png>]
-<figures/totoaba/sup_fig4_VBGF_growth.jpg, id=2756, 1777.64125pt x 2607.7425pt>
+<figures/totoaba/sup_fig4_VBGF_growth.jpg, id=2964, 1777.64125pt x 2607.7425pt>
 
 File: figures/totoaba/sup_fig4_VBGF_growth.jpg Graphic file (type jpg)
 <use figures/totoaba/sup_fig4_VBGF_growth.jpg>
@@ -2470,7 +2513,7 @@ Package caption Warning: \subcaption
 (caption)                outside box or environment on input line 645.
 See the caption package documentation for explanation.
 
-[115 <./figures/totoaba/sup_fig4_VBGF_growth.jpg>]
+[121 <./figures/totoaba/sup_fig4_VBGF_growth.jpg>]
 
 Package caption Warning: \setcaptionsubtype
 (caption)                outside box or environment on input line 675.
@@ -2481,7 +2524,7 @@ Package caption Warning: \subcaption
 (caption)                outside box or environment on input line 675.
 See the caption package documentation for explanation.
 
-[116
+[122
 
 ]
 
@@ -2494,7 +2537,7 @@ Package caption Warning: \subcaption
 (caption)                outside box or environment on input line 710.
 See the caption package documentation for explanation.
 
-[117
+[123
 
 
 ]
@@ -2508,7 +2551,7 @@ Package caption Warning: \subcaption
 (caption)                outside box or environment on input line 748.
 See the caption package documentation for explanation.
 
-[118
+[124
 
 
 ]
@@ -2522,7 +2565,7 @@ Package caption Warning: \subcaption
 (caption)                outside box or environment on input line 841.
 See the caption package documentation for explanation.
 
-[119
+[125
 
 
 ]
@@ -2539,337 +2582,349 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[120]) (./Chapter6.tex) [121
+[126]) (./Chapter6.tex) [127
 
 
 
 
 
-] [122
+] [128
 
-] (./thesis_SJ.bbl [123
+] (./thesis_SJ.bbl [129
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 160--169
+Underfull \hbox (badness 10000) in paragraph at lines 172--181
 \T1/cmtt/m/n/10.95 core / journals / journal-[]of-[]the-[]history-[]of-[]econom
 ic-[]thought / article / abs /
  []
 
 
-Overfull \hbox (115.38713pt too wide) in paragraph at lines 160--169
+Overfull \hbox (115.38713pt too wide) in paragraph at lines 172--181
 \T1/cmtt/m/n/10.95 environmental-[]turn-[]in-[]natural-[]resource-[]economics-[
 ]john-[]krutilla-[]and-[]conservation-[]reconsidered /
  []
 
-[124] [125]
-Underfull \hbox (badness 1107) in paragraph at lines 307--315
+[130] [131]
+Underfull \hbox (badness 1107) in paragraph at lines 347--355
 []\T1/ppl/m/n/10.95 G. Brown and J. Rough-gar-den.  A metapop-u-la-tion model w
 ith pri-vate prop-erty
  []
 
-[126] [127]
-Underfull \hbox (badness 3029) in paragraph at lines 483--494
+[132] [133]
+Underfull \hbox (badness 3029) in paragraph at lines 533--544
 []\T1/ppl/m/n/10.95 A. Cheaib, V. Badeau, J. Boe, I. Chuine, C. Delire, E. Dufr
 êne, C. François,
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 483--494
+Underfull \hbox (badness 1371) in paragraph at lines 533--544
 \T1/ppl/m/n/10.95 E. S. Gritti, M. Legay, C. Pagé, W. Thuiller, N. Viovy, and P
 . Leadley.  Cli-
  []
 
 
-Underfull \hbox (badness 3907) in paragraph at lines 483--494
+Underfull \hbox (badness 3907) in paragraph at lines 533--544
 \T1/ppl/m/n/10.95 mate change im-pacts on tree ranges: model in-ter-com-par-i-s
 on fa-cil-i-tates un-
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 483--494
+Underfull \hbox (badness 2744) in paragraph at lines 533--544
 \T1/ppl/m/n/10.95 der-stand-ing and quan-tifi-ca-tion of un-cer-tainty.  \T1/pp
 l/m/it/10.95 Ecol-ogy Let-ters\T1/ppl/m/n/10.95 , 15:533--544, 6
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 483--494
+Underfull \hbox (badness 1648) in paragraph at lines 533--544
 \T1/ppl/m/n/10.95 2012.  ISSN 1461-0248.  doi: $10 . 1111 / J . 1461-[]0248 . 2
 012 . 01764 . X$.  URL [][]$\T1/cmtt/m/n/10.95 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--494
+Underfull \hbox (badness 10000) in paragraph at lines 533--544
 \T1/cmtt/m/n/10.95 / / onlinelibrary . wiley . com / doi / full / 10 . 1111 / j
  . 1461-[]0248 . 2012 . 01764 . xhttps :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--494
+Underfull \hbox (badness 10000) in paragraph at lines 533--544
 \T1/cmtt/m/n/10.95 / / onlinelibrary . wiley . com / doi / abs / 10 . 1111 / j 
 . 1461-[]0248 . 2012 . 01764 . xhttps :
  []
 
-
-Underfull \hbox (badness 1194) in paragraph at lines 541--549
+[134]
+Underfull \hbox (badness 1194) in paragraph at lines 600--608
 []\T1/ppl/m/n/10.95 C. W. Clark.  \T1/ppl/m/it/10.95 The World-wide Cri-sis in 
 Fish-eries: Eco-nomic Mod-els and Hu-man Be-
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 552--560
+Underfull \hbox (badness 1127) in paragraph at lines 611--619
 \T1/ppl/m/n/10.95 j . jeem . 2011 . 08 . 001$.  URL [][]$\T1/cmtt/m/n/10.95 htt
 ps : / / www . sciencedirect . com / science / article / pii /
  []
 
-[128]
-Underfull \hbox (badness 1715) in paragraph at lines 646--652
+[135]
+Underfull \hbox (badness 1715) in paragraph at lines 715--721
 \T1/ppl/m/n/10.95 1--7, 2008.  doi: $10 . 1007 / s10640-[]007-[]9178-[]4$.  URL
  [][]$\T1/cmtt/m/n/10.95 https : / / doi . org / 10 . 1007 /
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 661--666
+Underfull \hbox (badness 1859) in paragraph at lines 730--735
 \T1/ppl/m/n/10.95 frame-work.  \T1/ppl/m/it/10.95 Ecol-ogy and So-ci-ety\T1/ppl
 /m/n/10.95 , 11, 2006.  ISSN 17083087.  doi: $10 . 5751 /
  []
 
-[129] [130]
-Underfull \hbox (badness 3460) in paragraph at lines 774--782
+[136]
+Underfull \hbox (badness 3460) in paragraph at lines 851--859
 \T1/ppl/m/it/10.95 o-log-i-cal In-va-sions 2017 19:11\T1/ppl/m/n/10.95 , 19:333
 3--3354, 3 2017.  ISSN 1573-1464.  doi:
  []
 
-
-Underfull \hbox (badness 5592) in paragraph at lines 840--849
+[137]
+Underfull \hbox (badness 5592) in paragraph at lines 917--926
 []\T1/ppl/m/n/10.95 M. Fabinyi.  His-tor-i-cal, cul-tural and so-cial per-spec-
 tives on lux-ury seafood
  []
 
 
-Underfull \hbox (badness 4927) in paragraph at lines 840--849
+Underfull \hbox (badness 4927) in paragraph at lines 917--926
 \T1/ppl/m/n/10.95 con-sump-tion in China.  \T1/ppl/m/it/10.95 En-vi-ron-men-tal
  Con-ser-va-tion\T1/ppl/m/n/10.95 , 39(1):83--92, Mar. 2012.
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 840--849
+Underfull \hbox (badness 2828) in paragraph at lines 917--926
 \T1/ppl/m/n/10.95 ISSN 1469-4387, 0376-8929.  doi: $10 . 1017 / S03768929110006
 09$.  URL [][]$\T1/cmtt/m/n/10.95 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 840--849
+Underfull \hbox (badness 10000) in paragraph at lines 917--926
 \T1/cmtt/m/n/10.95 / / www . cambridge . org / core / journals / environmental-
 []conservation / article / abs /
  []
 
 
-Overfull \hbox (58.80342pt too wide) in paragraph at lines 840--849
+Overfull \hbox (58.80342pt too wide) in paragraph at lines 917--926
 \T1/cmtt/m/n/10.95 historical-[]cultural-[]and-[]social-[]perspectives-[]on-[]l
 uxury-[]seafood-[]consumption-[]in-[]china /
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 852--861
+Underfull \hbox (badness 1997) in paragraph at lines 939--948
 []\T1/ppl/m/n/10.95 L. Fahrig, J. Baudry, L. Bro-tons, F. G. Bu-rel, T. O. Cris
 t, R. J. Fuller, C. Sir-
  []
 
 
-Underfull \hbox (badness 1939) in paragraph at lines 852--861
+Underfull \hbox (badness 1939) in paragraph at lines 939--948
 \T1/ppl/m/n/10.95 ami, G. M. Siri-war-dena, and J.-L. Mar-tin.  Func-tional lan
 d-scape het-ero-gene-
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 852--861
+Underfull \hbox (badness 1688) in paragraph at lines 939--948
 \T1/ppl/m/n/10.95 112, 2011.  doi: $https : / / doi-[]org . inshs . bib . cnrs 
 . fr / 10 . 1111 / j . 1461-[]0248 . 2010 . 01559 .
  []
 
-[131] [132]
-Underfull \hbox (badness 2277) in paragraph at lines 1043--1050
+[138] [139] [140]
+Underfull \hbox (badness 2277) in paragraph at lines 1148--1155
 \T1/ppl/m/n/10.95 10 . 1111 / conl . 12681$.  URL [][]$\T1/cmtt/m/n/10.95 https
  : / / onlinelibrary . wiley . com / doi / abs / 10 . 1111 /
  []
 
-[133]
-Underfull \hbox (badness 7344) in paragraph at lines 1131--1140
+
+Underfull \hbox (badness 7344) in paragraph at lines 1236--1245
 []\T1/ppl/m/n/10.95 B. B. Han-berry and P. Han-berry.  Re-gain-ing the His-tory
  of Deer Pop-u-
  []
 
 
-Underfull \hbox (badness 6792) in paragraph at lines 1131--1140
+Underfull \hbox (badness 6792) in paragraph at lines 1236--1245
 \T1/ppl/m/n/10.95 la-tions and Den-si-ties in the South-east-ern United States.
   \T1/ppl/m/it/10.95 Wildlife So-ci-ety
  []
 
 
-Underfull \hbox (badness 7667) in paragraph at lines 1131--1140
+Underfull \hbox (badness 7667) in paragraph at lines 1236--1245
 \T1/ppl/m/it/10.95 Bul-letin\T1/ppl/m/n/10.95 , 44(3):512--518, 2020.  ISSN 232
 8-5540.  doi: $10 . 1002 / wsb . 1118$.
  []
 
 
-Underfull \hbox (badness 7851) in paragraph at lines 1131--1140
+Underfull \hbox (badness 7851) in paragraph at lines 1236--1245
 \T1/ppl/m/n/10.95 URL [][]$\T1/cmtt/m/n/10.95 https : / / onlinelibrary . wiley
  . com / doi / abs / 10 . 1002 / wsb . 1118$[][]\T1/ppl/m/n/10.95 .  _eprint:
  []
 
-[134]
-Underfull \hbox (badness 7151) in paragraph at lines 1158--1166
+[141]
+Underfull \hbox (badness 7151) in paragraph at lines 1278--1286
 []\T1/ppl/m/n/10.95 A. Hins-ley and M. 't Sas-Rolfes.  Wild as-sump-tions? Ques
 -tion-ing sim-
  []
 
 
-Underfull \hbox (badness 4181) in paragraph at lines 1158--1166
+Underfull \hbox (badness 4181) in paragraph at lines 1278--1286
 \T1/ppl/m/n/10.95 plis-tic nar-ra-tives about con-sumer pref-er-ences for wildl
 ife prod-ucts.  \T1/ppl/m/it/10.95 Peo-ple
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 1158--1166
+Underfull \hbox (badness 2790) in paragraph at lines 1278--1286
 \T1/ppl/m/it/10.95 and Na-ture\T1/ppl/m/n/10.95 , 2(4):972--979, 2020.  ISSN 25
 75-8314.  doi: $10 . 1002 / pan3 . 10099$.
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 1158--1166
+Underfull \hbox (badness 1838) in paragraph at lines 1278--1286
 \T1/ppl/m/n/10.95 URL [][]$\T1/cmtt/m/n/10.95 https : / / onlinelibrary . wiley
  . com / doi / abs / 10 . 1002 / pan3 . 10099$[][]\T1/ppl/m/n/10.95 .  _eprint:
 
  []
 
-
-Underfull \hbox (badness 2903) in paragraph at lines 1207--1218
+[142]
+Underfull \hbox (badness 2903) in paragraph at lines 1358--1369
 []\T1/ppl/m/n/10.95 R. Huf-faker, M. Bhat, and S. Lenhart.  Op-ti-mal Trap-ping
  Strate-gies for Dif-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1207--1218
+Underfull \hbox (badness 10000) in paragraph at lines 1358--1369
 \T1/ppl/m/n/10.95 fus-ing Nuisance-Beaver Pop-u-la-tions.  \T1/ppl/m/it/10.95 N
 at-u-ral Re-source Mod-el-ing\T1/ppl/m/n/10.95 , 6(1):71--
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 1207--1218
+Underfull \hbox (badness 2941) in paragraph at lines 1358--1369
 \T1/ppl/m/n/10.95 97, 1992.  ISSN 1939-7445.  doi: $10 . 1111 / j . 1939-[]7445
  . 1992 . tb00267 . x$.  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1207--1218
+Underfull \hbox (badness 10000) in paragraph at lines 1358--1369
 [][]$\T1/cmtt/m/n/10.95 https : / / onlinelibrary . wiley . com / doi / abs / 1
 0 . 1111 / j . 1939-[]7445 . 1992 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1207--1218
+Underfull \hbox (badness 10000) in paragraph at lines 1358--1369
 \T1/cmtt/m/n/10.95 tb00267 . x$[][]\T1/ppl/m/n/10.95 .  _eprint: https://online
 library.wiley.com/doi/pdf/10.1111/j.1939-
  []
 
-[135] [136]
-Underfull \hbox (badness 3068) in paragraph at lines 1381--1390
+[143] [144]
+Underfull \hbox (badness 3068) in paragraph at lines 1579--1588
 []\T1/ppl/m/n/10.95 J. M. Law-son, S. J. Fos-ter, and A. C. J. Vin-cent.  Low B
 y-catch Rates Add
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 1381--1390
+Underfull \hbox (badness 1424) in paragraph at lines 1579--1588
 \T1/ppl/m/n/10.95 Up to Big Num-bers for a Genus of Small Fishes.  \T1/ppl/m/it
 /10.95 Fish-eries\T1/ppl/m/n/10.95 , 42(1):19--33, Jan.
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 1381--1390
+Underfull \hbox (badness 1502) in paragraph at lines 1579--1588
 \T1/ppl/m/n/10.95 2017.  ISSN 0363-2415.  doi: $10 . 1080 / 03632415 . 2017 . 1
 259944$.  URL [][]$\T1/cmtt/m/n/10.95 https : / /
  []
 
-[137] [138]
-Underfull \hbox (badness 1014) in paragraph at lines 1619--1627
+[145] [146] [147]
+Underfull \hbox (badness 1014) in paragraph at lines 1858--1866
 []\T1/ppl/m/n/10.95 T. Mi-tra and H. Y. Wan.  On the faust-mann so-lu-tion to t
 he for-est man-age-ment
  []
 
-[139] [140]
-Underfull \hbox (badness 1888) in paragraph at lines 1777--1785
+[148] [149]
+Underfull \hbox (badness 1888) in paragraph at lines 2065--2073
 []\T1/ppl/m/n/10.95 C. Per-rings.  \T1/ppl/m/it/10.95 Our un-com-mon her-itage:
  Bio-di-ver-sity change, ecosys-tem ser-vices, and
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 1777--1785
+Underfull \hbox (badness 1609) in paragraph at lines 2065--2073
 \T1/ppl/m/it/10.95 hu-man well-be-ing\T1/ppl/m/n/10.95 .  Cam-bridge Uni-ver-si
 ty Press, 1 2011.  ISBN 9781107338913.
  []
 
-[141] [142]
-Underfull \hbox (badness 1270) in paragraph at lines 2018--2026
+[150] [151] [152]
+Underfull \hbox (badness 1270) in paragraph at lines 2327--2335
 \T1/ppl/m/n/10.95 1573-5184.  doi: $10 . 1007 / s11160-[]019-[]09585-[]9$.  URL
  [][]$\T1/cmtt/m/n/10.95 https : / / doi . org / 10 . 1007 /
  []
 
-[143]
-Underfull \hbox (badness 1596) in paragraph at lines 2107--2115
+[153]
+Underfull \hbox (badness 1596) in paragraph at lines 2439--2447
 []\T1/ppl/m/n/10.95 A. P. Shafran.  Risk ex-ter-nal-i-ties and the prob-lem of 
 wild-fire risk.  \T1/ppl/m/it/10.95 Jour-nal of
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 2107--2115
+Underfull \hbox (badness 1122) in paragraph at lines 2439--2447
 \T1/ppl/m/it/10.95 Ur-ban Eco-nomics\T1/ppl/m/n/10.95 , 64(2):488--495, 2008.  
 ISSN 0094-1190.  doi: $https : / / doi . org /
  []
 
-[144] [145]
-Underfull \hbox (badness 2042) in paragraph at lines 2281--2287
+[154] [155]
+Underfull \hbox (badness 10000) in paragraph at lines 2645--2654
+[][]$\T1/cmtt/m/n/10.95 https : / / onlinelibrary . wiley . com / doi / abs / 1
+0 . 1034 / j . 1600-[]0706 . 2000 . 900102 .
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 2645--2654
+\T1/cmtt/m/n/10.95 x$[][]\T1/ppl/m/n/10.95 .  _eprint: https://nsojournals.onli
+nelibrary.wiley.com/doi/pdf/10.1034/j.1600-
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 2656--2662
 \T1/ppl/m/n/10.95 36 . 102003 . 152614$.  URL [][]$\T1/cmtt/m/n/10.95 https : /
  / doi . org / 10 . 1146 / annurev . ecolsys . 36 . 102003 .
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 2296--2305
+Underfull \hbox (badness 1348) in paragraph at lines 2671--2680
 []\T1/ppl/m/n/10.95 A. Tyukav-ina, P. Potapov, M. C. Hansen, A. H. Pick-ens, S.
  V. Stehman, S. Tu-
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 2307--2314
+Underfull \hbox (badness 1077) in paragraph at lines 2682--2689
 \T1/ppl/m/it/10.95 Ecol-ogy\T1/ppl/m/n/10.95 , 82(5):1205--1218, 2001.  ISSN 19
 39-9170.  doi: $10 . 1890 / 0012-[]9658(2001 )
  []
 
-[146]
-Underfull \hbox (badness 10000) in paragraph at lines 2332--2342
+[156]
+Underfull \hbox (badness 10000) in paragraph at lines 2707--2717
 [][]$\T1/cmtt/m/n/10.95 https : / / www . researchgate . net / publication / 23
 4135559 _ Bayesian _ calibration _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2332--2342
+Underfull \hbox (badness 10000) in paragraph at lines 2707--2717
 \T1/cmtt/m/n/10.95 comparison _ and _ averaging _ of _ six _ forest _ models _ 
 using _ data _ from _ Scots _ pine _
  []
 
-[147] [148]
-Underfull \hbox (badness 3302) in paragraph at lines 2503--2513
+[157] [158]
+Underfull \hbox (badness 3302) in paragraph at lines 2895--2905
 []\T1/ppl/m/n/10.95 N. E. Zim-mer-mann, N. G. Yoc-coz, T. C. Ed-wards, E. S. Me
 ier, W. Thuiller,
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 2503--2513
+Underfull \hbox (badness 1603) in paragraph at lines 2895--2905
 \T1/ppl/m/it/10.95 of Sci-ences\T1/ppl/m/n/10.95 , 106:19723--19728, 11 2009.  
 ISSN 0027-8424.  doi: $10 . 1073 / PNAS .
  []
 
-) [149] (./layout/lastpage.tex
-<media/ed/ABIES.jpeg, id=3273, 238.1625pt x 45.99pt>
+) [159] (./layout/lastpage.tex
+<media/ed/ABIES.jpeg, id=3562, 238.1625pt x 45.99pt>
 File: media/ed/ABIES.jpeg Graphic file (type jpg)
 <use media/ed/ABIES.jpeg>
 Package pdftex.def Info: media/ed/ABIES.jpeg  used on input line 43.
@@ -2882,10 +2937,10 @@ Overfull \hbox (180.10516pt too wide) in paragraph at lines 43--44
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [150
+ [160
 
  <./media/ed/ABIES.jpeg>]
-<media/UPSACLAY-petit.png, id=3278, 162.6075pt x 223.83624pt>
+<media/UPSACLAY-petit.png, id=3567, 162.6075pt x 223.83624pt>
 File: media/UPSACLAY-petit.png Graphic file (type png)
 <use media/UPSACLAY-petit.png>
 Package pdftex.def Info: media/UPSACLAY-petit.png  used on input line 100.
@@ -2899,7 +2954,7 @@ Overfull \hbox (73.9055pt too wide) in paragraph at lines 100--101
 
 Package natbib Warning: There were undefined citations.
 
-[151 <./media/UPSACLAY-petit.png>] (./thesis_SJ.aux)
+[161 <./media/UPSACLAY-petit.png>] (./thesis_SJ.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-08>
@@ -2915,16 +2970,40 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis_SJ.out' has not changed.
-(rerunfilecheck)             Checksum: E60C0061C6D11AA042D67651EF04EAE0;17282.
+(rerunfilecheck)             Checksum: 05E252F8583D45B95F6AABE35332B6A1;17282.
  ) 
 Here is how much of TeX's memory you used:
- 29011 strings out of 474170
- 547330 string characters out of 5749575
- 1967473 words of memory out of 5000000
- 49968 multiletter control sequences out of 15000+600000
- 682343 words of font info for 237 fonts, out of 8000000 for 9000
+ 29196 strings out of 474170
+ 551948 string characters out of 5749575
+ 1969473 words of memory out of 5000000
+ 50096 multiletter control sequences out of 15000+600000
+ 683183 words of font info for 238 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,17n,95p,3761b,1118s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,17n,95p,3761b,1192s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Hfootnote.44} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.43} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.42} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.41} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.40} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.39} has been referenced but does not exis
+t, replaced by a fixed one
+
 
 pdfTeX warning (dest): name{Hfootnote.38} has been referenced but does not exis
 t, replaced by a fixed one
@@ -3092,10 +3171,10 @@ per/sftt0900.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt10
 ive/2023/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb><c:/texlive/2023/texmf
 -dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2023/texmf-dist/fonts/typ
 e1/urw/palatino/uplri8a.pfb>
-Output written on thesis_SJ.pdf (162 pages, 11281032 bytes).
+Output written on thesis_SJ.pdf (172 pages, 11394415 bytes).
 PDF statistics:
- 3513 PDF objects out of 3580 (max. 8388607)
- 3127 compressed objects within 32 object streams
- 718 named destinations out of 1000 (max. 500000)
- 1014 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3814 PDF objects out of 4296 (max. 8388607)
+ 3412 compressed objects within 35 object streams
+ 775 named destinations out of 1000 (max. 500000)
+ 1019 words of extra memory for PDF output out of 10000 (max. 10000000)
 
