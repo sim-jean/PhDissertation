@@ -17,24 +17,24 @@
 \contentsline {figure}{\numberline {2.A}{\ignorespaces Maximum and minimum eigenvalues of $\mathcal {K}$ depending on graph size}}{72}{figure.caption.36}%
 \contentsline {figure}{\numberline {2.B}{\ignorespaces Examples of large scale landscapes with uniform distribution (left) and skewed towards \textit {adolescent} (right)and low, middle and large spatial autocorrelation}}{73}{figure.caption.38}%
 \contentsline {figure}{\numberline {2.C}{\ignorespaces Distribution of number of landscapes depending on number of \textit {juvenile, adolescent}, and \textit {mature} cells for sizes $\in \{3,4\}$}}{75}{figure.caption.43}%
-\contentsline {figure}{\numberline {2.D}{\ignorespaces Number of cycles as a function of biodiversity habitat and budget}}{75}{figure.caption.44}%
-\contentsline {figure}{\numberline {2.E}{\ignorespaces Production possibility frontier between constraint (as a \% of maximum biodiversity sustainable in landscape) and wildfire risk for various budgets, and landscape size}}{76}{figure.caption.45}%
-\contentsline {figure}{\numberline {2.F}{\ignorespaces Most represented cycles for each biodiversity constraint level, for various budget and landscapes $3 \times 3$, and $4\times 4$ (95\% CI shaded)}}{77}{figure.caption.46}%
-\contentsline {figure}{\numberline {2.G}{\ignorespaces Assessment: surface, components of high-risk graph (95\% CI shaded)}}{78}{figure.caption.47}%
-\contentsline {figure}{\numberline {2.H}{\ignorespaces Assessment: diversity (95\% CI shaded)}}{79}{figure.caption.48}%
-\contentsline {figure}{\numberline {2.I}{\ignorespaces Treatment allocation : number, location}}{80}{figure.caption.49}%
+\contentsline {figure}{\numberline {2.D}{\ignorespaces Number of cycles as a function of biodiversity habitat and budget}}{76}{figure.caption.44}%
+\contentsline {figure}{\numberline {2.E}{\ignorespaces Production possibility frontier between constraint (as a \% of maximum biodiversity sustainable in landscape) and wildfire risk for various budgets, and landscape size}}{77}{figure.caption.45}%
+\contentsline {figure}{\numberline {2.F}{\ignorespaces Most represented cycles for each biodiversity constraint level, for various budget and landscapes $3 \times 3$, and $4\times 4$ (95\% CI shaded)}}{78}{figure.caption.46}%
+\contentsline {figure}{\numberline {2.G}{\ignorespaces Assessment: surface, components of high-risk graph (95\% CI shaded)}}{79}{figure.caption.47}%
+\contentsline {figure}{\numberline {2.H}{\ignorespaces Assessment: diversity (95\% CI shaded)}}{80}{figure.caption.48}%
+\contentsline {figure}{\numberline {2.I}{\ignorespaces Treatment allocation : number, location}}{81}{figure.caption.49}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.A}{\ignorespaces Timing of the model}}{88}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.A}{\ignorespaces Timing of the model}}{90}{figure.caption.51}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Evolution of totoaba population and catch over time}}{93}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Schematic of equilibrium points under different poaching harvest functions}}{95}{figure.caption.52}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Schematic of monopoly and duopoly market structures}}{96}{figure.caption.53}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Equilibrium points for wild totoaba stock under different market structures with (left) a linear quadratic cost structure, and (right) a quadratic cost structure.}}{99}{figure.caption.54}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Sensitivity of equilibrium points to cost structure for wild totoaba stock}}{100}{figure.caption.55}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Economic and ecological performance of different market regimes}}{101}{figure.caption.56}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Interaction between substitutability and demand under duopolistic competition}}{103}{figure.caption.57}%
-\contentsline {figure}{\numberline {4.A}{\ignorespaces Steady state outcomes when multiple traders and multiple farmers are considered (an oligopoly) in the quantity adjustment scenario.}}{114}{figure.caption.68}%
-\contentsline {figure}{\numberline {4.B}{\ignorespaces Steady-state equilibrium for the wild stock of \textit {Totoaba macdonaldi }in the ‘extended cartel’ scenario, where the vertical monopoly takes over the ownership of farming operations}}{116}{figure.caption.71}%
-\contentsline {figure}{\numberline {4.C}{\ignorespaces Evolution of the threshold $v$ to compare vertical monopoly and price setting (Bertrand) harvest functions}}{119}{figure.caption.75}%
-\contentsline {figure}{\numberline {4.D}{\ignorespaces Percent change in steady state population across scenarios, following the joint evolution of illegal transaction and farming costs}}{120}{figure.caption.77}%
-\contentsline {figure}{\numberline {4.E}{\ignorespaces Von Bertalanffy Growth curves for wild and farmed \textit {Totoaba macdonaldi} under different growing conditions}}{121}{figure.caption.78}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Evolution of totoaba population and catch over time}}{95}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Schematic of equilibrium points under different poaching harvest functions}}{97}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Schematic of monopoly and duopoly market structures}}{98}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Equilibrium points for wild totoaba stock under different market structures with (left) a linear quadratic cost structure, and (right) a quadratic cost structure.}}{101}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Sensitivity of equilibrium points to cost structure for wild totoaba stock}}{102}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Economic and ecological performance of different market regimes}}{103}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Interaction between substitutability and demand under duopolistic competition}}{105}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.A}{\ignorespaces Steady state outcomes when multiple traders and multiple farmers are considered (an oligopoly) in the quantity adjustment scenario.}}{116}{figure.caption.69}%
+\contentsline {figure}{\numberline {4.B}{\ignorespaces Steady-state equilibrium for the wild stock of \textit {Totoaba macdonaldi }in the ‘extended cartel’ scenario, where the vertical monopoly takes over the ownership of farming operations}}{118}{figure.caption.72}%
+\contentsline {figure}{\numberline {4.C}{\ignorespaces Evolution of the threshold $v$ to compare vertical monopoly and price setting (Bertrand) harvest functions}}{121}{figure.caption.76}%
+\contentsline {figure}{\numberline {4.D}{\ignorespaces Percent change in steady state population across scenarios, following the joint evolution of illegal transaction and farming costs}}{122}{figure.caption.78}%
+\contentsline {figure}{\numberline {4.E}{\ignorespaces Von Bertalanffy Growth curves for wild and farmed \textit {Totoaba macdonaldi} under different growing conditions}}{123}{figure.caption.79}%

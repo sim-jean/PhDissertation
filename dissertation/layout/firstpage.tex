@@ -59,29 +59,34 @@
 % Tous les membres du juty listés doivent avoir été présents lors de la soutenance / All the jury members listed here must have been present during the defense.
 
 %%% Membre n°1 (Président) / Member n°1 (President)
-\newcommand{\jurynameA}{Name LASTNAME}
-\newcommand{\juryadressA}{Statut, Établissement (Unité de recherche)}
-\newcommand{\juryroleA}{Président}
+\newcommand{\jurynameA}{Nicolas QUEROU}
+\newcommand{\juryadressA}{Directeur de Recherche CNRS, Center for Environmental Economics-Montpellier}
+\newcommand{\juryroleA}{Rapporteur}
 
 %%% Membre n°2 (Rapporteur) / Member n°2 (Reviewer)
-\newcommand{\jurynameBa}{Name LASTNAME}
-\newcommand{\juryadressBa}{Grade, University/Lab (research unit)}
+\newcommand{\jurynameBa}{Agnès TOMINI}
+\newcommand{\juryadressBa}{Chargée de Recherche CNRS, Aix Marseille School of Economics}
 \newcommand{\juryroleBa}{Rapporteur}
 
 %%% Membre n°3 (Rapporteur) / Member n°3 (Reviewer)
-\newcommand{\jurynameBb}{Name LASTNAME}
-\newcommand{\juryadressBb}{Grade, University/Lab (research unit)}
-\newcommand{\juryroleBb}{Rapporteur}
+\newcommand{\jurynameBb}{Martin QUAAS}
+\newcommand{\juryadressBb}{Professor of Biodiveristy Economics, Leipzig University and German Center for Integrative Biodiversity Research}
+\newcommand{\juryroleBb}{Examinateur}
 
 %%% Membre n°4 (Examinateur) / Member n°4 (Examiner)
-\newcommand{\jurynameCa}{Name LASTNAME}
-\newcommand{\juryadressCa}{Grade, University/Lab (research unit)}
+\newcommand{\jurynameCa}{Mireille CHIROLEU-ASSOULINE}
+\newcommand{\juryadressCa}{Professor of Economics, Université Paris I Panthéon Sorbonne and Paris School of Economics}
 \newcommand{\juryroleCa}{Examinatrice}
 
 %%% Membre n°5 (Examinateur) / Member n°4 (Examiner)
-\newcommand{\jurynameCb}{Name LASTNAME}
-\newcommand{\juryadressCb}{Grade, University/Lab (research unit)}
-\newcommand{\juryroleCb}{Examinatrice}
+\newcommand{\jurynameCb}{James SANCHIRICO}
+\newcommand{\juryadressCb}{Professor, University of California at Davis}
+\newcommand{\juryroleCb}{Examinateur}
+
+%%% Membre n°5 (Examinateur) / Member n°4 (Examiner)
+\newcommand{\jurynameDa}{Charles FIGUIERES}
+\newcommand{\juryadressDa}{Professor, Aix-Marseille School of Economics}
+\newcommand{\juryroleDa}{Examinateur}
 
 %%% DIRECTION DE THESE
 %%% Membre n°6 (Directeur de thèse) / Member n°5 (Thesis supervisor)
@@ -145,75 +150,88 @@
 	\color{Prune}
 	\begin{flushright}
         \color{Prune}
-		\fontfamily{fvs}\fontseries{m}\fontsize{22}{26}\selectfont
-		\Huge{\PhDTitle} \bigskip \\%% Titre de la thèse
+		\fontfamily{fvs}\fontseries{m}\fontsize{14}{18}\selectfont
+		\huge{\PhDTitle} \bigskip \\%% Titre de la thèse
 		\normalsize
 		\color{black}
 		\Large{\textit{\PhDTitleTrad} } \bigskip %% Titre de la thèse traduit
 		\vfill
-		\vspace{0.8cm}
+		\vspace{0.3cm}
 		\color{black} %% Couleur noire du reste du texte
 		
 		\fontfamily{fvs}\fontseries{m}\fontsize{8}{12}\selectfont
-		\normalsize \textbf{Thèse de doctorat de l'Université Paris-Saclay} \\ \bigskip
-		\vspace{5mm}
-		\vfill
+		\normalsize \textbf{Thèse de doctorat de l'Université Paris-Saclay} \\
+		\vspace*{3mm}
+		%\vfill
 		\small{École doctorale n$^{\circ}$\ecodocnum ~\ecodoctitle ~(\ecodocacro)}  \\
 		\small{Spécialité de doctorat: \PhDspeciality} \bigskip \\%% Spécialité 
-		\small{Graduate school: \GradSchool} \bigskip \\
-		\vspace{5mm}
-		\vfill 
-		\footnotesize Thèse préparée à l'\PhDworkingplace, sous la direction de \jurynameE ~ (\juryadressE), le co-encadrement de \jurynameF ~ (\juryadressF)\\
-		\vspace{5mm}
+		\small{Graduate school: \GradSchool}\\
+		\vspace*{3mm}
+		\footnotesize Thèse préparée à l'\PhDworkingplace, et au Centre International de Recherche sur l'Environnement et le Développement (CIRED) sous la direction de \jurynameE ~ (\juryadressE), le co-encadrement de \jurynameF ~ (\juryadressF)\\
+		\vspace{3mm}
 		\textbf{Thèse présentée et soutenue à \defenseplace, le \defensedate, par} \bigskip
 		\vfill
 		\Large{\color{Prune}\textbf{\textsc{\PhDname}}} %% Nom du docteur
-		\vfill
 	\end{flushright}
-	
+	%
 	\color{black}
 	%% Jury
 	\begin{flushleft}
+		\fontfamily{fvs}\fontsize{12}{14}\selectfont
 		\large{\textbf{Composition du Jury}}
-	\end{flushleft}
+		\vspace*{.4 cm}
+	%\end{flushleft}
 	%% Members of the jury
-
-	\small
+	%
+	%\small
 	%\begin{center}
 	\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 	\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}lm{#1}}
 	
 	\label{jury} 																				%% Mettre à jour si des membres ont été ajoutés ou retirés / Update if members have been added or removed
-	\begin{flushleft}
-	\begin{tabular}{|p{7cm}l}%{@{} L{9.5cm} R{4.5cm}}
+	%\begin{flushleft}
+	{\fontfamily{fvs}\fontseries{m}\fontsize{10}{12}\selectfont
+	 {\footnotesize
+	\begin{tabular}{|p{10cm}l}%{@{} L{9.5cm} R{4.5cm}}
 	    \arrayrulecolor{Prune}
-		\jurynameA  \\ \juryadressA & \juryroleA \\[5pt]
-		\jurynameBa  \\ \juryadressBa & \juryroleBa \\[5pt]
-		\jurynameBb  \\ \juryadressBb & \juryroleBb \\[5pt]
-		\jurynameCa  \\ \juryadressCa & \juryroleCa \\[5pt]
-		\jurynameCb  \\ \juryadressCb & \juryroleCb \\[5pt]
+		\jurynameA  \\ \juryadressA & \juryroleA \\ \vspace*{.05cm}
+		\jurynameBa  \\ \juryadressBa & \juryroleBa \\ \vspace*{.05cm}
+		\jurynameBb  \\ \juryadressBb & \juryroleBb \\ \vspace*{.05cm}
+		\jurynameCa  \\ \juryadressCa & \juryroleCa \\ \vspace*{.05cm}
+		\jurynameCb  \\ \juryadressCb & \juryroleCb \\ \vspace*{.05cm}
+		\jurynameDa  \\ \juryadressDa & \juryroleDa \\
 	\end{tabular} 
-	\end{flushleft}
+	}
+	}
+	\vspace*{.2 cm}
+	%\end{flushleft}
 	
 		%% Jury
-	\begin{flushleft}
+	%\begin{flushleft}
+		\fontfamily{fvs}\fontseries{m}\fontsize{12}{14}\selectfont
 		\large{\textbf{Direction de la thèse}}
-	\end{flushleft}
+		\vspace*{.4 cm}
+	%\end{flushleft}
 	%% Members of the jury
-
-	\small
+	%
+	%\small
 	%\begin{center}
 	\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 	\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}lm{#1}}
 	
 	\label{directionthese} 																				%% Mettre à jour si des membres ont été ajoutés ou retirés / Update if members have been added or removed
-	\begin{flushleft}
-	\begin{tabular}{|p{7cm}l}%{@{} L{9.5cm} R{4.5cm}}
+	%\begin{flushleft}
+	{\fontfamily{fvs}\fontseries{m}\fontsize{10}{12}\selectfont
+	{\footnotesize
+	\begin{tabular}{|p{10cm}l}%{@{} L{9.5cm} R{4.5cm}}
 	    \arrayrulecolor{Prune}
-		\jurynameE  \\ \juryadressE & \juryroleE \\[5pt]
-		\jurynameF  \\ \juryadressF & \juryroleF \\[5pt]
+		\jurynameE  \\ \juryadressE & \juryroleE \\ \vspace*{.05cm}
+		\jurynameF  \\ \juryadressF & \juryroleF \\ 
 	\end{tabular} 
+	}
+	}
 	\end{flushleft}
+	
 	%\end{center}
 \end{textblock}
 \end{singlespace}

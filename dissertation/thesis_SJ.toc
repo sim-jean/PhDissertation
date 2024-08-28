@@ -60,51 +60,52 @@
 \contentsline {paragraph}{Landscape shape index:}{74}{section*.41}%
 \contentsline {paragraph}{Successional Stage Heterogeneity Index:}{74}{section*.42}%
 \contentsline {section}{\numberline {B}Figures}{75}{section.b..2}%
-\contentsline {chapter}{\numberline {3}Fences : the economics of movement in mobile public bads}{81}{appendix.3}%
-\contentsline {section}{\numberline {1}Introduction}{82}{section.3.1}%
-\contentsline {section}{\numberline {2}Related literature}{85}{section.3.2}%
-\contentsline {section}{\numberline {3}A dynamic spatial model of renewable bads management : fencing and controlling}{86}{section.3.3}%
-\contentsline {subsection}{\numberline {1}Spatial ecology}{86}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {2}Spatial economy}{86}{subsection.3.3.2}%
-\contentsline {section}{\numberline {4}The decentralized equilibrium}{87}{section.3.4}%
-\contentsline {section}{\numberline {A}Appendix}{88}{section.c..1}%
-\contentsline {subsection}{\numberline {A}Proofs}{89}{subsection.c..1.1}%
-\contentsline {subsubsection}{\numberline {A.1}Proof of concavity}{89}{subsubsection.c..1.1.1}%
-\contentsline {part}{III\hspace {1em}The role of market structure in renewable resource management}{90}{part.3}%
-\contentsline {chapter}{\numberline {4}Little downside and substantial gains result from farming of \textit {Totoaba Macdonaldi}}{91}{appendix.4}%
-\contentsline {section}{\numberline {1}Introduction}{92}{section.4.1}%
-\contentsline {section}{\numberline {2}Methods}{94}{section.4.2}%
-\contentsline {subsection}{\numberline {1}The Poaching Model}{95}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {2}The Farming Model}{97}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {3}Demand}{98}{subsection.4.2.3}%
-\contentsline {section}{\numberline {3}Results}{98}{section.4.3}%
-\contentsline {subsection}{\numberline {1}Totoaba stock under monopoly is sensitive to cost structure}{98}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {2}Farming produces conservation benefits}{100}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {3}An effective policy space for farming.}{102}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4}Conclusion}{104}{section.4.4}%
-\contentsline {section}{\numberline {A}Appendix}{106}{section.d..1}%
-\contentsline {subsection}{\numberline {A}A theoretical model of poachers, traders, and farmers}{106}{subsection.d..1.1}%
-\contentsline {subsubsection}{\numberline {A.1}Entry in the fishery and poaching supply}{106}{subsubsection.d..1.1.1}%
-\contentsline {subsubsection}{\numberline {A.2}Traders as vertical monopolists, without farming}{107}{subsubsection.d..1.1.2}%
-\contentsline {subsubsection}{\numberline {A.3}Captive breeding, imperfect competition and conservation}{107}{subsubsection.d..1.1.3}%
-\contentsline {paragraph}{Introducing aquaculture :}{108}{section*.60}%
-\contentsline {paragraph}{Utility maximization and demand functions :}{108}{section*.61}%
-\contentsline {paragraph}{Cournot competition in the retail market:}{109}{section*.62}%
-\contentsline {paragraph}{Bertrand competition in the retail market}{110}{section*.63}%
-\contentsline {subparagraph}{Interior solution:}{110}{section*.64}%
-\contentsline {subparagraph}{Corner solution:}{111}{section*.65}%
-\contentsline {subsubsection}{\numberline {A.4}Steady state equilibria}{111}{subsubsection.d..1.1.4}%
-\contentsline {subsubsection}{\numberline {A.5}Extensions}{112}{subsubsection.d..1.1.5}%
-\contentsline {paragraph}{An oligopoly model:}{112}{section*.66}%
-\contentsline {subparagraph}{Cournot oligopoly : }{112}{section*.67}%
-\contentsline {subparagraph}{Bertrand oligopoly :}{114}{section*.69}%
-\contentsline {paragraph}{Trader take over of the aquaculture sector : }{115}{section*.70}%
-\contentsline {subsection}{\numberline {B}Proofs to lemmas}{117}{subsection.d..1.2}%
-\contentsline {subsubsection}{\numberline {B.1}Lemma 1 : content and proof}{117}{subsubsection.d..1.2.1}%
-\contentsline {subsubsection}{\numberline {B.2}Lemma 2}{117}{subsubsection.d..1.2.2}%
-\contentsline {paragraph}{Analysis of $\Phi \frac {\eta + \mu x^2}{\theta + \nu x^2}$:}{118}{section*.72}%
-\contentsline {paragraph}{Analysis of $\frac {\kappa x}{\omega x^2 + \epsilon }$}{118}{section*.73}%
-\contentsline {paragraph}{Conclusion :}{118}{section*.74}%
-\contentsline {paragraph}{Corner equilibrium:}{119}{section*.76}%
-\contentsline {section}{\numberline {B}Supplementary Figures and Tables}{120}{section.d..2}%
-\contentsline {chapter}{\textbf {Conclusion}}{127}{table.caption.83}%
+\contentsline {section}{\numberline {C}Tables}{82}{section.b..3}%
+\contentsline {chapter}{\numberline {3}Fences : the economics of movement in mobile public bads}{83}{appendix.3}%
+\contentsline {section}{\numberline {1}Introduction}{84}{section.3.1}%
+\contentsline {section}{\numberline {2}Related literature}{87}{section.3.2}%
+\contentsline {section}{\numberline {3}A dynamic spatial model of renewable bads management : fencing and controlling}{88}{section.3.3}%
+\contentsline {subsection}{\numberline {1}Spatial ecology}{88}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {2}Spatial economy}{88}{subsection.3.3.2}%
+\contentsline {section}{\numberline {4}The decentralized equilibrium}{89}{section.3.4}%
+\contentsline {section}{\numberline {A}Appendix}{90}{section.c..1}%
+\contentsline {subsection}{\numberline {A}Proofs}{91}{subsection.c..1.1}%
+\contentsline {subsubsection}{\numberline {A.1}Proof of concavity}{91}{subsubsection.c..1.1.1}%
+\contentsline {part}{III\hspace {1em}The role of market structure in renewable resource management}{92}{part.3}%
+\contentsline {chapter}{\numberline {4}Little downside and substantial gains result from farming of \textit {Totoaba Macdonaldi}}{93}{appendix.4}%
+\contentsline {section}{\numberline {1}Introduction}{94}{section.4.1}%
+\contentsline {section}{\numberline {2}Methods}{96}{section.4.2}%
+\contentsline {subsection}{\numberline {1}The Poaching Model}{97}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {2}The Farming Model}{99}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {3}Demand}{100}{subsection.4.2.3}%
+\contentsline {section}{\numberline {3}Results}{100}{section.4.3}%
+\contentsline {subsection}{\numberline {1}Totoaba stock under monopoly is sensitive to cost structure}{100}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {2}Farming produces conservation benefits}{102}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {3}An effective policy space for farming.}{104}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4}Conclusion}{106}{section.4.4}%
+\contentsline {section}{\numberline {A}Appendix}{108}{section.d..1}%
+\contentsline {subsection}{\numberline {A}A theoretical model of poachers, traders, and farmers}{108}{subsection.d..1.1}%
+\contentsline {subsubsection}{\numberline {A.1}Entry in the fishery and poaching supply}{108}{subsubsection.d..1.1.1}%
+\contentsline {subsubsection}{\numberline {A.2}Traders as vertical monopolists, without farming}{109}{subsubsection.d..1.1.2}%
+\contentsline {subsubsection}{\numberline {A.3}Captive breeding, imperfect competition and conservation}{109}{subsubsection.d..1.1.3}%
+\contentsline {paragraph}{Introducing aquaculture :}{110}{section*.61}%
+\contentsline {paragraph}{Utility maximization and demand functions :}{110}{section*.62}%
+\contentsline {paragraph}{Cournot competition in the retail market:}{111}{section*.63}%
+\contentsline {paragraph}{Bertrand competition in the retail market}{112}{section*.64}%
+\contentsline {subparagraph}{Interior solution:}{112}{section*.65}%
+\contentsline {subparagraph}{Corner solution:}{113}{section*.66}%
+\contentsline {subsubsection}{\numberline {A.4}Steady state equilibria}{113}{subsubsection.d..1.1.4}%
+\contentsline {subsubsection}{\numberline {A.5}Extensions}{114}{subsubsection.d..1.1.5}%
+\contentsline {paragraph}{An oligopoly model:}{114}{section*.67}%
+\contentsline {subparagraph}{Cournot oligopoly : }{114}{section*.68}%
+\contentsline {subparagraph}{Bertrand oligopoly :}{116}{section*.70}%
+\contentsline {paragraph}{Trader take over of the aquaculture sector : }{117}{section*.71}%
+\contentsline {subsection}{\numberline {B}Proofs to lemmas}{119}{subsection.d..1.2}%
+\contentsline {subsubsection}{\numberline {B.1}Lemma 1 : content and proof}{119}{subsubsection.d..1.2.1}%
+\contentsline {subsubsection}{\numberline {B.2}Lemma 2}{119}{subsubsection.d..1.2.2}%
+\contentsline {paragraph}{Analysis of $\Phi \frac {\eta + \mu x^2}{\theta + \nu x^2}$:}{120}{section*.73}%
+\contentsline {paragraph}{Analysis of $\frac {\kappa x}{\omega x^2 + \epsilon }$}{120}{section*.74}%
+\contentsline {paragraph}{Conclusion :}{120}{section*.75}%
+\contentsline {paragraph}{Corner equilibrium:}{121}{section*.77}%
+\contentsline {section}{\numberline {B}Supplementary Figures and Tables}{122}{section.d..2}%
+\contentsline {chapter}{\textbf {Conclusion}}{129}{table.caption.84}%

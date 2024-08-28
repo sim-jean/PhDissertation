@@ -5,6 +5,9 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[Cla()]{Clark73}
+
+
 \bibitem[env(2016)]{environmental_investigation_agency_collateral_2016}
 Collateral {Damage} : {How} illegal trade in totoaba swim bladders is driving
   the vaquita to extinction.
@@ -579,19 +582,11 @@ C.~W. Clark.
 \newblock \doi{10.1126/science.181.4100.630}.
 \newblock URL \url{https://science.sciencemag.org/content/181/4100/630}.
 
-\bibitem[Clark(1973{\natexlab{b}})]{Clark73}
-C.~W. Clark.
-\newblock Profit maximization and the extinction of animal species.
-\newblock \emph{Journal of Political Economy}, 81\penalty0 (4):\penalty0
-  950--61, 1973{\natexlab{b}}.
-\newblock URL
-  \url{https://EconPapers.repec.org/RePEc:ucp:jpolec:v:81:y:1973:i:4:p:950-61}.
-
-\bibitem[Clark(1973{\natexlab{c}})]{clark_profit_1973}
+\bibitem[Clark(1973{\natexlab{b}})]{clark_profit_1973}
 C.~W. Clark.
 \newblock Profit {Maximization} and the {Extinction} of {Animal} {Species}.
 \newblock \emph{Journal of Political Economy}, 81\penalty0 (4):\penalty0
-  950--961, 1973{\natexlab{c}}.
+  950--961, 1973{\natexlab{b}}.
 \newblock ISSN 0022-3808.
 \newblock URL \url{https://www.jstor.org/stable/1831136}.
 \newblock Publisher: University of Chicago Press.
