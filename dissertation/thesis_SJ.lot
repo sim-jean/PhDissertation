@@ -1,15 +1,16 @@
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Distribution of journal across fields}}{28}{table.caption.12}%
-\contentsline {table}{\numberline {1.A}{\ignorespaces List of the methodological criteria and their related items used to perform the methodology-based cartography. In grey stand the criteria which have been excluded after the sensitivity analysis of the MCA.}}{44}{table.caption.17}%
-\contentsline {table}{\numberline {1.B}{\ignorespaces Journal distributions among disciplines}}{45}{table.caption.18}%
+\contentsline {table}{\numberline {1.1}{\ignorespaces Distribution of journal across fields}}{28}{table.caption.11}%
+\contentsline {table}{\numberline {1.A}{\ignorespaces List of the methodological criteria and their related items used to perform the methodology-based cartography. In grey stand the criteria which have been excluded after the sensitivity analysis of the MCA.}}{44}{table.caption.16}%
+\contentsline {table}{\numberline {1.B}{\ignorespaces Journal distributions among disciplines}}{45}{table.caption.17}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Summary of model variables and functions}}{61}{table.caption.30}%
-\contentsline {table}{\numberline {2.B}{\ignorespaces Summary of the large scale simulated landscapes characteristics}}{72}{table.caption.37}%
-\contentsline {table}{\numberline {2.C}{\ignorespaces Convergence periods for landscape cycles in steady state with size $n=4$}}{82}{table.caption.50}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Summary of model variables and functions}}{61}{table.caption.29}%
+\contentsline {table}{\numberline {2.B}{\ignorespaces Summary of the large scale simulated landscapes characteristics}}{80}{table.caption.46}%
+\contentsline {table}{\numberline {2.C}{\ignorespaces Summary of model \ref {model:simple}: linear regression of risk differences between optimization procedures on landscape characteristics}}{85}{table.caption.54}%
+\contentsline {table}{\numberline {2.D}{\ignorespaces Summary of model \ref {model:interacted}: linear regression of risk differences between optimization procedures on landscape characteristics }}{86}{table.caption.55}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4. F}{\ignorespaces Supporting information for the calculation of the\textit { Totoaba macdonaldi} poaching cost parameters ($W_1$ and $W_2$)}}{124}{table.caption.80}%
-\contentsline {table}{\numberline {4. G}{\ignorespaces Regression output for the linear demand estimation calculated by regressing price data on catch data. }}{125}{table.caption.81}%
-\contentsline {table}{\numberline {4. H}{\ignorespaces Supporting information for the calculation of the \textit {Totoaba macdonaldi} farming cost parameter ($v$)}}{126}{table.caption.82}%
-\contentsline {table}{\numberline {4. I}{\ignorespaces Summary of \textit {Totoaba macdonaldi} ecological and market parameters for model calibration}}{127}{table.caption.83}%
-\contentsline {table}{\numberline {4. J}{\ignorespaces Summary of the key functions in the model}}{128}{table.caption.84}%
+\contentsline {table}{\numberline {4. F}{\ignorespaces Supporting information for the calculation of the\textit { Totoaba macdonaldi} poaching cost parameters ($W_1$ and $W_2$)}}{127}{table.caption.85}%
+\contentsline {table}{\numberline {4. G}{\ignorespaces Regression output for the linear demand estimation calculated by regressing price data on catch data. }}{128}{table.caption.86}%
+\contentsline {table}{\numberline {4. H}{\ignorespaces Supporting information for the calculation of the \textit {Totoaba macdonaldi} farming cost parameter ($v$)}}{129}{table.caption.87}%
+\contentsline {table}{\numberline {4. I}{\ignorespaces Summary of \textit {Totoaba macdonaldi} ecological and market parameters for model calibration}}{130}{table.caption.88}%
+\contentsline {table}{\numberline {4. J}{\ignorespaces Summary of the key functions in the model}}{131}{table.caption.89}%

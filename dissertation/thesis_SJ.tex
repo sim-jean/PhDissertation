@@ -84,6 +84,7 @@ bindingoffset = 20mm
 \usepackage{rotating}
 \usepackage{amsmath}
 \usepackage{tocloft}
+\usepackage{placeins} % for \FloatBarrier
 
 \hypersetup{
     colorlinks,
@@ -161,7 +162,7 @@ bindingoffset = 20mm
 	%
 	%
 	\pagenumbering{arabic}
-	\part{Introduction and Background}
+	%\part{Introduction and Background}
 	\addcontentsline{toc}{chapter}{\textbf{Introduction}}
 	\input{Chapter1}
 	\cleardoublepage
@@ -189,12 +190,11 @@ bindingoffset = 20mm
 		\renewcommand{\thefigure}{1.\Alph{figure}}
 		\renewcommand{\thetable}{1.\Alph{table}}
 		\input{appendices/appendix2}
-		\clearpage
-	\end{appendices}	
-	%
-	
+	\end{appendices}		%
+	\newpage
+	\thispagestyle{empty}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\part{Managing space and movement in terrestrial landscapes}
+	%\part{Managing space and movement in terrestrial landscapes}
 	% Maybe 1 page?
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	%
@@ -206,7 +206,8 @@ bindingoffset = 20mm
 	\counterwithout{figure}{section}
 	\counterwithout{table}{section}
 	\renewcommand{\thefigure}{2.\arabic{figure}}
-	\renewcommand{\thetable}{2.\arabic{table}}	
+	\renewcommand{\thetable}{2.\arabic{table}}
+		
 	\input{Chapter4}
 	\clearpage
 	\begin{appendices}
@@ -220,8 +221,9 @@ bindingoffset = 20mm
 		\renewcommand{\thefigure}{2.\Alph{figure}}
 		\renewcommand{\thetable}{2.\Alph{table}}
 		\input{appendices/appendix4}
-		\clearpage
 	\end{appendices}	
+	
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%% CHAPTER FENCES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -231,6 +233,7 @@ bindingoffset = 20mm
 	\counterwithout{table}{section}
 	\renewcommand{\thefigure}{3.\arabic{figure}}
 	\renewcommand{\thetable}{3.\arabic{table}}	
+
 	\input{Chapter5}
 	\clearpage
 	\begin{appendices}
@@ -245,9 +248,10 @@ bindingoffset = 20mm
 		\renewcommand{\thetable}{3.\Alph{table}}
 		\input{appendices/appendix5}
 		\clearpage
+		\newpage
 	\end{appendices}	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\part{The role of market structure in renewable resource management}	
+	%\part{The role of market structure in renewable resource management}	
 	% Maybe one page? 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

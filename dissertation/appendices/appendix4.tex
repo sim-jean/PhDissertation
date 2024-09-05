@@ -50,7 +50,7 @@ Finally, let $Q_{ij} \in \{0,1\}$ where $Q_{ij}=1$ if $v_i$ and $v_j$ are connec
 %Now view the landscape as a graph $G$, with vertices $V$ and edges $E$ such that $G(V,E)$. 
 For the proof, assume $Y \in \{0,1\}^{n^2}$ such that $Y_i=1$ if cell $i$ is 'high risk' and $0$ otherwise, and that we focus on the high risk graph on the landscape. The argument is identical in the case of mature habitat. 
 
-In graph theory, an adjacency matrix $\mathcal{K}$ for an undirected graph is a binary, symmetric, square matrix of dimension $card(V)^2$ where $k_{ij}=1$ if vertices $i$ and $j$ are connected, $0$ otherwise. In our context, it is clear that $k_{ij}=Q_{ij}$. Equation \ref{eq:obj_minas} can be reformulated as : 
+In graph theory, an adjacency matrix $\mathcal{K}$ for an undirected graph is a binary, symmetric, square matrix of dimension $\mathrm{card}(V)^2$ where $k_{ij}=1$ if vertices $i$ and $j$ are connected, $0$ otherwise. In our context, it is clear that $k_{ij}=Q_{ij}$. Equation \ref{eq:obj_minas} can be reformulated as : 
 \begin{align*}
     Y' \mathcal{K} Y &= \sum_j\left( Y_j \sum_i Y_i k_{ij}\right)\\
     &= \sum_j \sum_i \left( Y_j Y_i k_{ij}\right)
@@ -68,13 +68,13 @@ Given the symmetric nature of $\mathcal{K}$, $\forall i \neq j$, $k_{ij}=k_{ji}$
           & = \sum_j Y_j + \sum_{j} d_{j}
 \end{align*}
 
-The first sum is the number of high risk cells, i.e. $card(\mathcal{V})$. 
-In the second sum, $\sum_{i \neq j} Y_j Y_i a_{ij}$ is the degree of each vertex $j$ excluding self loops. In a graph with no self loops, by definition, $\sum_{j} d_j = card(\mathcal{E})$.
+The first sum is the number of high risk cells, i.e. $\mathrm{card}(\mathcal{V})$. 
+In the second sum, $\sum_{i \neq j} Y_j Y_i a_{ij}$ is the degree of each vertex $j$ excluding self loops. In a graph with no self loops, by definition, $\sum_{j} d_j = \mathrm{card}(\mathcal{E})$.
 %In the second sum, $\sum_{i \neq j} Y_j Y_i a_{ij}$ is the number of connections of cell $i$ to cell $j$, as the product $Y_i Y_j k_{ij}=1$ if and only if cell $i$ and $j$ share the same status ($Y_i = Y_j$) and are in the 8-cell neighborhood ($k_{ij}=1)$. By definition, the sum of the number of connections of each cell to other cells is $card(E)$. 
 
 Hence, for a set of cells $I$ reformulated in terms of graph theory : 
 \begin{equation}
-        \sum_{i \in I}\sum_{j \in \Phi_i}Q_{ij} = card(V) + 2 card(E)
+        \sum_{i \in I}\sum_{j \in \Phi_i}Q_{ij} = \mathrm{card}(V) + 2 \mathrm{card}(E)
 \end{equation}
 
 \begin{figure}[H]
@@ -152,9 +152,9 @@ Hence, for a set of cells $I$ reformulated in terms of graph theory :
     \includegraphics[width=0.4\linewidth]{figures/wildland/large_land_autocorr_0.5_distrib_1}
     \includegraphics[width=0.4\linewidth]{figures/wildland/large_land_autocorr_0.5_distrib_4}\\
     \includegraphics[width=0.4\linewidth]{figures/wildland/large_land_autocorr_0.9_distrib_1}
-    \includegraphics[width=0.4\linewidth]{figures/wildland/large_land_autocorr_0.5_distrib_4}\\
+    \includegraphics[width=0.4\linewidth]{figures/wildland/large_land_autocorr_0.9_distrib_4}\\
     \includegraphics[width=0.4\linewidth]{figures/wildland/large_land_autocorr_1.8_distrib_1}
-    \includegraphics[width=0.4\linewidth]{figures/wildland/large_land_autocorr_0.5_distrib_4}
+    \includegraphics[width=0.4\linewidth]{figures/wildland/large_land_autocorr_1.8_distrib_4}
     \caption{Examples of large scale landscapes with uniform distribution (left) and skewed towards \textit{adolescent} (right)and low, middle and large spatial autocorrelation}
     \label{fig:ex_nlm}
 \end{figure}
@@ -171,7 +171,7 @@ Hence, for a set of cells $I$ reformulated in terms of graph theory :
 We use the number of vertices (nodes) for both graphs:
 
 \begin{equation}
-Area(\mathcal{G}_t) = card(V_{\mathcal{G}_t}) \text{ with } \mathcal{G}_t\in\{\mathcal{B}_t,\mathcal{F}_t\}
+Area(\mathcal{G}_t) = \mathrm{card}(V_{\mathcal{G}_t}) \text{ with } \mathcal{G}_t\in\{\mathcal{B}_t,\mathcal{F}_t\}
 \label{eq:area}
 \end{equation}
 
@@ -183,7 +183,7 @@ Area(\mathcal{G}_t) = card(V_{\mathcal{G}_t}) \text{ with } \mathcal{G}_t\in\{\m
 %\end{equation}
 
 \paragraph{Simpson diversity index:}
-Let $p_i$ be the proportion of landscape $A_t$ in a given succesional stage\footnote{Let $Juv = \{a_{ijt} \text{ such that } a_{ijt}=0\}$, then $p_{Juv} = \frac{card(Juv)}{n^2}$}, the Simpson diversity index is : 
+Let $p_i$ be the proportion of landscape $A_t$ in a given succesional stage\footnote{Let $Juv = \{a_{ijt} \text{ such that } a_{ijt}=0\}$, then $p_{Juv} = \frac{\mathrm{card}(Juv)}{n^2}$}, the Simpson diversity index is : 
 
 \begin{equation}
 SIDI = 1 - \sum_{i \in \{Juv, Ado, Mat\}} p_i^2
@@ -202,99 +202,86 @@ Where $perimeter(G)$ is the perimeter of the cells comprised in the graph as ver
 \paragraph{Successional Stage Heterogeneity Index:} let $d_{ij}$ be a binary variable such that $d_{ij}=1$ if patch $i$ and $j$ share the same successional stage. Define $\mathcal{J}$ as the set of neighbors in 4 directions (north, south, east, west) of cell $i$\footnote{The set $\mathcal{J}_i$ varies with cell $i$ to account for edge effects}.
 The successional stage heterogeneity index is : 
 \begin{equation}
-    SSHI = 1 - \frac{1}{N}\sum_{i=1}^N\left( \frac{\sum_{j \in \mathcal{J}_i} d_{ij}}{card(\mathcal{J}_i)}\right)
+    SSHI = 1 - \frac{1}{N}\sum_{i=1}^N\left( \frac{\sum_{j \in \mathcal{J}_i} d_{ij}}{\mathrm{card}(\mathcal{J}_i)}\right)
 \end{equation}
 \label{eq:lth_index}
 
 
 \clearpage
 
-\section{Figures}
-
-
-
+\section{Additional figures}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width = 0.8\textwidth]{figures/wildland/distribution_cases_3.png}\\
+ %   \includegraphics[width = 0.8\textwidth]{figures/wildland/distribution_cases_3.png}\\
     \includegraphics[width = 0.8\textwidth]{figures/wildland/distribution_cases_4.png}
     \caption{Distribution of number of landscapes depending on number of \textit{juvenile, adolescent}, and \textit{mature} cells for sizes $\in \{3,4\}$}
+    \subcaption*{Each number on the $x$ axis represents the cumulated number of \textit{adolescent} and \textit{mature} cells among the landscape. Between each number on the $x$-axis is the number of \textit{adolescent} cells among the number of cumulated \textit{adolescent} and \textit{mature cells}. For example, the highest point of the distribution, between $11$ and $12$, represent the number of possible combinations of landscapes with a cumulated number of \textit{adolescent} and \textit{mature} cells of 11, with 5 and 6 \textit{adolescent cells} e.g. 6 and 5 (respectively) \textit{mature cells}}
     \label{fig:appendix_distribution}
 \end{figure}
 
-
 \begin{figure}[H]
     \centering
-    \includegraphics[width = 0.45\textwidth]{figures/wildland/number_cycles3.png}
-    \includegraphics[width = 0.45\textwidth]{figures/wildland/number_cycles4.png}
-    \caption{Number of cycles as a function of biodiversity habitat and budget}
-    \label{fig:distrib_cycles}
+    \includegraphics[width=\textwidth]{figures/wildland/dynamic_v_myopic_fpp.jpg}
+    \caption{Production possibility frontiers between global risk connectivity and global habitat connectivity constraints across budget constraint levels for the sample of representative landscapes of size $n=4$ between repeated myopic and dynamic optimization procedures for $T=5$}
+    \label{fig:appendix_fpp_dyn_myopic}
 \end{figure}
-\newpage
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.5\textwidth]{figures/wildland/tradeoff3.png}\hfill
-    \includegraphics[width=0.5\textwidth]{figures/wildland/tradeoff4.png}
-    \\[\smallskipamount]
-    \caption{Production possibility frontier between constraint (as a \% of maximum biodiversity sustainable in landscape) and wildfire risk for various budgets, and landscape size}
-    \label{fig:frontier}
-\end{figure}
-\newpage
+\clearpage
 
-% Landscapes 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.40\textwidth, height=9cm]{figures/wildland/landscapes3.png}
-    \includegraphics[width=0.45\textwidth, height=10cm]{figures/wildland/landscapes4.png}
-    \caption{Most represented cycles for each biodiversity constraint level, for various budget and landscapes $3 \times 3$, and $4\times 4$ (95\% CI shaded)}
-    \label{fig:cycles_3_4}
-\end{figure}
-\newpage
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: jeu., sept. 05, 2024 - 17:16:49
 
-\begin{figure}[H]
-     \centering
-     \begin{subfigure}[b]{0.4\textwidth}
-         \centering
-         \includegraphics[width=.98\textwidth]{figures/wildland/risky_surface3.png}
-         \caption{}
-         \label{fig:indicator_surface3}
-     \end{subfigure}
-     \begin{subfigure}[b]{0.4\textwidth}
-         \centering
-         \includegraphics[width=\textwidth]{figures/wildland/risky_surface4.png}
-         \caption{}
-         \label{fig:indicator_surface4}
-     \end{subfigure}
-     \hfill
-     \begin{subfigure}[b]{0.4\textwidth}
-         \centering
-         \includegraphics[width=\textwidth]{figures/wildland/risky_components3.png}
-         \caption{}
-         \label{fig:indicator_component3}
-     \end{subfigure}
-     \begin{subfigure}[b]{0.4\textwidth}
-         \centering
-         \includegraphics[width=.98\textwidth]{figures/wildland/risky_component4.png}
-         \caption{}
-         \label{fig:indicator_component4}
-     \end{subfigure}
-     \hfill
-          \begin{subfigure}[b]{0.4\textwidth}
-         \centering
-         \includegraphics[width=.98\textwidth]{figures/wildland/max_component_area3.png}
-         \caption{}
-         \label{fig:indicator_component3}
-     \end{subfigure}
-     \begin{subfigure}[b]{0.4\textwidth}
-         \centering
-         \includegraphics[width=\textwidth]{figures/wildland/max_component_area4.png}
-         \caption{}
-         \label{fig:indicator_component4}
-     \end{subfigure}
-        \caption{Assessment: surface, components of high-risk graph (95\% CI shaded)}
-        \label{fig:indicators_1}
-\end{figure}
-\newpage
+
+
+
+
+
+
+
+%\begin{figure}[H]
+%     \centering
+%     \begin{subfigure}[b]{0.4\textwidth}
+%         \centering
+%         \includegraphics[width=.98\textwidth]{figures/wildland/risky_surface3.png}
+%         \caption{}
+%         \label{fig:indicator_surface3}
+%     \end{subfigure}
+%     \begin{subfigure}[b]{0.4\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{figures/wildland/risky_surface4.png}
+%         \caption{}
+%         \label{fig:indicator_surface4}
+%     \end{subfigure}
+%     \hfill
+%     \begin{subfigure}[b]{0.4\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{figures/wildland/risky_components3.png}
+%         \caption{}
+%         \label{fig:indicator_component3}
+%     \end{subfigure}
+%     \begin{subfigure}[b]{0.4\textwidth}
+%         \centering
+%         \includegraphics[width=.98\textwidth]{figures/wildland/risky_component4.png}
+%         \caption{}
+%         \label{fig:indicator_component4}
+%     \end{subfigure}
+%     \hfill
+%          \begin{subfigure}[b]{0.4\textwidth}
+%         \centering
+%         \includegraphics[width=.98\textwidth]{figures/wildland/%max_component_area3.png}
+%         \caption{}
+%         \label{fig:indicator_component3}
+%     \end{subfigure}
+%     \begin{subfigure}[b]{0.4\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{figures/wildland/%max_component_area4.png}
+%         \caption{}
+%         \label{fig:indicator_component4}
+%     \end{subfigure}
+%        \caption{Assessment: surface, components of high-risk graph (95\% CI %shaded)}
+%        \label{fig:indicators_1}
+%\end{figure}
+%\newpage
 
 %\begin{figure}[H]
 %    \centering
@@ -308,107 +295,243 @@ The successional stage heterogeneity index is :
 %    \label{fig:indicators_1}
 %\end{figure}
 
-\begin{figure}[H]
-     \centering
-     \begin{subfigure}[b]{0.4\textwidth}
-         \centering
-         \includegraphics[width=\textwidth]{figures/wildland/simpson_index3.png}
-         \caption{}
-         \label{fig:indicator_simpson3}
-     \end{subfigure}
-    \begin{subfigure}[b]{0.4\textwidth}
-         \centering
-         \includegraphics[width=.985\textwidth]{figures/wildland/simpson_index4.png}
-         \caption{}
-         \label{fig:indicator_simpson4}
-    \end{subfigure}
-    \hfill
-     \begin{subfigure}[b]{0.4\textwidth}
-         \centering
-         \includegraphics[width=\textwidth]{figures/wildland/LSI_biod3.png}
-         \caption{}
-         \label{fig:indicator_LSI3}
-     \end{subfigure}
-     \begin{subfigure}[b]{0.4\textwidth}
-         \centering
-         \includegraphics[width=.985\textwidth]{figures/wildland/LSI_biod4.png}
-         \caption{}
-         \label{fig:indicator_LSI4}
-     \end{subfigure}    
-    \hfill
-    \begin{subfigure}[b]{0.4\textwidth}
-         \centering
-         \includegraphics[width=\textwidth]{figures/wildland/diversity_index3.png}
-         \caption{}
-         \label{fig:indicator_diversity3}
-     \end{subfigure}
-    \begin{subfigure}[b]{0.4\textwidth}
-         \centering
-         \includegraphics[width=0.955\textwidth]{figures/wildland/diversity_index4.png}
-         \caption{}
-         \label{fig:indicator_diversity4}
-    \end{subfigure}
-        \caption{Assessment: diversity (95\% CI shaded)}
-        \label{fig:indicators_2}
-\end{figure}
-\newpage
+%\begin{figure}[H]
+%     \centering
+%     \begin{subfigure}[b]{0.4\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{figures/wildland/simpson_index3.png}
+%         \caption{}
+%         \label{fig:indicator_simpson3}
+%     \end{subfigure}
+%    \begin{subfigure}[b]{0.4\textwidth}
+%         \centering
+%         \includegraphics[width=.985\textwidth]{figures/wildland/%simpson_index4.png}
+%         \caption{}
+%         \label{fig:indicator_simpson4}
+%    \end{subfigure}
+%    \hfill
+%     \begin{subfigure}[b]{0.4\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{figures/wildland/LSI_biod3.png}
+%         \caption{}
+%         \label{fig:indicator_LSI3}
+%     \end{subfigure}
+%     \begin{subfigure}[b]{0.4\textwidth}
+%         \centering
+%         \includegraphics[width=.985\textwidth]{figures/wildland/LSI_biod4.png}
+%         \caption{}
+%         \label{fig:indicator_LSI4}
+%     \end{subfigure}    
+%    \hfill
+%    \begin{subfigure}[b]{0.4\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{figures/wildland/%diversity_index3.png}
+%         \caption{}
+%         \label{fig:indicator_diversity3}
+%     \end{subfigure}
+%    \begin{subfigure}[b]{0.4\textwidth}
+%         \centering
+%         \includegraphics[width=0.955\textwidth]{figures/wildland/%diversity_index4.png}
+%%         \caption{}
+%         \label{fig:indicator_diversity4}
+%    \end{subfigure}
+%        \caption{Assessment: diversity (95\% CI shaded)}
+%        \label{fig:indicators_2}
+%\end{figure}
+%\newpage
 
 
 % Treatments 
-\begin{figure}[H]
-     \centering
-     \begin{subfigure}[b]{0.48\textwidth}
-         \centering
-         \includegraphics[width=\textwidth]{figures/wildland/number_treatments3.png}
-         \caption{}
-         \label{fig:treatments_number3}
-     \end{subfigure}
-    \begin{subfigure}[b]{0.48\textwidth}
-         \centering
-         \includegraphics[width=\textwidth]{figures/wildland/number_treatments4.png}
-         \caption{}
-         \label{fig:treatments_number4}
-    \end{subfigure}
-    \hfill
-     \begin{subfigure}[b]{0.44\textwidth}
-         \centering
-         \includegraphics[width=\textwidth]{figures/wildland/treatments3.png}
-         \caption{}
-         \label{fig:treatments_pattern3}
-     \end{subfigure}
-     \begin{subfigure}[b]{0.44\textwidth}
-         \centering
-         \includegraphics[width=\textwidth]{figures/wildland/treatments4.png}
-         \caption{}
-         \label{fig:treatments_pattern4}
-     \end{subfigure}    
-        \caption{Treatment allocation : number, location}
-        \label{fig:treatments}
-\end{figure}
+%\begin{figure}[H]
+%     \centering
+%     \begin{subfigure}[b]{0.48\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{figures/wildland/number_treatments3.png}
+%         \caption{}
+%         \label{fig:treatments_number3}
+%     \end{subfigure}
+%    \begin{subfigure}[b]{0.48\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{figures/wildland/number_treatments4.png}
+%         \caption{}
+%         \label{fig:treatments_number4}
+%    \end{subfigure}
+%    \hfill
+%     \begin{subfigure}[b]{0.44\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{figures/wildland/treatments3.png}
+%         \caption{}
+%         \label{fig:treatments_pattern3}
+%     \end{subfigure}
+%     \begin{subfigure}[b]{0.44\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{figures/wildland/treatments4.png}
+%        \caption{}
+%         \label{fig:treatments_pattern4}
+%     \end{subfigure}    
+%%        \caption{Treatment allocation : number, location}
+%        \label{fig:treatments}
+%\end{figure}
 
-\clearpage
-\section{Tables}
-\begin{table}
-	\resizebox{.8\textwidth}{!}{
-	\centering
-	\begin{tabular}{|cc|ccc|ccc|ccc|ccc|}
-	& Budget & & 1 &  & & 2 &   & & 3 & & 4 &   & \\
-	\hline \hline
-	Biodiversity & &  &   & & & & & &  & &  & \\
-	Constraint & & Max & Min & Average & Max & Min & Average & Max & Min & Average &Max & Min & Average\\
-	\hline \hline
-	2 & & 1 & 1 & 2 & 2 & 1 & 1 & 1 & 1 & 1 & 1 & 1.869884 & 1.826963\\
-	12 & & 1 & 1 & 2 & 2 & 1 & 1 & 1 & 1 & 1 & 1 & 1.869884 & 1.827013\\
-	22 & & 1 & 1 & 2 & 2 & 1 & 1 & 1 & 1 & 1 & 1 & 1.869884 & 1.827013\\
-	32 & & 1 & 1 & 2 & 2 & 1 & 1 & 1 & 1 & 1 & 1 & 1.869884 & 1.827013\\
-	42 & & 1 & 1 & 2 & 2 & 1 & 1 & 1 & 1 & 1 & 1 & 1.869884 & 1.827013\\
-	52 & & 1 & 1 & 2 & 2 & 1 & 1 & 1 & 1 & 1 & 1 & 1.869884 & 1.784694\\
-	62 & & 1 & 1 & 2 & 2 & 1 & 1 & 1 & 2 & 1 & 1 & 1.254153 & 2.000000\\
-	72 & & 1 & 2 & 2 & 2 & 1 & 2 & 1 & 1 & 1 & 2 & 1.428946 & 1.428922\\
-	82 & & 1 & 2 & 2 & 2 & 1 & 2 & 2 & 2 & 1 & 2 & 2.000000 & 2.000000\\
-	92 & & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1.000000 & 1.000000\\
-	\hline
-	\end{tabular}
-	}
-	\caption{Convergence periods for landscape cycles in steady state with size $n=4$}
-\end{table}
+%\section{Tables}
+%\begin{table}
+%	\resizebox{.8\textwidth}{!}{
+%	\centering
+%	\begin{tabular}{|cc|ccc|ccc|ccc|ccc|}
+%	& Budget & & 1 &  & & 2 &   & & 3 & & 4 &   & \\
+%	\hline \hline
+%	Biodiversity & &  &   & & & & & &  & &  & \\
+%	Constraint & & Max & Min & Average & Max & Min & Average %& Max & Min & Average &Max & Min & Average\\
+%	\hline \hline
+%	2 & & 1 & 1 & 2 & 2 & 1 & 1 & 1 & 1 & 1 & 1 & 1.869884 & 1.826963\\
+%	12 & & 1 & 1 & 2 & 2 & 1 & 1 & 1 & 1 & 1 & 1 & 1.869884 & 1.827013\\
+%	22 & & 1 & 1 & 2 & 2 & 1 & 1 & 1 & 1 & 1 & 1 & 1.869884 & 1.827013\\
+%	32 & & 1 & 1 & 2 & 2 & 1 & 1 & 1 & 1 & 1 & 1 & 1.869884 & 1.827013\\
+%	42 & & 1 & 1 & 2 & 2 & 1 & 1 & 1 & 1 & 1 & 1 & 1.869884 & 1.827013\\
+%	52 & & 1 & 1 & 2 & 2 & 1 & 1 & 1 & 1 & 1 & 1 & 1.869884 & 1.784694\\
+%	62 & & 1 & 1 & 2 & 2 & 1 & 1 & 1 & 2 & 1 & 1 & 1.254153 & 2.000000\\
+%	72 & & 1 & 2 & 2 & 2 & 1 & 2 & 1 & 1 & 1 & 2 & 1.428946 & 1.428922\\
+%	82 & & 1 & 2 & 2 & 2 & 1 & 2 & 2 & 2 & 1 & 2 & 2.000000 & 2.000000\\
+%	92 & & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1.000000 & 1.000000\\
+%	\hline
+%	\end{tabular}
+%	}
+%	\caption{Convergence periods for landscape cycles in steady state with size $n=4$}
+%\end{table}
+\section{Additional tables}
+\label{sec:appendix_reg}
+The main model is : 
+
+\begin{align}
+\label{model:simple}
+DiffRisk_{i} &= \beta_0 + \beta_1 Budget_i + \beta_2 Constraint_i + \beta_3 Number2_i \\
+&+ \beta_4 LSI_i + \beta_5 Simpson_i + \beta_6 SSHI_i + \beta_7 numberComponents_i \notag \\
+& + \beta_8 GlobalRiskInitial_i \notag
+\end{align}
+
+A second model is tested :
+
+\begin{align}
+\label{model:interacted}
+DiffRisk_{i} &= \beta_0 + \beta_1 Budget_i + \beta_2 Constraint_i + \beta_3 LSI_i + \beta_4 Simpson_i + \beta_5 SSHI_i \\
+& + \beta_6 GlobalRiskInitial_i + \beta_7 Constraint_i \times Budget_i + \beta_8 LSI_i \times SSHI_i \notag\\
+& + \beta_9 LSI_i \times Simpson_i  + \beta_{10}Constraint_i\times GlobalRiskInitial_i \notag \\
+& \beta_{11}Budget_i\times GlobalRiskInitial_i + \beta_{12} Constraint_i\times Budget_i \times GlobalRiskInitial_i \notag
+\end{align}
+
+
+\begin{table}[!htbp] \centering 
+  \caption{Summary of model \ref{model:simple}: linear regression of risk differences between optimization procedures on landscape characteristics} 
+  \label{tab:lm_risk} 
+\begin{tabular}{@{\extracolsep{5pt}}lc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{1}{c}{\textit{Dependent variable:} $DiffRisk_i$} \\ 
+\cline{2-2} 
+\\[-1.8ex] & diff\_risk\_tot \\ 
+\hline \\[-1.8ex] 
+ Constraint & $-$0.009$^{***}$ \\ 
+  & (0.001) \\ 
+  & \\ 
+ Budget & 0.753$^{***}$ \\ 
+  & (0.030) \\ 
+  & \\ 
+ Number of 2s & 0.034 \\ 
+  & (0.081) \\ 
+  & \\ 
+ LSI & $-$0.139 \\ 
+  & (0.230) \\ 
+  & \\ 
+ Simpson & $-$0.654 \\ 
+  & (0.618) \\ 
+  & \\ 
+ Successional Stage Heterogeneity Index & $-$0.990$^{**}$ \\ 
+  & (0.490) \\ 
+  & \\ 
+ Number of components & $-$0.048 \\ 
+  & (0.075) \\ 
+  & \\ 
+ Global Risk Connectiivty & 0.002 \\ 
+  & (0.020) \\ 
+  & \\ 
+ Constant & 1.183$^{***}$ \\ 
+  & (0.270) \\ 
+  & \\ 
+\hline \\[-1.8ex] 
+Observations & 25,840 \\ 
+R$^{2}$ & 0.028 \\ 
+Adjusted R$^{2}$ & 0.027 \\ 
+Residual Std. Error & 5.375 (df = 25831) \\ 
+F Statistic & 91.470$^{***}$ (df = 8; 25831) \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+
+
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: jeu., sept. 05, 2024 - 17:45:31
+\begin{table}[!htbp] \centering 
+  \caption{Summary of model \ref{model:interacted}: linear regression of risk differences between optimization procedures on landscape characteristics } 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{1}{c}{\textit{Dependent variable:}$DiffRisk_i$} \\ 
+\cline{2-2} 
+\\[-1.8ex] & diff\_risk\_tot \\ 
+\hline \\[-1.8ex] 
+ Constraint & $-$0.008$^{*}$ \\ 
+  & (0.005) \\ 
+  & \\ 
+ Budget & 0.661$^{***}$ \\ 
+  & (0.108) \\ 
+  & \\ 
+ LSI & 0.584 \\ 
+  & (0.643) \\ 
+  & \\ 
+ Succesional Stage Heterogeneity Index (SSHI) & 1.087 \\ 
+  & (2.203) \\ 
+  & \\ 
+ Simpson & $-$1.612 \\ 
+  & (2.532) \\ 
+  & \\ 
+ Global Risk Connectivity & $-$0.022 \\ 
+  & (0.023) \\ 
+  & \\ 
+ Constraint $\times$ Budget & 0.0002 \\ 
+  & (0.002) \\ 
+  & \\ 
+ LSI $\times$ SSHI & $-$1.446 \\ 
+  & (1.605) \\ 
+  & \\ 
+ LSI $\times$ Simpson & 0.201 \\ 
+  & (2.018) \\ 
+  & \\ 
+ Constraint $\times$ Global Risk Connectivity & 0.0002 \\ 
+  & (0.0004) \\ 
+  & \\ 
+ Budget$\times$ Global Risk Connectivity  & 0.017$^{**}$ \\ 
+  & (0.009) \\ 
+  & \\ 
+Cconstraint $\times$ Budget$\times$ Global Risk Connectivity  & $-$0.0002 \\ 
+  & (0.0001) \\ 
+  & \\ 
+ Constant & 0.662 \\ 
+  & (0.647) \\ 
+  & \\ 
+\hline \\[-1.8ex] 
+Observations & 25,840 \\ 
+R$^{2}$ & 0.028 \\ 
+Adjusted R$^{2}$ & 0.027 \\ 
+Residual Std. Error & 5.375 (df = 25827) \\ 
+F Statistic & 61.872$^{***}$ (df = 12; 25827) \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+
+\cleardoublepage

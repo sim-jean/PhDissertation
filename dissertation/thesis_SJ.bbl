@@ -1,4 +1,4 @@
-\begin{thebibliography}{297}
+\begin{thebibliography}{298}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -407,6 +407,18 @@ N.~Burrows and L.~McCaw.
 \newblock \doi{https://doi.org/10.1890/120356}.
 \newblock URL
   \url{https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/120356}.
+
+\bibitem[Byrne et~al.(2024)Byrne, Liu, Bowman, Pascolini-Campbell, Chatterjee,
+  Pandey, Miyazaki, van~der Werf, Wunch, Wennberg, Roehl, and
+  Sinha]{byrne_carbon_2024}
+B.~Byrne, J.~Liu, K.~W. Bowman, M.~Pascolini-Campbell, A.~Chatterjee,
+  S.~Pandey, K.~Miyazaki, G.~R. van~der Werf, D.~Wunch, P.~O. Wennberg, C.~M.
+  Roehl, and S.~Sinha.
+\newblock Carbon emissions from the 2023 {Canadian} wildfires.
+\newblock \emph{Nature}, Aug. 2024.
+\newblock ISSN 1476-4687.
+\newblock \doi{10.1038/s41586-024-07878-z}.
+\newblock URL \url{https://doi.org/10.1038/s41586-024-07878-z}.
 
 \bibitem[C4ADS(2017)]{c4ads_hooked_2017}
 C4ADS.

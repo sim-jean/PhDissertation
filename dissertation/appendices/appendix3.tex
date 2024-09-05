@@ -332,8 +332,10 @@ The \textbf{Cournot-Nash equilibrium} is :
 The primary market (between poachers and traders) must clear, and $s(x)$ equates supply and demand: 
 \begin{align}
     &Nq^W_{Cournot} = q^W \\
-    \iff & s^{C^*}(x) = \frac{2W_2N\left[\beta^F (M+1) (\alpha^W-c) - \gamma M (\alpha^F - v)\right] + W_1 \sigma x (\beta^F \beta^W (M+1)(N+1) - \gamma^2 NM)}{\sigma^2 x^2 [\beta^F \beta^W (M+1) (N+1) - \gamma^2 NM] + 2W_2N(M+1)\beta^F}
+    \iff & s^{C^*}(x) = \frac{2W_2N\left[\beta^F (M+1) (\alpha^W-c) - \gamma M (\alpha^F - v)\right]}{\Omega}\\
+     &+\frac{W_1 \sigma x (\beta^F \beta^W (M+1)(N+1) - \gamma^2 NM)}{\Omega} \notag
 \end{align}
+Where $\Omega = \sigma^2 x^2 [\beta^F \beta^W (M+1) (N+1) - \gamma^2 NM] + 2W_2N(M+1)\beta^F$.
 %
 Solving for the equilibrium quantity, the quantity supplied on the market by individual traders is : 
 %
@@ -366,8 +368,8 @@ Using these demand functions and solving for the reaction functions in each case
 \end{align}
 These reaction functions are the same as in the duopoly case (see eq. \ref{eq:rf_bertrand}). This result shows that aggregate production is invariant to the number of farmers or traders as long as both are present on the market. Moreover, the individual production for traders is $\frac{1}{N} q^W_B$ and $\frac{1}{M}q^F_B$ with $q^W_B$ and $q^F_B$ referring to the duopoly equilibrium quantities for poached and farmed productions. In a Bertrand equilibrium, irrespective of the number of players, price-setting competition pushes the price to its minimum such that both firms still operate (given that traders have a stock-dependent production cost). Increased competition in the form of more players cannot push the prices further down. Therefore, aggregate output remains the same and individual production is divided among players. \\
 This result further contradicts the results in \cite{damania_economics_2007}, as the authors find that increasing the number of players in a Bertrand set-up has detrimental effects on the steady-state stock. We find no effect, consistent with the theory and intuition. 
-%
-\paragraph{Trader take over of the aquaculture sector : }
+
+\paragraph{Trader take-over of the aquaculture sector : }
 %
 in this section, we look at the 'extended cartel' scenario, where the vertical monopoly takes over the ownership of the aquaculture firm. \\
 To gain intuition, assume poached and farmed products are perfect substitutes. On the one hand, the vertical monopoly has two production technologies:  poaching ( with a variable marginal cost, as the price paid to poachers depends on the population stock) and farming ( with a constant marginal cost). In this case, the vertical monopoly equates the marginal costs across production units; that is, it buys a poached product to poachers up until the marginal cost of an extra poached unit equates to that of a farmed unit. In this case, if the marginal cost of farming is lower than market prices absent farming, then poaching goes down. Notice that the only way for traders to limit the price paid to poachers is to maintain a healthy stock. Therefore, the new equilibrium population stock is larger than the initial stock, and poaching is lower.
@@ -385,7 +387,8 @@ q^W = \frac{\sigma^2 x^2 (\beta^F(\alpha^W -c) - \gamma (\alpha^F - v)) - W_1 \b
 \end{equation}
 
 Figure \ref{fig:extended_cartel} shows that if the 'extended cartel' scenario arises, poaching goes down, and the steady-state population increases.
-%
+\clearpage
+
 \begin{figure}
     \centering
     \includegraphics[width = .7\textwidth]{figures/totoaba/sup_figure2.png}
