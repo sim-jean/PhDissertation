@@ -1,4 +1,4 @@
-\begin{thebibliography}{298}
+\begin{thebibliography}{295}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -56,18 +56,6 @@ A.~A. Ager, M.~A. Finney, B.~K. Kerns, and H.~Maffei.
   \url{https://www.sciencedirect.com/science/article/pii/S0378112707002770}.
 \newblock Biodiversity Management in Pacific Northwest Forests: Strategies and
   Opportunities.
-
-\bibitem[Agnew et~al.(2009)Agnew, Pearce, Pramod, Peatman, Watson, Beddington,
-  and Pitcher]{agnew_estimating_2009}
-D.~J. Agnew, J.~Pearce, G.~Pramod, T.~Peatman, R.~Watson, J.~R. Beddington, and
-  T.~J. Pitcher.
-\newblock Estimating the {Worldwide} {Extent} of {Illegal} {Fishing}.
-\newblock \emph{PLOS ONE}, 4\penalty0 (2):\penalty0 e4570, Feb. 2009.
-\newblock ISSN 1932-6203.
-\newblock \doi{10.1371/journal.pone.0004570}.
-\newblock URL
-  \url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0004570}.
-\newblock Publisher: Public Library of Science.
 
 \bibitem[Albers et~al.(2010)Albers, Fischer, and
   Sanchirico]{albers_invasive_2010}
@@ -273,12 +261,6 @@ J.~Blackwood, A.~Hastings, and C.~Costello.
   \url{https://www.sciencedirect.com/science/article/pii/S0921800909003590}.
 \newblock Publisher: Elsevier.
 
-\bibitem[Blondel et~al.(2010)Blondel, James, Bodiou, and Boeuf]{blondel_2010}
-J.~Blondel, A.~James, J.-Y. Bodiou, and G.~Boeuf.
-\newblock \emph{The Mediterranean Region : Biological Diversity in Space and
-  Time}.
-\newblock Oxford University Press, 2010.
-
 \bibitem[Boer et~al.(2009)Boer, Sadler, Wittkuhn, McCaw, and
   Grierson]{boer_long-term_2009}
 M.~M. Boer, R.~J. Sadler, R.~S. Wittkuhn, L.~McCaw, and P.~F. Grierson.
@@ -291,17 +273,6 @@ M.~M. Boer, R.~J. Sadler, R.~S. Wittkuhn, L.~McCaw, and P.~F. Grierson.
 \newblock \doi{https://doi.org/10.1016/j.foreco.2009.10.005}.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0378112709007294}.
-
-\bibitem[Bousfield et~al.(2023)Bousfield, Massam, Peres, and
-  Edwards]{bousfield_2023_large}
-C.~G. Bousfield, M.~R. Massam, C.~A. Peres, and D.~P. Edwards.
-\newblock Large-scale impacts of selective logging on canopy tree
-  beta-diversity in the brazilian amazon.
-\newblock \emph{Journal of Applied Ecology}, 60\penalty0 (6):\penalty0
-  1181--1193, 2023.
-\newblock \doi{https://doi.org/10.1111/1365-2664.14403}.
-\newblock URL
-  \url{https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2664.14403}.
 
 \bibitem[Boyd et~al.(2015)Boyd, Epanchin-Niell, and Siikamäki]{Boyd2015}
 J.~Boyd, R.~Epanchin-Niell, and J.~Siikamäki.
@@ -399,6 +370,17 @@ M.~Burke, M.~L. Childs, B.~De~la Cuesta, M.~Qiu, J.~Li, C.~F. Gould,
   2023.
 \newblock URL \url{https://www.nber.org/papers/w30882}.
 
+\bibitem[Burrell et~al.(2020)Burrell, Evans, and
+  De~Kauwe]{burrell_anthropogenic_2020}
+A.~L. Burrell, J.~P. Evans, and M.~G. De~Kauwe.
+\newblock Anthropogenic climate change has driven over 5 million km2 of
+  drylands towards desertification.
+\newblock \emph{Nature Communications}, 11\penalty0 (1):\penalty0 3853, July
+  2020.
+\newblock ISSN 2041-1723.
+\newblock \doi{10.1038/s41467-020-17710-7}.
+\newblock URL \url{https://doi.org/10.1038/s41467-020-17710-7}.
+
 \bibitem[Burrows and McCaw(2013)]{burrows2013}
 N.~Burrows and L.~McCaw.
 \newblock Prescribed burning in southwestern australian forests.
@@ -437,6 +419,17 @@ D.~E. Calkin, S.~S. Hummel, and J.~K. Agee.
 \newblock \doi{10.1139/x05-177}.
 \newblock URL \url{https://cdnsciencepub.com/doi/10.1139/x05-177}.
 \newblock Publisher: NRC Research Press.
+
+\bibitem[Cardinale et~al.(2018)Cardinale, Gonzalez, Allington, and
+  Loreau]{cardinale_local_2018}
+B.~J. Cardinale, A.~Gonzalez, G.~R. Allington, and M.~Loreau.
+\newblock Is local biodiversity declining or not? a summary of the debate over
+  analysis of species richness time trends.
+\newblock \emph{Biological Conservation}, 219:\penalty0 175--183, 2018.
+\newblock ISSN 0006-3207.
+\newblock \doi{https://doi.org/10.1016/j.biocon.2017.12.021}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S000632071732089X}.
 
 \bibitem[Carpenter et~al.(2009)Carpenter, Mooney, Agard, Capistrano, Defries,
   Diaz, Dietz, Duraiappah, Oteng-Yeboah, Pereira, Perrings, Reid, Sarukhan,
@@ -624,6 +617,17 @@ J.~M. Conrad, C.~P. Gomes, W.-J. {van Hoeve}, A.~Sabharwal, and J.~F. Suter.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0095069611001045}.
 
+\bibitem[Conradi et~al.(2024)Conradi, Eggli, Kreft, Schweiger, Weigelt, and
+  Higgins]{conradi_reassessment_2024}
+T.~Conradi, U.~Eggli, H.~Kreft, A.~H. Schweiger, P.~Weigelt, and S.~I. Higgins.
+\newblock Reassessment of the risks of climate change for terrestrial
+  ecosystems.
+\newblock \emph{Nature Ecology \& Evolution}, 8\penalty0 (5):\penalty0
+  888--900, May 2024.
+\newblock ISSN 2397-334X.
+\newblock \doi{10.1038/s41559-024-02333-8}.
+\newblock URL \url{https://doi.org/10.1038/s41559-024-02333-8}.
+
 \bibitem[Coop et~al.(2020)Coop, Parks, Stevens-Rumann, Crausbay, Higuera,
   Hurteau, Tepley, Whitman, Assal, Collins, Davis, Dobrowski, Falk, Fornwalt,
   Fulé, Harvey, Kane, Littlefield, Margolis, North, Parisien, Prichard, and
@@ -679,16 +683,6 @@ C.~Costello, N.~Quérou, and A.~Tomini.
 \newblock URL
   \url{https://linkinghub.elsevier.com/retrieve/pii/S0014292117300302}.
 
-\bibitem[Costello et~al.(2019)Costello, Nkuiya, and
-  Quérou]{costello_renewable_2019}
-C.~Costello, B.~Nkuiya, and N.~Quérou.
-\newblock Spatial renewable resource extraction under possible regime shift.
-\newblock \emph{American Journal of Agricultural Economics}, 101\penalty0
-  (2):\penalty0 507--527, 2019.
-\newblock \doi{https://doi-org.inshs.bib.cnrs.fr/10.1093/ajae/aay076}.
-\newblock URL
-  \url{https://onlinelibrary-wiley-com.inshs.bib.cnrs.fr/doi/abs/10.1093/ajae/aay076}.
-
 \bibitem[Courtois et~al.(2014)Courtois, Figuieres, and Mulier]{Courtois2014}
 P.~Courtois, C.~Figuieres, and C.~Mulier.
 \newblock Conservation priorities when species interact: The noah's ark
@@ -698,6 +692,12 @@ P.~Courtois, C.~Figuieres, and C.~Mulier.
 \newblock \doi{10.1371/JOURNAL.PONE.0106073}.
 \newblock URL
   \url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0106073}.
+
+\bibitem[Cs{\'a}rdi and Nepusz(2006)]{Csrdi2006TheIS}
+G.~Cs{\'a}rdi and T.~Nepusz.
+\newblock The igraph software package for complex network research.
+\newblock 2006.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:16923281}.
 
 \bibitem[Daily et~al.(1997)Daily, Alexander, Ehrlich, Goulder, Lubchenco,
   Matson, Mooney, Postel, Schneider, and Tilman]{Daily97b}
@@ -766,6 +766,16 @@ D.~Donaldson and R.~Hornbeck.
 \newblock \doi{10.1093/qje/qjw002}.
 \newblock URL \url{https://doi.org/10.1093/qje/qjw002}.
 
+\bibitem[Dornelas et~al.(2014)Dornelas, Gotelli, McGill, Shimadzu, Moyes,
+  Sievers, and Magurran]{dornelas_assemblage_2014}
+M.~Dornelas, N.~J. Gotelli, B.~McGill, H.~Shimadzu, F.~Moyes, C.~Sievers, and
+  A.~E. Magurran.
+\newblock Assemblage time series reveal biodiversity change but not systematic
+  loss.
+\newblock \emph{Science}, 344\penalty0 (6181):\penalty0 296--299, 2014.
+\newblock \doi{10.1126/science.1248484}.
+\newblock URL \url{https://www.science.org/doi/abs/10.1126/science.1248484}.
+
 \bibitem[Drechsler(2020)]{Drechsler20200}
 M.~Drechsler.
 \newblock Model-based integration of ecology and socio-economics for the
@@ -826,6 +836,50 @@ A.~J. Dutton, C.~Hepburn, and D.~W. Macdonald.
   \url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0021243}.
 \newblock Publisher: Public Library of Science.
 
+\bibitem[Dyke and Lamb(2008)]{VanDyke2008}
+F.~V. Dyke and R.~L. Lamb.
+\newblock \emph{Biodiversity: Concept, Measurement, and Challenge}, pages
+  83--119.
+\newblock Springer Netherlands, Dordrecht, 2008.
+\newblock ISBN 978-1-4020-6891-1.
+\newblock \doi{10.1007/978-1-4020-6891-1_4}.
+\newblock URL \url{https://doi.org/10.1007/978-1-4020-6891-1_4}.
+
+\bibitem[Díaz et~al.(2015)Díaz, Demissew, Carabias, Joly, Lonsdale, Ash,
+  Larigauderie, Adhikari, Arico, Báldi, Bartuska, Baste, Bilgin, Brondizio,
+  Chan, Figueroa, Duraiappah, Fischer, Hill, Koetz, Leadley, Lyver, Mace,
+  Martin-Lopez, Okumura, Pacheco, Pascual, Pérez, Reyers, Roth, Saito,
+  Scholes, Sharma, Tallis, Thaman, Watson, Yahara, Hamid, Akosim, Al-Hafedh,
+  Allahverdiyev, Amankwah, Asah, Asfaw, Bartus, Brooks, Caillaux, Dalle,
+  Darnaedi, Driver, Erpul, Escobar-Eyzaguirre, Failler, Fouda, Fu, Gundimeda,
+  Hashimoto, Homer, Lavorel, Lichtenstein, Mala, Mandivenyi, Matczak, Mbizvo,
+  Mehrdadi, Metzger, Mikissa, Moller, Mooney, Mumby, Nagendra, Nesshover,
+  Oteng-Yeboah, Pataki, Roué, Rubis, Schultz, Smith, Sumaila, Takeuchi,
+  Thomas, Verma, Yeo-Chang, and Zlatanova]{DIAZ20151}
+S.~Díaz, S.~Demissew, J.~Carabias, C.~Joly, M.~Lonsdale, N.~Ash,
+  A.~Larigauderie, J.~R. Adhikari, S.~Arico, A.~Báldi, A.~Bartuska, I.~A.
+  Baste, A.~Bilgin, E.~Brondizio, K.~M. Chan, V.~E. Figueroa, A.~Duraiappah,
+  M.~Fischer, R.~Hill, T.~Koetz, P.~Leadley, P.~Lyver, G.~M. Mace,
+  B.~Martin-Lopez, M.~Okumura, D.~Pacheco, U.~Pascual, E.~S. Pérez, B.~Reyers,
+  E.~Roth, O.~Saito, R.~J. Scholes, N.~Sharma, H.~Tallis, R.~Thaman, R.~Watson,
+  T.~Yahara, Z.~A. Hamid, C.~Akosim, Y.~Al-Hafedh, R.~Allahverdiyev,
+  E.~Amankwah, S.~T. Asah, Z.~Asfaw, G.~Bartus, L.~A. Brooks, J.~Caillaux,
+  G.~Dalle, D.~Darnaedi, A.~Driver, G.~Erpul, P.~Escobar-Eyzaguirre,
+  P.~Failler, A.~M.~M. Fouda, B.~Fu, H.~Gundimeda, S.~Hashimoto, F.~Homer,
+  S.~Lavorel, G.~Lichtenstein, W.~A. Mala, W.~Mandivenyi, P.~Matczak,
+  C.~Mbizvo, M.~Mehrdadi, J.~P. Metzger, J.~B. Mikissa, H.~Moller, H.~A.
+  Mooney, P.~Mumby, H.~Nagendra, C.~Nesshover, A.~A. Oteng-Yeboah, G.~Pataki,
+  M.~Roué, J.~Rubis, M.~Schultz, P.~Smith, R.~Sumaila, K.~Takeuchi, S.~Thomas,
+  M.~Verma, Y.~Yeo-Chang, and D.~Zlatanova.
+\newblock The ipbes conceptual framework — connecting nature and people.
+\newblock \emph{Current Opinion in Environmental Sustainability}, 14:\penalty0
+  1--16, 2015.
+\newblock ISSN 1877-3435.
+\newblock \doi{https://doi.org/10.1016/j.cosust.2014.11.002}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S187734351400116X}.
+\newblock Open Issue.
+
 \bibitem[Ehrlich and Becker(1972)]{ehrlich_market_1972}
 I.~Ehrlich and G.~S. Becker.
 \newblock Market {Insurance}, {Self}-{Insurance}, and {Self}-{Protection}.
@@ -853,6 +907,16 @@ J.~Elith and J.~R. Leathwick.
 \newblock \doi{10.1146/ANNUREV.ECOLSYS.110308.120159}.
 \newblock URL
   \url{https://www.annualreviews.org/doi/abs/10.1146/annurev.ecolsys.110308.120159}.
+
+\bibitem[Elliott and Golub(2019)]{elliott_network_2019}
+M.~Elliott and B.~Golub.
+\newblock A {Network} {Approach} to {Public} {Goods}.
+\newblock \emph{Journal of Political Economy}, 127\penalty0 (2):\penalty0
+  730--776, Apr. 2019.
+\newblock ISSN 0022-3808.
+\newblock \doi{10.1086/701032}.
+\newblock URL \url{https://www.journals.uchicago.edu/doi/10.1086/701032}.
+\newblock Publisher: The University of Chicago Press.
 
 \bibitem[Epanchin-Niell(2017)]{EpanchinNiell2017}
 R.~S. Epanchin-Niell.
@@ -894,6 +958,13 @@ B.~E. Erisman, L.~G. Allen, J.~T. Claisse, D.~J. Pondella, E.~F. Miller, and
 \newblock \doi{10.1139/f2011-090}.
 \newblock URL \url{https://cdnsciencepub.com/doi/full/10.1139/f2011-090}.
 \newblock Publisher: NRC Research Press.
+
+\bibitem[Estrada and Rodr\'{\i}guez-Vel\'azquez(2005)]{estrada_subgraph_2005}
+E.~Estrada and J.~A. Rodr\'{\i}guez-Vel\'azquez.
+\newblock Subgraph centrality in complex networks.
+\newblock \emph{Phys. Rev. E}, 71:\penalty0 056103, May 2005.
+\newblock \doi{10.1103/PhysRevE.71.056103}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevE.71.056103}.
 
 \bibitem[Exton et~al.(2019)Exton, Ahmadia, Cullen-Unsworth, Jompa, May, Rice,
   Simonin, Unsworth, and Smith]{exton_artisanal_2019}
@@ -952,12 +1023,6 @@ L.~Fahrig, J.~Baudry, L.~Brotons, F.~G. Burel, T.~O. Crist, R.~J. Fuller,
   \doi{https://doi-org.inshs.bib.cnrs.fr/10.1111/j.1461-0248.2010.01559.x}.
 \newblock URL
   \url{https://onlinelibrary-wiley-com.inshs.bib.cnrs.fr/doi/abs/10.1111/j.1461-0248.2010.01559.x}.
-
-\bibitem[FAO(2022)]{fao_2022_state}
-FAO.
-\newblock The state of the world fisheries and aquaculture 2022. towards blue
-  transformation.
-\newblock Technical report, FAO, Rome, 2022.
 
 \bibitem[Faustmann(1849{\natexlab{a}})]{Faustmann}
 M.~Faustmann.
@@ -1123,18 +1188,6 @@ H.~E. Froehlich, R.~R. Gentry, and B.~S. Halpern.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0006320717307565}.
 
-\bibitem[Gallego-Zamorano et~al.(2020)Gallego-Zamorano, Benítez-López,
-  Santini, Hilbers, Huijbregts, and Schipper]{gallego_2020_combined}
-J.~Gallego-Zamorano, A.~Benítez-López, L.~Santini, J.~P. Hilbers, M.~A.~J.
-  Huijbregts, and A.~M. Schipper.
-\newblock Combined effects of land use and hunting on distributions of tropical
-  mammals.
-\newblock \emph{Conservation Biology}, 34\penalty0 (5):\penalty0 1271--1280,
-  2020.
-\newblock \doi{https://doi-org.inshs.bib.cnrs.fr/10.1111/cobi.13459}.
-\newblock URL
-  \url{https://conbio-onlinelibrary-wiley-com.inshs.bib.cnrs.fr/doi/abs/10.1111/cobi.13459}.
-
 \bibitem[Gardner and Urban(2007)]{gardner_neutral_2007}
 R.~H. Gardner and D.~L. Urban.
 \newblock Neutral models for testing landscape hypotheses.
@@ -1172,6 +1225,30 @@ A.~Gibbard and H.~R. Varian.
 \newblock Economic models.
 \newblock \emph{The Journal of Philosophy}, 75\penalty0 (11):\penalty0
   664--677, 1978.
+
+\bibitem[Gomes et~al.(2024)Gomes, Ruzicka, Crozier, Huff, Brodeur, and
+  Stewart]{gomes_marine_2024}
+D.~G.~E. Gomes, J.~J. Ruzicka, L.~G. Crozier, D.~D. Huff, R.~D. Brodeur, and
+  J.~D. Stewart.
+\newblock Marine heatwaves disrupt ecosystem structure and function via altered
+  food webs and energy flux.
+\newblock \emph{Nature Communications}, 15\penalty0 (1):\penalty0 1988, Mar.
+  2024.
+\newblock ISSN 2041-1723.
+\newblock \doi{10.1038/s41467-024-46263-2}.
+\newblock URL \url{https://doi.org/10.1038/s41467-024-46263-2}.
+
+\bibitem[Gonzalez et~al.(2016)Gonzalez, Cardinale, Allington, Byrnes,
+  Arthur~Endsley, Brown, Hooper, Isbell, O'Connor, and
+  Loreau]{gonzales_estimating_2016}
+A.~Gonzalez, B.~J. Cardinale, G.~R.~H. Allington, J.~Byrnes, K.~Arthur~Endsley,
+  D.~G. Brown, D.~U. Hooper, F.~Isbell, M.~I. O'Connor, and M.~Loreau.
+\newblock Estimating local biodiversity change: a critique of papers claiming
+  no net loss of local diversity.
+\newblock \emph{Ecology}, 97\penalty0 (8):\penalty0 1949--1960, 2016.
+\newblock \doi{https://doi-org.inshs.bib.cnrs.fr/10.1890/15-1759.1}.
+\newblock URL
+  \url{https://esajournals-onlinelibrary-wiley-com.inshs.bib.cnrs.fr/doi/abs/10.1890/15-1759.1}.
 
 \bibitem[Gonzalez-Olabarria et~al.(2023)Gonzalez-Olabarria, Carrasco, Pais,
   Garcia-Gonzalo, Palacios-Meneses, Mahaluf-Recasens, Porkhum, and
@@ -1266,20 +1343,15 @@ S.~Heft-Neal, C.~F. Gould, M.~Childs, M.~V. Kiang, K.~Nadeau, M.~Duggan,
   {Smoke} {Events}, Feb. 2023.
 \newblock URL \url{https://www.nber.org/papers/w30969}.
 
-\bibitem[Hilborn et~al.(2020)Hilborn, Amoroso, Anderson, Baum, Branch,
-  Costello, de~Moor, Faraj, Hively, Jensen, Kurota, Little, Mace, McClanahan,
-  Melnychuk, Minto, Osio, Parma, Pons, Segurado, Szuwalski, Wilson, and
-  Ye]{hilborn_2020_effective}
-R.~Hilborn, R.~O. Amoroso, C.~M. Anderson, J.~K. Baum, T.~A. Branch,
-  C.~Costello, C.~L. de~Moor, A.~Faraj, D.~Hively, O.~P. Jensen, H.~Kurota,
-  L.~R. Little, P.~Mace, T.~McClanahan, M.~C. Melnychuk, C.~Minto, G.~C. Osio,
-  A.~M. Parma, M.~Pons, S.~Segurado, C.~S. Szuwalski, J.~R. Wilson, and Y.~Ye.
-\newblock Effective fisheries management instrumental in improving fish stock
-  status.
-\newblock \emph{Proceedings of the National Academy of Sciences}, 117\penalty0
-  (4):\penalty0 2218--2224, 2020.
-\newblock \doi{10.1073/pnas.1909726116}.
-\newblock URL \url{https://www.pnas.org/doi/abs/10.1073/pnas.1909726116}.
+\bibitem[Hill et~al.(2018)Hill, Gonzalez, Sanchez-Ortiz, Caton, Espinoza,
+  Newbold, Tylianakis, Scharlemann, De~Palma, and Purvis]{Hill311787}
+S.~L. Hill, R.~Gonzalez, K.~Sanchez-Ortiz, E.~Caton, F.~Espinoza, T.~Newbold,
+  J.~Tylianakis, J.~P.~W. Scharlemann, A.~De~Palma, and A.~Purvis.
+\newblock Worldwide impacts of past and projected future land-use change on
+  local species richness and the biodiversity intactness index.
+\newblock \emph{bioRxiv}, 2018.
+\newblock \doi{10.1101/311787}.
+\newblock URL \url{https://www.biorxiv.org/content/early/2018/05/01/311787}.
 
 \bibitem[Hinsley and 't~Sas-Rolfes(2020)]{hinsley_wild_2020}
 A.~Hinsley and M.~'t~Sas-Rolfes.
@@ -1290,11 +1362,6 @@ A.~Hinsley and M.~'t~Sas-Rolfes.
 \newblock \doi{10.1002/pan3.10099}.
 \newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/pan3.10099}.
 \newblock \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/pan3.10099.
-
-\bibitem[Hoare and Uehara(2022)]{hoare2022establishing}
-A.~Hoare and T.~H.~K. Uehara.
-\newblock Establishing fair and sustainable forest economies.
-\newblock 2022.
 
 \bibitem[Holland(1992)]{holland_adaptation_1975}
 J.~H. Holland.
@@ -1401,6 +1468,17 @@ IUCN.
   {Endangered} {Species} of {Wild} {Fauna} and {Flora} ({CITES}).
 \newblock Technical report, Environmental Investigation Agency, 2000.
 
+\bibitem[Jackson and Sax(2010)]{JACKSON2010153}
+S.~T. Jackson and D.~F. Sax.
+\newblock Balancing biodiversity in a changing environment: extinction debt,
+  immigration credit and species turnover.
+\newblock \emph{Trends in Ecology \& Evolution}, 25\penalty0 (3):\penalty0
+  153--160, 2010.
+\newblock ISSN 0169-5347.
+\newblock \doi{https://doi.org/10.1016/j.tree.2009.10.001}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0169534709003164}.
+
 \bibitem[Jafari and Hearne(2013)]{jafari_new_2013}
 N.~Jafari and J.~Hearne.
 \newblock A new method to solve the fully connected reserve network design
@@ -1481,26 +1559,6 @@ E.~L. Kalies and L.~L. {Yocom Kent}.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0378112716302626}.
 
-\bibitem[Kapaun and Quaas(2013)]{kapaun_does_2013}
-U.~Kapaun and M.~F. Quaas.
-\newblock Does the {Optimal} {Size} of a {Fish} {Stock} {Increase} with
-  {Environmental} {Uncertainties}?
-\newblock \emph{Environmental and Resource Economics}, 54\penalty0
-  (2):\penalty0 293--310, Feb. 2013.
-\newblock ISSN 1573-1502.
-\newblock \doi{10.1007/s10640-012-9606-y}.
-\newblock URL \url{https://doi.org/10.1007/s10640-012-9606-y}.
-
-\bibitem[Kelsall et~al.(2023)Kelsall, Quaas, and Quérou]{KELSALL2023102855}
-C.~Kelsall, M.~F. Quaas, and N.~Quérou.
-\newblock Risk aversion in renewable resource harvesting.
-\newblock \emph{Journal of Environmental Economics and Management},
-  121:\penalty0 102855, 2023.
-\newblock ISSN 0095-0696.
-\newblock \doi{https://doi.org/10.1016/j.jeem.2023.102855}.
-\newblock URL
-  \url{https://www.sciencedirect.com/science/article/pii/S0095069623000736}.
-
 \bibitem[Ketchen and Shook(1998)]{Ketchen1998}
 D.~J. Ketchen and C.~L. Shook.
 \newblock The application of cluster analysis in strategic management research
@@ -1514,6 +1572,29 @@ N.~Khabarov, A.~A. Krasovskii, M.~Obersteiner, R.~J. Swart, A.~Dosio,
 \newblock Forest fires and adaptation options in europe.
 \newblock \emph{Regional Environmental Change}, 16:\penalty0 21--30, 2014.
 \newblock URL \url{https://api.semanticscholar.org/CorpusID:44198510}.
+
+\bibitem[Kim et~al.(2018)Kim, Rosa, Alkemade, Leadley, Hurtt, Popp, van Vuuren,
+  Anthoni, Arneth, Baisero, Caton, Chaplin-Kramer, Chini, De~Palma, Di~Fulvio,
+  Di~Marco, Espinoza, Ferrier, Fujimori, Gonzalez, Gueguen, Guerra, Harfoot,
+  Harwood, Hasegawa, Haverd, Havl{\'\i}k, Hellweg, Hill, Hirata, Hoskins,
+  Janse, Jetz, Johnson, Krause, Lecl{\`e}re, Martins, Matsui, Merow,
+  Obersteiner, Ohashi, Poulter, Purvis, Quesada, Rondinini, Schipper, Sharp,
+  Takahashi, Thuiller, Titeux, Visconti, Ware, Wolf, and Pereira]{Kim300632}
+H.~Kim, I.~M. Rosa, R.~Alkemade, P.~Leadley, G.~Hurtt, A.~Popp, D.~P. van
+  Vuuren, P.~Anthoni, A.~Arneth, D.~Baisero, E.~Caton, R.~Chaplin-Kramer,
+  L.~Chini, A.~De~Palma, F.~Di~Fulvio, M.~Di~Marco, F.~Espinoza, S.~Ferrier,
+  S.~Fujimori, R.~E. Gonzalez, M.~Gueguen, C.~Guerra, M.~Harfoot, T.~D.
+  Harwood, T.~Hasegawa, V.~Haverd, P.~Havl{\'\i}k, S.~Hellweg, S.~L.~L. Hill,
+  A.~Hirata, A.~J. Hoskins, J.~H. Janse, W.~Jetz, J.~A. Johnson, A.~Krause,
+  D.~Lecl{\`e}re, I.~S. Martins, T.~Matsui, C.~Merow, M.~Obersteiner,
+  H.~Ohashi, B.~Poulter, A.~Purvis, B.~Quesada, C.~Rondinini, A.~Schipper,
+  R.~Sharp, K.~Takahashi, W.~Thuiller, N.~Titeux, P.~Visconti, C.~Ware,
+  F.~Wolf, and H.~M. Pereira.
+\newblock A protocol for an intercomparison of biodiversity and ecosystem
+  services models using harmonized land-use and climate scenarios.
+\newblock \emph{bioRxiv}, 2018.
+\newblock \doi{10.1101/300632}.
+\newblock URL \url{https://www.biorxiv.org/content/early/2018/04/26/300632}.
 
 \bibitem[King et~al.(2008)King, Bradstock, Cary, Chapman, and
   Marsden-Smedley]{king_relative_2008}
@@ -1679,7 +1760,9 @@ A.~A. Lopes and S.~S. Atallah.
 \newblock \emph{Environmental and Resource Economics}, 76:\penalty0 69--90, 5
   2020.
 \newblock ISSN 15731502.
-\newblock \doi{10.1007/s10640-020-00416-1}.
+\newblock \doi{10.1007/S10640-020-00416-1/TABLES/2}.
+\newblock URL
+  \url{https://link.springer.com/article/10.1007/s10640-020-00416-1}.
 
 \bibitem[Low et~al.(2023)Low, Battles, Tompkins, Dillingham, Stephens, and
   Collins]{low_shaded_2023}
@@ -1787,16 +1870,6 @@ K.~McGarigal and B.~J. Marks.
 \newblock Technical report, 1995.
 \newblock URL \url{https://doi.org/10.2737%2Fpnw-gtr-351}.
 
-\bibitem[McGough et~al.(2009)McGough, Plantinga, and
-  Costello]{McGoughPlantingaCostello+2009}
-B.~McGough, A.~J. Plantinga, and C.~Costello.
-\newblock Optimally managing a stochastic renewable resource under general
-  economic conditions.
-\newblock \emph{The B.E. Journal of Economic Analysis \& Policy}, 9\penalty0
-  (1), 2009.
-\newblock \doi{doi:10.2202/1935-1682.2313}.
-\newblock URL \url{https://doi.org/10.2202/1935-1682.2313}.
-
 \bibitem[McKinney(2008)]{McKinney}
 M.~L. McKinney.
 \newblock Effects of urbanization on species richness: A review of plants and
@@ -1815,15 +1888,6 @@ M.~L. McKinney and J.~L. Lockwood.
 \newblock \doi{https://doi.org/10.1016/S0169-5347(99)01679-1}.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0169534799016791}.
-
-\bibitem[Melnychuk et~al.(2017)Melnychuk, Peterson, Elliott, and
-  Hilborn]{melnychuk_2017_fisheries}
-M.~C. Melnychuk, E.~Peterson, M.~Elliott, and R.~Hilborn.
-\newblock Fisheries management impacts on target species status.
-\newblock \emph{Proceedings of the National Academy of Sciences}, 114\penalty0
-  (1):\penalty0 178--183, 2017.
-\newblock \doi{10.1073/pnas.1609915114}.
-\newblock URL \url{https://www.pnas.org/doi/abs/10.1073/pnas.1609915114}.
 
 \bibitem[Miller et~al.(2020)Miller, Field, and Mach]{miller_barriers_2020}
 R.~K. Miller, C.~B. Field, and K.~J. Mach.
@@ -1871,18 +1935,6 @@ T.~Mitra and H.~Y. Wan.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/0022053186900736}.
 
-\bibitem[Mittermeier et~al.(2011)Mittermeier, Turner, Larsen, Brooks, and
-  Gascon]{mittermeier_global_2011}
-R.~A. Mittermeier, W.~R. Turner, F.~W. Larsen, T.~M. Brooks, and C.~Gascon.
-\newblock Global {Biodiversity} {Conservation}: {The} {Critical} {Role} of
-  {Hotspots}.
-\newblock In F.~E. Zachos and J.~C. Habel, editors, \emph{Biodiversity
-  {Hotspots}: {Distribution} and {Protection} of {Conservation} {Priority}
-  {Areas}}, pages 3--22. Springer Berlin Heidelberg, Berlin, Heidelberg, 2011.
-\newblock ISBN 978-3-642-20992-5.
-\newblock \doi{10.1007/978-3-642-20992-5_1}.
-\newblock URL \url{https://doi.org/10.1007/978-3-642-20992-5_1}.
-
 \bibitem[Montgomery et~al.(1994)Montgomery, Brown~Jr, and
   Adams]{MONTGOMERY1994}
 C.~A. Montgomery, G.~M. Brown~Jr, and D.~M. Adams.
@@ -1893,16 +1945,6 @@ C.~A. Montgomery, G.~M. Brown~Jr, and D.~M. Adams.
 \newblock \doi{https://doi.org/10.1006/jeem.1994.1007}.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0095069684710072}.
-
-\bibitem[Mooney et~al.(2001)Mooney, Kalin~Arroyo, Bond, Canadell, Hobbs,
-  Lavorel, and Neilson]{Mooney2001}
-H.~A. Mooney, M.~T. Kalin~Arroyo, W.~J. Bond, J.~Canadell, R.~J. Hobbs,
-  S.~Lavorel, and R.~P. Neilson.
-\newblock \emph{Mediterranean-Climate Ecosystems}, pages 157--199.
-\newblock Springer New York, New York, NY, 2001.
-\newblock ISBN 978-1-4613-0157-8.
-\newblock \doi{10.1007/978-1-4613-0157-8_9}.
-\newblock URL \url{https://doi.org/10.1007/978-1-4613-0157-8_9}.
 
 \bibitem[Moore et~al.(2004)Moore, Balmford, Allnutt, and Burgess]{Moore2004}
 J.~Moore, A.~Balmford, T.~Allnutt, and N.~Burgess.
@@ -1916,7 +1958,17 @@ M.~Morgan.
 \newblock Models, stories and the economic world.
 \newblock \emph{Journal of Economic Methodology}, 8\penalty0 (3), 2001.
 
-\bibitem[Mouysset et~al.(2012)Mouysset, Doyen, and Jiguet]{MOUYSSET2012}
+\bibitem[Mouysset(2023)]{mouysset_diversity_2023}
+L.~Mouysset.
+\newblock On diversity of human-nature relationships in environmental sciences
+  and its implications for the management of ecological crisis.
+\newblock \emph{History and Philosophy of the Life Sciences}, 45\penalty0
+  (2):\penalty0 20, May 2023.
+\newblock ISSN 1742-6316.
+\newblock \doi{10.1007/s40656-023-00575-6}.
+\newblock URL \url{https://doi.org/10.1007/s40656-023-00575-6}.
+
+\bibitem[Mouysset et~al.(2012)Mouysset, Doyen, and Jiguet]{Mouysset2012}
 L.~Mouysset, L.~Doyen, and F.~Jiguet.
 \newblock Different policy scenarios to promote various targets of
   biodiversity.
@@ -1940,33 +1992,6 @@ R.~Nash and M.~Dickey-Collas.
   stock-recruitment relationships for north sea autumn-spawning herring, 1998.
 \newblock \emph{Fisheries oceanography}, 14\penalty0 (4):\penalty0 279--291,
   2005.
-
-\bibitem[Newbold et~al.(2014)Newbold, Hudson, Phillips, Hill, Contu, Lysenko,
-  Blandon, Butchart, Booth, Day, De~Palma, Harrison, Kirkpatrick, Pynegar,
-  Robinson, Simpson, Mace, Scharlemann, and Purvis]{newbold_global_2014}
-T.~Newbold, L.~N. Hudson, H.~R.~P. Phillips, S.~L.~L. Hill, S.~Contu,
-  I.~Lysenko, A.~Blandon, S.~H.~M. Butchart, H.~L. Booth, J.~Day, A.~De~Palma,
-  M.~L.~K. Harrison, L.~Kirkpatrick, E.~Pynegar, A.~Robinson, J.~Simpson, G.~M.
-  Mace, J.~P.~W. Scharlemann, and A.~Purvis.
-\newblock A global model of the response of tropical and sub-tropical forest
-  biodiversity to anthropogenic pressures.
-\newblock \emph{Proceedings of the Royal Society B: Biological Sciences},
-  281\penalty0 (1792):\penalty0 20141371, Oct. 2014.
-\newblock \doi{10.1098/rspb.2014.1371}.
-\newblock URL
-  \url{https://royalsocietypublishing.org/doi/10.1098/rspb.2014.1371}.
-\newblock Publisher: Royal Society.
-
-\bibitem[Newbold et~al.(2020)Newbold, Oppenheimer, Etard, and
-  Williams]{newbold_tropical_2020}
-T.~Newbold, P.~Oppenheimer, A.~Etard, and J.~J. Williams.
-\newblock Tropical and {Mediterranean} biodiversity is disproportionately
-  sensitive to land-use and climate change.
-\newblock \emph{Nature Ecology \& Evolution}, 4\penalty0 (12):\penalty0
-  1630--1638, Dec. 2020.
-\newblock ISSN 2397-334X.
-\newblock \doi{10.1038/s41559-020-01303-0}.
-\newblock URL \url{https://doi.org/10.1038/s41559-020-01303-0}.
 
 \bibitem[Nordhaus(1994)]{Nordhaus94}
 W.~D. Nordhaus.
@@ -2144,16 +2169,6 @@ J.~C. Péreau, L.~Doyen, L.~R. Little, and O.~Thébaud.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0095069612000022}.
 
-\bibitem[Quaas et~al.(2019)Quaas, Baumgärtner, and {De
-  Lara}]{quaas_2019_insurance}
-M.~Quaas, S.~Baumgärtner, and M.~{De Lara}.
-\newblock Insurance value of natural capital.
-\newblock \emph{Ecological Economics}, 165:\penalty0 106388, 2019.
-\newblock ISSN 0921-8009.
-\newblock \doi{https://doi.org/10.1016/j.ecolecon.2019.106388}.
-\newblock URL
-  \url{https://www.sciencedirect.com/science/article/pii/S0921800918315350}.
-
 \bibitem[Rachmawati et~al.(2015)Rachmawati, Ozlen, Reinke, and
   Hearne]{rachmawati_model_2015}
 R.~Rachmawati, M.~Ozlen, K.~J. Reinke, and J.~W. Hearne.
@@ -2210,17 +2225,6 @@ B.~Rayfield, D.~Pelletier, M.~Dumitru, J.~A. Cardille, and A.~Gonzalez.
   \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.12470}.
 \newblock Publisher: John Wiley \& Sons, Ltd.
 
-\bibitem[Reed(1979)]{reed_1979_optimal}
-W.~J. Reed.
-\newblock Optimal escapement levels in stochastic and deterministic harvesting
-  models.
-\newblock \emph{Journal of Environmental Economics and Management}, 6\penalty0
-  (4):\penalty0 350--363, 1979.
-\newblock ISSN 0095-0696.
-\newblock \doi{https://doi.org/10.1016/0095-0696(79)90014-7}.
-\newblock URL
-  \url{https://www.sciencedirect.com/science/article/pii/0095069679900147}.
-
 \bibitem[Reidsma et~al.(2006)Reidsma, Tekelenburg, {van den Berg}, and
   Alkemade]{REIDSMA200686}
 P.~Reidsma, T.~Tekelenburg, M.~{van den Berg}, and R.~Alkemade.
@@ -2233,6 +2237,22 @@ P.~Reidsma, T.~Tekelenburg, M.~{van den Berg}, and R.~Alkemade.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0167880905005360}.
 \newblock Scenario-Based Studies of Future Land Use in Europe.
+
+\bibitem[Richardson et~al.(2023)Richardson, Steffen, Lucht, Bendtsen, Cornell,
+  Donges, Drüke, Fetzer, Bala, von Bloh, Feulner, Fiedler, Gerten, Gleeson,
+  Hofmann, Huiskamp, Kummu, Mohan, Nogués-Bravo, Petri, Porkka, Rahmstorf,
+  Schaphoff, Thonicke, Tobian, Virkki, Wang-Erlandsson, Weber, and
+  Rockström]{richardson_earth_2023}
+K.~Richardson, W.~Steffen, W.~Lucht, J.~Bendtsen, S.~E. Cornell, J.~F. Donges,
+  M.~Drüke, I.~Fetzer, G.~Bala, W.~von Bloh, G.~Feulner, S.~Fiedler,
+  D.~Gerten, T.~Gleeson, M.~Hofmann, W.~Huiskamp, M.~Kummu, C.~Mohan,
+  D.~Nogués-Bravo, S.~Petri, M.~Porkka, S.~Rahmstorf, S.~Schaphoff,
+  K.~Thonicke, A.~Tobian, V.~Virkki, L.~Wang-Erlandsson, L.~Weber, and
+  J.~Rockström.
+\newblock Earth beyond six of nine planetary boundaries.
+\newblock \emph{Science Advances}, 9\penalty0 (37):\penalty0 eadh2458, 2023.
+\newblock \doi{10.1126/sciadv.adh2458}.
+\newblock URL \url{https://www.science.org/doi/abs/10.1126/sciadv.adh2458}.
 
 \bibitem[Rindfuss et~al.(2004)Rindfuss, Walsh, Turner, Fox, and
   Mishra]{Rindfuss2004}
@@ -2254,6 +2274,14 @@ Robin and Libby.
 \newblock ISSN 2105-2956.
 \newblock \doi{10.4000/QUADERNI.92}.
 \newblock URL \url{http://journals.openedition.org/quaderni/92}.
+
+\bibitem[Rockstr{\"o}m et~al.(2009)Rockstr{\"o}m, Steffen, Noone, Persson,
+  Chapin, Lambin, Lenton, Scheffer, Folke, Schellnhuber,
+  et~al.]{rockstrom2009safe}
+J.~Rockstr{\"o}m, W.~Steffen, K.~Noone, {\AA}.~Persson, F.~S. Chapin, E.~F.
+  Lambin, T.~M. Lenton, M.~Scheffer, C.~Folke, H.~J. Schellnhuber, et~al.
+\newblock A safe operating space for humanity.
+\newblock \emph{nature}, 461\penalty0 (7263):\penalty0 472--475, 2009.
 
 \bibitem[Rojas-Bracho and Reeves(2013)]{rojas-bracho_vaquitas_2013}
 L.~Rojas-Bracho and R.~R. Reeves.
@@ -2355,20 +2383,11 @@ P.~A. Samuelson.
 \newblock \emph{Journal of Natural Resources Policy Research}, 4\penalty0
   (3):\penalty0 173--195, 2012 [1973].
 
-\bibitem[Sanchirico and Wilen(1999{\natexlab{a}})]{Sanchirico1999}
-J.~N. Sanchirico and J.~E. Wilen.
-\newblock Bioeconomics of spatial exploitation in a patchy environment.
-\newblock \emph{Journal of Environmental Economics and Management},
-  37:\penalty0 129--150, 3 1999{\natexlab{a}}.
-\newblock ISSN 0095-0696.
-\newblock \doi{10.1006/JEEM.1998.1060}.
-
-\bibitem[Sanchirico and
-  Wilen(1999{\natexlab{b}})]{sanchirico_bioeconomics_1999}
+\bibitem[Sanchirico and Wilen(1999)]{sanchirico_bioeconomics_1999}
 J.~N. Sanchirico and J.~E. Wilen.
 \newblock Bioeconomics of {Spatial} {Exploitation} in a {Patchy} {Environment}.
 \newblock \emph{Journal of Environmental Economics and Management}, 37\penalty0
-  (2):\penalty0 129--150, Mar. 1999{\natexlab{b}}.
+  (2):\penalty0 129--150, Mar. 1999.
 \newblock ISSN 0095-0696.
 \newblock \doi{10.1006/jeem.1998.1060}.
 \newblock URL
@@ -2530,6 +2549,18 @@ V.~L. Smith.
 \newblock ISSN 00028282.
 \newblock URL \url{http://www.jstor.org/stable/1813767}.
 
+\bibitem[Soulé(1985)]{soule_what_1985}
+M.~E. Soulé.
+\newblock What is conservation biology?
+\newblock \emph{BioScience}, 35\penalty0 (11):\penalty0 727--734, 1985.
+\newblock ISSN 00063568, 15253244.
+\newblock URL \url{http://www.jstor.org/stable/1310054}.
+
+\bibitem[Soulé(1986)]{soule_conservation_1986}
+M.~E. Soulé.
+\newblock \emph{Conservation Biology : the science of scarcity and diversity}.
+\newblock Sinauer, Sunderland, MA, 1986.
+
 \bibitem[Steffen et~al.(2015)Steffen, Richardson, Rockström, Cornell, Fetzer,
   Bennett, Biggs, Carpenter, de~Vries, de~Wit, Folke, Gerten, Heinke, Mace,
   Persson, Ramanathan, Reyers, and Sörlin]{steffen_2015_planetary}
@@ -2551,25 +2582,15 @@ N.~C. Stenseth.
 \newblock URL \url{https://www.jstor.org/stable/3565244}.
 \newblock Publisher: [Nordic Society Oikos, Wiley].
 
-\bibitem[Swanson(1994)]{Swanson94}
+\bibitem[Swanson(1994)]{swanson_economics_1994}
 T.~M. Swanson.
-\newblock The economics of extinction revisited and revised: A generalised
-  framework for the analysis of the problems of endangered species and
-  biodiversity losses.
+\newblock The {Economics} of {Extinction} {Revisited} and {Revised}: {A}
+  {Generalised} {Framework} for the {Analysis} of the {Problems} of
+  {Endangered} {Species} and {Biodiversity} {Losses}.
 \newblock \emph{Oxford Economic Papers}, 46:\penalty0 800--821, 1994.
-\newblock ISSN 00307653, 14643812.
-\newblock URL \url{http://www.jstor.org/stable/2663500}.
-
-\bibitem[Tahvonen et~al.(2018)Tahvonen, Quaas, and Voss]{TAHVONEN2018659}
-O.~Tahvonen, M.~F. Quaas, and R.~Voss.
-\newblock Harvesting selectivity and stochastic recruitment in economic models
-  of age-structured fisheries.
-\newblock \emph{Journal of Environmental Economics and Management},
-  92:\penalty0 659--676, 2018.
-\newblock ISSN 0095-0696.
-\newblock \doi{https://doi.org/10.1016/j.jeem.2017.08.011}.
-\newblock URL
-  \url{https://www.sciencedirect.com/science/article/pii/S0095069616304399}.
+\newblock ISSN 0030-7653.
+\newblock URL \url{https://www.jstor.org/stable/2663500}.
+\newblock Publisher: Oxford University Press.
 
 \bibitem[Taylor et~al.(2014)Taylor, McCarty, and Lindemayer]{Taylor2014}
 C.~Taylor, M.~A. McCarty, and D.~B. Lindemayer.
@@ -2609,15 +2630,6 @@ L.~Tensen.
 \newblock \doi{10.1016/j.gecco.2016.03.007}.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S2351989415300421}.
-
-\bibitem[Thomas(2013)]{thomas_2013_local}
-C.~D. Thomas.
-\newblock Local diversity stays about the same, regional diversity increases,
-  and global diversity declines.
-\newblock \emph{Proceedings of the National Academy of Sciences}, 110\penalty0
-  (48):\penalty0 19187--19188, 2013.
-\newblock \doi{10.1073/pnas.1319304110}.
-\newblock URL \url{https://www.pnas.org/doi/abs/10.1073/pnas.1319304110}.
 
 \bibitem[Thomas(1979)]{thomas_wildlife_1979}
 J.~W. T.~E. Thomas.
@@ -2801,11 +2813,6 @@ M.~L. Weitzman.
 \newblock \emph{Econometrica}, 66\penalty0 (6):\penalty0 1279--1298, 1998.
 \newblock ISSN 00129682, 14680262.
 \newblock URL \url{http://www.jstor.org/stable/2999617}.
-
-\bibitem[Widjaja et~al.(2020)Widjaja, Long, and et~al.]{iuu_2020_widjaja}
-S.~Widjaja, T.~Long, and H.~W. et~al.
-\newblock Illegal, unreported and unregulated fishing and associated drivers.
-\newblock Technical report, World Resource Institute, 2020.
 
 \bibitem[Williams et~al.(2017)Williams, Shoo, Wilson, and Beyer]{Williams2017}
 B.~A. Williams, L.~P. Shoo, K.~A. Wilson, and H.~L. Beyer.

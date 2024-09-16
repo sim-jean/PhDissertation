@@ -627,7 +627,7 @@ Equation \ref{eq:v_corner} shows that for low stock values, costs can still be p
 %Third, we assume that the cost structure of farming is linear, and does not depend on the wild population stock. However, as stocks plummet, security expenses are likely to increase\footnote{Famous examples include farming of rhinos, where security expenses skyrocketed as the rarity of rhino horns increased (see \url{https://www.cbsnews.com/news/rhino-farm-auction-john-hume-seeks-billionaire-to-carry-on-conservation-work/ })}. Therefore, costs may be quadratic in the stock. Eventually, the ecological requirement for farming and the corresponding location of the farming operation are important variables in limiting security expenses.
 
 \clearpage
-\section{Supplementary Figures and Tables}
+\subsection{Supplementary Figures and Tables}
 \setcounter{table}{5}
 
 \begin{figure}[H]
@@ -653,10 +653,10 @@ Equation \ref{eq:v_corner} shows that for low stock values, costs can still be p
 
 \newpage
 
-\begin{landscape}
 \begin{table}[H]
 %\caption{}
 \centering
+\resizebox{\textwidth}{!}{%
 \begin{tabular}[t]{ccccc}
 \hline 
 Variable & Low Season & Mid Season & High Season & Source\\
@@ -674,53 +674,54 @@ Bribes/year & 600 & 7200 & 21000 & Semi-Structured Interviews\\
 Average cost (per vessel day) & 8385.34 & 14386.69 & 5051.26 & Authors' calculation\\
 \hline \hline
 \end{tabular}
+}
 \caption{Supporting information for the calculation of the\textit{ Totoaba macdonaldi} poaching cost parameters ($W_1$ and $W_2$)}
-\subcaption*{The methods section details how and when semi-structured
+\caption*{The methods section details how and when semi-structured
  interviews were conducted.}
 \label{tab:costW}
 \end{table}
-\end{landscape}
+
 \newpage
 
-\begin{landscape}
-\begin{table}[H] 
+\begin{table}[H]
 \centering 
 %  \caption{} 
-\begin{tabular}{@{\extracolsep{5pt}}lc} 
-\\[-1.8ex]\hline 
-\hline \\[-1.8ex] 
- & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
-\cline{2-2} 
-\\[-1.8ex] & Price \\ 
-\hline \\[-1.8ex] 
- Catch & $-$1,563.752$^{**}$ \\ 
-  & (725.985) \\ 
-  & \\ 
- Constant & 1,625,837.000$^{***}$ \\ 
-  & (406,789.500) \\ 
-  & \\ 
-\hline \\[-1.8ex] 
-Observations & 45 \\ 
-R$^{2}$ & 0.097 \\ 
-Adjusted R$^{2}$ & 0.076 \\ 
-Residual Std. Error & 431,737.700 (df = 43) \\ 
-F Statistic & 4.640$^{**}$ (df = 1; 43) \\ 
-\hline 
-\hline \\[-1.8ex] 
-\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
-\end{tabular} 
-\caption{Regression output for the linear demand estimation calculated by regressing price data on catch data. }
+	\begin{tabular}{@{\extracolsep{5pt}}lc} 
+	\\[-1.8ex]\hline 
+	\hline \\[-1.8ex] 
+ 	& \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+	\cline{2-2} 
+	\\[-1.8ex] & Price \\ 
+	\hline \\[-1.8ex] 
+ 	Catch & $-$1,563.752$^{**}$ \\ 
+ 	 & (725.985) \\ 
+	  & \\ 
+	 Constant & 1,625,837.000$^{***}$ \\ 
+	  & (406,789.500) \\ 
+	  & \\ 
+	\hline \\[-1.8ex] 
+	Observations & 45 \\ 
+	R$^{2}$ & 0.097 \\ 
+	Adjusted R$^{2}$ & 0.076 \\ 
+	Residual Std. Error & 431,737.700 (df = 43) \\ 
+	F Statistic & 4.640$^{**}$ (df = 1; 43) \\ 
+	\hline 
+	\hline \\[-1.8ex] 
+	\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular}
+\caption{Regression output for the linear demand estimation calculated by regressing price data on catch data.}
 \subcaption*{Data were obtained from the available literature that provided estimated weight and value
  of \textit{Totoaba macdonaldi} maw seizures on estimated \textit{Totoaba macdonaldi} catch from 2014 to 2017
  obtained from a recent stock assessment. The methods section details where information was obtained from. }
 \label{tab:demand}
 \end{table} 
-\end{landscape}
+
 \newpage
 
-\begin{landscape}
-\begin{table}[H]
 
+\begin{table}[H]
+\centering
+\resizebox{\textwidth}{!}{%
 \centering
 \begin{tabular}[t]{ccc}
 \hline
@@ -746,59 +747,19 @@ Operational costs & 2145102.50 & Authors' calculations\\
 Operational costs (per t \& year) & 14896.55 & Authors' calculations \\
 \hline
 \end{tabular}
+}
 \caption{Supporting information for the calculation of the \textit{Totoaba macdonaldi} farming cost parameter ($v$)}
 
-\subcaption*{Annual cost estimates were obtained from informants and converted to \$USD. Capacity of each farming pen was obtained from Earth Ocean Farms, and an annual cost
+\caption*{Annual cost estimates were obtained from informants and converted to \$USD. Capacity of each farming pen was obtained from Earth Ocean Farms, and an annual cost
 706 per tonne of totoaba was calibrated using personal communications with totoaba aquaculture producers.}
 \label{tab:costv}
 \end{table}
-\end{landscape}
 
 \newpage
 
-
-
-%\begin{table}[H]
-%\centering
-%\begin{tabular}[t]{cccc}
-%\hline
-%Parameter & Value & Concept & Units\\
-%\hline \hline
-%$\alpha$ & 1625836.98 & Demand model : intercept & USD\\
-
-%$\beta$ & 1563.75 & Demand model : coefficient & USD/metric ton of biomass\\
-
-%$r$ & 0.20 & Intrinsic growth rate & unitless\\
-
-%$K$ & 20226.00 & Carrying capacity (in metric tons)   & \% of biomass/vessel trip\\
-
-%$\sigma$ & $2\times 10^{-5}$ & Catchability & metric tons of biomass\\
-
-%$Avg cost $& 8385.34 & Average cost per vessel trip & USD\\
-
-%$W_{mid}$ & 2.18 & Parameter cost ($MC = Avg$) at historical value - middle & USD\\
-
-%$W_{low}$ & 1.32 & Parameter cost ($MC = Avg$) at historical value - low & USD\\
-
-%$W_{high}$ & 3.75 & Parameter cost ($MC = Avg$) at historical value - high & USD\\
-
-%$Age$ & 4.50 & Age of farmed totoaba & Years\\
-
-%$\gamma$ & 1407.38 & Substitutability & Unitless\\
-
-%$v$ & 67034.45 & Unit cost of farming & USD/metric ton of biomass\\
-
-%$c$ & 0.00 & Unit cost of trading & USD/ metric ton of biomass\\
-%\hline
-%\end{tabular}
-%\caption{Summary of \textit{Totoaba macdonaldi} ecological and market parameters for model calibration}
-%\subcaption*{The methods section details where information was obtained to estimate each parameter, as well as relevant equations.}
-%\label{tab:params}
-
-
-\begin{landscape}
-
 \begin{table}[h]
+\centering
+\resizebox{\textwidth}{!}{%
 \centering
 \begin{tabular}[t]{c c c c}
 \hline
@@ -839,17 +800,17 @@ $Age$ & 4.50 & Age of farmed totoaba & Years\\
 $c$ & 0.00 & Unit cost of trading & USD/ metric ton of biomass\\
 \hline \hline
 \end{tabular}
-
+}
 \caption{Summary of \textit{Totoaba macdonaldi} ecological and market parameters for model calibration}
-\subcaption*{The methods section details where information was obtained to estimate each parameter, as well as relevant equations.}
+\caption*{The methods section details where information was obtained to estimate each parameter, as well as relevant equations.}
 \label{tab:params}
 \end{table}
-\end{landscape}
-\newpage
 
-\begin{landscape}
-    
+\vspace*{3cm} 
+
 \begin{table}[h]
+\centering
+	\resizebox{\textwidth}{!}{%
     \centering
     \begin{tabular}{c c c}
     \hline \hline 
@@ -881,9 +842,9 @@ $c$ & 0.00 & Unit cost of trading & USD/ metric ton of biomass\\
     Price setting (Bertrand) supply & $q^{W*}_B(x) = \frac{b^W[\sigma^2 x^2 \big(b^F (2a^W + ev) + ea^F + c(e^2 - 2b^Wb^F)\big) - W_1 \sigma x (2b^F b^W - e^2)]}{2Wb^W (2b^Wb^F - e^2) + (4b^Fb^W - e^2) \sigma^2 x^2}$ & eq. \ref{eq:poaching_bertrand}\\
     \hline \hline  
     \end{tabular}
+}
     \caption{Summary of the key functions in the model}
-    \subcaption*{For model conclusions, the plotted functions are growth, vertical monopoly end market supply ($q^m$), quantity adjustment end market supply ($q^W_C$) and price setting end market supply ($q^W_B$)}
+    \caption*{For model conclusions, the plotted functions are growth, vertical monopoly end market supply ($q^m$), quantity adjustment end market supply ($q^W_C$) and price setting end market supply ($q^W_B$)}
     \label{tab:totoaba_functions}
 \end{table}
-\end{landscape}
 

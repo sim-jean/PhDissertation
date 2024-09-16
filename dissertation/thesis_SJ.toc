@@ -1,110 +1,125 @@
-\contentsline {chapter}{\textbf {Introduction}}{1}{chapter*.1}%
-\contentsline {section}{\numberline {0.1}New intro}{9}{section.0.1}%
-\contentsline {subsection}{\numberline {0.1.1}Plan global}{9}{subsection.0.1.1}%
-\contentsline {subsection}{\numberline {0.1.2}Plan détaillé}{9}{subsection.0.1.2}%
-\contentsline {chapter}{\numberline {1}Bioeconomic models for terrestrial social ecological system management: a review}{15}{chapter.1}%
-\contentsline {section}{\numberline {1}Introduction}{17}{section.1.1}%
-\contentsline {section}{\numberline {2}Review method}{20}{section.1.2}%
-\contentsline {subsection}{\numberline {1}Article selection }{20}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {2}Analytical framework}{22}{subsection.1.2.2}%
-\contentsline {section}{\numberline {3}Cartography method}{23}{section.1.3}%
-\contentsline {subsection}{\numberline {1}Ecological criteria}{23}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {2}Bioeconomic linkage criteria}{24}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {3}Economic criteria}{25}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {4}Methodology-based cartography}{26}{subsection.1.3.4}%
-\contentsline {subsection}{\numberline {5}Narrative-based analysis}{26}{subsection.1.3.5}%
-\contentsline {section}{\numberline {4}Database overview}{27}{section.1.4}%
-\contentsline {subsection}{\numberline {1}Temporal and geographical distributions}{27}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {2}Journal and discipline distributions}{28}{subsection.1.4.2}%
-\contentsline {section}{\numberline {5}Database cartography}{29}{section.1.5}%
-\contentsline {subsection}{\numberline {1}Methodology-based classification}{29}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {2}Narrative-based specifications}{31}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {3}Overall cartography}{33}{subsection.1.5.3}%
-\contentsline {section}{\numberline {6}Discussion}{36}{section.1.6}%
-\contentsline {subsection}{\numberline {1}Bioeconomic models as tools to manage social-ecological systems}{36}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {2}Discussion about the recent and on-going decline}{37}{subsection.1.6.2}%
-\contentsline {subsection}{\numberline {3}Challenges for bioeconomic models}{39}{subsection.1.6.3}%
-\contentsline {subsection}{\numberline {4}Technical limitations and perspectives}{40}{subsection.1.6.4}%
-\contentsline {section}{\numberline {A}Appendix}{42}{section.a..1}%
-\contentsline {subsection}{\numberline {A}Article selection equation on SCOPUS}{42}{subsection.a..1.1}%
-\contentsline {subsection}{\numberline {B}Lexical groups}{42}{subsection.a..1.2}%
-\contentsline {subsection}{\numberline {C}Supplementary tables}{44}{subsection.a..1.3}%
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\textbf {Introduction}}{1}{chapter*.2}%
+\contentsline {section}{The decline of Nature}{4}{figure.caption.3}%
+\contentsline {subsection}{Emergence and definition of biodiversity as a concept}{4}{section*.4}%
+\contentsline {subsection}{Documenting the decline through scales}{5}{figure.caption.5}%
+\contentsline {subsection}{Anthropogenic drivers of biodiversity decline}{7}{figure.caption.6}%
+\contentsline {section}{The Importance of Biodiversity and the Challenges of Conservation}{9}{figure.caption.6}%
+\contentsline {subsection}{Nature's Contributions to People should be protected}{9}{section*.7}%
+\contentsline {subsection}{Adressing the drivers of decline}{9}{section*.7}%
+\contentsline {subsection}{Policies for remedying the decline}{9}{section*.7}%
+\contentsline {section}{From the economy to the economics of biodiversity}{9}{section*.7}%
+\contentsline {subsection}{Biodiversity as an economic object}{9}{section*.8}%
+\contentsline {subsection}{How to do the economics of biodiversity? Choice of method}{9}{section*.8}%
+\contentsline {subsection}{Specific bioeconomic modeling challenges in the face of anthropogenic drivers}{9}{section*.8}%
+\contentsline {section}{Dissertation outline}{9}{section*.8}%
+\contentsline {chapter}{\numberline {1}Bioeconomic models for terrestrial social ecological system management: a review}{11}{chapter.1}%
+\contentsline {section}{\numberline {1}Introduction}{12}{section.1.1}%
+\contentsline {section}{\numberline {2}Review method}{15}{section.1.2}%
+\contentsline {subsection}{\numberline {1}Article selection }{15}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {2}Analytical framework}{18}{subsection.1.2.2}%
+\contentsline {section}{\numberline {3}Cartography method}{19}{section.1.3}%
+\contentsline {subsection}{\numberline {1}Ecological criteria}{19}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {2}Bioeconomic linkage criteria}{20}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {3}Economic criteria}{22}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {4}Methodology-based cartography}{22}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {5}Narrative-based analysis}{23}{subsection.1.3.5}%
+\contentsline {section}{\numberline {4}Database overview}{24}{section.1.4}%
+\contentsline {subsection}{\numberline {1}Temporal and geographical distributions}{24}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {2}Journal and discipline distributions}{25}{subsection.1.4.2}%
+\contentsline {section}{\numberline {5}Database cartography}{27}{section.1.5}%
+\contentsline {subsection}{\numberline {1}Methodology-based classification}{27}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {2}Narrative-based specifications}{28}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {3}Overall cartography}{30}{subsection.1.5.3}%
+\contentsline {section}{\numberline {6}Discussion}{34}{section.1.6}%
+\contentsline {subsection}{\numberline {1}Bioeconomic models as tools to manage social-ecological systems}{34}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {2}Discussion about the recent and on-going decline}{35}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {3}Challenges for bioeconomic models}{38}{subsection.1.6.3}%
+\contentsline {subsection}{\numberline {4}Technical limitations and perspectives}{39}{subsection.1.6.4}%
+\contentsline {section}{\numberline {A}Appendix}{41}{section.a..1}%
+\contentsline {subsection}{\numberline {A}Article selection equation on SCOPUS}{41}{subsection.a..1.1}%
+\contentsline {subsection}{\numberline {B}Lexical groups}{41}{subsection.a..1.2}%
+\contentsline {subsection}{\numberline {C}Supplementary tables}{43}{subsection.a..1.3}%
 \contentsline {subsection}{\numberline {D}Supplementary figures}{46}{subsection.a..1.4}%
 \contentsline {chapter}{\numberline {2}The wildfire-habitat connectivity dilemma: a graph theoretical approach to landscape management}{49}{appendix.2}%
-\contentsline {section}{\numberline {1}Introduction}{53}{section.2.1}%
-\contentsline {section}{\numberline {2}Methods}{57}{section.2.2}%
-\contentsline {subsection}{\numberline {1}Model description}{57}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2}Social planner decision : the high-risk /connectivity dilemma}{60}{subsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.1}Dynamic decision problem}{60}{subsubsection.2.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2}Non-convexity and dimensionality curse}{62}{subsubsection.2.2.2.2}%
+\contentsline {section}{\numberline {1}Introduction}{51}{section.2.1}%
+\contentsline {section}{\numberline {2}Methods}{55}{section.2.2}%
+\contentsline {subsection}{\numberline {1}Model description}{55}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2}Social planner decision : the high-risk /connectivity dilemma}{59}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.1}Dynamic decision problem}{59}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2}Non-convexity and dimensionality curse}{61}{subsubsection.2.2.2.2}%
 \contentsline {subsection}{\numberline {3}Solution method and computational experiments}{62}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {4}Lanscape indicators}{64}{subsection.2.2.4}%
-\contentsline {section}{\numberline {3}Results}{64}{section.2.3}%
-\contentsline {subsection}{\numberline {1}Dynamic v. myopic repeated optimizations}{64}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2}Wildfire risk reduction and habitat connectivity : a production possibility frontier approach}{65}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {3}Steady states}{66}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {4}Lanscape and treatment indicators}{63}{subsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {4.1}Landscape level indicators}{63}{subsubsection.2.2.4.1}%
+\contentsline {subsubsection}{\numberline {4.2}Treatment level indicators}{64}{subsubsection.2.2.4.2}%
+\contentsline {section}{\numberline {3}Results}{65}{section.2.3}%
+\contentsline {subsection}{\numberline {1}Dynamic v. myopic repeated optimizations}{65}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2}Wildfire risk reduction and habitat connectivity : a production possibility frontier approach}{66}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {3}Convergence towards steady states}{67}{subsection.2.3.3}%
 \contentsline {subsection}{\numberline {4}Properties of steady state landscapes: surface, fragmentation, and diversity}{68}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {5}Spatial allocation of optimal management at the steady-state landscape cycle}{71}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {6}Evaluating policy rules }{74}{subsection.2.3.6}%
-\contentsline {section}{\numberline {4}Discussion}{74}{section.2.4}%
-\contentsline {subsection}{\numberline {1}Confirmation and generalization of existing results}{74}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2}Caveats and methodological perspectives}{75}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {3}Conclusion and policy relevance}{76}{subsection.2.4.3}%
-\contentsline {section}{\numberline {5}Declaration}{77}{section.2.5}%
-\contentsline {section}{\numberline {A}Appendix}{79}{section.b..1}%
-\contentsline {subsection}{\numberline {A}Global connectivity index and graph theory}{79}{subsection.b..1.1}%
-\contentsline {subsection}{\numberline {B}Large scale landscape characteristics}{80}{subsection.b..1.2}%
-\contentsline {subsection}{\numberline {C}Landscape indicators}{82}{subsection.b..1.3}%
-\contentsline {paragraph}{Area}{82}{section*.48}%
-\contentsline {paragraph}{Simpson diversity index:}{82}{section*.49}%
-\contentsline {paragraph}{Landscape shape index:}{82}{section*.50}%
-\contentsline {paragraph}{Successional Stage Heterogeneity Index:}{82}{section*.51}%
-\contentsline {section}{\numberline {B}Additional figures}{83}{section.b..2}%
-\contentsline {section}{\numberline {C}Additional tables}{84}{section.b..3}%
-\contentsline {chapter}{\numberline {3}Fences : the economics of movement in mobile public bads}{87}{appendix.3}%
-\contentsline {section}{\numberline {1}Introduction}{88}{section.3.1}%
-\contentsline {section}{\numberline {2}Related literature}{91}{section.3.2}%
-\contentsline {section}{\numberline {3}A dynamic spatial model of renewable bads management : fencing and controlling}{92}{section.3.3}%
-\contentsline {subsection}{\numberline {1}Spatial ecology}{92}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {2}Spatial economy}{92}{subsection.3.3.2}%
-\contentsline {section}{\numberline {4}The decentralized equilibrium}{93}{section.3.4}%
-\contentsline {section}{\numberline {A}Appendix}{94}{section.c..1}%
-\contentsline {subsection}{\numberline {A}Proofs}{95}{subsection.c..1.1}%
-\contentsline {subsubsection}{\numberline {A.1}Proof of concavity}{95}{subsubsection.c..1.1.1}%
-\contentsline {chapter}{\numberline {4}Little downside and substantial gains result from farming of \textit {Totoaba Macdonaldi}}{96}{appendix.4}%
-\contentsline {section}{\numberline {1}Introduction}{97}{section.4.1}%
-\contentsline {section}{\numberline {2}Methods}{99}{section.4.2}%
-\contentsline {subsection}{\numberline {1}The Poaching Model}{100}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {2}The Farming Model}{102}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {3}Demand}{103}{subsection.4.2.3}%
-\contentsline {section}{\numberline {3}Results}{103}{section.4.3}%
-\contentsline {subsection}{\numberline {1}Totoaba stock under monopoly is sensitive to cost structure}{103}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {2}Farming produces conservation benefits}{105}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {3}An effective policy space for farming.}{107}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4}Conclusion}{109}{section.4.4}%
-\contentsline {section}{\numberline {A}Appendix}{111}{section.d..1}%
-\contentsline {subsection}{\numberline {A}A theoretical model of poachers, traders, and farmers}{111}{subsection.d..1.1}%
-\contentsline {subsubsection}{\numberline {A.1}Entry in the fishery and poaching supply}{111}{subsubsection.d..1.1.1}%
-\contentsline {subsubsection}{\numberline {A.2}Traders as vertical monopolists, without farming}{112}{subsubsection.d..1.1.2}%
-\contentsline {subsubsection}{\numberline {A.3}Captive breeding, imperfect competition and conservation}{112}{subsubsection.d..1.1.3}%
-\contentsline {paragraph}{Introducing aquaculture :}{113}{section*.66}%
-\contentsline {paragraph}{Utility maximization and demand functions :}{113}{section*.67}%
-\contentsline {paragraph}{Cournot competition in the retail market:}{114}{section*.68}%
-\contentsline {paragraph}{Bertrand competition in the retail market}{115}{section*.69}%
-\contentsline {subparagraph}{Interior solution:}{115}{section*.70}%
-\contentsline {subparagraph}{Corner solution:}{116}{section*.71}%
-\contentsline {subsubsection}{\numberline {A.4}Steady state equilibria}{116}{subsubsection.d..1.1.4}%
-\contentsline {subsubsection}{\numberline {A.5}Extensions}{117}{subsubsection.d..1.1.5}%
-\contentsline {paragraph}{An oligopoly model:}{117}{section*.72}%
-\contentsline {subparagraph}{Cournot oligopoly : }{117}{section*.73}%
-\contentsline {subparagraph}{Bertrand oligopoly :}{119}{section*.75}%
-\contentsline {paragraph}{Trader take-over of the aquaculture sector : }{120}{section*.76}%
-\contentsline {subsection}{\numberline {B}Proofs to lemmas}{121}{subsection.d..1.2}%
-\contentsline {subsubsection}{\numberline {B.1}Lemma 1 : content and proof}{121}{subsubsection.d..1.2.1}%
-\contentsline {subsubsection}{\numberline {B.2}Lemma 2}{122}{subsubsection.d..1.2.2}%
-\contentsline {paragraph}{Analysis of $\Phi \frac {\eta + \mu x^2}{\theta + \nu x^2}$:}{123}{section*.78}%
-\contentsline {paragraph}{Analysis of $\frac {\kappa x}{\omega x^2 + \epsilon }$}{123}{section*.79}%
-\contentsline {paragraph}{Conclusion :}{123}{section*.80}%
-\contentsline {paragraph}{Corner equilibrium:}{123}{section*.82}%
-\contentsline {section}{\numberline {B}Supplementary Figures and Tables}{125}{section.d..2}%
-\contentsline {chapter}{\textbf {Conclusion}}{132}{table.caption.89}%
+\contentsline {subsection}{\numberline {5}Spatial allocation of optimal management at the steady-state landscape cycle}{73}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {6}Evaluating policy rules }{77}{subsection.2.3.6}%
+\contentsline {section}{\numberline {4}Discussion}{78}{section.2.4}%
+\contentsline {subsection}{\numberline {1}Confirmation and generalization of existing results}{78}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2}Challenges in generalizing small-scale landscape rules to large-scale systems}{79}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {3}Caveats and methodological perspectives}{80}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {4}Conclusion and policy relevance}{82}{subsection.2.4.4}%
+\contentsline {section}{\numberline {5}Declaration}{83}{section.2.5}%
+\contentsline {section}{\numberline {A}Appendix}{84}{section.b..1}%
+\contentsline {subsection}{\numberline {A}Global connectivity index and graph theory}{84}{subsection.b..1.1}%
+\contentsline {subsection}{\numberline {B}Large scale landscape characteristics}{86}{subsection.b..1.2}%
+\contentsline {subsection}{\numberline {C}Landscape indicators}{88}{subsection.b..1.3}%
+\contentsline {paragraph}{Area}{88}{subsection.b..1.3}%
+\contentsline {paragraph}{Simpson diversity index:}{88}{equation.b..1.3}%
+\contentsline {paragraph}{Landscape shape index:}{88}{equation.b..1.4}%
+\contentsline {paragraph}{Successional Stage Heterogeneity Index:}{88}{equation.b..1.5}%
+\contentsline {subsection}{\numberline {D}Treatment centrality indicators}{89}{subsection.b..1.4}%
+\contentsline {subsection}{\numberline {E}Additional figures}{90}{subsection.b..1.5}%
+\contentsline {subsection}{\numberline {F}Additional tables}{93}{subsection.b..1.6}%
+\contentsline {chapter}{\numberline {3}Fences : the economics of movement in mobile public bads}{97}{appendix.3}%
+\contentsline {section}{\numberline {1}Introduction}{98}{section.3.1}%
+\contentsline {section}{\numberline {2}Related literature}{101}{section.3.2}%
+\contentsline {section}{\numberline {3}A dynamic spatial model of renewable bads management : fencing and controlling}{102}{section.3.3}%
+\contentsline {subsection}{\numberline {1}Spatial ecology}{102}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {2}Spatial economy}{103}{subsection.3.3.2}%
+\contentsline {section}{\numberline {4}The decentralized equilibrium}{104}{section.3.4}%
+\contentsline {section}{\numberline {A}Appendix}{106}{section.c..1}%
+\contentsline {subsection}{\numberline {A}Proofs}{107}{subsection.c..1.1}%
+\contentsline {subsubsection}{\numberline {A.1}Proof of concavity}{107}{subsubsection.c..1.1.1}%
+\contentsline {chapter}{\numberline {4}Little downside and substantial gains result from farming of \textit {Totoaba Macdonaldi}}{108}{appendix.4}%
+\contentsline {section}{\numberline {1}Introduction}{109}{section.4.1}%
+\contentsline {section}{\numberline {2}Methods}{112}{section.4.2}%
+\contentsline {subsection}{\numberline {1}The Poaching Model}{113}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {2}The Farming Model}{115}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {3}Demand}{116}{subsection.4.2.3}%
+\contentsline {section}{\numberline {3}Results}{117}{section.4.3}%
+\contentsline {subsection}{\numberline {1}Totoaba stock under monopoly is sensitive to cost structure}{117}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {2}Farming produces conservation benefits}{118}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {3}An effective policy space for farming.}{120}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4}Conclusion}{123}{section.4.4}%
+\contentsline {section}{\numberline {A}Appendix}{125}{section.d..1}%
+\contentsline {subsection}{\numberline {A}A theoretical model of poachers, traders, and farmers}{125}{subsection.d..1.1}%
+\contentsline {subsubsection}{\numberline {A.1}Entry in the fishery and poaching supply}{125}{subsubsection.d..1.1.1}%
+\contentsline {subsubsection}{\numberline {A.2}Traders as vertical monopolists, without farming}{126}{subsubsection.d..1.1.2}%
+\contentsline {subsubsection}{\numberline {A.3}Captive breeding, imperfect competition and conservation}{127}{subsubsection.d..1.1.3}%
+\contentsline {paragraph}{Introducing aquaculture :}{127}{subsubsection.d..1.1.3}%
+\contentsline {paragraph}{Utility maximization and demand functions :}{128}{equation.d..1.10}%
+\contentsline {paragraph}{Cournot competition in the retail market:}{128}{equation.d..1.15}%
+\contentsline {paragraph}{Bertrand competition in the retail market}{129}{equation.d..1.19}%
+\contentsline {subparagraph}{Interior solution:}{129}{equation.d..1.19}%
+\contentsline {subparagraph}{Corner solution:}{131}{equation.d..1.23}%
+\contentsline {subsubsection}{\numberline {A.4}Steady state equilibria}{132}{subsubsection.d..1.1.4}%
+\contentsline {subsubsection}{\numberline {A.5}Extensions}{132}{subsubsection.d..1.1.5}%
+\contentsline {paragraph}{An oligopoly model:}{132}{subsubsection.d..1.1.5}%
+\contentsline {subparagraph}{Cournot oligopoly : }{132}{equation.d..1.26}%
+\contentsline {subparagraph}{Bertrand oligopoly :}{134}{figure.caption.54}%
+\contentsline {paragraph}{Trader take-over of the aquaculture sector : }{135}{equation.d..1.40}%
+\contentsline {subsection}{\numberline {B}Proofs to lemmas}{137}{subsection.d..1.2}%
+\contentsline {subsubsection}{\numberline {B.1}Lemma 1 : content and proof}{137}{subsubsection.d..1.2.1}%
+\contentsline {subsubsection}{\numberline {B.2}Lemma 2}{138}{subsubsection.d..1.2.2}%
+\contentsline {paragraph}{Analysis of $\Phi \frac {\eta + \mu x^2}{\theta + \nu x^2}$:}{139}{subsubsection.d..1.2.2}%
+\contentsline {paragraph}{Analysis of $\frac {\kappa x}{\omega x^2 + \epsilon }$}{139}{subsubsection.d..1.2.2}%
+\contentsline {paragraph}{Conclusion :}{139}{subsubsection.d..1.2.2}%
+\contentsline {paragraph}{Corner equilibrium:}{140}{figure.caption.56}%
+\contentsline {subsection}{\numberline {C}Supplementary Figures and Tables}{141}{subsection.d..1.3}%
+\contentsline {chapter}{\textbf {Conclusion}}{147}{table.caption.63}%

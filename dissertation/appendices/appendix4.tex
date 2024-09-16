@@ -39,7 +39,7 @@
 %Let a grided landscape of size $n$, where for each cell $a_i$ in the set of cells $\mathcal{A}$ in the landscape, one defines $\Phi_i$ the set of cells connected to cell $i$ (i.e, cells share the same status and can only be in the 8-direction direct neighborhood). Moreover, let $Q_{ij}$ be a binary variable such that $Q_{ij}=1$ if cells $a_i$ and $a_j$ are connected, $0$ otherwise.
 
 \cite{minas_spatial_2014} work with a collection of cells $I$. This landscape can be represented by a graph structure $\mathcal{G}=(\mathcal{V}, \mathcal{E})$.
-For each $v_i \in \mathcal{V}$, define a neighborhood\footnote{Notive that \textit{belonging to the neighborhood of} is a symmetric binary relationship e.g. if $v_i \in \Phi_j \iff v_j \in \Phi_i$, as we are working with undirected graphs} of $v_i$ by $\Phi_i = \{ v_j \text{ such that } (v_j, v_i) \in \mathcal{E} \}$. 
+For each $v_i \in \mathcal{V}$, define a neighborhood\footnote{Notice that \textit{belonging to the neighborhood of} is a symmetric binary relationship e.g. if $v_i \in \Phi_j \iff v_j \in \Phi_i$, as we are working with undirected graphs} of $v_i$ by $\Phi_i = \{ v_j \text{ such that } (v_j, v_i) \in \mathcal{E} \}$. 
 Finally, let $Q_{ij} \in \{0,1\}$ where $Q_{ij}=1$ if $v_i$ and $v_j$ are connected. \cite{minas_spatial_2014} define the following connectivity metric over a landscape: 
 
 \begin{equation}
@@ -209,7 +209,40 @@ The successional stage heterogeneity index is :
 
 \clearpage
 
-\section{Additional figures}
+\subsection{Treatment centrality indicators}
+\label{sec:treatment_centrality_appendix}
+\textbf{Betweennness centrality:} take a graph $\mathcal{G}(V,E)$ and let $\sigma_{st}$ be the total number of shortest paths from node $s$ to $t$ and $\sigma_{st}(v)$ be the number of those paths that pass through $v$, for $\{s,t,v\} \subset V$, betweenness centrality is given by :
+\begin{equation}
+g(v) = \sum_{s\neq v \neq t} \frac{\sigma_{st}(v)}{\sigma_{st}}
+\end{equation}
+
+\textbf{Eigencentrality:} let $\mathbf{A}\in \mathcal{M}_{n,n}$ be the adjacency matrix of graph and $a_{i,j}=1$ if vertices $i$ and $j$ are connected. Let $\lambda \in \mathbb{R}^{n^2}$, and a vector $\mathbf{x} \in \mathbb{R}^{n^2}$, such that $\lambda \mathbf{x} = \mathbf{Ax}$ e.g $\lambda$ is the eigenvalue of matrix $\mathbf{A}$. Using this eigenvalue, \textit{centrality scores} are computed as :
+\begin{equation}
+\text{score}(x_i)= \frac{1}{\lambda}\sum_{j \in V_{\mathcal{G}_t}} a_{i,j}x_j
+\end{equation}
+
+\textbf{Subgraph centrality:} In a graph, a \textit{walk} is a sequence of adjacent vertices in a graph. A \textit{closed walk} is a walk with identical beginning and ending vertices, and can be of order $k$ e.g. of length equal to $k$ edges. The number of \textit{closed walks of order $k$} is found using the adjacency matrix $\mathbf{A}$ of a graph. Let $\mu_k(i)$ be the number of closed walks of order $k$ starting at $i$ : 
+
+$$
+\mu_k(i) = (\mathbf{A}^k)_{i,i}
+$$
+
+Subgraph centrality is defined as : 
+\begin{equation}
+SC(i) = \sum_{k=0}^\infty \frac{\mu_k(i)}{k!}
+\end{equation}
+
+\cite{estrada_subgraph_2005}, who define this notion, show that it can be reformulated with the eigenvalues and eigenvectors of the adjacency matrix $\mathbf{A}$ of a graph $\mathcal{G}(V,E)$ of order $n$. Let $v_{1},...,v_{n}$ be a an orthornomal basis of $\mathbb{R}^N$ composed of eigevenctors of $\mathbf{A}$ associated to the eigenvalues $\lambda_1, ..., \lambda_N$, and let $v^i_j$ be the \textit{i}-the component of $v_j$, then subgraph centrality can be expressed, for all $v in V$:
+
+\begin{equation}
+SC(i) = \sum_{j=1}^N(v^i_j)^2 e^{\lambda_j}
+\end{equation}
+
+\clearpage
+
+\subsection{Additional figures}
+
+
 
 \begin{figure}[H]
     \centering
@@ -231,8 +264,46 @@ The successional stage heterogeneity index is :
 % Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
 % Date and time: jeu., sept. 05, 2024 - 17:16:49
 
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{\textwidth}
+		\centering
+	\includegraphics[width = .8\textwidth]{figures/wildland/subgraph_treatment.jpg}
+	\caption{Subgraph centrality of treated vertices (average value and rank)}
+	\label{fig:subgraph}
+	\end{subfigure}
+	
+	\begin{subfigure}[b]{\textwidth}
+	\centering
+	\includegraphics[width = .8\textwidth]{figures/wildland/degree_treatment.jpg}
+	\caption{Degree centrality of treated vertices (average value and rank)}
+	\label{fig:degree}
+	\end{subfigure}
+
+	\begin{subfigure}[b]{\textwidth}
+	\centering
+	\includegraphics[width = .8\textwidth]{figures/wildland/eigencentrality_treatment.jpg}
+	\caption{Eigencentrality of treated vertices (average value and rank)}
+	\label{fig:eigen}
+	\end{subfigure}
+	\caption{Average subgraph and degree centralities, and eigencentrality, across steady-state cycles for budget and global habitat connectivity constraints}
+\end{figure}
+\clearpage
 
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width = .8\textwidth]{figures/wildland/grid_treatment.jpg}
+	\caption{Illustration of grid treatment rule}
+	\label{fig:grid}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = .8\textwidth]{figures/wildland/example_adaptive_treatment.jpg}
+	\caption{Example of location of treatment with adaptive policy on large scale landscape}
+	\label{fig:adaptive_policy}
+\end{figure}
 
 
 
@@ -398,14 +469,16 @@ The successional stage heterogeneity index is :
 %	}
 %	\caption{Convergence periods for landscape cycles in steady state with size $n=4$}
 %\end{table}
-\section{Additional tables}
+\clearpage
+
+\subsection{Additional tables}
 \label{sec:appendix_reg}
 The main model is : 
 
 \begin{align}
 \label{model:simple}
 DiffRisk_{i} &= \beta_0 + \beta_1 Budget_i + \beta_2 Constraint_i + \beta_3 Number2_i \\
-&+ \beta_4 LSI_i + \beta_5 Simpson_i + \beta_6 SSHI_i + \beta_7 numberComponents_i \notag \\
+&+ \beta_4 LSI_i + \beta_5 Simpson_i + \beta_6 SSHI_i + \beta_7 NumberComponents_i \notag \\
 & + \beta_8 GlobalRiskInitial_i \notag
 \end{align}
 
@@ -413,10 +486,13 @@ A second model is tested :
 
 \begin{align}
 \label{model:interacted}
-DiffRisk_{i} &= \beta_0 + \beta_1 Budget_i + \beta_2 Constraint_i + \beta_3 LSI_i + \beta_4 Simpson_i + \beta_5 SSHI_i \\
-& + \beta_6 GlobalRiskInitial_i + \beta_7 Constraint_i \times Budget_i + \beta_8 LSI_i \times SSHI_i \notag\\
-& + \beta_9 LSI_i \times Simpson_i  + \beta_{10}Constraint_i\times GlobalRiskInitial_i \notag \\
-& \beta_{11}Budget_i\times GlobalRiskInitial_i + \beta_{12} Constraint_i\times Budget_i \times GlobalRiskInitial_i \notag
+DiffRisk_{i} &= \beta_0 + \beta_1 Budget_i + \beta_2 Constraint_i + \beta_3 LSI_i + \beta_4 Simpson_i \\
+& + \beta_5 SSHI_i + \beta_6 GlobalRiskInitial_i + \beta_7 Constraint_i \times Budget_i \notag\\
+& + \beta_8 LSI_i \times SSHI_i + \beta_9 LSI_i \times Simpson_i \notag\\
+&  + \beta_{10}Constraint_i\times GlobalRiskInitial_i \notag \\
+& + \beta_{10}Constraint_i\times GlobalRiskInitial_i \notag\\
+& +\beta_{11}Budget_i\times GlobalRiskInitial_i \notag\\
+& + \beta_{12} Constraint_i\times Budget_i \times GlobalRiskInitial_i \notag
 \end{align}
 
 
@@ -426,9 +502,9 @@ DiffRisk_{i} &= \beta_0 + \beta_1 Budget_i + \beta_2 Constraint_i + \beta_3 LSI_
 \begin{tabular}{@{\extracolsep{5pt}}lc} 
 \\[-1.8ex]\hline 
 \hline \\[-1.8ex] 
- & \multicolumn{1}{c}{\textit{Dependent variable:} $DiffRisk_i$} \\ 
+ & \multicolumn{1}{c}{\textit{Dependent variable:} } \\ 
 \cline{2-2} 
-\\[-1.8ex] & diff\_risk\_tot \\ 
+\\[-1.8ex] & $DiffRisk_i$\\ 
 \hline \\[-1.8ex] 
  Constraint & $-$0.009$^{***}$ \\ 
   & (0.001) \\ 
@@ -479,9 +555,9 @@ F Statistic & 91.470$^{***}$ (df = 8; 25831) \\
 \begin{tabular}{@{\extracolsep{5pt}}lc} 
 \\[-1.8ex]\hline 
 \hline \\[-1.8ex] 
- & \multicolumn{1}{c}{\textit{Dependent variable:}$DiffRisk_i$} \\ 
+ & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
 \cline{2-2} 
-\\[-1.8ex] & diff\_risk\_tot \\ 
+\\[-1.8ex] & $DiffRisk_i$ \\ 
 \hline \\[-1.8ex] 
  Constraint & $-$0.008$^{*}$ \\ 
   & (0.005) \\ 
