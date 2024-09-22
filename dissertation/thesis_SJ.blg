@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2023)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis_SJ.aux
 The style file: abbrvnat.bst
-Reallocated field_info (elt_size=4) to 13288 items from 5000.
+Reallocated field_info (elt_size=4) to 15108 items from 5000.
 Database file #1: bibliography_these.bib
 Warning--I'm ignoring hsiang_does_2016's extra "doi" field
 --line 199 of file bibliography_these.bib
@@ -23,116 +23,129 @@ You're missing a field name---line 3641 of file bibliography_these.bib
  : %title = {Profit Maximization and the Extinction of Animal Species},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I'm ignoring Clark630's extra "journal" field
---line 4096 of file bibliography_these.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 4867 of file bibliography_these.bib
+Warning--I'm ignoring Clark630's extra "journal" field
+--line 4090 of file bibliography_these.bib
+Repeated entry---line 4861 of file bibliography_these.bib
  : @article{Mouysset2012
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5128 of file bibliography_these.bib
+Repeated entry---line 5122 of file bibliography_these.bib
  : @article{Davis2006
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5805 of file bibliography_these.bib
+Repeated entry---line 5799 of file bibliography_these.bib
  : @article{Courtois2014
  :                      ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 6624 of file bibliography_these.bib
+You're missing a field name---line 6618 of file bibliography_these.bib
  : 
  : %   author = {Colin W. Clark},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 6824 of file bibliography_these.bib
+Repeated entry---line 6818 of file bibliography_these.bib
  : @article{Mouysset2014
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6873 of file bibliography_these.bib
+Repeated entry---line 6867 of file bibliography_these.bib
  : @article{Mouysset2014
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7131 of file bibliography_these.bib
+Repeated entry---line 7125 of file bibliography_these.bib
  : @article{Drechsler2007
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7178 of file bibliography_these.bib
+Repeated entry---line 7172 of file bibliography_these.bib
  : @article{Drechsler2007
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7254 of file bibliography_these.bib
+Repeated entry---line 7248 of file bibliography_these.bib
  : @article{Costello2004
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7421 of file bibliography_these.bib
+Repeated entry---line 7415 of file bibliography_these.bib
  : @article{Bulte1999
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7647 of file bibliography_these.bib
+Repeated entry---line 7641 of file bibliography_these.bib
  : @article{Taylor2004
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7758 of file bibliography_these.bib
+Repeated entry---line 7752 of file bibliography_these.bib
  : @article{Skonhoft1998
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8082 of file bibliography_these.bib
+Repeated entry---line 8076 of file bibliography_these.bib
  : @article{Moore2004
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8096 of file bibliography_these.bib
+Repeated entry---line 8090 of file bibliography_these.bib
  : @article{Alexander2000
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8131 of file bibliography_these.bib
+Repeated entry---line 8125 of file bibliography_these.bib
  : @article{Lin1996
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8529 of file bibliography_these.bib
+Repeated entry---line 8523 of file bibliography_these.bib
  : @article{Fenichel2014
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8723 of file bibliography_these.bib
+Repeated entry---line 8717 of file bibliography_these.bib
  : @article{Polasky2005
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8885 of file bibliography_these.bib
+Repeated entry---line 8879 of file bibliography_these.bib
  : @article{Bulte1999
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8950 of file bibliography_these.bib
+Repeated entry---line 8944 of file bibliography_these.bib
  : @article{Baumgartner2007
  :                         ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "IUCN_redlist_2024" isn't style-file defined
---line 9163 of file bibliography_these.bib
-Repeated entry---line 10860 of file bibliography_these.bib
+--line 9157 of file bibliography_these.bib
+Warning--entry type for "gfi_2017" isn't style-file defined
+--line 9486 of file bibliography_these.bib
+You're missing a field name---line 10224 of file bibliography_these.bib
+ : 
+ : = language = {en},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 11449 of file bibliography_these.bib
  : @article{costello_private_2017
  :                               ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 10917 of file bibliography_these.bib
+I was expecting a `,' or a `}'---line 11506 of file bibliography_these.bib
  :  
  :  keywords = {differential games, Harvesting, nature reserve, spatial models}}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 11051 of file bibliography_these.bib
+Repeated entry---line 11640 of file bibliography_these.bib
  : @article{minor_graph-theory_2008
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 11083 of file bibliography_these.bib
+Repeated entry---line 11672 of file bibliography_these.bib
  : @article{pascual-hortal_comparison_2006
  :                                        ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 11700 of file bibliography_these.bib
+ : @article{newbold_global_2014
+ :                             ,
+I'm skipping whatever remains of this entry
 Warning--I'm ignoring kaffine_unitization_2010's extra "doi" field
---line 11474 of file bibliography_these.bib
-Repeated entry---line 11811 of file bibliography_these.bib
+--line 12063 of file bibliography_these.bib
+Repeated entry---line 12400 of file bibliography_these.bib
  : @article{ehrlich_market_1972
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 11985 of file bibliography_these.bib
+Repeated entry---line 12574 of file bibliography_these.bib
  : @article{flores_violence_2016
  :                              ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "oliver2019"
+Warning--to sort, need author or key in brown_economics_1998
+Warning--to sort, need author or key in carson_contingent_1992
 Warning--to sort, need author or key in Clark73
 Warning--to sort, need author or key in environmental_investigation_agency_citess_2019
 Warning--to sort, need author or key in environmental_investigation_agency_collateral_2016
@@ -142,6 +155,13 @@ Warning--empty title in Clark73
 Warning--empty journal in Clark73
 Warning--empty year in Clark73
 Warning--empty year in Clark73
+Warning--empty author in brown_economics_1998
+Warning--empty journal in brown_economics_1998
+Warning--empty year in brown_economics_1998
+Warning--empty year in brown_economics_1998
+Warning--empty author in carson_contingent_1992
+Warning--empty year in carson_contingent_1992
+Warning--empty year in carson_contingent_1992
 Warning--empty author in environmental_investigation_agency_collateral_2016
 Warning--empty author in noauthor_species_2018
 Warning--empty author in environmental_investigation_agency_citess_2019
@@ -150,52 +170,54 @@ Warning--empty booktitle in Csrdi2006TheIS
 Warning--there's a number but no volume in Faustmann
 Warning--there's a number but no volume in Florec2020
 Warning--empty publisher in MEA2005
+Warning--empty journal in hoare2022establishing
 Warning--empty publisher in IPBES2016
 Warning--can't use both author and editor fields in ipbes_2022_6417333
 Warning--empty publisher in martinez-alvarado_trafficking_2018
 Warning--empty institution in McGarigal_1995
+Warning--can't use both author and editor fields in Mooney2001
 Warning--empty institution in Peterson_2009
 Warning--there's a number but no volume in Taylor2014
 Warning--there's a number but no volume in Vaillant2009
-You've used 295 entries,
+You've used 360 entries,
             2773 wiz_defined-function locations,
-            2790 strings with 93496 characters,
-and the built_in function-call counts, 179272 in all, are:
-= -- 16035
-> -- 14023
-< -- 149
-+ -- 4730
-- -- 4431
-* -- 16974
-:= -- 29145
-add.period$ -- 1547
-call.type$ -- 295
-change.case$ -- 2352
-chr.to.int$ -- 291
-cite$ -- 618
-duplicate$ -- 6005
-empty$ -- 11243
-format.name$ -- 4864
-if$ -- 36356
-int.to.chr$ -- 5
+            3191 strings with 110436 characters,
+and the built_in function-call counts, 214666 in all, are:
+= -- 19222
+> -- 16520
+< -- 189
++ -- 5578
+- -- 5213
+* -- 20160
+:= -- 34848
+add.period$ -- 1866
+call.type$ -- 360
+change.case$ -- 2802
+chr.to.int$ -- 355
+cite$ -- 761
+duplicate$ -- 7331
+empty$ -- 13682
+format.name$ -- 5739
+if$ -- 43622
+int.to.chr$ -- 6
 int.to.str$ -- 1
-missing$ -- 296
-newline$ -- 2141
-num.names$ -- 1168
-pop$ -- 3718
+missing$ -- 363
+newline$ -- 2587
+num.names$ -- 1424
+pop$ -- 4480
 preamble$ -- 1
-purify$ -- 2064
+purify$ -- 2454
 quote$ -- 0
-skip$ -- 5069
+skip$ -- 6131
 stack$ -- 0
-substring$ -- 5738
-swap$ -- 469
-text.length$ -- 5
+substring$ -- 6844
+swap$ -- 564
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 3160
-warning$ -- 24
-while$ -- 1227
+type$ -- 3825
+warning$ -- 35
+while$ -- 1485
 width$ -- 0
-write$ -- 5128
-(There were 27 error messages)
+write$ -- 6209
+(There were 29 error messages)

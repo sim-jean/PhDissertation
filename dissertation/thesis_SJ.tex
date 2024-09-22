@@ -30,7 +30,7 @@ bindingoffset = 20mm
 \usepackage{capt-of}
 
 %Package for review
-\usepackage{xcolor}
+\usepackage[table]{xcolor}
 
 \usepackage{accents}
 \usepackage{pdflscape} %
@@ -67,6 +67,7 @@ bindingoffset = 20mm
 \definecolor{D5}{RGB}{213,223,61}
 \definecolor{darkblue}{RGB}{0,0,139}
 \usepackage[absolute,overlay]{textpos}
+\definecolor{verylightgray}{rgb}{0.95, 0.95, 0.95}
 
 \usepackage{graphicx}
 \usepackage{lipsum}
@@ -86,6 +87,8 @@ bindingoffset = 20mm
 %\usepackage{subfig}
 \usepackage{rotating}
 \usepackage{amsmath}
+\usepackage{ragged2e}
+
 \usepackage{tocloft}
 \usepackage{placeins} % for \FloatBarrier
 
@@ -157,6 +160,7 @@ bindingoffset = 20mm
 \setlength{\cftsubsecnumwidth}{2em}
 
 \begin{document}
+	\raggedbottom
 	\pagenumbering{roman}
 	%\onehalfspacing
 	
@@ -185,7 +189,7 @@ bindingoffset = 20mm
 	%\part{Introduction and Background}
 
 	\counterwithout{figure}{chapter}
-	\input{chapter1_v2}
+	\input{chapter1_v3}
 	\cleardoublepage
 	%	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -315,7 +319,7 @@ bindingoffset = 20mm
 	\input{Chapter6} 
     \cleardoublepage
  	%
- 	{\small
+ 	{\footnotesize
     \bibliography{bibliography_these.bib}
     }
     \clearpage
