@@ -1,4 +1,4 @@
-\begin{thebibliography}{360}
+\begin{thebibliography}{356}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -530,17 +530,6 @@ D.~E. Calkin, S.~S. Hummel, and J.~K. Agee.
 \newblock URL \url{https://cdnsciencepub.com/doi/10.1139/x05-177}.
 \newblock Publisher: NRC Research Press.
 
-\bibitem[Cardinale et~al.(2018)Cardinale, Gonzalez, Allington, and
-  Loreau]{cardinale_local_2018}
-B.~J. Cardinale, A.~Gonzalez, G.~R. Allington, and M.~Loreau.
-\newblock Is local biodiversity declining or not? a summary of the debate over
-  analysis of species richness time trends.
-\newblock \emph{Biological Conservation}, 219:\penalty0 175--183, 2018.
-\newblock ISSN 0006-3207.
-\newblock \doi{https://doi.org/10.1016/j.biocon.2017.12.021}.
-\newblock URL
-  \url{https://www.sciencedirect.com/science/article/pii/S000632071732089X}.
-
 \bibitem[Carpenter et~al.(2009)Carpenter, Mooney, Agard, Capistrano, Defries,
   Diaz, Dietz, Duraiappah, Oteng-Yeboah, Pereira, Perrings, Reid, Sarukhan,
   Scholes, and Whyte]{Carpenter2009}
@@ -961,16 +950,6 @@ D.~Donaldson and R.~Hornbeck.
 \newblock ISSN 0033-5533.
 \newblock \doi{10.1093/qje/qjw002}.
 \newblock URL \url{https://doi.org/10.1093/qje/qjw002}.
-
-\bibitem[Dornelas et~al.(2014)Dornelas, Gotelli, McGill, Shimadzu, Moyes,
-  Sievers, and Magurran]{dornelas_assemblage_2014}
-M.~Dornelas, N.~J. Gotelli, B.~McGill, H.~Shimadzu, F.~Moyes, C.~Sievers, and
-  A.~E. Magurran.
-\newblock Assemblage time series reveal biodiversity change but not systematic
-  loss.
-\newblock \emph{Science}, 344\penalty0 (6181):\penalty0 296--299, 2014.
-\newblock \doi{10.1126/science.1248484}.
-\newblock URL \url{https://www.science.org/doi/abs/10.1126/science.1248484}.
 
 \bibitem[Drechsler(2020)]{Drechsler20200}
 M.~Drechsler.
@@ -1518,18 +1497,6 @@ D.~G.~E. Gomes, J.~J. Ruzicka, L.~G. Crozier, D.~D. Huff, R.~D. Brodeur, and
 \newblock \doi{10.1038/s41467-024-46263-2}.
 \newblock URL \url{https://doi.org/10.1038/s41467-024-46263-2}.
 
-\bibitem[Gonzalez et~al.(2016)Gonzalez, Cardinale, Allington, Byrnes,
-  Arthur~Endsley, Brown, Hooper, Isbell, O'Connor, and
-  Loreau]{gonzales_estimating_2016}
-A.~Gonzalez, B.~J. Cardinale, G.~R.~H. Allington, J.~Byrnes, K.~Arthur~Endsley,
-  D.~G. Brown, D.~U. Hooper, F.~Isbell, M.~I. O'Connor, and M.~Loreau.
-\newblock Estimating local biodiversity change: a critique of papers claiming
-  no net loss of local diversity.
-\newblock \emph{Ecology}, 97\penalty0 (8):\penalty0 1949--1960, 2016.
-\newblock \doi{https://doi-org.inshs.bib.cnrs.fr/10.1890/15-1759.1}.
-\newblock URL
-  \url{https://esajournals-onlinelibrary-wiley-com.inshs.bib.cnrs.fr/doi/abs/10.1890/15-1759.1}.
-
 \bibitem[Gonzalez-Olabarria et~al.(2023)Gonzalez-Olabarria, Carrasco, Pais,
   Garcia-Gonzalo, Palacios-Meneses, Mahaluf-Recasens, Porkhum, and
   Weintraub]{gonzalez-olabarria_fire_2023}
@@ -1674,21 +1641,6 @@ B.~Heid and L.~Márquez-Ramos.
 \newblock \doi{https://doi.org/10.1016/j.jeem.2023.102784}.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0095069623000025}.
-
-\bibitem[Hilborn et~al.(2020)Hilborn, Amoroso, Anderson, Baum, Branch,
-  Costello, de~Moor, Faraj, Hively, Jensen, Kurota, Little, Mace, McClanahan,
-  Melnychuk, Minto, Osio, Parma, Pons, Segurado, Szuwalski, Wilson, and
-  Ye]{hilborn_2020_effective}
-R.~Hilborn, R.~O. Amoroso, C.~M. Anderson, J.~K. Baum, T.~A. Branch,
-  C.~Costello, C.~L. de~Moor, A.~Faraj, D.~Hively, O.~P. Jensen, H.~Kurota,
-  L.~R. Little, P.~Mace, T.~McClanahan, M.~C. Melnychuk, C.~Minto, G.~C. Osio,
-  A.~M. Parma, M.~Pons, S.~Segurado, C.~S. Szuwalski, J.~R. Wilson, and Y.~Ye.
-\newblock Effective fisheries management instrumental in improving fish stock
-  status.
-\newblock \emph{Proceedings of the National Academy of Sciences}, 117\penalty0
-  (4):\penalty0 2218--2224, 2020.
-\newblock \doi{10.1073/pnas.1909726116}.
-\newblock URL \url{https://www.pnas.org/doi/abs/10.1073/pnas.1909726116}.
 
 \bibitem[Hill and Caswell(1999)]{hill_habitat_1999}
 M.~Hill and H.~Caswell.
@@ -1835,17 +1787,6 @@ IUCN.
   {Endangered} {Species} of {Wild} {Fauna} and {Flora} ({CITES}).
 \newblock Technical report, Environmental Investigation Agency, 2000.
 
-\bibitem[Jackson and Sax(2010)]{JACKSON2010153}
-S.~T. Jackson and D.~F. Sax.
-\newblock Balancing biodiversity in a changing environment: extinction debt,
-  immigration credit and species turnover.
-\newblock \emph{Trends in Ecology \& Evolution}, 25\penalty0 (3):\penalty0
-  153--160, 2010.
-\newblock ISSN 0169-5347.
-\newblock \doi{https://doi.org/10.1016/j.tree.2009.10.001}.
-\newblock URL
-  \url{https://www.sciencedirect.com/science/article/pii/S0169534709003164}.
-
 \bibitem[Jafari and Hearne(2013)]{jafari_new_2013}
 N.~Jafari and J.~Hearne.
 \newblock A new method to solve the fully connected reserve network design
@@ -1939,29 +1880,6 @@ N.~Khabarov, A.~A. Krasovskii, M.~Obersteiner, R.~J. Swart, A.~Dosio,
 \newblock Forest fires and adaptation options in europe.
 \newblock \emph{Regional Environmental Change}, 16:\penalty0 21--30, 2014.
 \newblock URL \url{https://api.semanticscholar.org/CorpusID:44198510}.
-
-\bibitem[Kim et~al.(2018)Kim, Rosa, Alkemade, Leadley, Hurtt, Popp, van Vuuren,
-  Anthoni, Arneth, Baisero, Caton, Chaplin-Kramer, Chini, De~Palma, Di~Fulvio,
-  Di~Marco, Espinoza, Ferrier, Fujimori, Gonzalez, Gueguen, Guerra, Harfoot,
-  Harwood, Hasegawa, Haverd, Havl{\'\i}k, Hellweg, Hill, Hirata, Hoskins,
-  Janse, Jetz, Johnson, Krause, Lecl{\`e}re, Martins, Matsui, Merow,
-  Obersteiner, Ohashi, Poulter, Purvis, Quesada, Rondinini, Schipper, Sharp,
-  Takahashi, Thuiller, Titeux, Visconti, Ware, Wolf, and Pereira]{Kim300632}
-H.~Kim, I.~M. Rosa, R.~Alkemade, P.~Leadley, G.~Hurtt, A.~Popp, D.~P. van
-  Vuuren, P.~Anthoni, A.~Arneth, D.~Baisero, E.~Caton, R.~Chaplin-Kramer,
-  L.~Chini, A.~De~Palma, F.~Di~Fulvio, M.~Di~Marco, F.~Espinoza, S.~Ferrier,
-  S.~Fujimori, R.~E. Gonzalez, M.~Gueguen, C.~Guerra, M.~Harfoot, T.~D.
-  Harwood, T.~Hasegawa, V.~Haverd, P.~Havl{\'\i}k, S.~Hellweg, S.~L.~L. Hill,
-  A.~Hirata, A.~J. Hoskins, J.~H. Janse, W.~Jetz, J.~A. Johnson, A.~Krause,
-  D.~Lecl{\`e}re, I.~S. Martins, T.~Matsui, C.~Merow, M.~Obersteiner,
-  H.~Ohashi, B.~Poulter, A.~Purvis, B.~Quesada, C.~Rondinini, A.~Schipper,
-  R.~Sharp, K.~Takahashi, W.~Thuiller, N.~Titeux, P.~Visconti, C.~Ware,
-  F.~Wolf, and H.~M. Pereira.
-\newblock A protocol for an intercomparison of biodiversity and ecosystem
-  services models using harmonized land-use and climate scenarios.
-\newblock \emph{bioRxiv}, 2018.
-\newblock \doi{10.1101/300632}.
-\newblock URL \url{https://www.biorxiv.org/content/early/2018/04/26/300632}.
 
 \bibitem[King et~al.(2008)King, Bradstock, Cary, Chapman, and
   Marsden-Smedley]{king_relative_2008}
@@ -2123,6 +2041,28 @@ D.~B. Lesmeister, R.~J. Davis, S.~G. Sovern, and Z.~Yang.
 \newblock \doi{10.1186/s42408-021-00118-z}.
 \newblock URL \url{https://doi.org/10.1186/s42408-021-00118-z}.
 
+\bibitem[Levhari and Mirman(1980)]{levhari_great_1980}
+D.~Levhari and L.~J. Mirman.
+\newblock The {Great} {Fish} {War}: {An} {Example} {Using} a {Dynamic}
+  {Cournot}-{Nash} {Solution}.
+\newblock \emph{The Bell Journal of Economics}, 11\penalty0 (1):\penalty0
+  322--334, 1980.
+\newblock ISSN 0361-915X.
+\newblock \doi{10.2307/3003416}.
+\newblock URL \url{https://www.jstor.org/stable/3003416}.
+\newblock Publisher: [RAND Corporation, Wiley].
+
+\bibitem[Libecap(2009)]{libecap_tragedy_2009}
+G.~D. Libecap.
+\newblock The tragedy of the commons: property rights and markets as solutions
+  to resource and environmental problems.
+\newblock \emph{Australian Journal of Agricultural and Resource Economics},
+  53\penalty0 (1):\penalty0 129--144, 2009.
+\newblock
+  \doi{https://doi-org.inshs.bib.cnrs.fr/10.1111/j.1467-8489.2007.00425.x}.
+\newblock URL
+  \url{https://onlinelibrary-wiley-com.inshs.bib.cnrs.fr/doi/abs/10.1111/j.1467-8489.2007.00425.x}.
+
 \bibitem[Lin et~al.(1996)Lin, Buongiorno, and Vasievich]{Lin1996}
 C.~R. Lin, J.~Buongiorno, and M.~Vasievich.
 \newblock A multi-species, density-dependent matrix growth model to predict
@@ -2186,6 +2126,20 @@ J.~A. Lyons and D.~J.~D. Natusch.
 \newblock \doi{10.1016/j.biocon.2011.10.002}.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0006320711003685}.
+
+\bibitem[MacFarlane et~al.(2022)MacFarlane, Hurlstone, Ecker, Ferraro, van~der
+  Linden, Wan, Veríssimo, Burgess, Chen, Hall, Hollands, and
+  Sutherland]{macfarlane_reducing_2022}
+D.~MacFarlane, M.~J. Hurlstone, U.~K.~H. Ecker, P.~J. Ferraro, S.~van~der
+  Linden, A.~K.~Y. Wan, D.~Veríssimo, G.~Burgess, F.~Chen, W.~Hall, G.~J.
+  Hollands, and W.~J. Sutherland.
+\newblock Reducing demand for overexploited wildlife products: Lessons from
+  systematic reviews from outside conservation science.
+\newblock \emph{Conservation Science and Practice}, 4\penalty0 (3):\penalty0
+  e627, 2022.
+\newblock \doi{https://doi-org.inshs.bib.cnrs.fr/10.1111/csp2.627}.
+\newblock URL
+  \url{https://conbio-onlinelibrary-wiley-com.inshs.bib.cnrs.fr/doi/abs/10.1111/csp2.627}.
 
 \bibitem[MacQueen(1967)]{mcqueen1967}
 J.~MacQueen.
@@ -2294,19 +2248,10 @@ M.~L. McKinney and J.~L. Lockwood.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0169534799016791}.
 
-\bibitem[Melnychuk et~al.(2017)Melnychuk, Peterson, Elliott, and
-  Hilborn]{melnychuk_2017_fisheries}
-M.~C. Melnychuk, E.~Peterson, M.~Elliott, and R.~Hilborn.
-\newblock Fisheries management impacts on target species status.
-\newblock \emph{Proceedings of the National Academy of Sciences}, 114\penalty0
-  (1):\penalty0 178--183, 2017.
-\newblock \doi{10.1073/pnas.1609915114}.
-\newblock URL \url{https://www.pnas.org/doi/abs/10.1073/pnas.1609915114}.
-
-\bibitem[Millennium~ecosystem assessment(2005)]{millennium2005ecosystems}
-M.~Millennium~ecosystem assessment.
-\newblock \emph{Ecosystems and human well-being}, volume~5.
-\newblock Island press Washington, DC, 2005.
+\bibitem[Millennium~{E}cosystem {A}ssessment(2005)]{millennium2005ecosystems}
+M.~Millennium~{E}cosystem {A}ssessment.
+\newblock \emph{Ecosystems and Human Well-Being}, volume~5.
+\newblock Island Press Washington, DC, 2005.
 
 \bibitem[Miller et~al.(2020)Miller, Field, and Mach]{miller_barriers_2020}
 R.~K. Miller, C.~B. Field, and K.~J. Mach.
@@ -2394,6 +2339,17 @@ J.~Moore, A.~Balmford, T.~Allnutt, and N.~Burgess.
 \newblock ISSN 00063207.
 \newblock \doi{10.1016/j.biocon.2003.12.013}.
 
+\bibitem[Moorhouse et~al.(2024)Moorhouse, Elwin, and
+  D'Cruze]{moorhouse_demand_2024}
+T.~Moorhouse, A.~Elwin, and N.~D'Cruze.
+\newblock Demand reduction campaigns could reduce the domestic trade in illegal
+  wildlife in peru.
+\newblock \emph{Biological Conservation}, 290:\penalty0 110458, 2024.
+\newblock ISSN 0006-3207.
+\newblock \doi{https://doi.org/10.1016/j.biocon.2024.110458}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0006320724000193}.
+
 \bibitem[Morgan(2001)]{Morgan}
 M.~Morgan.
 \newblock Models, stories and the economic world.
@@ -2467,17 +2423,6 @@ T.~Newbold, L.~N. Hudson, H.~R.~P. Phillips, S.~L.~L. Hill, S.~Contu,
 \newblock URL
   \url{https://royalsocietypublishing.org/doi/10.1098/rspb.2014.1371}.
 \newblock Publisher: Royal Society.
-
-\bibitem[Newbold et~al.(2020)Newbold, Oppenheimer, Etard, and
-  Williams]{newbold_tropical_2020}
-T.~Newbold, P.~Oppenheimer, A.~Etard, and J.~J. Williams.
-\newblock Tropical and {Mediterranean} biodiversity is disproportionately
-  sensitive to land-use and climate change.
-\newblock \emph{Nature Ecology \& Evolution}, 4\penalty0 (12):\penalty0
-  1630--1638, Dec. 2020.
-\newblock ISSN 2397-334X.
-\newblock \doi{10.1038/s41559-020-01303-0}.
-\newblock URL \url{https://doi.org/10.1038/s41559-020-01303-0}.
 
 \bibitem[Nordhaus(1994)]{Nordhaus94}
 W.~D. Nordhaus.
