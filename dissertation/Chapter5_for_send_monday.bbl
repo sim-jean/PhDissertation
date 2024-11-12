@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Costello et~al.(2017)Costello, Quérou, and
+  Tomini]{costello_private_2017}
+C.~Costello, N.~Quérou, and A.~Tomini.
+\newblock Private eradication of mobile public bads.
+\newblock \emph{European Economic Review}, 94:\penalty0 23--44, May 2017.
+\newblock ISSN 00142921.
+\newblock \doi{10.1016/j.euroecorev.2017.02.005}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0014292117300302}.
+
+\end{thebibliography}

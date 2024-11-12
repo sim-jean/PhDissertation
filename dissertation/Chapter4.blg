@@ -1,0 +1,92 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Chapter4.aux
+The style file: abbrvnat.bst
+Database file #1: bibliography_these.bib
+Warning--I'm ignoring burke_wildfire_2023's extra "doi" field
+--line 1987 of file bibliography_these.bib
+Warning--I'm ignoring heft-neal_behavior_2023's extra "doi" field
+--line 2000 of file bibliography_these.bib
+Repeated entry---line 2818 of file bibliography_these.bib
+ : @article{Taylor2014
+ :                    ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 3629 of file bibliography_these.bib
+ : 
+ : %title = {Profit Maximization and the Extinction of Animal Species},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 6607 of file bibliography_these.bib
+ : 
+ : %   author = {Colin W. Clark},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 11814 of file bibliography_these.bib
+ : @article{costello_private_2017
+ :                               ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 11871 of file bibliography_these.bib
+ :  
+ :  keywords = {differential games, Harvesting, nature reserve, spatial models}}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 12005 of file bibliography_these.bib
+ : @article{minor_graph-theory_2008
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12037 of file bibliography_these.bib
+ : @article{pascual-hortal_comparison_2006
+ :                                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12765 of file bibliography_these.bib
+ : @article{ehrlich_market_1972
+ :                             ,
+I'm skipping whatever remains of this entry
+Warning--empty booktitle in Csrdi2006TheIS
+Warning--there's a number but no volume in Florec2020
+Warning--empty institution in McGarigal_1995
+Warning--empty institution in Peterson_2009
+Warning--there's a number but no volume in Taylor2014
+Warning--there's a number but no volume in Vaillant2009
+You've used 108 entries,
+            2773 wiz_defined-function locations,
+            1447 strings with 38997 characters,
+and the built_in function-call counts, 69084 in all, are:
+= -- 6144
+> -- 5659
+< -- 42
++ -- 1898
+- -- 1789
+* -- 6697
+:= -- 11271
+add.period$ -- 588
+call.type$ -- 108
+change.case$ -- 919
+chr.to.int$ -- 107
+cite$ -- 222
+duplicate$ -- 2226
+empty$ -- 4147
+format.name$ -- 1943
+if$ -- 13957
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 106
+newline$ -- 810
+num.names$ -- 434
+pop$ -- 1423
+preamble$ -- 1
+purify$ -- 811
+quote$ -- 0
+skip$ -- 1926
+stack$ -- 0
+substring$ -- 2109
+swap$ -- 178
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1173
+warning$ -- 6
+while$ -- 456
+width$ -- 0
+write$ -- 1929
+(There were 8 error messages)

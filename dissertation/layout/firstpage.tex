@@ -22,8 +22,8 @@
 \newcommand{\ecodocacro}{ABIES}																%% Sigle de l'ED. Voir site de l'Université Paris-Saclay / Acronym of the Doctoral School. See Université Paris-Saclay website
 \newcommand{\ecodocnum}{512} 																%% Numéro de l'école doctorale / Doctoral School number
 \newcommand{\PhDspeciality}{Sciences Economiques} 										%% Spécialité de doctorat / Speciality 
-\newcommand{\GradSchool}{Biosphera}
-\newcommand{\PhDworkingplace}{AgroParisTech} 										%% Établissement de préparation / PhD working place : l'Université Paris-Sud, l'Université de Versailles-Saint-Quentin-en-Yvelines, l'Université d'Evry-Val-d'Essonne, l'Institut des sciences et industries du vivant et de l'environnement (AgroParisTech), CentraleSupélec,l'Ecole normale supérieure de Cachan, l'Ecole Polytechnique, l'Ecole nationale supérieure de techniques avancées, l'Ecole nationale de la statistique et de l’administration économique, HEC Paris, l'Institut d'optique théorique et appliquée, Télécom ParisTech, Télécom SudParis   
+\newcommand{\GradSchool}{Biosphera  - Référent : AgroParisTech}
+\newcommand{\PhDworkingplace}{UMR CIRED (Université Paris Saclay - AgroParisTech, CNRS, Institut Polytechnique de Paris - Ecole des Ponts, CIRAD, EHESS)} 										%% Établissement de préparation / PhD working place : l'Université Paris-Sud, l'Université de Versailles-Saint-Quentin-en-Yvelines, l'Université d'Evry-Val-d'Essonne, l'Institut des sciences et industries du vivant et de l'environnement (AgroParisTech), CentraleSupélec,l'Ecole normale supérieure de Cachan, l'Ecole Polytechnique, l'Ecole nationale supérieure de techniques avancées, l'Ecole nationale de la statistique et de l’administration économique, HEC Paris, l'Institut d'optique théorique et appliquée, Télécom ParisTech, Télécom SudParis   
 \newcommand{\defenseplace}{Nogent sur Marne} 											%% Ville de soutenance / Place of defense
 \newcommand{\defensedate}{26 novembre 2024} 															%% Date de soutenance / Date of defense
 
@@ -70,7 +70,7 @@
 
 %%% Membre n°3 (Rapporteur) / Member n°3 (Reviewer)
 \newcommand{\jurynameBb}{Martin QUAAS}
-\newcommand{\juryadressBb}{Professor of Biodiveristy Economics, Leipzig University and German Center for Integrative Biodiversity Research}
+\newcommand{\juryadressBb}{Professor of Biodiversity Economics, Leipzig University and German Center for Integrative Biodiversity Research}
 \newcommand{\juryroleBb}{Examinateur}
 
 %%% Membre n°4 (Examinateur) / Member n°4 (Examiner)
@@ -80,7 +80,7 @@
 
 %%% Membre n°5 (Examinateur) / Member n°4 (Examiner)
 \newcommand{\jurynameCb}{James SANCHIRICO}
-\newcommand{\juryadressCb}{Professor, University of California at Davis}
+\newcommand{\juryadressCb}{Professor, University of California, Davis}
 \newcommand{\juryroleCb}{Examinateur}
 
 %%% Membre n°5 (Examinateur) / Member n°4 (Examiner)
@@ -91,12 +91,12 @@
 %%% DIRECTION DE THESE
 %%% Membre n°6 (Directeur de thèse) / Member n°5 (Thesis supervisor)
 \newcommand{\jurynameE}{Lauriane MOUYSSET}
-\newcommand{\juryadressE}{Chargée de Recherche CNRS (CIRED)}
+\newcommand{\juryadressE}{Chargée de Recherche (CNRS)}
 \newcommand{\juryroleE}{Directrice de thèse}
 
 %%% Membre n°7 (Co-directeur de thèse) / Member n°6 (Thesis co-supervisor)
 \newcommand{\jurynameF}{Christopher COSTELLO}
-\newcommand{\juryadressF}{Professor of Resource Economics, University of California, Santa Barbara (emLab)}
+\newcommand{\juryadressF}{Professor (University of California, Santa Barbara)}
 \newcommand{\juryroleF}{Co-directeur de thèse}
 
 
@@ -156,18 +156,20 @@
 		\color{black}
 		\large{\textit{\PhDTitleTrad} } \bigskip %% Titre de la thèse traduit
 		\vfill
-		\vspace{0.3cm}
+		\vspace{1.5cm}
 		\color{black} %% Couleur noire du reste du texte
 		
 		\fontfamily{fvs}\fontseries{m}\fontsize{8}{12}\selectfont
-		\normalsize \textbf{Thèse de doctorat de l'Université Paris-Saclay} \\
+		\small \textbf{Thèse de doctorat de l'Université Paris-Saclay} \\
 		\vspace*{3mm}
 		%\vfill
 		\small{École doctorale n$^{\circ}$\ecodocnum ~\ecodoctitle ~(\ecodocacro)}  \\
-		\small{Spécialité de doctorat: \PhDspeciality} \bigskip \\%% Spécialité 
+		\small{Spécialité de doctorat: \PhDspeciality}\\ 
 		\small{Graduate school: \GradSchool}\\
-		\vspace*{3mm}
-		\footnotesize Thèse préparée à l'\PhDworkingplace, et au Centre International de Recherche sur l'Environnement et le Développement (CIRED) sous la direction de \jurynameE ~ (\juryadressE), le co-encadrement de \jurynameF ~ (\juryadressF)\\
+		\vspace*{4mm}
+		\footnotesize Thèse préparée dans l'\PhDworkingplace\\
+		 { sous la direction de} \textbf{\jurynameE}, ~ \juryadressE\\
+		 { le co-encadrement de} \textbf{\jurynameF}, ~ \juryadressF\\
 		\vspace{3mm}
 		\textbf{Thèse présentée et soutenue à \defenseplace, le \defensedate, par} \\
 		\vfill
@@ -176,6 +178,7 @@
 	%
 	\color{black}
 	%% Jury
+	\vspace*{1.5cm}
 	\begin{flushleft}
 		\fontfamily{fvs}\fontsize{12}{12}\selectfont
 		\large{\textbf{Composition du Jury}}
@@ -209,27 +212,27 @@
 		%% Jury
 	%\begin{flushleft}
 		\fontfamily{fvs}\fontseries{m}\fontsize{12}{14}\selectfont
-		\large{\textbf{Direction de la thèse}}
+		%\large{\textbf{Direction de la thèse}}
 		\vspace*{.4 cm}
 	%\end{flushleft}
 	%% Members of the jury
 	%
 	%\small
 	%\begin{center}
-	\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-	\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}lm{#1}}
+%	\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+%	\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}lm{#1}}
 	
-	\label{directionthese} 																				%% Mettre à jour si des membres ont été ajoutés ou retirés / Update if members have been added or removed
+	%\label{directionthese} 																				%% Mettre à jour si des membres ont été ajoutés ou retirés / Update if members have been added or removed
 	%\begin{flushleft}
-	{\fontfamily{fvs}\fontseries{m}\fontsize{10}{12}\selectfont
-	{\footnotesize
-	\begin{tabular}{|p{10cm}l}%{@{} L{9.5cm} R{4.5cm}}
-	    \arrayrulecolor{Prune}
-		\jurynameE  \\ \juryadressE & \juryroleE \\ \vspace*{.05cm}
-		\jurynameF  \\ \juryadressF & \juryroleF \\ 
-	\end{tabular} 
-	}
-	}
+	%{\fontfamily{fvs}\fontseries{m}\fontsize{10}{12}\selectfont
+	%{\scriptsize
+	%\begin{tabular}{|p{10cm}l}%{@{} L{9.5cm} R{4.5cm}}
+	%    \arrayrulecolor{Prune}
+%		\jurynameE  \\ \juryadressE & \juryroleE \\ \vspace*{.05cm}
+%		\jurynameF  \\ \juryadressF & \juryroleF \\ 
+%	\end{tabular} 
+%	}
+%	}
 	\end{flushleft}
 	
 	%\end{center}

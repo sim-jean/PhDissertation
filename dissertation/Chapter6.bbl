@@ -1,0 +1,279 @@
+\begin{thebibliography}{28}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bareille et~al.(2023)Bareille, Zavalloni, and
+  Viaggi]{bareille_agglomeration_2023}
+F.~Bareille, M.~Zavalloni, and D.~Viaggi.
+\newblock Agglomeration bonus and endogenous group formation.
+\newblock \emph{American Journal of Agricultural Economics}, 105\penalty0
+  (1):\penalty0 76--98, 2023.
+\newblock \doi{https://doi-org.inshs.bib.cnrs.fr/10.1111/ajae.12305}.
+\newblock URL
+  \url{https://onlinelibrary-wiley-com.inshs.bib.cnrs.fr/doi/abs/10.1111/ajae.12305}.
+
+\bibitem[Bellman(1957)]{Bellman}
+R.~Bellman.
+\newblock \emph{Dynamic Programming}.
+\newblock Princeton University Press, 1957.
+
+\bibitem[Brock and Xepapadeas(2010)]{brock_pattern_2010}
+W.~Brock and A.~Xepapadeas.
+\newblock Pattern formation, spatial externalities and regulation in coupled
+  economic–ecological systems.
+\newblock \emph{Journal of Environmental Economics and Management}, 59\penalty0
+  (2):\penalty0 149--164, Mar. 2010.
+\newblock ISSN 0095-0696.
+\newblock \doi{10.1016/j.jeem.2009.07.003}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0095069609000898}.
+
+\bibitem[Brock and Xepapadeas(2020)]{brock_2020}
+W.~Brock and A.~Xepapadeas.
+\newblock Spatial environmental and resource economics, 2020.
+
+\bibitem[Brumm and Scheidegger(2017)]{brumm_adaptive_2017}
+J.~Brumm and S.~Scheidegger.
+\newblock Using adaptive sparse grids to solve high-dimensional dynamic models.
+\newblock \emph{Econometrica}, 85\penalty0 (5):\penalty0 1575--1612, 2017.
+\newblock \doi{https://doi-org.inshs.bib.cnrs.fr/10.3982/ECTA12216}.
+\newblock URL
+  \url{https://onlinelibrary-wiley-com.inshs.bib.cnrs.fr/doi/abs/10.3982/ECTA12216}.
+
+\bibitem[Bulte and Damania(2005)]{bulte_economic_2005}
+E.~H. Bulte and R.~Damania.
+\newblock An {Economic} {Assessment} of {Wildlife} {Farming} and
+  {Conservation}.
+\newblock \emph{Conservation Biology}, 19\penalty0 (4):\penalty0 1222--1233,
+  2005.
+\newblock ISSN 0888-8892.
+\newblock URL \url{https://www.jstor.org/stable/3591307}.
+\newblock Publisher: [Wiley, Society for Conservation Biology].
+
+\bibitem[Cai et~al.(2020)Cai, Steinbuks, Judd, Jaegermeyr, and
+  Hertel]{cai_modeling_2020}
+Y.~Cai, J.~Steinbuks, K.~L. Judd, J.~Jaegermeyr, and T.~W. Hertel.
+\newblock Modeling {Uncertainty} in {Large} {Natural} {Resource} {Allocation}
+  {Problems}, Feb. 2020.
+\newblock URL \url{https://papers.ssrn.com/abstract=3542024}.
+
+\bibitem[Calkin et~al.(2005)Calkin, Hummel, and Agee]{calkin_modeling_2005}
+D.~E. Calkin, S.~S. Hummel, and J.~K. Agee.
+\newblock Modeling trade-offs between fire threat reduction and late-seral
+  forest structure.
+\newblock \emph{Canadian Journal of Forest Research}, 35\penalty0
+  (11):\penalty0 2562--2574, Nov. 2005.
+\newblock ISSN 0045-5067.
+\newblock \doi{10.1139/x05-177}.
+\newblock URL \url{https://cdnsciencepub.com/doi/10.1139/x05-177}.
+\newblock Publisher: NRC Research Press.
+
+\bibitem[Comola and Prina(2021)]{comola_treatment_2021}
+M.~Comola and S.~Prina.
+\newblock Treatment {Effect} {Accounting} for {Network} {Changes}.
+\newblock \emph{The Review of Economics and Statistics}, 103\penalty0
+  (3):\penalty0 597--604, July 2021.
+\newblock ISSN 0034-6535, 1530-9142.
+\newblock \doi{10.1162/rest_a_00908}.
+\newblock URL
+  \url{https://direct.mit.edu/rest/article/103/3/597/97667/Treatment-Effect-Accounting-for-Network-Changes}.
+
+\bibitem[Costello et~al.(2017)Costello, Quérou, and
+  Tomini]{costello_private_2017}
+C.~Costello, N.~Quérou, and A.~Tomini.
+\newblock Private eradication of mobile public bads.
+\newblock \emph{European Economic Review}, 94:\penalty0 23--44, May 2017.
+\newblock ISSN 00142921.
+\newblock \doi{10.1016/j.euroecorev.2017.02.005}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0014292117300302}.
+
+\bibitem[Damania and Bulte(2007)]{damania_economics_2007}
+R.~Damania and E.~H. Bulte.
+\newblock The economics of wildlife farming and endangered species
+  conservation.
+\newblock \emph{Ecological Economics}, 62\penalty0 (3):\penalty0 461--472, May
+  2007.
+\newblock ISSN 0921-8009.
+\newblock \doi{10.1016/j.ecolecon.2006.07.007}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0921800906003417}.
+
+\bibitem[Deschenes and Meng(2018)]{deschenes_quasi-experimental_2018}
+O.~Deschenes and K.~Meng.
+\newblock Quasi-{Experimental} {Methods} in {Environmental} {Economics}:
+  {Opportunities} and {Challenges}, Aug. 2018.
+\newblock URL \url{https://papers.ssrn.com/abstract=3236706}.
+
+\bibitem[Englander and Costello(2023)]{englander_fish_2023}
+G.~Englander and C.~Costello.
+\newblock A fish cartel for {Africa}.
+\newblock \emph{Nature Communications}, 14\penalty0 (1):\penalty0 7124, Nov.
+  2023.
+\newblock ISSN 2041-1723.
+\newblock \doi{10.1038/s41467-023-42886-z}.
+
+\bibitem[Fernández-Villaverde et~al.(2024)Fernández-Villaverde, Gillingham,
+  and Scheidegger]{fernandez-villaverde_climate_2024}
+J.~Fernández-Villaverde, K.~Gillingham, and S.~Scheidegger.
+\newblock Climate {Change} through the {Lens} of {Macroeconomic} {Modeling},
+  Sept. 2024.
+\newblock URL \url{https://www.nber.org/papers/w32963}.
+
+\bibitem[Frank and Sudarshan(Forthcoming)]{frank_social_nodate}
+E.~Frank and A.~Sudarshan.
+\newblock The {Social} {Costs} of {Keystone} {Species} {Collapse}: {Evidence}
+  from the {Decline} of {Vultures} in {India}.
+\newblock \emph{American Economic Review}, Forthcoming.
+\newblock ISSN 0002-8282.
+\newblock \doi{10.1257/aer.20230016}.
+\newblock URL
+  \url{https://www.aeaweb.org/articles?id=10.1257/aer.20230016&from=f}.
+
+\bibitem[Frank(2024)]{frank_economic_2024}
+E.~G. Frank.
+\newblock The economic impacts of ecosystem disruptions: Costs from
+  substituting biological pest control.
+\newblock \emph{Science}, 385\penalty0 (6713):\penalty0 eadg0344, 2024.
+\newblock \doi{10.1126/science.adg0344}.
+\newblock URL \url{https://www.science.org/doi/abs/10.1126/science.adg0344}.
+
+\bibitem[Konoshima et~al.(2008)Konoshima, Montgomery, Albers, and
+  Arthur]{konoshima_spatial-endogenous_2008}
+M.~Konoshima, C.~A. Montgomery, H.~J. Albers, and J.~L. Arthur.
+\newblock Spatial-{Endogenous} {Fire} {Risk} and {Efficient} {Fuel}
+  {Management} and {Timber} {Harvest}.
+\newblock \emph{Land Economics}, 84\penalty0 (3):\penalty0 449--468, Aug. 2008.
+\newblock ISSN 0023-7639, 1543-8325.
+\newblock \doi{10.3368/le.84.3.449}.
+\newblock URL \url{https://le.uwpress.org/content/84/3/449}.
+\newblock Publisher: University of Wisconsin Press Section: Articles.
+
+\bibitem[Kremer and Morcom(2000)]{Kremer2000}
+M.~Kremer and C.~Morcom.
+\newblock Elephants.
+\newblock \emph{American Economic Review}, 90:\penalty0 212--234, 2000.
+\newblock ISSN 0002-8282.
+\newblock \doi{10.1257/AER.90.1.212}.
+
+\bibitem[Levin et~al.(2013)Levin, Xepapadeas, Crépin, Norberg, Zeeuw, Folke,
+  Hughes, Arrow, Barrett, Daily, Ehrlich, Kautsky, Mäler, Polasky, Troell,
+  Vincent, and Walker]{levin_social-ecological_2013}
+S.~Levin, T.~Xepapadeas, A.-S. Crépin, J.~Norberg, A.~d. Zeeuw, C.~Folke,
+  T.~Hughes, K.~Arrow, S.~Barrett, G.~Daily, P.~Ehrlich, N.~Kautsky, K.-G.
+  Mäler, S.~Polasky, M.~Troell, J.~R. Vincent, and B.~Walker.
+\newblock Social-ecological systems as complex adaptive systems: modeling and
+  policy implications.
+\newblock \emph{Environment and Development Economics}, 18\penalty0
+  (2):\penalty0 111--132, Apr. 2013.
+\newblock ISSN 1355-770X, 1469-4395.
+\newblock \doi{10.1017/S1355770X12000460}.
+\newblock URL
+  \url{https://www.cambridge.org/core/journals/environment-and-development-economics/article/abs/socialecological-systems-as-complex-adaptive-systems-modeling-and-policy-implications/C02DE8F7767B295C3289F51E83D845B4}.
+
+\bibitem[Loreau et~al.(2003)Loreau, Mouquet, and
+  Gonzalez]{loreau_biodiversity_2003}
+M.~Loreau, N.~Mouquet, and A.~Gonzalez.
+\newblock Biodiversity as spatial insurance in heterogeneous landscapes.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 100\penalty0
+  (22):\penalty0 12765--12770, Oct. 2003.
+\newblock \doi{10.1073/pnas.2235465100}.
+\newblock URL \url{https://www.pnas.org/doi/10.1073/pnas.2235465100}.
+\newblock Publisher: Proceedings of the National Academy of Sciences.
+
+\bibitem[Minas et~al.(2014)Minas, Hearne, and Martell]{minas_spatial_2014}
+J.~Minas, J.~W. Hearne, and D.~L. Martell.
+\newblock A spatial optimisation model for multi-period landscape level fuel
+  management to mitigate wildfire impacts.
+\newblock \emph{European Journal of Operational Research}, 232\penalty0
+  (2):\penalty0 412--422, Jan. 2014.
+\newblock ISSN 0377-2217.
+\newblock \doi{10.1016/j.ejor.2013.07.026}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0377221713006073}.
+\newblock Publisher: North-Holland.
+
+\bibitem[Parkhurst et~al.(2002)Parkhurst, Shogren, Bastian, Kivi, Donner, and
+  Smith]{parkhurst2002agglomeration}
+G.~M. Parkhurst, J.~F. Shogren, C.~Bastian, P.~Kivi, J.~Donner, and R.~B.
+  Smith.
+\newblock Agglomeration bonus: an incentive mechanism to reunite fragmented
+  habitat for biodiversity conservation.
+\newblock \emph{Ecological Economics}, 41\penalty0 (2):\penalty0 305--328,
+  2002.
+
+\bibitem[Rachmawati et~al.(2016)Rachmawati, Ozlen, Reinke, and
+  Hearne]{rachmawati_optimisation_2016}
+R.~Rachmawati, M.~Ozlen, K.~J. Reinke, and J.~W. Hearne.
+\newblock An optimisation approach for fuel treatment planning to break the
+  connectivity of high-risk regions.
+\newblock \emph{Forest Ecology and Management}, 368:\penalty0 94--104, May
+  2016.
+\newblock ISSN 0378-1127.
+\newblock \doi{10.1016/j.foreco.2016.03.014}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0378112716300731}.
+
+\bibitem[Reich et~al.(2021)Reich, Yang, Guan, Giffin, Miller, and
+  Rappold]{reich_review_2021}
+B.~J. Reich, S.~Yang, Y.~Guan, A.~B. Giffin, M.~J. Miller, and A.~Rappold.
+\newblock A {Review} of {Spatial} {Causal} {Inference} {Methods} for
+  {Environmental} and {Epidemiological} {Applications}.
+\newblock \emph{International Statistical Review}, 89\penalty0 (3):\penalty0
+  605--634, 2021.
+\newblock ISSN 1751-5823.
+\newblock \doi{10.1111/insr.12452}.
+\newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/insr.12452}.
+\newblock \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/insr.12452.
+
+\bibitem[Varenne(2014)]{varenne_epistemologie_2014}
+F.~Varenne.
+\newblock Épistémologie des modèles et des simulations : tour d’horizon et
+  tendances.
+\newblock In \emph{Les modèles, possibilités et limites}, pages 13--46.
+  Éditions Matériologiques, 2014.
+\newblock ISBN 978-2-919694-62-4.
+\newblock \doi{10.3917/edmat.levy.2014.01.0013}.
+\newblock URL
+  \url{https://stm.cairn.info/les-modeles-possibilites-et-limites--9782919694624-page-13?lang=fr&tab=texte-integral}.
+\newblock ISSN: 2425-5661.
+
+\bibitem[Wei et~al.(2008)Wei, Rideout, and Kirsch]{wei_optimization_2008}
+Y.~Wei, D.~Rideout, and A.~Kirsch.
+\newblock An optimization model for locating fuel treatments across a landscape
+  to reduce expected fire losses.
+\newblock \emph{Canadian Journal of Forest Research}, 38\penalty0 (4):\penalty0
+  868--877, Apr. 2008.
+\newblock ISSN 0045-5067.
+\newblock \doi{10.1139/X07-162}.
+\newblock URL \url{https://cdnsciencepub.com/doi/10.1139/X07-162}.
+\newblock Publisher: NRC Research Press.
+
+\bibitem[Yemshanov et~al.(2021)Yemshanov, Liu, Thompson, Parisien, Barber,
+  Koch, and Reimer]{yemshanov_detecting_2021}
+D.~Yemshanov, N.~Liu, D.~K. Thompson, M.-A. Parisien, Q.~E. Barber, F.~H. Koch,
+  and J.~Reimer.
+\newblock Detecting critical nodes in forest landscape networks to reduce
+  wildfire spread.
+\newblock \emph{PLOS ONE}, 16\penalty0 (10):\penalty0 e0258060, Oct. 2021.
+\newblock ISSN 1932-6203.
+\newblock \doi{10.1371/journal.pone.0258060}.
+\newblock URL
+  \url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0258060}.
+\newblock Publisher: Public Library of Science.
+
+\bibitem[Yemshanov et~al.(2022)Yemshanov, Haight, Liu, Rempel, Koch, and
+  Rodgers]{yemshanov_exploring_2022}
+D.~Yemshanov, R.~G. Haight, N.~Liu, R.~Rempel, F.~H. Koch, and A.~Rodgers.
+\newblock Exploring the tradeoffs among forest planning, roads and wildlife
+  corridors: a new approach.
+\newblock \emph{Optimization Letters}, 16\penalty0 (3):\penalty0 747--788, Apr.
+  2022.
+\newblock ISSN 1862-4472, 1862-4480.
+\newblock \doi{10.1007/s11590-021-01745-w}.
+\newblock URL \url{https://link.springer.com/10.1007/s11590-021-01745-w}.
+
+\end{thebibliography}

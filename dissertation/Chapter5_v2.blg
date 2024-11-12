@@ -1,0 +1,77 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Chapter5_v2.aux
+The style file: abbrvnat.bst
+Database file #1: bibliography_these.bib
+You're missing a field name---line 3629 of file bibliography_these.bib
+ : 
+ : %title = {Profit Maximization and the Extinction of Animal Species},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 6607 of file bibliography_these.bib
+ : 
+ : %   author = {Colin W. Clark},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 11814 of file bibliography_these.bib
+ : @article{costello_private_2017
+ :                               ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 11871 of file bibliography_these.bib
+ :  
+ :  keywords = {differential games, Harvesting, nature reserve, spatial models}}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring kaffine_unitization_2010's extra "doi" field
+--line 12428 of file bibliography_these.bib
+Repeated entry---line 12749 of file bibliography_these.bib
+ : @article{brown_metapopulation_1997
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13156 of file bibliography_these.bib
+ : @article{bode_using_2008
+ :                         ,
+I'm skipping whatever remains of this entry
+Warning--there's a number but no volume in sir_model
+You've used 36 entries,
+            2773 wiz_defined-function locations,
+            925 strings with 14446 characters,
+and the built_in function-call counts, 17771 in all, are:
+= -- 1819
+> -- 803
+< -- 25
++ -- 273
+- -- 237
+* -- 1570
+:= -- 2783
+add.period$ -- 211
+call.type$ -- 36
+change.case$ -- 187
+chr.to.int$ -- 36
+cite$ -- 73
+duplicate$ -- 726
+empty$ -- 1427
+format.name$ -- 307
+if$ -- 3712
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 36
+newline$ -- 291
+num.names$ -- 144
+pop$ -- 216
+preamble$ -- 1
+purify$ -- 151
+quote$ -- 0
+skip$ -- 521
+stack$ -- 0
+substring$ -- 881
+swap$ -- 59
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 391
+warning$ -- 1
+while$ -- 171
+width$ -- 0
+write$ -- 681
+(There were 6 error messages)

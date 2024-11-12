@@ -1,0 +1,148 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Chapter2.aux
+The style file: abbrvnat.bst
+Database file #1: bibliography_these.bib
+Warning--I'm ignoring Costanza1997's extra "year" field
+--line 3396 of file bibliography_these.bib
+You're missing a field name---line 3629 of file bibliography_these.bib
+ : 
+ : %title = {Profit Maximization and the Extinction of Animal Species},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring Clark630's extra "journal" field
+--line 4078 of file bibliography_these.bib
+Repeated entry---line 4850 of file bibliography_these.bib
+ : @article{Mouysset2012
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5111 of file bibliography_these.bib
+ : @article{Davis2006
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5788 of file bibliography_these.bib
+ : @article{Courtois2014
+ :                      ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 6607 of file bibliography_these.bib
+ : 
+ : %   author = {Colin W. Clark},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 6807 of file bibliography_these.bib
+ : @article{Mouysset2014
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6856 of file bibliography_these.bib
+ : @article{Mouysset2014
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7114 of file bibliography_these.bib
+ : @article{Drechsler2007
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7161 of file bibliography_these.bib
+ : @article{Drechsler2007
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7237 of file bibliography_these.bib
+ : @article{Costello2004
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7405 of file bibliography_these.bib
+ : @article{Bulte1999
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7624 of file bibliography_these.bib
+ : @article{Taylor2004
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7735 of file bibliography_these.bib
+ : @article{Skonhoft1998
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8059 of file bibliography_these.bib
+ : @article{Moore2004
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8073 of file bibliography_these.bib
+ : @article{Alexander2000
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8108 of file bibliography_these.bib
+ : @article{Lin1996
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8507 of file bibliography_these.bib
+ : @article{Fenichel2014
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8701 of file bibliography_these.bib
+ : @article{Polasky2005
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8865 of file bibliography_these.bib
+ : @article{Bulte1999
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8930 of file bibliography_these.bib
+ : @article{Baumgartner2007
+ :                         ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 11871 of file bibliography_these.bib
+ :  
+ :  keywords = {differential games, Harvesting, nature reserve, spatial models}}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Skonhoft19999"
+Warning--to sort, need author or key in Clark73
+Warning--empty author in Clark73
+Warning--empty title in Clark73
+Warning--empty journal in Clark73
+Warning--empty year in Clark73
+Warning--empty year in Clark73
+Warning--there's a number but no volume in Faustmann
+Warning--empty publisher in MEA2005
+Warning--empty publisher in IPBES2016
+You've used 90 entries,
+            2773 wiz_defined-function locations,
+            1357 strings with 28468 characters,
+and the built_in function-call counts, 48047 in all, are:
+= -- 4345
+> -- 3208
+< -- 56
++ -- 1092
+- -- 1001
+* -- 4281
+:= -- 7721
+add.period$ -- 428
+call.type$ -- 90
+change.case$ -- 593
+chr.to.int$ -- 89
+cite$ -- 190
+duplicate$ -- 1843
+empty$ -- 3433
+format.name$ -- 1134
+if$ -- 9899
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 99
+newline$ -- 615
+num.names$ -- 358
+pop$ -- 966
+preamble$ -- 1
+purify$ -- 513
+quote$ -- 0
+skip$ -- 1444
+stack$ -- 0
+substring$ -- 1712
+swap$ -- 140
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 945
+warning$ -- 9
+while$ -- 359
+width$ -- 0
+write$ -- 1478
+(There were 21 error messages)

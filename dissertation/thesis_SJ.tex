@@ -1,7 +1,14 @@
 % created on 2022-08-02
+%\pdfobjcompresslevel 0
+
 \documentclass[a4paper, twoside, 12pt]{report}
+\PassOptionsToPackage{colorlinks=true, linkcolor=darkblue, urlcolor=darkblue, citecolor=darkblue, filecolor=darkblue, linktocpage=false, linktoc=all}{hyperref}
+
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
+
+\usepackage{pdfx} % This will handle PDF/A compliance
+\usepackage{lmodern}
 
 \usepackage{csquotes}
 \usepackage{mathpazo}
@@ -10,14 +17,16 @@
 %\usepackage[default, scale=.95]{opensans}
 \usepackage{geometry}
 \geometry{
-left=20mm,
-top=20mm,
-right=20mm,
-bottom=22mm,
-bindingoffset = 20mm
+	left=20mm,
+	top=20mm,
+	right=20mm,
+	bottom=22mm,
+	bindingoffset = 20mm
 }
 
 \usepackage{appendix}
+
+
 
 %Packages from Totoaba
 \usepackage{mathtools}
@@ -37,7 +46,6 @@ bindingoffset = 20mm
 \usepackage{subcaption}
 \usepackage{amsmath}
 \usepackage{tikz}
-%\usepackage{hyperref}
 \usepackage{amsfonts}
 
 \usepackage{chngcntr}
@@ -95,18 +103,7 @@ bindingoffset = 20mm
 \usepackage[most]{tcolorbox}
 \usepackage{colortbl}
 
-\usepackage[colorlinks=true,          % Enable colored links
-            linkcolor=darkblue,       % Color for links in the document
-            urlcolor=darkblue,        % Color for URLs
-            citecolor=darkblue,       % Color for citations
-            filecolor=darkblue,       % Color for file links
-            linktocpage=false,        % Keep full TOC entry clickable
-            ]{hyperref}
 
-% Set TOC links to black (while the rest of the document has blue links)
-\hypersetup{
-    linkcolor=black
-}
 
 \setlength{\columnseprule}{0pt}
 \setlength\columnsep{10pt}
@@ -126,13 +123,34 @@ bindingoffset = 20mm
 
 
 %Bibliography style
-\usepackage[round]{natbib}
-\bibliographystyle{abbrvnat}
+%\usepackage[round]{natbib}
+%\bibliographystyle{abbrvnat}
 
+\usepackage[sectionbib, 
+		    round,
+		    authoryear]{natbib}
+\usepackage{chapterbib}
+\usepackage[nottoc]{tocbibind}
+%\usepackage[sectionbib]{chapterbib}
+
+%\usepackage[backend=bibtex,style=nature, natbib=true, sorting=none,isbn=false, url=false,citestyle=numeric]{biblatex} 
+
+%\addbibresource{bibliography_these.bib} % The filename of the bibliography
+
+%\usepackage[backend=biber,refsection=chapter]{biblatex}
+%\addbibresource{bib_review.bib}
+%\addbibresource{bib_fire.bib}
+%\addbibresource{bib_fences.bib}
+%\addbibresource{bib_intro.bib}
 % Thesis title
-\newcommand{\PhDTitle}{Modeling the biodiversity crisis: the roles of space and market structure in bioeconomic modeling. } 
+\usepackage{amsthm}
+\newtheorem{proposition}{Proposition}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
 
-\newcommand{\PhDTitleTrad}{Modéliser la crise de la biodiversité : les rôles de l'espace et de la structure de marché dans la modélisation bioéconomique}
+
+\newcommand{\PhDTitle}{Modeling the biodiversity crisis : the roles of space and strategic behavior in bioeconomic modeling} 
+
+\newcommand{\PhDTitleTrad}{Modéliser la crise de la biodiversité : les rôles de l'espace et des comportement stratégiques dans la modélisation bioéconomique}
 
 % Name
 \newcommand{\PhDname}{Simon Jean} 
@@ -148,10 +166,15 @@ bindingoffset = 20mm
 \newcommand{\dbtilde}[1]{\accentset{\approx}{#1}}
 
 % PDF metadata
+
+\usepackage{hyperref}
+
 \hypersetup{
 	pdfauthor={\PhDname},
 	pdfsubject={Manuscrit de thèse de doctorat},
-	pdftitle={\PhDTitle}
+	pdftitle={\PhDTitle},
+	linktoc=all,      % Apply the change to TOC only
+    linkcolor=black
 }
 
 \setlength{\cftfignumwidth}{2.5em}
@@ -159,19 +182,28 @@ bindingoffset = 20mm
 \setlength{\cftsecnumwidth}{2em}
 \setlength{\cftsubsecnumwidth}{2em}
 
+\newtheorem{theorem}{Theorem}
+%\newtheorem{proposition}{Proposition}
+
 \begin{document}
 	\raggedbottom
 	\pagenumbering{roman}
 	%\onehalfspacing
 	
-    \input{layout/firstpage.tex}
+    \include{layout/firstpage.tex}
     
     %\input{layout/dedication.tex}
    	\clearpage
+    \include{layout/lastpage.tex}
+	\clearpage
     
-    \input{layout/acknowledgements.tex}
+    \color{black}
+    \pagestyle{plain}
+
+    \include{layout/acknowledgements.tex}
     \cleardoublepage
     
+    {\onehalfspacing
     \setcounter{tocdepth}{2}
     \setcounter{secnumdepth}{3}
 
@@ -183,13 +215,19 @@ bindingoffset = 20mm
     \clearpage
     \listoftables
 	\clearpage
-	%
+	%}
 	%
 	\pagenumbering{arabic}
 	%\part{Introduction and Background}
 
 	\counterwithout{figure}{chapter}
-	\input{chapter1_v3}
+	%\begin{refsection}
+	\include{cleaned_chapter1_french}
+	%\include{chapter1_v3}
+	%{\footnotesize
+	%\printbibliography[title={References}]
+	%}
+	%\end{refsection}
 	\cleardoublepage
 	%	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -201,21 +239,22 @@ bindingoffset = 20mm
 	\counterwithout{table}{section}
 	\renewcommand{\thefigure}{1.\arabic{figure}}
 	\renewcommand{\thetable}{1.\arabic{table}}	
-	\input{Chapter2}
-	\clearpage
-	\begin{appendices}
-		\counterwithout{figure}{section}
-		\counterwithout{table}{section}
-		\setcounter{figure}{0}
-		\setcounter{table}{0}
-		\setcounter{equation}{0}
-		\numberwithin{equation}{section}
-		\renewcommand{\thesection}{\Alph{section}}
-		\renewcommand{\thesubsection}{\Alph{subsection}}
-		\renewcommand{\thefigure}{1.\Alph{figure}}
-		\renewcommand{\thetable}{1.\Alph{table}}
-		\input{appendices/appendix2}
-	\end{appendices}		%
+	\renewcommand{\theequation}{1.\arabic{equation}}
+	\include{Chapter2}
+	%\clearpage
+	%\begin{appendices}
+	%	\counterwithout{figure}{section}
+%		\counterwithout{table}{section}
+%		\setcounter{figure}{0}
+%		\setcounter{table}{0}
+%		\setcounter{equation}{0}
+%		\numberwithin{equation}{section}
+%		\renewcommand{\thesection}{\Alph{section}}
+%		\renewcommand{\thesubsection}{\Alph{subsection}}
+%		\renewcommand{\thefigure}{1.\Alph{figure}}
+%		\renewcommand{\thetable}{1.\Alph{table}}
+%		\input{appendix2}
+%	\end{appendices}		%
 	\newpage
 	\thispagestyle{empty}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -234,21 +273,21 @@ bindingoffset = 20mm
 	\counterwithout{table}{section}
 	\renewcommand{\thefigure}{2.\arabic{figure}}
 	\renewcommand{\thetable}{2.\arabic{table}}
-		
-	\input{Chapter4}
+	\renewcommand{\theequation}{2.\arabic{equation}}
+	\include{Chapter4}
 	\clearpage
-	\begin{appendices}
-		\counterwithout{figure}{section}
-		\counterwithout{table}{section}
-		\setcounter{figure}{0}
-		\setcounter{equation}{0}
-		\numberwithin{equation}{section}
-		\renewcommand{\thesection}{\Alph{section}}
-		\renewcommand{\thesubsection}{\Alph{subsection}}
-		\renewcommand{\thefigure}{2.\Alph{figure}}
-		\renewcommand{\thetable}{2.\Alph{table}}
-		\input{appendices/appendix4}
-	\end{appendices}	
+%	\begin{appendices}
+%		\counterwithout{figure}{section}
+%		\counterwithout{table}{section}
+%		\setcounter{figure}{0}
+%		\setcounter{equation}{0}
+%		\numberwithin{equation}{section}
+%		\renewcommand{\thesection}{\Alph{section}}
+%		\renewcommand{\thesubsection}{\Alph{subsection}}
+%		\renewcommand{\thefigure}{2.\Alph{figure}}
+%		\renewcommand{\thetable}{2.\Alph{table}}
+%		\input{appendix4}
+%	\end{appendices}	
 	
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -262,23 +301,29 @@ bindingoffset = 20mm
 	\counterwithout{table}{section}
 	\renewcommand{\thefigure}{3.\arabic{figure}}
 	\renewcommand{\thetable}{3.\arabic{table}}	
+	\renewcommand{\theequation}{3.\arabic{equation}}
 
-	\input{Chapter5}
+	\include{Chapter5_v2}
+	%\include{Chapter5_for_send_monday}
+
 	\clearpage
-	\begin{appendices}
-		\counterwithout{figure}{section}
-		\counterwithout{table}{section}
-		\setcounter{figure}{0}
-		\setcounter{equation}{0}
-		\numberwithin{equation}{section}
-		\renewcommand{\thesection}{\Alph{section}}
-		\renewcommand{\thesubsection}{\Alph{subsection}}
-		\renewcommand{\thefigure}{3.\Alph{figure}}
-		\renewcommand{\thetable}{3.\Alph{table}}
-		\input{appendices/appendix5}
-		\clearpage
-		\newpage
-	\end{appendices}	
+%	\begin{appendices}
+%		\counterwithout{figure}{section}
+%		\counterwithout{table}{section}
+%		\setcounter{figure}{0}
+%		\setcounter{equation}{0}
+%		\numberwithin{equation}{section}
+%		\renewcommand{\thesection}{\Alph{section}}
+%		\renewcommand{\thesubsection}{\Alph{subsection}}
+%		\renewcommand{\thefigure}{3.\Alph{figure}}
+%		\renewcommand{\thetable}{3.\Alph{table}}
+%		\input{appendix5}
+%		\clearpage
+%		\newpage
+%	\end{appendices}	
+	%{\footnotesize
+    %\bibliography{bibliography_these.bib}
+    %}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	%\part{The role of market structure in renewable resource management}	
 	% Maybe one page? 
@@ -294,35 +339,34 @@ bindingoffset = 20mm
 	\counterwithout{table}{section}
 	\renewcommand{\thefigure}{4.\arabic{figure}}
 	\renewcommand{\thetable}{4.\arabic{table}}
+	\renewcommand{\theequation}{4.\arabic{equation}}
+
 	%	
-	\input{Chapter3}
-	\clearpage
-	\begin{appendices}
-	\counterwithout{figure}{section}
-	\counterwithout{table}{section}
-	%
-	\setcounter{figure}{0}	
-	\numberwithin{equation}{section}
-	\setcounter{equation}{0}
-	\renewcommand{\thesection}{\Alph{section}}
-	\renewcommand{\thefigure}{4.\Alph{figure}}
-	\renewcommand{\thetable}{4. \Alph{table}}
-	\renewcommand{\thesubsection}{\Alph{subsection}}
-	\input{appendices/appendix3}
-	\clearpage
-	\end{appendices}	
-	%    
-    	\addcontentsline{toc}{chapter}{\textbf{Conclusion}}
+	\include{Chapter3}
+%	\clearpage
+%	\begin{appendices}
+%	\counterwithout{figure}{section}
+%	\counterwithout{table}{section}
+%	%
+%	\setcounter{figure}{0}	
+%	\numberwithin{equation}{section}
+%	\setcounter{equation}{0}
+%	\renewcommand{\thesection}{\Alph{section}}
+%	\renewcommand{\thefigure}{4.\Alph{figure}}
+%	\renewcommand{\thetable}{4. \Alph{table}}
+%	\renewcommand{\thesubsection}{\Alph{subsection}}
+%	\input{appendix3}
+%	\clearpage
+%	\end{appendices}	
+%	%    
+%   	\addcontentsline{toc}{chapter}{\textbf{Conclusion}}
     	
     	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
-	\input{Chapter6} 
-    \cleardoublepage
- 	%
- 	{\footnotesize
-    \bibliography{bibliography_these.bib}
-    }
-    \clearpage
+	\include{Chapter6} 
+ 	
+ 	%{\footnotesize
+    %\bibliography{bibliography_these.bib}
+    %}
     
-    \input{layout/lastpage.tex}
 \end{document}

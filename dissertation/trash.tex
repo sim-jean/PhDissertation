@@ -259,3 +259,109 @@ Additionally, in a context of resource scarcity, space can be a driver of policy
 \end{enumerate}
 
 \clearpage
+
+
+\begin{table}[H]
+\centering
+\resizebox{.9\textwidth}{!}{%
+\begin{tabular}{|c|c|c || c | c | c |}
+\hline
+ & Habitat loss, & Overexploitation & Biodiversity& Ecology   & Measurement  \\
+       & fragmentation & underharves		&  level 	& perspective &		unit							    \\ 
+       &  and connectivity   & t  & & & \\
+\hline\hline
+Chapter 2 & \cellcolor{verylightgray}    &    & Community         &             Landscape                & Patch \\
+\hline
+Chapter 3 & \cellcolor{verylightgray} & \cellcolor{verylightgray} & Population        &  Population   & Individuals \\
+ &  \cellcolor{verylightgray} & \cellcolor{verylightgray} &                  & and landscape  &  (abundance) \\
+\hline
+Chapter 4      &                                              & \cellcolor{verylightgray}  & Population    & Population  & Individuals  \\   
+ &    & \cellcolor{verylightgray}  &   &   &  (abundance) \\
+\hline\hline
+\end{tabular}
+}
+\caption{dz}
+\end{table}
+
+\begin{table}[H]
+\centering
+\resizebox{.9\textwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+           & Decision  & Planning	&  Space      & Type of       &  Resolution  & Data \\ 
+           & maker     & horizon     &            &  heterogeneity & method       & \\ 
+\hline\hline
+Chapter 2  & Social     & 5 steps    & Small and  & Network       & Spatial     & Simulations \\ 
+           & planner    & 10 steps   & large scale& structural    & heuristics  & \\ 
+\hline
+Chapter 3  & Social planner,  & Infinite & Small and   & Ecological & Analytical & Simulations\\ 
+           & non-cooperative &          & large scale & and        & and        &            \\ 
+           & equilibrium     &          &             & economic   & Numerical  &            \\ 
+\hline
+Chapter 4  & Non-cooperative & Infinite & Absent      & Economic & Analytical   & Empirical \\   
+           & equilibrium     &          &             &          & and numerical&           \\ 
+\hline \hline
+\end{tabular}%
+}
+\end{table}
+
+\section{Conclusion notes}
+- Remind the general context of the dissertation : biodiversity loss, identified drivers, and research questions in this context. 
+-> Identify research questions in the Introduction (p.24)
+
+- Answer to the question : what are the effects of endogenous spatial processes on the drivers of biodiversity? How can we manage them to mitigate the decline? 
+	- Chapters that tackle it : chapters 2 and 3
+	- Summary of chapter 2 : 
+		Managing space with conflicting objectives and NCPs
+		We show that : 
+			- centrality, and the management of connectivity, is difficult because of non convexity
+		    - Spatial patterns emerge from different goals, when trading risk for biodiversity habitat
+		    - It is possible to maintain habitat connectivity while limiting risks, absent global warming
+		    -> Find references from what we generalize in the discussion of chapter 2
+		 Contributions in terms of method : we replicate existing results, and our work is similar to other optimization programs with discrete link, 
+		 when aggregate connectivity had to be managed (optimal reserve choice, such as Costello and Polasky 2004, and therein), but we provide a framework that can\\
+		 guide, with graph theory, and is amenable to dynamic optimization
+	- Summary of chapter 3: 
+		The management of invasive species is a question of treatment and connectivity, as two decisions arise. Optimal connectivity can be designed, and changes existing
+		results on the optimal management of species. In the decentralized case, however, suppressing an externality can amount to suppressing a spatial arbitrage
+		opportunity. Endogenizing the management of connectivity changes optimal control of species.
+
+- Answer to second research question : What are the effects of strategic behavior on the drivers of biodiversity loss? 
+	- Chapter 3 : Intuition from chapter 3
+		Strategic behavior in harvest leads to complementarities, that's been shown before. In terms of connectivity, strategic behavior leads to overfencing, to overprotect oneself, and avoids leveraging spatial heterogeneity into spatial arbtirage opportunities. 
+	- Chapter 4 : 
+		Vertical onopoly does not necessarily yield to overharvest, nor conservation : need to take into account their relationship with downstream producers. 
+		Bertrand competition does not necessarily yield to terrible outcome, because of that constraint. Aquaculture can provide an efficient alternative, if costs are not large. 
+
+- Answer to the refinement of bioeconomic models :
+	- Analysis of non-convexities of endogenous spatial processes : in chapter 2 and 3, the objective function is not a convex function of the choice variables, connectivity is situated. Further analysis of that phenomenon, and analysis is required to increase spatial scale. Look at PDEs potentially, or what simplification we want to make : that is the question. It is difficult to have it all ways eg max dynamic, spatial and complexity of dynamics (some sort of incompatibility triangle (which may be a rectangle, avec le risk, allez voir la thègueille du Romino))
+	- Strategic equilibria on endogenous networks : difficulty to increase the number of players (the simplex of dispersals is difficult to apprehend, need to find a scale that may work), but delivers interesting results in terms of dynamics. 
+	- Strategic equilibria on exogenous networks : easy to increase the number of players, because of absent space
+
+- General policy recommendations : 
+	- Improve spatial policies : 
+		- For wildfire management : increase the budget to reduce wildfire risk, improve spatial management of policies. Even though random solution is better, it seems like at least, spatial optimization can dynamically guide fuel treatments, useful. 
+		- Overall, identify the role of central players : they generate the largest treatment spillovers. Take into account the endogenous adaptation : treating central is worth it as long as the adaptation aligns with the treatment effect. 
+		- Something on second best : depending on the existing policy background, may be better to decentralize treatment rules than connectivity rules. 
+	- Take into account strategic behavior and leverage them for conservation (even though may not be optimal in terms of welfare, social choice question):
+		- Strategic behavior has a big impact on optimal control: lower than expected. If we take into account the 
+		- Strategic behavior can be leveraged: when first best is very far from achievable, can play on the mechanisms that underlie the market dynamics
+	
+- General shortcomings : 
+	- Non convexity and spatial scope: graph theory metrics are very much correlated at a small scale. On the other hand, optimization is made difficult with non convexity, and complexity increases with space. Heuristic algorithms can be used, but are expensive, and no clear cut solution. Scope for future research is to integrate machine learning in the solving of medium scale problems to increase the scale of analysis at a reasonable cost. 	
+	- Same kind of problem for analytical issues in chapter 3 : non global convexity as connectivity matters. Difficult to find optimal solution, and further research to fully characterize an N player equilibrium
+	- Depth of the temporal dynamics in the fire problem : not enough to fully characterize risks; akin to lack of space clearness in the chapter 3, difficult to go further with such a mathematical problem. 
+
+	- Lack of ecological/economic data : to find and refine, especially if gridded. Avenues for future research involve following the methods in ecology and use more and more satellite data for habitat and impact of invasives;
+
+	
+- General avenues for future research : 
+	- No stochasticity in the processes : that is the next thing to do : stochastic invasion; stochastic fire; stochastic variability of totoaba
+	- Increase the analysis of space, and optimal spatial design using graph theory, and machine learning : how can we increase the scalability of the algorithms
+	- Increase the scope of the analysis : 
+		- Metapopulation is tough, how about a community perspective : we need connectivity for NCPs, not enough to just consider an economic bad, and need to weigh in other decision such as share of habitat. 
+		- Increase the temporal depth of the vegetation dynamics
+		- Increase the action scopes of the totoaba problem : tackle what Kremer and Morcom have been doing with elephants, and having stocks. 
+
+\clearpage
+%\section*{Conclusion}

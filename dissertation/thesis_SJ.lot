@@ -1,18 +1,40 @@
+\gdef \the@ipfilectr {@-1}
 \babel@toc {english}{}\relax 
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-3}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-4}
+\contentsline {table}{\numberline {1}{\ignorespaces Distribution thématique des chapitres}}{29}{table.caption.20}%
+\contentsline {table}{\numberline {2}{\ignorespaces Caractéristiques des modèles employés dans les chapitres de la thèse}}{29}{table.caption.21}%
+\contentsline {table}{\numberline {3}{\ignorespaces Thematic divides of chapters}}{57}{table.caption.39}%
+\contentsline {table}{\numberline {4}{\ignorespaces Model characteristics of chapters}}{57}{table.caption.40}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-5}
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces Distribution of journal across fields}}{90}{table.caption.45}%
+\contentsline {table}{\numberline {1.A}{\ignorespaces List of the methodological criteria and their related items used to perform the methodology-based cartography. In grey stand the criteria which have been excluded after the sensitivity analysis of the MCA.}}{107}{table.caption.50}%
+\contentsline {table}{\numberline {1.B}{\ignorespaces Journal distributions among disciplines}}{108}{table.caption.51}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-6}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Distribution of journal across fields}}{38}{table.caption.13}%
-\contentsline {table}{\numberline {1.A}{\ignorespaces List of the methodological criteria and their related items used to perform the methodology-based cartography. In grey stand the criteria which have been excluded after the sensitivity analysis of the MCA.}}{55}{table.caption.17}%
-\contentsline {table}{\numberline {1.B}{\ignorespaces Journal distributions among disciplines}}{57}{table.caption.18}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Summary of model variables and functions}}{131}{table.caption.59}%
+\contentsline {table}{\numberline {2.A}{\ignorespaces Summary of the large scale simulated landscapes characteristics}}{157}{table.caption.72}%
+\contentsline {table}{\numberline {2.B}{\ignorespaces Summary of model \ref {model:simple}: linear regression of risk differences between optimization procedures on landscape characteristics}}{165}{table.caption.79}%
+\contentsline {table}{\numberline {2.C}{\ignorespaces Summary of model \ref {model:interacted}: linear regression of risk differences between optimization procedures on landscape characteristics }}{166}{table.caption.80}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-7}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Summary of model variables and functions}}{72}{table.caption.26}%
-\contentsline {table}{\numberline {2.B}{\ignorespaces Summary of the large scale simulated landscapes characteristics}}{98}{table.caption.38}%
-\contentsline {table}{\numberline {2.C}{\ignorespaces Summary of model \ref {model:simple}: linear regression of risk differences between optimization procedures on landscape characteristics}}{106}{table.caption.45}%
-\contentsline {table}{\numberline {2.D}{\ignorespaces Summary of model \ref {model:interacted}: linear regression of risk differences between optimization procedures on landscape characteristics }}{107}{table.caption.46}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Parameter Definitions for model illustration}}{190}{table.caption.81}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-8}
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {4. F}{\ignorespaces Supporting information for the calculation of the\textit { Totoaba macdonaldi} poaching cost parameters ($W_1$ and $W_2$)}}{155}{table.caption.60}%
-\contentsline {table}{\numberline {4. G}{\ignorespaces Regression output for the linear demand estimation calculated by regressing price data on catch data.}}{156}{table.caption.61}%
-\contentsline {table}{\numberline {4. H}{\ignorespaces Supporting information for the calculation of the \textit {Totoaba macdonaldi} farming cost parameter ($v$)}}{157}{table.caption.62}%
-\contentsline {table}{\numberline {4. I}{\ignorespaces Summary of \textit {Totoaba macdonaldi} ecological and market parameters for model calibration}}{158}{table.caption.63}%
-\contentsline {table}{\numberline {4. J}{\ignorespaces Summary of the key functions in the model}}{158}{table.caption.64}%
+\contentsline {table}{\numberline {4.F}{\ignorespaces Supporting information for the calculation of the\textit { Totoaba macdonaldi} poaching cost parameters ($W_1$ and $W_2$)}}{252}{table.caption.103}%
+\contentsline {table}{\numberline {4.G}{\ignorespaces Regression output for the linear demand estimation calculated by regressing price data on catch data.}}{253}{table.caption.104}%
+\contentsline {table}{\numberline {4.H}{\ignorespaces Supporting information for the calculation of the \textit {Totoaba macdonaldi} farming cost parameter ($v$)}}{254}{table.caption.105}%
+\contentsline {table}{\numberline {4.I}{\ignorespaces Summary of \textit {Totoaba macdonaldi} ecological and market parameters for model calibration}}{255}{table.caption.106}%
+\contentsline {table}{\numberline {4.J}{\ignorespaces Summary of the key functions in the model}}{255}{table.caption.107}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-9}
+\gdef \the@ipfilectr {}
