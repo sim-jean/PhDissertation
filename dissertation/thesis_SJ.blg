@@ -3,6 +3,7 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis_SJ.aux
 A level-1 auxiliary file: layout/firstpage.aux
 A level-1 auxiliary file: layout/lastpage.aux
+A level-1 auxiliary file: layout/acknowledgements.aux
 A level-1 auxiliary file: cleaned_chapter1_french.aux
 The style file: abbrvnat.bst
 A level-1 auxiliary file: Chapter2.aux
@@ -50,7 +51,7 @@ Illegal, another \bibdata command---line 29 of file Chapter6.aux
  : \bibdata
  :         {bibliography_these}
 I'm skipping whatever remains of this command
-Reallocated field_info (elt_size=4) to 16760 items from 5000.
+Reallocated field_info (elt_size=4) to 16704 items from 5000.
 Database file #1: bibliography_these.bib
 Warning--I'm ignoring hsiang_does_2016's extra "doi" field
 --line 199 of file bibliography_these.bib
@@ -171,59 +172,47 @@ Repeated entry---line 11814 of file bibliography_these.bib
  : @article{costello_private_2017
  :                               ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 11871 of file bibliography_these.bib
- :  
- :  keywords = {differential games, Harvesting, nature reserve, spatial models}}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Repeated entry---line 12005 of file bibliography_these.bib
+Repeated entry---line 12004 of file bibliography_these.bib
  : @article{minor_graph-theory_2008
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12037 of file bibliography_these.bib
+Repeated entry---line 12036 of file bibliography_these.bib
  : @article{pascual-hortal_comparison_2006
  :                                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12065 of file bibliography_these.bib
+Repeated entry---line 12064 of file bibliography_these.bib
  : @article{newbold_global_2014
  :                             ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring kaffine_unitization_2010's extra "doi" field
---line 12428 of file bibliography_these.bib
-Repeated entry---line 12557 of file bibliography_these.bib
+--line 12427 of file bibliography_these.bib
+Repeated entry---line 12556 of file bibliography_these.bib
  : @misc{sadler_games_nodate
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12749 of file bibliography_these.bib
+Repeated entry---line 12748 of file bibliography_these.bib
  : @article{brown_metapopulation_1997
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12765 of file bibliography_these.bib
+Repeated entry---line 12764 of file bibliography_these.bib
  : @article{ehrlich_market_1972
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12939 of file bibliography_these.bib
+Repeated entry---line 12938 of file bibliography_these.bib
  : @article{flores_violence_2016
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13156 of file bibliography_these.bib
+Repeated entry---line 13155 of file bibliography_these.bib
  : @article{bode_using_2008
  :                         ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring fernandez-villaverde_climate_2024's extra "doi" field
---line 13185 of file bibliography_these.bib
+--line 13184 of file bibliography_these.bib
 Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "Skonhoft19999"
 Warning--to sort, need author or key in carson_contingent_1992
-Warning--to sort, need author or key in Clark73
 Warning--to sort, need author or key in environmental_investigation_agency_citess_2019
 Warning--to sort, need author or key in environmental_investigation_agency_collateral_2016
 Warning--to sort, need author or key in noauthor_species_2018
-Warning--empty author in Clark73
-Warning--empty title in Clark73
-Warning--empty journal in Clark73
-Warning--empty year in Clark73
-Warning--empty year in Clark73
 Warning--empty author in carson_contingent_1992
 Warning--empty author in environmental_investigation_agency_collateral_2016
 Warning--empty author in noauthor_species_2018
@@ -247,45 +236,45 @@ Warning--empty institution in Peterson_2009
 Warning--there's a number but no volume in Taylor2014
 Warning--there's a number but no volume in Vaillant2009
 Warning--there's a number but no volume in verhulst_1838
-You've used 418 entries,
+You've used 417 entries,
             2773 wiz_defined-function locations,
-            3587 strings with 123017 characters,
-and the built_in function-call counts, 239673 in all, are:
-= -- 21773
+            3583 strings with 122974 characters,
+and the built_in function-call counts, 239418 in all, are:
+= -- 21752
 > -- 17418
 < -- 226
-+ -- 5890
++ -- 5889
 - -- 5465
-* -- 22233
-:= -- 38726
-add.period$ -- 2167
-call.type$ -- 418
-change.case$ -- 3060
-chr.to.int$ -- 411
-cite$ -- 874
-duplicate$ -- 8479
-empty$ -- 15914
+* -- 22205
+:= -- 38706
+add.period$ -- 2165
+call.type$ -- 417
+change.case$ -- 3058
+chr.to.int$ -- 410
+cite$ -- 865
+duplicate$ -- 8460
+empty$ -- 15881
 format.name$ -- 6090
-if$ -- 48926
+if$ -- 48871
 int.to.chr$ -- 8
 int.to.str$ -- 1
-missing$ -- 417
-newline$ -- 3004
+missing$ -- 416
+newline$ -- 3000
 num.names$ -- 1659
-pop$ -- 4809
+pop$ -- 4793
 preamble$ -- 1
-purify$ -- 2654
+purify$ -- 2652
 quote$ -- 0
-skip$ -- 6922
+skip$ -- 6910
 stack$ -- 0
-substring$ -- 8029
+substring$ -- 8026
 swap$ -- 653
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4453
-warning$ -- 33
+type$ -- 4442
+warning$ -- 27
 while$ -- 1739
 width$ -- 0
-write$ -- 7212
-(There were 43 error messages)
+write$ -- 7204
+(There were 42 error messages)

@@ -187,15 +187,20 @@
 
 \begin{document}
 	\raggedbottom
+	\widowpenalty=10000
+	\clubpenalty=10000
 	\pagenumbering{roman}
 	%\onehalfspacing
 	
     \include{layout/firstpage.tex}
     
     %\input{layout/dedication.tex}
-   	\clearpage
+   	\clearpage   	
+   	\newpage
+   	\setcounter{page}{2}
+
     \include{layout/lastpage.tex}
-	\clearpage
+	\cleardoublepage
     
     \color{black}
     \pagestyle{plain}

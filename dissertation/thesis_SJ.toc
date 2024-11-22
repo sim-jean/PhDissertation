@@ -5,8 +5,8 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-3}
 \gdef \the@ipfilectr {}
-\contentsline {chapter}{List of Figures}{xi}{section*.2}%
-\contentsline {chapter}{List of Tables}{xiv}{section*.3}%
+\contentsline {chapter}{List of Figures}{xiii}{section*.2}%
+\contentsline {chapter}{List of Tables}{xvi}{section*.3}%
 \gdef \the@ipfilectr {@-4}
 \contentsline {chapter}{\textbf {Introduction en français}}{1}{section*.4}%
 \contentsline {section}{Emergence et définition de la biodiversité comme concept écologique}{4}{section*.7}%

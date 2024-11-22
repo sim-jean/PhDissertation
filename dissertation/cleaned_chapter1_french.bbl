@@ -1,4 +1,4 @@
-\begin{thebibliography}{186}
+\begin{thebibliography}{187}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -618,6 +618,13 @@ R.~S. Epanchin-Niell and J.~E. Wilen.
   63:\penalty0 260--270, 3 2012.
 \newblock ISSN 00950696.
 \newblock \doi{10.1016/j.jeem.2011.10.003}.
+
+\bibitem[Fabbri et~al.(2024)Fabbri, Faggian, and
+  Freni]{fabbri_competition_2022}
+G.~Fabbri, S.~Faggian, and G.~Freni.
+\newblock On {Competition} for {Spatially} {Distributed} {Resources} in
+  {Networks}: {An} {Extended} {Version}.
+\newblock \emph{Theoretical Economics}, \penalty0 (19), 2024.
 
 \bibitem[Fahrig(2017)]{fahrig_ecological_2017}
 L.~Fahrig.

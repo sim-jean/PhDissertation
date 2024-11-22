@@ -58,31 +58,26 @@ Repeated entry---line 11814 of file bibliography_these.bib
  : @article{costello_private_2017
  :                               ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 11871 of file bibliography_these.bib
- :  
- :  keywords = {differential games, Harvesting, nature reserve, spatial models}}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Repeated entry---line 12065 of file bibliography_these.bib
+Repeated entry---line 12064 of file bibliography_these.bib
  : @article{newbold_global_2014
  :                             ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring kaffine_unitization_2010's extra "doi" field
---line 12428 of file bibliography_these.bib
-Repeated entry---line 12557 of file bibliography_these.bib
+--line 12427 of file bibliography_these.bib
+Repeated entry---line 12556 of file bibliography_these.bib
  : @misc{sadler_games_nodate
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12749 of file bibliography_these.bib
+Repeated entry---line 12748 of file bibliography_these.bib
  : @article{brown_metapopulation_1997
  :                                   ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "fabbri_competition_2022"
 Warning--to sort, need author or key in carson_contingent_1992
 Warning--empty author in carson_contingent_1992
 Warning--empty booktitle in daly_ecological_2007
 Warning--empty publisher in daly_ecological_2007
+Warning--there's a number but no volume in fabbri_competition_2022
 Warning--there's a number but no volume in Florec2020
 Warning--empty publisher in MEA2005
 Warning--empty journal in hoare2022establishing
@@ -90,45 +85,45 @@ Warning--can't use both author and editor fields in ipbes_2022_6417333
 Warning--can't use both author and editor fields in Mooney2001
 Warning--there's a number but no volume in Vaillant2009
 Warning--there's a number but no volume in verhulst_1838
-You've used 186 entries,
+You've used 187 entries,
             2773 wiz_defined-function locations,
-            1980 strings with 57848 characters,
-and the built_in function-call counts, 106076 in all, are:
-= -- 9503
-> -- 7871
+            1983 strings with 58023 characters,
+and the built_in function-call counts, 106500 in all, are:
+= -- 9538
+> -- 7901
 < -- 106
-+ -- 2660
-- -- 2474
-* -- 9765
-:= -- 17194
-add.period$ -- 932
-call.type$ -- 186
-change.case$ -- 1371
-chr.to.int$ -- 186
-cite$ -- 384
-duplicate$ -- 3753
-empty$ -- 7026
-format.name$ -- 2753
-if$ -- 21637
++ -- 2670
+- -- 2483
+* -- 9804
+:= -- 17262
+add.period$ -- 935
+call.type$ -- 187
+change.case$ -- 1377
+chr.to.int$ -- 187
+cite$ -- 387
+duplicate$ -- 3773
+empty$ -- 7058
+format.name$ -- 2763
+if$ -- 21723
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 186
-newline$ -- 1309
-num.names$ -- 743
-pop$ -- 2235
+missing$ -- 187
+newline$ -- 1314
+num.names$ -- 747
+pop$ -- 2246
 preamble$ -- 1
-purify$ -- 1195
+purify$ -- 1200
 quote$ -- 0
-skip$ -- 3114
+skip$ -- 3128
 stack$ -- 0
-substring$ -- 3338
-swap$ -- 266
+substring$ -- 3340
+swap$ -- 267
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1961
-warning$ -- 11
-while$ -- 762
+type$ -- 1972
+warning$ -- 12
+while$ -- 765
 width$ -- 0
-write$ -- 3147
-(There were 13 error messages)
+write$ -- 3160
+(There were 12 error messages)

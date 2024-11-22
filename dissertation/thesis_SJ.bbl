@@ -1,12 +1,9 @@
-\begin{thebibliography}{418}
+\begin{thebibliography}{417}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
-
-\bibitem[Cla()]{Clark73}
-
 
 \bibitem[car(1992)]{carson_contingent_1992}
 A contingent valuation study of lost passive use values resulting from the
@@ -1347,7 +1344,6 @@ G.~Fabbri, S.~Faggian, and G.~Freni.
 \newblock On {Competition} for {Spatially} {Distributed} {Resources} in
   {Networks}: {An} {Extended} {Version}.
 \newblock \emph{Theoretical Economics}, \penalty0 (19), 2024.
-\newblock URL \url{https://doi.org/10.3982/TE4328}.
 
 \bibitem[Fabinyi(2012)]{fabinyi_historical_2012}
 M.~Fabinyi.

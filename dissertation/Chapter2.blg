@@ -89,60 +89,48 @@ Repeated entry---line 8930 of file bibliography_these.bib
  : @article{Baumgartner2007
  :                         ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 11871 of file bibliography_these.bib
- :  
- :  keywords = {differential games, Harvesting, nature reserve, spatial models}}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Skonhoft19999"
-Warning--to sort, need author or key in Clark73
-Warning--empty author in Clark73
-Warning--empty title in Clark73
-Warning--empty journal in Clark73
-Warning--empty year in Clark73
-Warning--empty year in Clark73
 Warning--there's a number but no volume in Faustmann
 Warning--empty publisher in MEA2005
 Warning--empty publisher in IPBES2016
-You've used 90 entries,
+You've used 89 entries,
             2773 wiz_defined-function locations,
-            1357 strings with 28468 characters,
-and the built_in function-call counts, 48047 in all, are:
-= -- 4345
+            1353 strings with 28428 characters,
+and the built_in function-call counts, 47806 in all, are:
+= -- 4327
 > -- 3208
 < -- 56
-+ -- 1092
++ -- 1091
 - -- 1001
-* -- 4281
-:= -- 7721
-add.period$ -- 428
-call.type$ -- 90
-change.case$ -- 593
-chr.to.int$ -- 89
-cite$ -- 190
-duplicate$ -- 1843
-empty$ -- 3433
+* -- 4255
+:= -- 7704
+add.period$ -- 427
+call.type$ -- 89
+change.case$ -- 591
+chr.to.int$ -- 88
+cite$ -- 181
+duplicate$ -- 1824
+empty$ -- 3400
 format.name$ -- 1134
-if$ -- 9899
+if$ -- 9847
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 99
-newline$ -- 615
+missing$ -- 98
+newline$ -- 612
 num.names$ -- 358
-pop$ -- 966
+pop$ -- 949
 preamble$ -- 1
-purify$ -- 513
+purify$ -- 511
 quote$ -- 0
-skip$ -- 1444
+skip$ -- 1432
 stack$ -- 0
-substring$ -- 1712
+substring$ -- 1709
 swap$ -- 140
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 945
-warning$ -- 9
+type$ -- 934
+warning$ -- 3
 while$ -- 359
 width$ -- 0
-write$ -- 1478
-(There were 21 error messages)
+write$ -- 1472
+(There were 20 error messages)
